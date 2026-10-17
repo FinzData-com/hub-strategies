@@ -2,9 +2,9 @@
   "description": "Same trend rule on Ether: hold while the 50-day average is above the 200-day average. Falsified if drawdowns are not much smaller than buy-and-hold.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 3,
-  "forward_return": -0.03030001561801343,
-  "forward_sharpe": -4.038486020597497,
+  "forward_days": 4,
+  "forward_return": -0.03540368285591422,
+  "forward_sharpe": -4.462287651030222,
   "slug": "ethereum-50-200-moving-average-trend-86a176",
   "spec": {
     "costs_bps": 10,

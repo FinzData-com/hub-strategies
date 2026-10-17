@@ -2,9 +2,9 @@
   "description": "'A Century of Evidence on Trend-Following Investing' found 12-month time-series momentum across equity, bond, commodity and currency futures worked in every decade since 1880. Approximation: futures-based ETFs, long-only, holding every market with a positive 12-month return. Falsified if it does not cut drawdowns versus an equal-weight mix.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 2,
-  "forward_return": 0.002846505118653253,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": 0.0050367467126153365,
+  "forward_sharpe": 85.23657606811227,
   "slug": "managed-futures-trend-12-month-23-futures-etfs-after-hurst-o-53620d",
   "spec": {
     "costs_bps": 10,

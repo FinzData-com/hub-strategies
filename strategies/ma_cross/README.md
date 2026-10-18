@@ -4,12 +4,12 @@ Hold an asset while its fast moving average is above its slow one.
 
 | Strategy | Family | Universe | DSR | Forward days | Forward Sharpe |
 |---|---|---|---|---|---|
-| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 4 | -8.25 |
+| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 5 | -6.05 |
 | [EEM 20/100 moving-average trend](https://data.finzdata.com/s/eem-20-100-moving-average-trend-5000af) | ma_cross | custom | 0.00 | 3 | -25.27 |
 | [EEM 50/200 moving-average trend](https://data.finzdata.com/s/eem-50-200-moving-average-trend-94bd5e) | ma_cross | custom | 0.00 | 3 | -25.27 |
 | [EFA 20/100 moving-average trend](https://data.finzdata.com/s/efa-20-100-moving-average-trend-b1d363) | ma_cross | custom | 0.00 | 3 | 0.00 |
 | [EFA 50/200 moving-average trend](https://data.finzdata.com/s/efa-50-200-moving-average-trend-c52fff) | ma_cross | custom | 0.00 | 3 | 8.66 |
-| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 4 | -4.46 |
+| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 5 | -4.56 |
 | [GLD 20/100 moving-average trend](https://data.finzdata.com/s/gld-20-100-moving-average-trend-cf1e8e) | ma_cross | custom | 0.00 | 3 | 0.00 |
 | [GLD 50/200 moving-average trend](https://data.finzdata.com/s/gld-50-200-moving-average-trend-3fa4e0) | ma_cross | custom | 0.00 | 3 | 0.00 |
 | [IWM 20/100 moving-average trend](https://data.finzdata.com/s/iwm-20-100-moving-average-trend-8492aa) | ma_cross | custom | 0.00 | 3 | 0.00 |

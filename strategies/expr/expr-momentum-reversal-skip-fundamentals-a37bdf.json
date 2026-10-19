@@ -1,0 +1,24 @@
+{
+  "description": "Short-term reversal after a momentum skip should be stronger in high volatility stocks due to overreaction, and the hypothesis is falsified if forward Sharpe does not exceed zero over the tracking period.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "expr-momentum-reversal-skip-fundamentals-a37bdf",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-ret(21)) * rank(vol(63))",
+      "type": "expr"
+    },
+    "start": "2013-01-01",
+    "top_n": 80,
+    "universe": "top1000"
+  },
+  "title": "Expr Momentum Reversal Skip Fundamentals",
+  "universe": "top1000"
+}

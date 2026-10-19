@@ -2,9 +2,9 @@
   "description": "'Common Risk Factors in Cryptocurrency' found coins with the highest past 1-4 week returns keep outperforming. Ranks 15 major coins on 28-day return weekly and holds the top 3. Falsified if it does not beat an equal-weight basket of the same coins.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.0446475109688913,
-  "forward_sharpe": -4.270415691197493,
+  "forward_days": 6,
+  "forward_return": -0.0432949559594894,
+  "forward_sharpe": -3.768659629496182,
   "slug": "crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2",
   "spec": {
     "costs_bps": 10,

@@ -1,4 +1,4 @@
-# Formula strategies (87 strategies)
+# Formula strategies (90 strategies)
 
 Signals written as formulas over prices and fundamentals: low volatility, 52-week high, value plus momentum, quality, multi-factor, time-series momentum, managed-futures trend and crypto.
 
@@ -67,11 +67,14 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Low volatility · top 20 · Top 1000 · long only](https://data.finzdata.com/s/low-volatility-top-20-top-1000-long-only-bac42e) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [1-month reversal · top 50 · Top 500 · long/short](https://data.finzdata.com/s/1-month-reversal-top-50-top-500-long-short-63b0d6) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Betting against beta proxy · low 1-year volatility · top 50 · Top 500 · long/short (after Frazzini & Pedersen 2014, AQR)](https://data.finzdata.com/s/betting-against-beta-proxy-low-1-year-volatility-top-50-top-1bd36c) | expr | top500 | 0.00 | 0 | 0.00 |
-| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 5 | -4.27 |
-| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 5 | -5.77 |
-| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 5 | -6.59 |
+| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 6 | -3.77 |
+| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 6 | -3.52 |
+| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 6 | -5.60 |
 | [Currency momentum · euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)](https://data.finzdata.com/s/currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084) | expr | custom | 0.00 | 3 | 27.57 |
 | [Earnings Yield Momentum 12M Skip 1M · Top 40 · Top 1000 · Long Only](https://data.finzdata.com/s/earnings-yield-momentum-12m-skip-1m-top-40-top-1000-long-onl-50db01) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Expr Momentum Reversal Skip Fundamentals](https://data.finzdata.com/s/expr-momentum-reversal-skip-fundamentals-a37bdf) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Expr Value Quality Composite Rank](https://data.finzdata.com/s/expr-value-quality-composite-rank-daea2b) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Factor Book To Market Size Adjusted](https://data.finzdata.com/s/factor-book-to-market-size-adjusted-4a5470) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Magic formula · EBITDA/EV plus ROE · top 50 of the Top 500 (after Greenblatt 2005) · long only](https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-3a6bc8) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Magic formula · EBITDA/EV plus ROE · top 50 of the Top 500 (after Greenblatt 2005) · long/short](https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-d3d059) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Managed-futures trend · 1, 3 and 12-month blend · 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)](https://data.finzdata.com/s/managed-futures-trend-1-3-and-12-month-blend-23-futures-etfs-1a2e56) | expr | custom | 0.00 | 3 | 56.99 |

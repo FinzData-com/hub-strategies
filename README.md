@@ -1,6 +1,6 @@
 # FinzData Hub strategies
 
-[![Strategies](https://img.shields.io/badge/strategies-170-0B1B3F)](https://data.finzdata.com/strategies) [![Hub](https://img.shields.io/badge/Hub-data.finzdata.com-9DB0CC)](https://data.finzdata.com/hub) [![MCP](https://img.shields.io/badge/MCP-api.finzdata.com%2Fmcp-52667F)](https://api.finzdata.com/mcp) [![PyPI](https://img.shields.io/pypi/v/finzdata?label=pip%20install%20finzdata)](https://pypi.org/project/finzdata/)
+[![Strategies](https://img.shields.io/badge/strategies-173-0B1B3F)](https://data.finzdata.com/strategies) [![Hub](https://img.shields.io/badge/Hub-data.finzdata.com-9DB0CC)](https://data.finzdata.com/hub) [![MCP](https://img.shields.io/badge/MCP-api.finzdata.com%2Fmcp-52667F)](https://api.finzdata.com/mcp) [![PyPI](https://img.shields.io/pypi/v/finzdata?label=pip%20install%20finzdata)](https://pypi.org/project/finzdata/)
 
 Every public strategy on the [FinzData Hub](https://data.finzdata.com/hub), as plain JSON you can read, rerun and fork. Each one is a complete backtest specification run on FinzData's point-in-time, survivorship-free data: US stocks including the 7,000+ tickers that stopped trading, ETFs, futures ETFs and crypto, and SEC fundamentals as they were known on each date. Nothing here is hand-entered: every number was computed by the FinzData backtest engine, and this repository is regenerated from the Hub every night.
 
@@ -22,7 +22,7 @@ strategies/<family>/   one JSON file per strategy (spec, result summary, forward
 
 | Family | Strategies | Folder |
 |---|---|---|
-| `expr` | 87 | [strategies/expr/](strategies/expr/) |
+| `expr` | 90 | [strategies/expr/](strategies/expr/) |
 | `momentum` | 48 | [strategies/momentum/](strategies/momentum/) |
 | `ma_cross` | 23 | [strategies/ma_cross/](strategies/ma_cross/) |
 | `factor` | 12 | [strategies/factor/](strategies/factor/) |
@@ -55,7 +55,7 @@ From an AI agent (Claude, ChatGPT, Cursor, Gemini) connected to the MCP server `
 
 Metrics: **CAGR** compound annual return; **Sharpe** annualised return over volatility; **max drawdown** worst peak-to-trough fall; **DSR** deflated Sharpe ratio; **forward days / forward Sharpe** the out-of-sample record since publication.
 
-## All strategies (170), ranked by deflated Sharpe
+## All strategies (173), ranked by deflated Sharpe
 
 | Strategy | Family | Universe | DSR | Forward days | Forward Sharpe |
 |---|---|---|---|---|---|
@@ -170,10 +170,10 @@ Metrics: **CAGR** compound annual return; **Sharpe** annualised return over vola
 | [Low volatility · top 20 · Top 1000 · long only](https://data.finzdata.com/s/low-volatility-top-20-top-1000-long-only-bac42e) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [1-month reversal · top 50 · Top 500 · long/short](https://data.finzdata.com/s/1-month-reversal-top-50-top-500-long-short-63b0d6) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Betting against beta proxy · low 1-year volatility · top 50 · Top 500 · long/short (after Frazzini & Pedersen 2014, AQR)](https://data.finzdata.com/s/betting-against-beta-proxy-low-1-year-volatility-top-50-top-1bd36c) | expr | top500 | 0.00 | 0 | 0.00 |
-| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 5 | -6.05 |
-| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 5 | -4.27 |
-| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 5 | -5.77 |
-| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 5 | -6.59 |
+| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 6 | -2.83 |
+| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 6 | -3.77 |
+| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 6 | -3.52 |
+| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 6 | -5.60 |
 | [Currency momentum · euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)](https://data.finzdata.com/s/currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084) | expr | custom | 0.00 | 3 | 27.57 |
 | [Dividend yield · top 50 of the Top 500 · long only](https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-only-8e4326) | factor | top500 | 0.00 | 0 | 0.00 |
 | [Dividend yield · top 50 of the Top 500 · long/short](https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-short-4347a6) | factor | top500 | 0.00 | 0 | 0.00 |
@@ -182,7 +182,10 @@ Metrics: **CAGR** compound annual return; **Sharpe** annualised return over vola
 | [EEM 50/200 moving-average trend](https://data.finzdata.com/s/eem-50-200-moving-average-trend-94bd5e) | ma_cross | custom | 0.00 | 3 | -25.27 |
 | [EFA 20/100 moving-average trend](https://data.finzdata.com/s/efa-20-100-moving-average-trend-b1d363) | ma_cross | custom | 0.00 | 3 | 0.00 |
 | [EFA 50/200 moving-average trend](https://data.finzdata.com/s/efa-50-200-moving-average-trend-c52fff) | ma_cross | custom | 0.00 | 3 | 8.66 |
-| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 5 | -4.56 |
+| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 6 | -3.78 |
+| [Expr Momentum Reversal Skip Fundamentals](https://data.finzdata.com/s/expr-momentum-reversal-skip-fundamentals-a37bdf) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Expr Value Quality Composite Rank](https://data.finzdata.com/s/expr-value-quality-composite-rank-daea2b) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Factor Book To Market Size Adjusted](https://data.finzdata.com/s/factor-book-to-market-size-adjusted-4a5470) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [GLD 20/100 moving-average trend](https://data.finzdata.com/s/gld-20-100-moving-average-trend-cf1e8e) | ma_cross | custom | 0.00 | 3 | 0.00 |
 | [GLD 50/200 moving-average trend](https://data.finzdata.com/s/gld-50-200-moving-average-trend-3fa4e0) | ma_cross | custom | 0.00 | 3 | 0.00 |
 | [IWM 20/100 moving-average trend](https://data.finzdata.com/s/iwm-20-100-moving-average-trend-8492aa) | ma_cross | custom | 0.00 | 3 | 0.00 |

@@ -1,0 +1,24 @@
+{
+  "description": "Low-leverage firms with strong momentum have more sustainable trends; if high-leverage momentum outperforms, the financial risk filter is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "leverage-adjusted-momentum-126d-top-50-top-1000-long-only-f047c4",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) - ret(21)) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Leverage-Adjusted Momentum 126d \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

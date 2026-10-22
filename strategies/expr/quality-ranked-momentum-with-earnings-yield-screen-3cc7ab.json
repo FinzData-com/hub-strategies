@@ -1,0 +1,24 @@
+{
+  "description": "High ROE firms with positive recent price momentum should persist due to competitive advantage and underreaction to quality signals, falsified if forward Sharpe is not positive after transaction costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-ranked-momentum-with-earnings-yield-screen-3cc7ab",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) * rank(ret(252)) * sign(earnings_yield)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Quality Ranked Momentum with Earnings Yield Screen",
+  "universe": "top1000"
+}

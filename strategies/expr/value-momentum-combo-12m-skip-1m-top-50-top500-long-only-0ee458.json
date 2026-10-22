@@ -1,0 +1,24 @@
+{
+  "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month selects firms with sustainable competitive advantages and delayed market recognition; falsified if forward Sharpe is not positive or underperforms pure momentum by >0.2 Sharpe.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-combo-12m-skip-1m-top-50-top500-long-only-0ee458",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value Momentum Combo 12M Skip 1M Top 50 Top500 Long Only",
+  "universe": "top500"
+}

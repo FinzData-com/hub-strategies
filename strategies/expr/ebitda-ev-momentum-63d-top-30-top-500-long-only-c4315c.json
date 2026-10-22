@@ -1,0 +1,24 @@
+{
+  "description": "High EBITDA/EV (cheap quality) with 63-day momentum captures value-momentum synergy; if the combo does not beat either factor alone, the interaction is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-momentum-63d-top-30-top-500-long-only-c4315c",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(ret(63) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "EBITDA/EV Momentum 63d \u00b7 top 30 \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

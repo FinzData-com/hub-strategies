@@ -1,0 +1,25 @@
+{
+  "description": "20/100-day SMA crossover captures medium-term trend following with reduced whipsaws vs faster crosses; falsified if forward Sharpe < 0.2 vs buy-and-hold.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-100-top-500-long-only-62c45b",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2015-01-01",
+    "top_n": 500,
+    "universe": "top500"
+  },
+  "title": "MA Cross 20/100 Top 500 Long Only",
+  "universe": "top500"
+}

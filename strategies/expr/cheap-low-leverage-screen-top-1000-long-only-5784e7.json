@@ -1,0 +1,24 @@
+{
+  "description": "Enterprise value to EBITDA and leverage interact through financial distress risk; the strategy is falsified if leverage destroys the EBITDA yield premium in joint rankings.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "cheap-low-leverage-screen-top-1000-long-only-5784e7",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Cheap Low Leverage Screen \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Liquidity provision earns premium: buying recent losers and selling recent winners over 1-week horizon captures mean reversion; if 1-week reversal long/short yields negative net returns after 10bps costs, the premium is absent.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-long-short-top-500-weekly-eb5077",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "-rank(ret(5))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Short-Term Reversal Long/Short Top 500 Weekly",
+  "universe": "top500"
+}

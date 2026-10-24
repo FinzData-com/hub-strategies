@@ -1,0 +1,24 @@
+{
+  "description": "Combining value (book-to-market) and momentum (12m return skipping 1m) exploits complementary risk premia; if forward Sharpe remains near zero, the combination fails to diversify factor-specific crashes.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-combo-top-500-long-only-a34a6f",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value-Momentum Combo Top 500 Long Only",
+  "universe": "top500"
+}

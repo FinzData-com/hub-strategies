@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield stocks with strong momentum represent undervalued trends; if the combination fails to beat momentum-only strategies net of transaction costs, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-top1000-long-only-982b2e",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Earnings Yield Momentum Top1000 Long Only",
+  "universe": "top1000"
+}

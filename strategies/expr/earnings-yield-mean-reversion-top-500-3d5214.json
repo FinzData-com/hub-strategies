@@ -1,0 +1,24 @@
+{
+  "description": "Extreme deviations in earnings yield relative to the universe lead to mean reversion in the long run; falsified if high earnings yield stocks underperform.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-mean-reversion-top-500-3d5214",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Earnings Yield Mean Reversion Top 500",
+  "universe": "top500"
+}

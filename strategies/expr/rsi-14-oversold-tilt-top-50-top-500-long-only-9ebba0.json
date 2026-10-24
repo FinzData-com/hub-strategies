@@ -1,0 +1,24 @@
+{
+  "description": "Oversold readings often reflect forced selling and panic rather than deteriorating fundamentals, so mean reversion should reward liquidity provision; falsified if low-RSI stocks fail to separate from high-RSI stocks after costs over the window.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-14-oversold-tilt-top-50-top-500-long-only-9ebba0",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-rsi(14))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "RSI 14 oversold tilt \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

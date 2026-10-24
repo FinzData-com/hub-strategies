@@ -1,0 +1,24 @@
+{
+  "description": "Betting against beta: leverage-constrained investors bid up high-volatility names, leaving low-volatility stocks relatively cheap for their risk; falsified if the low-vol long leg does not beat the cap-weighted universe after costs over the sample.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-vol-126d-top-50-top-500-long-only-cb1182",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-vol(126))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Low vol 126d \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

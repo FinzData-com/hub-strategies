@@ -1,0 +1,24 @@
+{
+  "description": "Momentum signals are more reliable when adjusted for volatility (Risk-Adjusted Momentum); falsified if raw momentum outperforms volatility-adjusted momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "volatility-adjusted-momentum-top-1000-35cefa",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) / vol(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Volatility Adjusted Momentum Top 1000",
+  "universe": "top1000"
+}

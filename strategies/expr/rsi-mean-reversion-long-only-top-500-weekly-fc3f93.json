@@ -1,0 +1,24 @@
+{
+  "description": "Oversold large caps (RSI<30) rebound due to institutional rebalancing; if buying weekly RSI<30 stocks fails to beat buy-and-hold after costs, the mean reversion signal is noise.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-mean-reversion-long-only-top-500-weekly-fc3f93",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "where(rsi(14) < 30, 1, 0)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "RSI Mean Reversion Long Only Top 500 Weekly",
+  "universe": "top500"
+}

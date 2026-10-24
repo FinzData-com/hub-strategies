@@ -1,0 +1,25 @@
+{
+  "description": "9-month momentum skipping 1-month avoids earnings announcement drift contamination; falsified if forward Sharpe < 0.3 vs 12m/6m variants.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "momentum-189d-skip-21-top-500-long-only-c45842",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "lookback": 189,
+      "skip": 21,
+      "type": "momentum"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Momentum 189d Skip 21 Top 500 Long Only",
+  "universe": "top500"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Comparing 12-month momentum against 1-month momentum (as a crash filter) rotates into equities only when both agree, reducing momentum crash risk; falsified if forward max drawdown is not materially lower than standard 12M momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dual-momentum-12m-1m-asset-class-proxy-top-20-top-1000-long-477495",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "where(ret(21) > 0, rank(ret(252) - ret(21)), -1e9)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 20,
+    "universe": "top1000"
+  },
+  "title": "Dual Momentum 12M/1M \u00b7 Asset Class Proxy \u00b7 Top 20 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

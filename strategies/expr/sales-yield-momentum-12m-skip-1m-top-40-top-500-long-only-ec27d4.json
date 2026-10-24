@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield (revenue/price) with 12-month momentum (skip 1 month) identifies undervalued growth; falsified if forward Sharpe < 0.25.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-12m-skip-1m-top-40-top-500-long-only-ec27d4",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top500"
+  },
+  "title": "Sales Yield Momentum 12M Skip 1M \u00b7 Top 40 \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

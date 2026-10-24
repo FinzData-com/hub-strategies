@@ -1,0 +1,24 @@
+{
+  "description": "Oversold large-cap stocks (RSI<30) outperform over the next month due to mean reversion; if annualized Sharpe remains below 0.5 after costs, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-mean-reversion-top500-long-only-37855a",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "where(rsi(14) < 30, 1, 0)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "RSI Mean Reversion Top500 Long Only",
+  "universe": "top500"
+}

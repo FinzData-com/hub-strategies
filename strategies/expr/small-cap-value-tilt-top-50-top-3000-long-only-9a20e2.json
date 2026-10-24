@@ -1,0 +1,24 @@
+{
+  "description": "Analysts and institutions neglect small cheap firms, so information diffuses slowly and mispricing persists longer than in large caps; falsified if the small-value tilt shows no spread versus the top500 universe after the higher trading costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "small-cap-value-tilt-top-50-top-3000-long-only-9a20e2",
+  "spec": {
+    "costs_bps": 30,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top3000"
+  },
+  "title": "Small-cap value tilt \u00b7 top 50 \u00b7 Top 3000 \u00b7 long only",
+  "universe": "top3000"
+}

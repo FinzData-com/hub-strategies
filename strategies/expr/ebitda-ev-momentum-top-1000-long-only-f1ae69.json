@@ -1,0 +1,24 @@
+{
+  "description": "EBITDA/EV (enterprise value) with momentum captures cash flow value + price trend; EV adjusts for capital structure differences. Falsified if forward Sharpe < 0.25 or correlation with book-to-market > 0.75.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-momentum-top-1000-long-only-f1ae69",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "EBITDA/EV Momentum Top 1000 Long Only",
+  "universe": "top1000"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield (revenue/price) with 12m momentum identifies overlooked growth-at-reasonable-price; falsified if forward Sharpe < 0.2 in broader universe.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-top-3000-long-only-616045",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top3000"
+  },
+  "title": "Sales Yield Momentum Top 3000 Long Only",
+  "universe": "top3000"
+}

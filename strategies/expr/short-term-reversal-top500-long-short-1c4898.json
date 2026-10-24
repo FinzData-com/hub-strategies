@@ -1,0 +1,24 @@
+{
+  "description": "One-month losers rebound and winners reverse due to liquidity provision; if the strategy shows no positive expectancy after 20bps round-trip costs, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-top500-long-short-1c4898",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(-ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Short-Term Reversal Top500 Long Short",
+  "universe": "top500"
+}

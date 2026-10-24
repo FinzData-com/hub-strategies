@@ -1,0 +1,24 @@
+{
+  "description": "Low volatility stocks with intermediate momentum (6-month skip 1-month) exploit the low-vol anomaly and momentum simultaneously; falsified if forward Sharpe < 0.3.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-momentum-6m-skip-1m-top-40-top-1000-long-only-2f6b7c",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-vol(252)) + rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Low Volatility Momentum 6M Skip 1M \u00b7 Top 40 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

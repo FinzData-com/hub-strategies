@@ -1,0 +1,25 @@
+{
+  "description": "Intermediate moving-average crossovers balance signal responsiveness against whipsaw risk; the strategy is falsified if frequent false signals degrade net performance below a passive benchmark.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "intermediate-trend-crossover-20-100-top-1000-long-short-25675f",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "D",
+    "side": "long_short",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2010-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Intermediate Trend Crossover 20/100 \u00b7 Top 1000 \u00b7 Long/Short",
+  "universe": "top1000"
+}

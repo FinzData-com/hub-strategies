@@ -1,0 +1,24 @@
+{
+  "description": "Stocks with high earnings yield and strong 6-month momentum capture undervalued firms experiencing positive sentiment shifts; falsified if forward performance is indistinguishable from low earnings yield momentum portfolios.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-6m-skip-1m-top-40-top-1000-long-only-eb710d",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) * rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Earnings Yield Momentum 6M Skip 1M \u00b7 Top 40 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

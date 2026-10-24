@@ -1,0 +1,24 @@
+{
+  "description": "High dividend yield combined with momentum filters for 'quality' value stocks; falsified if the combination is inferior to a simple dividend yield rank.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-top-500-508975",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) + rank(ret(126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Dividend Yield Momentum Top 500",
+  "universe": "top500"
+}

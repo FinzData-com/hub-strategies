@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding EFA only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 5,
-  "forward_return": 0.009148603234188757,
-  "forward_sharpe": 4.893950044687599,
+  "forward_days": 7,
+  "forward_return": 0.0038927423310644027,
+  "forward_sharpe": 1.4363235117367679,
   "slug": "efa-50-200-moving-average-trend-c52fff",
   "spec": {
     "costs_bps": 10,

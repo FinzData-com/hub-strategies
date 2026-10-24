@@ -1,0 +1,24 @@
+{
+  "description": "Low volatility stocks with strong momentum exhibit the 'low vol anomaly' combined with trend persistence, offering superior risk-adjusted returns; falsified if the portfolio's forward Sharpe is not higher than high volatility momentum peers.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-momentum-12m-skip-1m-vol-filter-top-50-top-10-49319f",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "where(vol(252) < 0.3, rank(ret(252) - ret(21)), -1e9)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Low Volatility Momentum 12M Skip 1M \u00b7 Vol Filter \u00b7 Top 50 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

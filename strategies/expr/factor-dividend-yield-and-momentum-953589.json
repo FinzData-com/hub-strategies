@@ -1,0 +1,24 @@
+{
+  "description": "Dividend yield signals income and stability, and when paired with momentum it should enhance performance; falsified if dividend\u2011yield\u2011momentum portfolios underperform.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-dividend-yield-and-momentum-953589",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield)+rank(ret(63)-ret(21))",
+      "type": "expr"
+    },
+    "start": "2010-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Factor: Dividend Yield and Momentum",
+  "universe": "top500"
+}

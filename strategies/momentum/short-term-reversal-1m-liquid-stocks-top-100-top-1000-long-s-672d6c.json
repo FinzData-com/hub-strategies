@@ -1,0 +1,25 @@
+{
+  "description": "One-month reversal in highly liquid large caps exploits microstructure noise and overreaction; falsified if forward returns are not negative for past winners and positive for past losers after 10 bps costs.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-1m-liquid-stocks-top-100-top-1000-long-s-672d6c",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "lookback": 21,
+      "skip": 0,
+      "type": "momentum"
+    },
+    "start": "2015-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Short-Term Reversal 1M \u00b7 Liquid Stocks \u00b7 Top 100 \u00b7 Top 1000 \u00b7 Long/Short",
+  "universe": "top1000"
+}

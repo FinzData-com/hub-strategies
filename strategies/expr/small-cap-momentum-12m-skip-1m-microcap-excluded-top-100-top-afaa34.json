@@ -1,0 +1,24 @@
+{
+  "description": "Momentum is stronger in smaller, less efficiently priced stocks; excluding microcaps controls liquidity risk while capturing size-momentum interaction; falsified if forward alpha versus large cap momentum is not positive after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "small-cap-momentum-12m-skip-1m-microcap-excluded-top-100-top-afaa34",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "where(log_mcap > 12, rank(ret(252) - ret(21)), -1e9)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Small Cap Momentum 12M Skip 1M \u00b7 Microcap Excluded \u00b7 Top 100 \u00b7 Top 3000 \u00b7 Long Only",
+  "universe": "top3000"
+}

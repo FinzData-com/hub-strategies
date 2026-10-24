@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield stocks with strong momentum represent undervalued improvers; if the intersection underperforms either factor alone after costs, the value-momentum interaction is spurious.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-top-1000-monthly-0cec24",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) * rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Earnings Yield Momentum Top 1000 Monthly",
+  "universe": "top1000"
+}

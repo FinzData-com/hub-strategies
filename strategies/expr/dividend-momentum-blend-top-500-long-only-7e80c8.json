@@ -1,0 +1,24 @@
+{
+  "description": "Dividend yield and price momentum reflect income stability and growth expectations; the strategy is falsified if dividend yield dilutes standalone momentum alpha when combined.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-momentum-blend-top-500-long-only-7e80c8",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) + rank(ret(252))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Dividend Momentum Blend \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Value and momentum anomalies stem from distinct behavioral biases; combining book-to-market with intermediate-term price momentum diversifies mispricing sources, and the strategy is falsified if the combined signal underperforms either standalone factor net of costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-composite-top-1000-long-only-412b54",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Value-Momentum Composite \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

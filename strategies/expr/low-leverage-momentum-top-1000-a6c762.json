@@ -1,0 +1,24 @@
+{
+  "description": "Momentum is more sustainable in companies with low leverage due to lower bankruptcy risk during volatility; falsified if high leverage stocks outperform.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-leverage-momentum-top-1000-a6c762",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126)) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Low Leverage Momentum Top 1000",
+  "universe": "top1000"
+}

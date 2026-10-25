@@ -1,0 +1,24 @@
+{
+  "description": "One-month losers bounce because liquidity-driven selling overshoots fundamentals and liquidity providers earn a compensation premium; falsified if recent losers continue to underperform recent winners after transaction costs over the sample.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-21d-losers-top-50-top-1000-long-only-wee-26d8bd",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-ret(21))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Short-term reversal \u00b7 21d losers \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only \u00b7 weekly",
+  "universe": "top1000"
+}

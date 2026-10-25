@@ -1,0 +1,24 @@
+{
+  "description": "Momentum in smaller caps (adjusted for log market cap) with 6-month lookback (skipping 1 month) captures the size-momentum interaction; falsified if size adjustment does not yield higher forward Sharpe than large-cap momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "size-adjusted-momentum-6m-skip-1m-top-50-top-3000-long-only-2fc737",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) - ret(21)) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top3000"
+  },
+  "title": "Size-Adjusted Momentum 6M Skip 1M \u00b7 Top 50 \u00b7 Top 3000 \u00b7 Long Only",
+  "universe": "top3000"
+}

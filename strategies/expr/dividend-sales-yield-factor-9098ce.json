@@ -1,0 +1,24 @@
+{
+  "description": "Firms offering high dividend and sales yields are expected to deliver higher risk\u2011adjusted performance; failure to outperform would falsify the hypothesis.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-sales-yield-factor-9098ce",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) + rank(sales_yield)",
+      "type": "expr"
+    },
+    "start": "2010-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Dividend-Sales Yield Factor",
+  "universe": "top500"
+}

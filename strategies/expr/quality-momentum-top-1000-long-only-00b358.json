@@ -1,0 +1,24 @@
+{
+  "description": "High ROE firms with strong intermediate momentum reflect profitable growth persistence; if ranking by ROE * momentum yields no excess return vs momentum alone after transaction costs, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-momentum-top-1000-long-only-00b358",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) * rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Quality Momentum Top 1000 Long Only",
+  "universe": "top1000"
+}

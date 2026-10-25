@@ -1,0 +1,24 @@
+{
+  "description": "Companies with both high earnings yield and high book-to-market ratios are likely undervalued and will generate superior risk\u2011adjusted returns; if these firms do not outperform the market, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-book-momentum-factor-35f0c1",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2010-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Earnings-Book Momentum Factor",
+  "universe": "top500"
+}

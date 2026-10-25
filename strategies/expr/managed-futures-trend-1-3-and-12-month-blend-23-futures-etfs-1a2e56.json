@@ -2,9 +2,9 @@
   "description": "AQR's trend research blends 1-, 3- and 12-month signals for faster reaction to turning points. Holds every futures ETF whose blended 1/3/12-month return is positive. Falsified if it lags the 12-month-only version on Sharpe ratio and drawdown.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 7,
-  "forward_return": -0.009825872910889544,
-  "forward_sharpe": -5.456965584713156,
+  "forward_days": 8,
+  "forward_return": -0.0036204842549387717,
+  "forward_sharpe": -1.5245132811669557,
   "slug": "managed-futures-trend-1-3-and-12-month-blend-23-futures-etfs-1a2e56",
   "spec": {
     "costs_bps": 10,

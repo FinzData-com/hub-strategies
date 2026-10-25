@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yields may compensate for operating risk that volatility proxies, while avoiding volatile firms should reduce crash exposure; falsified if the forward spread is non-positive or volatility adjustment adds no improvement.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-earnings-yield-252d-volatility-monthly-top-1000-l-s-f7920e",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(earnings_yield) - rank(vol(252))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Factor Earnings Yield - 252d Volatility (Monthly, Top 1000, L/S)",
+  "universe": "top1000"
+}

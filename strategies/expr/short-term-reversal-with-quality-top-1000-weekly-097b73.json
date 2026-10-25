@@ -1,0 +1,24 @@
+{
+  "description": "One-month losers with strong fundamentals rebound due to liquidity-driven overreaction while quality supports recovery; falsified if the combined rank of recent return and ROE does not yield positive weekly alpha net of costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-with-quality-top-1000-weekly-097b73",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) - rank(ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Short-term reversal with quality \u00b7 top 1000 \u00b7 weekly",
+  "universe": "top1000"
+}

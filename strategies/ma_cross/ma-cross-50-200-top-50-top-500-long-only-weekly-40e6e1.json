@@ -1,0 +1,25 @@
+{
+  "description": "Price trends persist because information diffuses slowly among heterogeneous investors with limited attention; falsified if the 50/200 moving-average spread shows no cross-sectional predictive power after transaction costs.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-50-200-top-50-top-500-long-only-weekly-40e6e1",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 50,
+      "slow": 200,
+      "type": "ma_cross"
+    },
+    "start": "2000-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "MA cross 50/200 \u00b7 top 50 \u00b7 Top 500 \u00b7 long only \u00b7 weekly",
+  "universe": "top500"
+}

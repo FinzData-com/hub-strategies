@@ -1,0 +1,24 @@
+{
+  "description": "Dividend paying stocks with momentum exhibit lower volatility and higher risk-adjusted returns; falsified if dividend yield rank is uncorrelated with returns.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-top-1000-4e9063",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) + rank(ret(252))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Dividend Yield Momentum Top 1000",
+  "universe": "top1000"
+}

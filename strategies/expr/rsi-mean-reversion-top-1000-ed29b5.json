@@ -1,0 +1,24 @@
+{
+  "description": "Extremely oversold stocks (low RSI) in the top 1000 tend to bounce back; falsified if the strategy exhibits a negative deflated Sharpe ratio.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-mean-reversion-top-1000-ed29b5",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "-rank(rsi(14))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "RSI Mean Reversion Top 1000",
+  "universe": "top1000"
+}

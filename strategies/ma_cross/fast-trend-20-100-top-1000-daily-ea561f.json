@@ -1,0 +1,25 @@
+{
+  "description": "Shorter moving-average crossovers exploit medium-term price momentum and herding behavior in liquid large caps; falsified if daily rebalanced crossover returns are negative or not significantly different from buy-and-hold after costs.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "fast-trend-20-100-top-1000-daily-ea561f",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2010-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Fast trend 20-100 \u00b7 top 1000 \u00b7 daily",
+  "universe": "top1000"
+}

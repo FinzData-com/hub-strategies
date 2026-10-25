@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield (low price-to-sales) stocks with 9-month momentum (skipping 1 month) identify cheap, trending firms less susceptible to accounting manipulation; falsified if forward Sharpe does not exceed momentum or sales yield alone.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-9m-skip-1m-top-50-top-500-long-only-622cba",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(189) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Sales Yield Momentum 9M Skip 1M \u00b7 Top 50 \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

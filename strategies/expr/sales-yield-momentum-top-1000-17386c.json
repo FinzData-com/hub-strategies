@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield combined with momentum identifies undervalued growth; falsified if sales yield adds no predictive power over pure momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-top-1000-17386c",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(63))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Sales Yield Momentum Top 1000",
+  "universe": "top1000"
+}

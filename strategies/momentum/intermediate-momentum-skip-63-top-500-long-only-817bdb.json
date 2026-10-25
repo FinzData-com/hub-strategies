@@ -1,0 +1,25 @@
+{
+  "description": "Skipping 3 months (63 days) avoids short-term reversal contamination of 12-month momentum; if this longer skip degrades performance vs skip 21 or 0 after costs, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "intermediate-momentum-skip-63-top-500-long-only-817bdb",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "lookback": 252,
+      "skip": 63,
+      "type": "momentum"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Intermediate Momentum Skip 63 Top 500 Long Only",
+  "universe": "top500"
+}

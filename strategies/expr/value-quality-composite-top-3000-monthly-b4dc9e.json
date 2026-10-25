@@ -1,0 +1,24 @@
+{
+  "description": "Stocks with high book-to-market and high return on equity are undervalued quality firms that earn excess returns as mispricing corrects; the effect is falsified if the composite rank fails to outperform equal-weight universe over the test period.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-quality-composite-top-3000-monthly-b4dc9e",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top3000"
+  },
+  "title": "Value-quality composite \u00b7 top 3000 \u00b7 monthly",
+  "universe": "top3000"
+}

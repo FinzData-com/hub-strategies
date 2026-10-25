@@ -1,0 +1,24 @@
+{
+  "description": "Small, cheap stocks are neglected by institutions and carry compensation for illiquidity and distress risk that is only slowly arbitraged; falsified if small-value names underperform large-growth names net of costs over the sample.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "small-cap-value-book-to-market-minus-log-size-top-100-top-30-849851",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Small-cap value \u00b7 book-to-market minus log size \u00b7 top 100 \u00b7 Top 3000 \u00b7 long only",
+  "universe": "top3000"
+}

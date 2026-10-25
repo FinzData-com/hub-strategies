@@ -1,0 +1,24 @@
+{
+  "description": "Cash-flow based value (EBITDA/EV) combined with momentum filters out 'value traps'; falsified if the strategy underperforms pure value.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-momentum-top-500-2c26e7",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(ret(126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "EBITDA/EV Momentum Top 500",
+  "universe": "top500"
+}

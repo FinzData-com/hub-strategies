@@ -1,0 +1,24 @@
+{
+  "description": "Small firms with cheap book equity may earn a size premium, but the signal must avoid severe distress; falsified if the forward spread is non-positive or disappears after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-book-to-market-log-market-cap-monthly-top-3000-l-s-750c72",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(book_to_market) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Factor Book-to-Market - Log Market Cap (Monthly, Top 3000, L/S)",
+  "universe": "top3000"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Stocks near 52-week highs with strong momentum reflect 'disposition effect' underreaction; if distance from high * momentum adds no alpha vs momentum alone, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dist-from-high-momentum-top-1000-long-only-327a0d",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "(1 - dist_high(252)) * rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Dist from High Momentum Top 1000 Long Only",
+  "universe": "top1000"
+}

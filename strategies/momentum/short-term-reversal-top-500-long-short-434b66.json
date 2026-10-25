@@ -1,0 +1,25 @@
+{
+  "description": "One-month losers rebound due to liquidity provision and overreaction correction; if buying prior month losers and selling winners (skip 0) yields no premium after 10bps costs, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-top-500-long-short-434b66",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "lookback": 21,
+      "skip": 0,
+      "type": "momentum"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Short-term Reversal Top 500 Long/Short",
+  "universe": "top500"
+}

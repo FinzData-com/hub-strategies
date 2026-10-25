@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield combined with smaller market capitalization captures the value and size premiums because cheap small firms carry higher risk and slower information diffusion; falsified if the long-short spread is indistinguishable from zero after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-small-cap-tilt-top-3000-monthly-03320b",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(earnings_yield) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Earnings-yield small-cap tilt \u00b7 top 3000 \u00b7 monthly",
+  "universe": "top3000"
+}

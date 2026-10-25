@@ -1,0 +1,24 @@
+{
+  "description": "Momentum is more sustainable in companies with low leverage as they are less prone to credit shocks; falsified if leverage rank negatively correlates with returns.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-leverage-momentum-top-500-286635",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126)) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Low Leverage Momentum Top 500",
+  "universe": "top500"
+}

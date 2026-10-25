@@ -1,0 +1,24 @@
+{
+  "description": "Oversold low RSI stocks with low volatility tend to rebound as sentiment normalizes, while overbought high RSI stocks revert; falsified if forward Sharpe is zero or negative.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "expr-rsi-mean-reversion-vol-filter-long-short-93978f",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(-rsi(14)) + rank(-vol(63))",
+      "type": "expr"
+    },
+    "start": "2013-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "expr rsi mean reversion vol filter long short",
+  "universe": "top500"
+}

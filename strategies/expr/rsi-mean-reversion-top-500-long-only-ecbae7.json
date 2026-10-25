@@ -1,0 +1,24 @@
+{
+  "description": "Oversold large caps (RSI < 30) rebound from panic selling; if buying bottom decile RSI(14) stocks monthly fails to beat momentum after costs, the mean reversion hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-mean-reversion-top-500-long-only-ecbae7",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "-rank(rsi(14))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "RSI Mean Reversion Top 500 Long Only",
+  "universe": "top500"
+}

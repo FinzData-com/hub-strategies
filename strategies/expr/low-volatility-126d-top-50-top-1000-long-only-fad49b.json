@@ -1,0 +1,24 @@
+{
+  "description": "Leverage and benchmark constraints force institutions to overbid volatile stocks, leaving low-volatility names relatively underpriced; falsified if the lowest-volatility portfolio underperforms the highest-volatility names on a risk-adjusted basis.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-126d-top-50-top-1000-long-only-fad49b",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-vol(126))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Low volatility \u00b7 126d \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

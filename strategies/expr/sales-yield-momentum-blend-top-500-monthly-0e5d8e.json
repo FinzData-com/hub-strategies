@@ -1,0 +1,24 @@
+{
+  "description": "Combining sales yield with intermediate price momentum identifies cheap stocks already inflecting upward, a signal that should persist due to analyst underreaction; falsified if the blend fails to beat pure momentum after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-blend-top-500-monthly-0e5d8e",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Sales-yield momentum blend \u00b7 top 500 \u00b7 monthly",
+  "universe": "top500"
+}

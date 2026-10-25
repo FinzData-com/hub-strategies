@@ -1,0 +1,24 @@
+{
+  "description": "Risk-adjusted momentum (ret/vol) is more stable than raw momentum; falsified if raw momentum consistently outperforms on a Sharpe basis.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "volatility-adjusted-momentum-684cac",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) / vol(126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Volatility Adjusted Momentum",
+  "universe": "top500"
+}

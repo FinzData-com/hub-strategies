@@ -1,0 +1,24 @@
+{
+  "description": "Sales yield (revenue/price) identifies unprofitable but growing firms where momentum reflects revenue traction; less manipulated than earnings, falsified if strategy underperforms earnings yield momentum during earnings manipulation cycles.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-12m-skip-1m-top-40-top1000-long-only-54b519",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Sales Yield Momentum 12M Skip 1M Top 40 Top1000 Long Only",
+  "universe": "top1000"
+}

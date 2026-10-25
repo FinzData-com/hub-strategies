@@ -1,0 +1,24 @@
+{
+  "description": "Combining value (book-to-market) and momentum (12-month return skipping recent month) captures complementary risk premia; value works best when momentum crashes, falsified if blend underperforms either standalone factor after transaction costs over full cycle.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-blend-12m-skip-1m-top-50-top500-long-only-c6f335",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value-Momentum Blend 12M Skip 1M Top 50 Top500 Long Only",
+  "universe": "top500"
+}

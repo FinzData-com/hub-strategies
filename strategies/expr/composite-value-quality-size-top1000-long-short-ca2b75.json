@@ -1,0 +1,24 @@
+{
+  "description": "A multi-factor composite of value, profitability, and size diversifies idiosyncratic risk while capturing distinct behavioral biases; falsified if the combined signal does not achieve a positive information ratio.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "composite-value-quality-size-top1000-long-short-ca2b75",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(earnings_yield) + rank(roe) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Composite value quality size \u00b7 top1000 \u00b7 long short",
+  "universe": "top1000"
+}

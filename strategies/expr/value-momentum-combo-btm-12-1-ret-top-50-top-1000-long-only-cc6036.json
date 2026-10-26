@@ -1,0 +1,24 @@
+{
+  "description": "Value and momentum signals are negatively correlated, so combining them should diversify signal noise and dampen the crashes each suffers alone; falsified if the combined rank does not beat a pure 12-1 momentum rank of identical breadth after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-combo-btm-12-1-ret-top-50-top-1000-long-only-cc6036",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Value momentum combo BTM + 12-1 ret \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

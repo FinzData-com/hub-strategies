@@ -1,0 +1,24 @@
+{
+  "description": "Leverage-constrained and lottery-seeking investors systematically overbid high-volatility names, leaving a premium in stable low-vol stocks; falsified if the lowest-vol tercile lags the highest-vol tercile net of costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-vol-63d-top-50-top-1000-long-only-89f1bf",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "-rank(vol(63))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Low vol 63d \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

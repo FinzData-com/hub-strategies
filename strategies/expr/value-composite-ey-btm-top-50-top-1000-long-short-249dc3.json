@@ -1,0 +1,24 @@
+{
+  "description": "Investors overextrapolate poor recent fundamentals and demand compensation for distress risk, so cheap stocks on earnings and book yield should carry a persistent spread; falsified if the long-short spread is indistinguishable from zero after costs or flips sign in the second half of the sample.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-composite-ey-btm-top-50-top-1000-long-short-249dc3",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Value composite EY+BTM \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+  "universe": "top1000"
+}

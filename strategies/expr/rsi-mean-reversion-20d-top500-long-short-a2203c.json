@@ -1,0 +1,24 @@
+{
+  "description": "Short-term RSI extremes in large caps reflect liquidity provision opportunities where institutional rebalancing creates predictable reversals; falsified if strategy profits disappear when restricting to stocks with >$10M daily dollar volume where liquidity provision is competitive.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-mean-reversion-20d-top500-long-short-a2203c",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "-zscore(rsi(20))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "RSI Mean Reversion 20D | top500 | long_short",
+  "universe": "top500"
+}

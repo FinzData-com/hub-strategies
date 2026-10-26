@@ -1,0 +1,25 @@
+{
+  "description": "A slow average filters multi-month trend noise while a fast average times entries, capturing drift that passive holders forgo; falsified if the crossover rule fails to separate from the universe after costs over the full sample.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-5-150-top-50-top-1000-long-only-59a31a",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 5,
+      "slow": 150,
+      "type": "ma_cross"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "MA cross 5/150 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

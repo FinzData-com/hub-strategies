@@ -1,0 +1,25 @@
+{
+  "description": "Institutional herding and gradual information diffusion create intermediate-horizon trends that a faster 20/100 crossover harvests earlier than slow signals; falsified if the crossover portfolio's path is indistinguishable from random entry on the same names.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-100-top-100-top-1000-long-only-1dd1f1",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2005-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "MA cross 20/100 \u00b7 top 100 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

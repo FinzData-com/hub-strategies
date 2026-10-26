@@ -1,0 +1,25 @@
+{
+  "description": "Longer-horizon trend filters reduce false signals and capture persistent macro-level price drifts; falsified if the slow crossover underperforms a passive benchmark net of trading costs.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-100-top1000-long-only-831be4",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "MA cross 20-100 \u00b7 top1000 \u00b7 long only",
+  "universe": "top1000"
+}

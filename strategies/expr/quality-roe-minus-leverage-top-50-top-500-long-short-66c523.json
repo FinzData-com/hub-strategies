@@ -1,0 +1,24 @@
+{
+  "description": "Markets underreact to the persistence of profitability and overpay for leveraged growth, so high-ROE low-leverage firms should be rewarded; falsified if the quality-minus-junk spread is absent or negative over the sample window.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-roe-minus-leverage-top-50-top-500-long-short-66c523",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(roe) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Quality ROE minus leverage \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+  "universe": "top500"
+}

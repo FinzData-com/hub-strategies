@@ -1,0 +1,24 @@
+{
+  "description": "High dividend yield stocks with positive annual momentum represent quality income compounders where payouts signal management confidence; falsified if the strategy's dividend-adjusted total return does not exceed the high-dividend-yield index return over rolling 5-year periods.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-252d-skip-63d-top-30-top-500-long-on-59cab2",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) + rank(ret(252) - ret(63))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "Dividend Yield Momentum 252d Skip 63d \u00b7 Top 30 \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

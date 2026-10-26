@@ -1,0 +1,24 @@
+{
+  "description": "Stocks with high earnings yield and low leverage should earn higher risk adjusted returns due to distress risk premium and quality, falsified if forward Sharpe is not positive after transaction costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-value-composite-rank-long-only-4ae60a",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(-leverage) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Quality Value Composite Rank Long Only",
+  "universe": "top1000"
+}

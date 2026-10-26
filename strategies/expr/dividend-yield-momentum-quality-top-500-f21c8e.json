@@ -1,0 +1,24 @@
+{
+  "description": "High dividend yield with positive momentum and high ROE signals shareholder-friendly quality; if top 30 by dividend_yield * momentum * roe rank underperforms high-dividend index net of costs, the quality filter adds no value.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-quality-top-500-f21c8e",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) * rank(ret(126) - ret(21)) * rank(roe)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "Dividend Yield Momentum Quality Top 500",
+  "universe": "top500"
+}

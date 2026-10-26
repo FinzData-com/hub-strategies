@@ -1,0 +1,24 @@
+{
+  "description": "Combining value (book-to-market) and momentum (12m return skipping 1m) captures complementary risk premia; if the composite rank signal fails to outperform either standalone factor after transaction costs, the diversification benefit is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-blend-top-500-monthly-4d4fcc",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value-Momentum Blend Top 500 Monthly",
+  "universe": "top500"
+}

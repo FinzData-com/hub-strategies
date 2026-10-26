@@ -1,0 +1,24 @@
+{
+  "description": "Leverage-constrained and lottery-seeking investors systematically overbid high-volatility names, leaving low-volatility stocks cheap per unit of risk; falsified if the lowest-vol ranks underperform the highest-vol ranks after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-63d-top-50-top-3000-long-only-da44ea",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "-rank(vol(63))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top3000"
+  },
+  "title": "Low volatility 63d \u00b7 top 50 \u00b7 Top 3000 \u00b7 long only",
+  "universe": "top3000"
+}

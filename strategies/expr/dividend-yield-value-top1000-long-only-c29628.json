@@ -1,0 +1,24 @@
+{
+  "description": "High dividend yield signals both undervaluation and management confidence in future cash flows; falsified if yield-ranked portfolios fail to beat the equal-weighted universe after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-value-top1000-long-only-c29628",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) + rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Dividend yield value \u00b7 top1000 \u00b7 long only",
+  "universe": "top1000"
+}

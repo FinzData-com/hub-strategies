@@ -1,0 +1,24 @@
+{
+  "description": "EBITDA-to-enterprise-value captures operating profitability independent of capital structure and accounting noise; falsified if the metric does not predict cross-sectional return differences.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "enterprise-value-yield-top500-long-only-fe3d27",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(sales_yield)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Enterprise value yield \u00b7 top500 \u00b7 long only",
+  "universe": "top500"
+}

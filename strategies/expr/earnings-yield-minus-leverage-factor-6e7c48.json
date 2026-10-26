@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield combined with low leverage identifies financially healthy value stocks with lower distress risk, falsified if forward performance is indistinguishable from market.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-minus-leverage-factor-6e7c48",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield - leverage)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 75,
+    "universe": "top1000"
+  },
+  "title": "Earnings Yield Minus Leverage Factor",
+  "universe": "top1000"
+}

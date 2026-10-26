@@ -1,0 +1,24 @@
+{
+  "description": "High ROE combined with low leverage identifies firms with durable competitive advantages and lower bankruptcy risk; falsified if the quality-sorted portfolio does not outperform the universe median.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "profitability-quality-top500-long-only-9c4bfa",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2023-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Profitability quality \u00b7 top500 \u00b7 long only",
+  "universe": "top500"
+}

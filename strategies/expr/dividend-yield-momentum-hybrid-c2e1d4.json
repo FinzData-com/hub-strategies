@@ -1,0 +1,24 @@
+{
+  "description": "Dividend payers with recent positive price momentum benefit from cash flow stability and trend continuation, falsified if forward Sharpe is zero or negative.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-hybrid-c2e1d4",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) * rank(ret(126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Dividend Yield Momentum Hybrid",
+  "universe": "top500"
+}

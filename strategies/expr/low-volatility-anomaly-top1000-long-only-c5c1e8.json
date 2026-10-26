@@ -1,0 +1,24 @@
+{
+  "description": "Low volatility stocks deliver superior risk-adjusted returns because leverage-constrained investors overpay for lottery-like high-volatility assets; falsified if the lowest volatility tercile underperforms the highest after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-anomaly-top1000-long-only-c5c1e8",
+  "spec": {
+    "costs_bps": 8,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(0 - vol(252))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Low volatility anomaly \u00b7 top1000 \u00b7 long only",
+  "universe": "top1000"
+}

@@ -1,4 +1,4 @@
-# Momentum (54 strategies)
+# Momentum (57 strategies)
 
 Cross-sectional momentum: hold the strongest recent performers (Jegadeesh & Titman 1993 and successors).
 
@@ -52,8 +52,11 @@ Cross-sectional momentum: hold the strongest recent performers (Jegadeesh & Titm
 | [Momentum 63d skip 0 · top 20 · Top 1000 · long/short](https://data.finzdata.com/s/momentum-63d-skip-0-top-20-top-1000-long-short-5cd50a) | momentum | top1000 | 0.21 | 0 | 0.00 |
 | [Momentum 63d skip 0 · top 20 · Top 1000 · long only](https://data.finzdata.com/s/momentum-63d-skip-0-top-20-top-1000-long-only-5c0737) | momentum | top1000 | 0.20 | 0 | 0.00 |
 | [Momentum 63d skip 21 · top 20 · Top 1000 · long only](https://data.finzdata.com/s/momentum-63d-skip-21-top-20-top-1000-long-only-fdae00) | momentum | top1000 | 0.13 | 0 | 0.00 |
+| [Dual Momentum with Skip](https://data.finzdata.com/s/dual-momentum-with-skip-843840) | momentum | top500 | 0.00 | 0 | 0.00 |
+| [Intermediate 189-day momentum with one-week skip](https://data.finzdata.com/s/intermediate-189-day-momentum-with-one-week-skip-4419c5) | momentum | top3000 | 0.00 | 0 | 0.00 |
 | [Intermediate Momentum Skip 63 Top 500 Long Only](https://data.finzdata.com/s/intermediate-momentum-skip-63-top-500-long-only-817bdb) | momentum | top500 | 0.00 | 0 | 0.00 |
 | [Momentum 189d Skip 21 Top 500 Long Only](https://data.finzdata.com/s/momentum-189d-skip-21-top-500-long-only-c45842) | momentum | top500 | 0.00 | 0 | 0.00 |
+| [Momentum 42d Skip 21 Top 100 Long Only](https://data.finzdata.com/s/momentum-42d-skip-21-top-100-long-only-bdace0) | momentum | top1000 | 0.00 | 0 | 0.00 |
 | [Momentum 63d Skip 21 Top 1000 Long/Short](https://data.finzdata.com/s/momentum-63d-skip-21-top-1000-long-short-e4f937) | momentum | top1000 | 0.00 | 0 | 0.00 |
 | [Short-Term Reversal 1M · Liquid Stocks · Top 100 · Top 1000 · Long/Short](https://data.finzdata.com/s/short-term-reversal-1m-liquid-stocks-top-100-top-1000-long-s-672d6c) | momentum | top1000 | 0.00 | 0 | 0.00 |
 | [Short-term Reversal Top 500 Long/Short](https://data.finzdata.com/s/short-term-reversal-top-500-long-short-434b66) | momentum | top500 | 0.00 | 0 | 0.00 |

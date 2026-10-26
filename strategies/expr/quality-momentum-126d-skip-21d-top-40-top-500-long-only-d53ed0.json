@@ -1,0 +1,24 @@
+{
+  "description": "High ROE firms with strong intermediate momentum benefit from persistent profitability and investor underreaction to fundamental improvements; falsified if the strategy's information ratio versus the momentum-only benchmark is not statistically positive over rolling 3-year windows.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-momentum-126d-skip-21d-top-40-top-500-long-only-d53ed0",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) + rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 40,
+    "universe": "top500"
+  },
+  "title": "Quality-Momentum 126d Skip 21d \u00b7 Top 40 \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

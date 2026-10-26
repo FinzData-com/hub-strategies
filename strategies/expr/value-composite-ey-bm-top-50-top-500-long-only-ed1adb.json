@@ -1,0 +1,24 @@
+{
+  "description": "Cheap stocks on earnings yield and book-to-market earn a premium because investors overextrapolate recent fundamentals and demand compensation for distress risk; falsified if the cheap half shows no return spread versus the expensive half after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-composite-ey-bm-top-50-top-500-long-only-ed1adb",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value composite EY+BM \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

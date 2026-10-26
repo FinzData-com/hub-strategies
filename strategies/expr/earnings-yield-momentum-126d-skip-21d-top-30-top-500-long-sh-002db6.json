@@ -1,0 +1,24 @@
+{
+  "description": "Stocks with high earnings yield and positive intermediate momentum represent undervalued firms with improving fundamentals, while low earnings yield with negative momentum captures overvalued deteriorating firms; falsified if the long-short spread returns are not significantly positive after transaction costs in a Fama-French 5-factor regression.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-126d-skip-21d-top-30-top-500-long-sh-002db6",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "Earnings Yield Momentum 126d Skip 21d \u00b7 Top 30 \u00b7 Top 500 \u00b7 Long/Short",
+  "universe": "top500"
+}

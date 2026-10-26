@@ -1,0 +1,24 @@
+{
+  "description": "Cheapness on earnings is rewarded because fundamental information diffuses slowly while glamour stocks attract crowded demand that fades; falsified if top earnings-yield ranks show no monotonic spread versus low ranks net of costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-rank-top-50-top-500-long-only-7be7e1",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Earnings yield rank \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

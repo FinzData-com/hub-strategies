@@ -1,0 +1,25 @@
+{
+  "description": "Medium term mean reversion after short term trend exhaustion generates alpha in both long and short legs, falsified if long short forward Sharpe is not positive.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-fast-20-slow-100-long-short-80d54c",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2014-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "MA Cross Fast 20 Slow 100 Long Short",
+  "universe": "top500"
+}

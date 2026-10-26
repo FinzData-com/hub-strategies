@@ -1,0 +1,25 @@
+{
+  "description": "A 20/100-day crossover should filter short-lived price noise and retain persistent institutional repricing; falsified if trend entrants do not outperform random entries with the same holding periods after costs.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "medium-term-20-100-trend-crossover-9c935b",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2006-01-03",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Medium-term 20/100 trend crossover",
+  "universe": "top3000"
+}

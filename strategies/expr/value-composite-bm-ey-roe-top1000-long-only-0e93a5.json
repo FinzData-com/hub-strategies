@@ -1,0 +1,24 @@
+{
+  "description": "Stocks with high book-to-market, earnings yield, and ROE are systematically underpriced due to investor neglect of accounting data; falsified if the composite factor fails to generate positive risk-adjusted returns over the full backtest.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-composite-bm-ey-roe-top1000-long-only-0e93a5",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2023-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(earnings_yield) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Value composite: BM + EY + ROE \u00b7 top1000 \u00b7 long only",
+  "universe": "top1000"
+}

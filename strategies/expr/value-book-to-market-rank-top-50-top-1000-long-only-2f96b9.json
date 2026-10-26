@@ -1,0 +1,24 @@
+{
+  "description": "Investors extrapolate recent fundamentals and demand compensation for holding out-of-favour, distress-prone firms, so high book-to-market stocks should be persistently underpriced; falsified if top book-to-market ranks show no return spread versus bottom ranks after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-book-to-market-rank-top-50-top-1000-long-only-2f96b9",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Value book_to_market rank \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "High ROE stocks with strong 12-month momentum and low volatility represent 'quality growth' anomalies; if selecting top 30 by ROE * momentum / vol underperforms market-cap weighted benchmark net of costs, the quality-momentum interaction is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-momentum-low-vol-top-1000-24622e",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) * rank(ret(252) - ret(21)) / rank(vol(252))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 30,
+    "universe": "top1000"
+  },
+  "title": "Quality Momentum Low Vol Top 1000",
+  "universe": "top1000"
+}

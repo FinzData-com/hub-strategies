@@ -1,0 +1,24 @@
+{
+  "description": "Combining high earnings yield with strong momentum should outperform because earnings yield signals undervaluation and momentum signals trend; if the strategy underperforms, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-927666",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2010-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Earnings Yield Momentum",
+  "universe": "top500"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Enterprise multiples strip capital-structure noise and isolate operating cheapness that slow-moving institutional mandates underreact to; falsified if top ebitda_ev ranks do not separate from bottom ranks after costs over the full sample.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-over-ev-rank-top-50-top-1000-long-only-a30299",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "EBITDA over EV rank \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

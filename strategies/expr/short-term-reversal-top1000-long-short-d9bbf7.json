@@ -1,0 +1,24 @@
+{
+  "description": "One-week losers rebound relative to winners because market makers earn inventory compensation for absorbing order flow imbalances; falsified if the reversal spread is negative net of transaction costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-top1000-long-short-d9bbf7",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(0 - ret(5))",
+      "type": "expr"
+    },
+    "start": "2013-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Short-term reversal \u00b7 top1000 \u00b7 long short",
+  "universe": "top1000"
+}

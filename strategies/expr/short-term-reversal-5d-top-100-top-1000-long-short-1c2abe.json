@@ -1,0 +1,24 @@
+{
+  "description": "Extreme 5-day returns reverse due to liquidity provision and overreaction correction, particularly in large-cap stocks; falsified if the strategy's Sharpe ratio is not positive after 15 bps transaction costs, or if returns do not decay monotonically with holding period from 1 to 20 days.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-5d-top-100-top-1000-long-short-1c2abe",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(-ret(5))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Short-Term Reversal 5d \u00b7 Top 100 \u00b7 Top 1000 \u00b7 Long/Short",
+  "universe": "top1000"
+}

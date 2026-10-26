@@ -1,0 +1,24 @@
+{
+  "description": "Low leverage firms with strong momentum have lower distress risk and sustainable trends; if long/short by leverage * momentum rank yields insignificant forward returns after 25bps costs, the financial stability premium is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-leverage-momentum-long-short-top-1000-96e887",
+  "spec": {
+    "costs_bps": 25,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(-leverage) * rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 60,
+    "universe": "top1000"
+  },
+  "title": "Low Leverage Momentum Long/Short Top 1000",
+  "universe": "top1000"
+}

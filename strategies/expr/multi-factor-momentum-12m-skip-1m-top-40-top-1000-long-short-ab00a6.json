@@ -1,0 +1,24 @@
+{
+  "description": "Combining value, quality, and low volatility with 12-month momentum (skipping 1 month) should diversify factor exposures; falsified if long/short forward Sharpe < 0.35 after 12 months.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "multi-factor-momentum-12m-skip-1m-top-40-top-1000-long-short-ab00a6",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(roe) + rank(-vol(252)) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Multi-Factor Momentum 12M Skip 1M \u00b7 Top 40 \u00b7 Top 1000 \u00b7 Long/Short",
+  "universe": "top1000"
+}

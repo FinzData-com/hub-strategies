@@ -1,0 +1,24 @@
+{
+  "description": "Combining book-to-market and earnings yield captures both balance sheet strength and profitability; if this factor underperforms, hypothesis falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "book-to-market-earnings-yield-factor-16bb9d",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(earnings_yield)",
+      "type": "expr"
+    },
+    "start": "2010-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Book-to-Market + Earnings Yield Factor",
+  "universe": "top500"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield stocks with long-term momentum capture value and trend following while skipping intermediate reversal; falsified if forward returns do not exceed earnings yield or momentum alone.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-252d-skip-63-top-50-top-1000-long-on-0f6919",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(ret(252) - ret(63))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Earnings Yield Momentum 252d skip 63 top 50 Top 1000 long only",
+  "universe": "top1000"
+}

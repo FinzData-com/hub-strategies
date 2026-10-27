@@ -1,0 +1,24 @@
+{
+  "description": "RSI < 30 identifies oversold large caps that rebound from panic selling; if mean reversion fails after 10bps costs, the behavioral overshoot hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-mean-reversion-oversold-top-500-long-only-6da821",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "where(rsi(14) < 30, 1, 0)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "RSI Mean Reversion Oversold Top 500 Long Only",
+  "universe": "top500"
+}

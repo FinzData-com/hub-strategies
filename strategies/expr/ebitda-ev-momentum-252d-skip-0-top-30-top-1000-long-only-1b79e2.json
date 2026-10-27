@@ -1,0 +1,24 @@
+{
+  "description": "High EBITDA/EV (cheap valuation) with 12-month momentum captures value and trend in a metric less distorted by capital structure; falsified if forward Sharpe is not higher than EBITDA/EV or momentum standalone.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-momentum-252d-skip-0-top-30-top-1000-long-only-1b79e2",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(ret(252))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 30,
+    "universe": "top1000"
+  },
+  "title": "EBITDA/EV Momentum 252d skip 0 top 30 Top 1000 long only",
+  "universe": "top1000"
+}

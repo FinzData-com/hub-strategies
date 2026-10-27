@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield combined with low financial leverage identifies cheap, solvent firms whose risk-adjusted returns exceed the market; falsified if the strategy underperforms a passive universe benchmark.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-low-leverage-top-1000-long-only-7acca4",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2021-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Earnings Yield Low Leverage \u00b7 top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

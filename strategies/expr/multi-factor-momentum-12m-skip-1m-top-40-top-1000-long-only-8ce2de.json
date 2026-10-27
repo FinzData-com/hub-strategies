@@ -1,0 +1,24 @@
+{
+  "description": "A composite of value, quality, and low volatility with momentum captures multiple independent risk premia that are not fully arbitraged; falsified if the multi-factor approach does not improve risk-adjusted returns over single-factor momentum in forward tests.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "multi-factor-momentum-12m-skip-1m-top-40-top-1000-long-only-8ce2de",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(roe) + rank(-vol(63)) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Multi-Factor Momentum 12M Skip 1M \u00b7 Top 40 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

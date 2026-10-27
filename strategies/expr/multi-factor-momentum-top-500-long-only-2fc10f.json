@@ -1,0 +1,24 @@
+{
+  "description": "Equal-weight combination of value, quality, low vol, and size with 12m momentum captures diversified factor premia; falsified if any single factor contributes >60% of forward alpha.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "multi-factor-momentum-top-500-long-only-2fc10f",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "(rank(book_to_market) + rank(roe) + rank(-vol(252)) + rank(-log_mcap)) / 4 * rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 40,
+    "universe": "top500"
+  },
+  "title": "Multi-Factor Momentum Top 500 Long Only",
+  "universe": "top500"
+}

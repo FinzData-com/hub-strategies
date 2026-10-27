@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield (revenue/price) combined with 6-month momentum skipping 1 month identifies undervalued trending stocks less prone to accounting manipulation; falsified if forward Sharpe does not beat sales yield or momentum alone.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-126d-skip-21-top-40-top-500-long-only-e8f866",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top500"
+  },
+  "title": "Sales Yield Momentum 126d skip 21 top 40 Top 500 long only",
+  "universe": "top500"
+}

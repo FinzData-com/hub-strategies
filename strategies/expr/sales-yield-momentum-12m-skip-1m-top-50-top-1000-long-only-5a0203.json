@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield combined with price momentum identifies companies with strong top-line growth that are still reasonably valued; falsified if the strategy fails to generate positive alpha net of costs in out-of-sample periods.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-12m-skip-1m-top-50-top-1000-long-only-5a0203",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Sales Yield Momentum 12M Skip 1M \u00b7 Top 50 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

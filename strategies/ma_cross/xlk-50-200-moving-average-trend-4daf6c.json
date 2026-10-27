@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding XLK only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 8,
-  "forward_return": -0.037808606931806876,
-  "forward_sharpe": -4.283024272270132,
+  "forward_days": 9,
+  "forward_return": -0.021582285500029164,
+  "forward_sharpe": -2.035803761943225,
   "slug": "xlk-50-200-moving-average-trend-4daf6c",
   "spec": {
     "costs_bps": 10,

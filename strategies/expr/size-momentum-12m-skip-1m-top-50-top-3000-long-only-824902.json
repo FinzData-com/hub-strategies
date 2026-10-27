@@ -1,0 +1,24 @@
+{
+  "description": "Smaller firms with strong momentum are more likely to be neglected by analysts, leading to slower information diffusion and stronger trends; falsified if the strategy does not outperform large-cap momentum after liquidity-adjusted costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "size-momentum-12m-skip-1m-top-50-top-3000-long-only-824902",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-log_mcap) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top3000"
+  },
+  "title": "Size-Momentum 12M Skip 1M \u00b7 Top 50 \u00b7 Top 3000 \u00b7 Long Only",
+  "universe": "top3000"
+}

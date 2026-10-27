@@ -1,0 +1,24 @@
+{
+  "description": "High dividend yield stocks with momentum benefit from both income demand and price trend persistence, especially in low-rate environments; falsified if the strategy does not outperform a high-dividend benchmark on a risk-adjusted basis.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-12m-skip-1m-top-40-top-1000-long-onl-c3ea05",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Dividend Yield Momentum 12M Skip 1M \u00b7 Top 40 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

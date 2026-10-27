@@ -1,0 +1,24 @@
+{
+  "description": "Low leverage reduces distress risk in momentum winners; if filtering momentum by low leverage fails to improve risk-adjusted returns vs plain momentum, the financial constraint hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-leverage-momentum-top-500-long-only-4c48b2",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(252) - ret(21)) * where(leverage < 0.5, 1, 0)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Low Leverage Momentum Top 500 Long Only",
+  "universe": "top500"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "High dividend yield stocks with positive momentum benefit from both income and trend following; falsified if forward total return < risk-free rate + 3% after 10 bps costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-top-500-long-only-6b13a3",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) * rank(ret(252) - ret(63))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "Dividend Yield Momentum Top 500 Long Only",
+  "universe": "top500"
+}

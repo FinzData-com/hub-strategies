@@ -1,0 +1,24 @@
+{
+  "description": "Low volatility stocks with positive momentum provide better risk-adjusted returns; hypothesis fails if annualized volatility exceeds 18% or forward Sharpe < 0.25.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-momentum-top-500-long-only-5add8a",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-vol(252)) * rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 40,
+    "universe": "top500"
+  },
+  "title": "Low Volatility Momentum Top 500 Long Only",
+  "universe": "top500"
+}

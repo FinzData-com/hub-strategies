@@ -1,0 +1,25 @@
+{
+  "description": "Shorter-term MA cross (20/50) captures intermediate trends in broader universe with long/short implementation profiting from both uptrends and downtrends; falsified if long-short forward Sharpe is not significantly positive.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-50-top-1000-long-short-0f39b3",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "fast": 20,
+      "slow": 50,
+      "type": "ma_cross"
+    },
+    "start": "2015-01-01",
+    "top_n": 1000,
+    "universe": "top1000"
+  },
+  "title": "MA Cross 20 50 Top 1000 long_short",
+  "universe": "top1000"
+}

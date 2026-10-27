@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield stocks with strong price momentum represent undervalued trends; falsified if forward returns do not exceed market by >2% annually after 12 bps costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-top-1000-long-only-2a5c67",
+  "spec": {
+    "costs_bps": 12,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Earnings Yield Momentum Top 1000 Long Only",
+  "universe": "top1000"
+}

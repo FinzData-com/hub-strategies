@@ -1,0 +1,24 @@
+{
+  "description": "Combining 12-month momentum (skipping the most recent month) with high book-to-market ratio captures the 'value-momentum' synergy where cheap trending stocks revert less; falsified if the combined rank signal underperforms either pure momentum or pure value alone in forward testing.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-12m-skip-1m-top-40-top1000-long-only-a4b939",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(252) - ret(21)) + rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Value Momentum 12M Skip 1M Top 40 Top1000 Long Only",
+  "universe": "top1000"
+}

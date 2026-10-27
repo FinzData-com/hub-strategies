@@ -1,0 +1,24 @@
+{
+  "description": "Low volatility stocks with positive momentum capture the low-vol anomaly while avoiding momentum crashes; falsified if forward Sharpe < 0.3 or volatility > 15% annualized.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-momentum-top-500-long-only-828adf",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-vol(252)) * rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Low Volatility Momentum Top 500 Long Only",
+  "universe": "top500"
+}

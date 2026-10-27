@@ -1,0 +1,24 @@
+{
+  "description": "Smaller stocks (low log_mcap) with strong 6-month momentum outperform due to neglected firm effect; fails if forward Sharpe < 0.3 or max drawdown > 35%.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "small-cap-momentum-top-3000-long-only-aebca2",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-log_mcap) * rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 60,
+    "universe": "top3000"
+  },
+  "title": "Small Cap Momentum Top 3000 Long Only",
+  "universe": "top3000"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Low leverage stocks with strong momentum outperform high leverage momentum stocks due to lower distress risk and more sustainable trends; long/short isolates this spread; falsified if long-short forward Sharpe is not positive.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "leverage-adjusted-momentum-126d-skip-21-top-40-top-1000-long-f92f5d",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(-leverage) * rank(ret(126) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Leverage Adjusted Momentum 126d skip 21 top 40 Top 1000 long_short",
+  "universe": "top1000"
+}

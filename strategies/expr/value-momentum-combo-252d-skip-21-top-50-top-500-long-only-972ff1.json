@@ -1,0 +1,24 @@
+{
+  "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month captures the value premium and momentum anomaly while avoiding short-term reversal; falsified if forward Sharpe is not significantly higher than pure momentum or value alone.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-combo-252d-skip-21-top-50-top-500-long-only-972ff1",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value Momentum Combo 252d skip 21 top 50 Top 500 long only",
+  "universe": "top500"
+}

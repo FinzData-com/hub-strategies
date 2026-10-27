@@ -1,0 +1,25 @@
+{
+  "description": "Faster 20/50 cross captures intermediate trend changes with lower lag; falsified if forward Sharpe not positive after 15 bps costs.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-50-top-1000-long-only-1bf297",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 50,
+      "type": "ma_cross"
+    },
+    "start": "2010-01-01",
+    "top_n": 500,
+    "universe": "top1000"
+  },
+  "title": "MA Cross 20/50 Top 1000 Long Only",
+  "universe": "top1000"
+}

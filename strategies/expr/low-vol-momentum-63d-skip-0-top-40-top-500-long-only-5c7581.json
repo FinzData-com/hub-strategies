@@ -1,0 +1,24 @@
+{
+  "description": "Low volatility stocks with strong short-term momentum exhibit the low-vol anomaly combined with momentum, yielding better risk-adjusted returns; falsified if forward volatility is not lower or Sharpe not higher than high-vol momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-vol-momentum-63d-skip-0-top-40-top-500-long-only-5c7581",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-vol(63)) + rank(ret(63))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top500"
+  },
+  "title": "Low Vol Momentum 63d skip 0 top 40 Top 500 long only",
+  "universe": "top500"
+}

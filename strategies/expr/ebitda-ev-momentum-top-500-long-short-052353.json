@@ -1,0 +1,24 @@
+{
+  "description": "High EBITDA/EV (cheap) stocks with positive momentum vs low EBITDA/EV with negative momentum; falsified if long-short forward Sharpe < 0.3 after 15 bps per leg.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-momentum-top-500-long-short-052353",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(ebitda_ev) * rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "EBITDA/EV Momentum Top 500 Long/Short",
+  "universe": "top500"
+}

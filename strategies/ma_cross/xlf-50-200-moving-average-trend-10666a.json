@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding XLF only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 9,
-  "forward_return": 0.02751304327180848,
-  "forward_sharpe": 5.62866636954577,
+  "forward_days": 10,
+  "forward_return": 0.024944948192935357,
+  "forward_sharpe": 4.751144391717388,
   "slug": "xlf-50-200-moving-average-trend-10666a",
   "spec": {
     "costs_bps": 10,

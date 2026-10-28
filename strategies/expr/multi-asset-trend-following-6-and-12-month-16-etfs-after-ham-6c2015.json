@@ -2,9 +2,9 @@
   "description": "Man Group's 'Trend Following: Equity and Bond Crisis Alpha' found trend strategies paid off in most equity and bond sell-offs since 1960. Approximation: hold every ETF whose 6-month plus 12-month return is positive, equal weight, cash otherwise. Falsified if drawdowns in 2008, 2020 and 2022 are not smaller than buy-and-hold.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.0378799908437184,
-  "forward_sharpe": -6.660232866849953,
+  "forward_days": 10,
+  "forward_return": -0.029236172261828397,
+  "forward_sharpe": -4.439184619380453,
   "slug": "multi-asset-trend-following-6-and-12-month-16-etfs-after-ham-6c2015",
   "spec": {
     "costs_bps": 10,

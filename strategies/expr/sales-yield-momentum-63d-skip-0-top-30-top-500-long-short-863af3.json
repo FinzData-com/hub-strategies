@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield (revenue/price) with strong short-term momentum identifies cheap revenue growth; long/short isolates the factor from market beta. Falsified if long-short spread shows zero or negative alpha after transaction costs in forward tracking period.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-63d-skip-0-top-30-top-500-long-short-863af3",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(63))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "Sales Yield Momentum 63d skip 0 \u00b7 top 30 \u00b7 Top 500 \u00b7 long/short",
+  "universe": "top500"
+}

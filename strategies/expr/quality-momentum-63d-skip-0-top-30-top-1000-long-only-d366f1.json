@@ -1,0 +1,24 @@
+{
+  "description": "High ROE firms with strong 63-day momentum represent profitable companies benefiting from persistent positive fundamentals; the quality filter reduces momentum crashes during market reversals. Falsified if ROE-momentum combination shows no improvement in drawdown or Sharpe versus pure momentum during 2020-2022 volatility.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-momentum-63d-skip-0-top-30-top-1000-long-only-d366f1",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) + rank(ret(63))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 30,
+    "universe": "top1000"
+  },
+  "title": "Quality-Momentum 63d skip 0 \u00b7 top 30 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

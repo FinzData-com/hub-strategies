@@ -1,0 +1,25 @@
+{
+  "description": "Shorter-term 20/50 MA cross captures intermediate trends with faster turnover; higher frequency reduces lag but increases whipsaw risk. Falsified if higher turnover costs erode all alpha versus 50/200 cross or if forward Sharpe remains zero after 12 months live tracking.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-50-top-1000-long-only-18f823",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2024-12-31",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 50,
+      "type": "ma_cross"
+    },
+    "start": "2015-01-01",
+    "top_n": 1000,
+    "universe": "top1000"
+  },
+  "title": "MA Cross 20/50 \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

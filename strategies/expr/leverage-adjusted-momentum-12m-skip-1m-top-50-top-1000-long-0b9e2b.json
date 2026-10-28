@@ -1,0 +1,24 @@
+{
+  "description": "Low leverage firms with strong momentum outperform because high leverage amplifies momentum crashes during stress; falsified if leverage filter does not reduce tail risk or improve Sharpe.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "leverage-adjusted-momentum-12m-skip-1m-top-50-top-1000-long-0b9e2b",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "where(rank(leverage) < 0.5, rank(ret(252) - ret(21)), -1)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Leverage-Adjusted Momentum 12M Skip 1M \u00b7 Top 50 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

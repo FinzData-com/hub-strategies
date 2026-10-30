@@ -1,0 +1,24 @@
+{
+  "description": "High dividend yield combined with positive ROE selects sustainable payers and avoids value traps, generating premium from cash flow reliability; falsified if forward Sharpe does not exceed zero.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-quality-filtered-factor-68a6c5",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dividend_yield) * where(roe > 0, 1, 0)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 80,
+    "universe": "top1000"
+  },
+  "title": "Dividend Yield Quality Filtered Factor",
+  "universe": "top1000"
+}

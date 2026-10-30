@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding QQQ only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 10,
-  "forward_return": -0.010563851958616866,
-  "forward_sharpe": -1.0793760115628668,
+  "forward_days": 12,
+  "forward_return": -0.01867080096490037,
+  "forward_sharpe": -1.7268503567373807,
   "slug": "qqq-50-200-moving-average-trend-d8ad99",
   "spec": {
     "costs_bps": 10,

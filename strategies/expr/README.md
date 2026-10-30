@@ -1,4 +1,4 @@
-# Formula strategies (417 strategies)
+# Formula strategies (429 strategies)
 
 Signals written as formulas over prices and fundamentals: low volatility, 52-week high, value plus momentum, quality, multi-factor, time-series momentum, managed-futures trend and crypto.
 
@@ -12,14 +12,14 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Trend quality · top 50 · Top 500 · long only](https://data.finzdata.com/s/trend-quality-top-50-top-500-long-only-747951) | expr | top500 | 0.45 | 0 | 0.00 |
 | [Trend quality · top 20 · Top 1000 · long only](https://data.finzdata.com/s/trend-quality-top-20-top-1000-long-only-666f5c) | expr | top1000 | 0.43 | 0 | 0.00 |
 | [AI Trading Championship 5th (11 models): Google Gemma 4 31B value-quality-short momentum](https://data.finzdata.com/s/ai-trading-championship-5th-11-models-google-gemma-4-31b-val-0e4dad) | expr | top1000 | 0.42 | 0 | 0.00 |
-| [Sector momentum 12-month · top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)](https://data.finzdata.com/s/sector-momentum-12-month-top-3-of-9-sectors-after-moskowitz-93b4df) | expr | custom | 0.41 | 10 | 3.78 |
+| [Sector momentum 12-month · top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)](https://data.finzdata.com/s/sector-momentum-12-month-top-3-of-9-sectors-after-moskowitz-93b4df) | expr | custom | 0.41 | 12 | 6.27 |
 | [AI Trading Championship 7th (11 models): Moonshot Kimi K3 quality-value-momentum](https://data.finzdata.com/s/ai-trading-championship-7th-11-models-moonshot-kimi-k3-quali-9a18fb) | expr | top500 | 0.39 | 0 | 0.00 |
 | [AI Trading Championship 6th (11 models): Claude Haiku QVM composite](https://data.finzdata.com/s/ai-trading-championship-6th-11-models-claude-haiku-qvm-compo-0f0885) | expr | top500 | 0.39 | 0 | 0.00 |
 | [AI Trading Championship 8th (11 models): NVIDIA Nemotron-3 Super value-momentum](https://data.finzdata.com/s/ai-trading-championship-8th-11-models-nvidia-nemotron-3-supe-9c94aa) | expr | top1000 | 0.39 | 0 | 0.00 |
 | [AI Trading Championship 9th (11 models): Claude Opus quality-value-momentum-low-vol](https://data.finzdata.com/s/ai-trading-championship-9th-11-models-claude-opus-quality-va-bb573a) | expr | top500 | 0.39 | 0 | 0.00 |
-| [Cross-asset momentum 12-1 · top 4 of 16 ETFs (after Asness, Moskowitz & Pedersen 2013)](https://data.finzdata.com/s/cross-asset-momentum-12-1-top-4-of-16-etfs-after-asness-mosk-039cda) | expr | custom | 0.36 | 10 | -4.74 |
+| [Cross-asset momentum 12-1 · top 4 of 16 ETFs (after Asness, Moskowitz & Pedersen 2013)](https://data.finzdata.com/s/cross-asset-momentum-12-1-top-4-of-16-etfs-after-asness-mosk-039cda) | expr | custom | 0.36 | 12 | -4.63 |
 | [Trend quality · top 20 · Top 500 · long only](https://data.finzdata.com/s/trend-quality-top-20-top-500-long-only-a1123d) | expr | top500 | 0.35 | 0 | 0.00 |
-| [Sector momentum 6-month · top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)](https://data.finzdata.com/s/sector-momentum-6-month-top-3-of-9-sectors-after-moskowitz-g-198f5b) | expr | custom | 0.31 | 10 | 4.39 |
+| [Sector momentum 6-month · top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)](https://data.finzdata.com/s/sector-momentum-6-month-top-3-of-9-sectors-after-moskowitz-g-198f5b) | expr | custom | 0.31 | 12 | 6.92 |
 | [Betting against beta proxy · low 1-year volatility · top 50 · Top 500 · long only (after Frazzini & Pedersen 2014, AQR)](https://data.finzdata.com/s/betting-against-beta-proxy-low-1-year-volatility-top-50-top-2898f2) | expr | top500 | 0.27 | 0 | 0.00 |
 | [Volatility-scaled momentum · top 50 · Top 500 (after Barroso & Santa-Clara 2015)](https://data.finzdata.com/s/volatility-scaled-momentum-top-50-top-500-after-barroso-sant-319970) | expr | top500 | 0.27 | 0 | 0.00 |
 | [Low volatility · top 50 · Top 500 · long only](https://data.finzdata.com/s/low-volatility-top-50-top-500-long-only-798b06) | expr | top500 | 0.25 | 0 | 0.00 |
@@ -34,12 +34,12 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Trend quality · top 50 · Top 1000 · long/short](https://data.finzdata.com/s/trend-quality-top-50-top-1000-long-short-b20d5e) | expr | top1000 | 0.15 | 0 | 0.00 |
 | [RSI oversold · top 20 · Top 500 · long only](https://data.finzdata.com/s/rsi-oversold-top-20-top-500-long-only-69903a) | expr | top500 | 0.13 | 0 | 0.00 |
 | [Trend quality · top 20 · Top 500 · long/short](https://data.finzdata.com/s/trend-quality-top-20-top-500-long-short-d14106) | expr | top500 | 0.13 | 0 | 0.00 |
-| [Commodity momentum 12-1 · top 4 of 13 commodity ETFs (after Miffre & Rallis 2007)](https://data.finzdata.com/s/commodity-momentum-12-1-top-4-of-13-commodity-etfs-after-mif-b37817) | expr | custom | 0.13 | 10 | 3.68 |
+| [Commodity momentum 12-1 · top 4 of 13 commodity ETFs (after Miffre & Rallis 2007)](https://data.finzdata.com/s/commodity-momentum-12-1-top-4-of-13-commodity-etfs-after-mif-b37817) | expr | custom | 0.13 | 12 | 4.28 |
 | [1-week reversal · top 50 · Top 1000 · long only](https://data.finzdata.com/s/1-week-reversal-top-50-top-1000-long-only-9cfe26) | expr | top1000 | 0.12 | 0 | 0.00 |
 | [Trend quality · top 50 · Top 500 · long/short](https://data.finzdata.com/s/trend-quality-top-50-top-500-long-short-c781ea) | expr | top500 | 0.12 | 0 | 0.00 |
 | [1-week reversal · top 20 · Top 1000 · long only](https://data.finzdata.com/s/1-week-reversal-top-20-top-1000-long-only-925d06) | expr | top1000 | 0.10 | 0 | 0.00 |
 | [Low volatility · top 50 · Top 1000 · long only](https://data.finzdata.com/s/low-volatility-top-50-top-1000-long-only-39f53e) | expr | top1000 | 0.08 | 0 | 0.00 |
-| [Short-term reversal · sectors · bottom 3 of 9 last month (after Lehmann 1990 and Lo & MacKinlay 1990)](https://data.finzdata.com/s/short-term-reversal-sectors-bottom-3-of-9-last-month-after-l-a21255) | expr | custom | 0.07 | 10 | 7.15 |
+| [Short-term reversal · sectors · bottom 3 of 9 last month (after Lehmann 1990 and Lo & MacKinlay 1990)](https://data.finzdata.com/s/short-term-reversal-sectors-bottom-3-of-9-last-month-after-l-a21255) | expr | custom | 0.07 | 12 | 8.28 |
 | [1-month reversal · top 20 · Top 500 · long only](https://data.finzdata.com/s/1-month-reversal-top-20-top-500-long-only-7d9703) | expr | top500 | 0.07 | 0 | 0.00 |
 | [1-week reversal · top 20 · Top 500 · long/short](https://data.finzdata.com/s/1-week-reversal-top-20-top-500-long-short-b2934b) | expr | top500 | 0.07 | 0 | 0.00 |
 | [1-month reversal · top 50 · Top 500 · long only](https://data.finzdata.com/s/1-month-reversal-top-50-top-500-long-only-1b0d80) | expr | top500 | 0.06 | 0 | 0.00 |
@@ -48,7 +48,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Low volatility · top 20 · Top 500 · long/short](https://data.finzdata.com/s/low-volatility-top-20-top-500-long-short-302b45) | expr | top500 | 0.05 | 0 | 0.00 |
 | [AI Trading Championship 11th (11 models): Poolside Laguna XS 2.1 earnings yield x 1-day sign](https://data.finzdata.com/s/ai-trading-championship-11th-11-models-poolside-laguna-xs-2-f3727d) | expr | top500 | 0.05 | 0 | 0.00 |
 | [1-month reversal · top 20 · Top 1000 · long/short](https://data.finzdata.com/s/1-month-reversal-top-20-top-1000-long-short-8349a3) | expr | top1000 | 0.05 | 0 | 0.00 |
-| [Cross-asset momentum 12-1 · long/short 16 ETFs (after Asness, Moskowitz & Pedersen 2013)](https://data.finzdata.com/s/cross-asset-momentum-12-1-long-short-16-etfs-after-asness-mo-0639ad) | expr | custom | 0.04 | 10 | -4.80 |
+| [Cross-asset momentum 12-1 · long/short 16 ETFs (after Asness, Moskowitz & Pedersen 2013)](https://data.finzdata.com/s/cross-asset-momentum-12-1-long-short-16-etfs-after-asness-mo-0639ad) | expr | custom | 0.04 | 12 | -4.70 |
 | [Low volatility · top 20 · Top 500 · long only](https://data.finzdata.com/s/low-volatility-top-20-top-500-long-only-e3fa09) | expr | top500 | 0.04 | 0 | 0.00 |
 | [Low volatility · top 50 · Top 500 · long/short](https://data.finzdata.com/s/low-volatility-top-50-top-500-long-short-3d5b9c) | expr | top500 | 0.04 | 0 | 0.00 |
 | [1-month reversal · top 50 · Top 1000 · long only](https://data.finzdata.com/s/1-month-reversal-top-50-top-1000-long-only-b12803) | expr | top1000 | 0.04 | 0 | 0.00 |
@@ -58,7 +58,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [RSI oversold · top 20 · Top 1000 · long/short](https://data.finzdata.com/s/rsi-oversold-top-20-top-1000-long-short-4c2efa) | expr | top1000 | 0.03 | 0 | 0.00 |
 | [Low volatility · top 20 · Top 1000 · long/short](https://data.finzdata.com/s/low-volatility-top-20-top-1000-long-short-cb099c) | expr | top1000 | 0.03 | 0 | 0.00 |
 | [1-week reversal · top 20 · Top 1000 · long/short](https://data.finzdata.com/s/1-week-reversal-top-20-top-1000-long-short-f7516e) | expr | top1000 | 0.03 | 0 | 0.00 |
-| [Commodity momentum 12-1 · long/short 13 commodity ETFs (after Miffre & Rallis 2007)](https://data.finzdata.com/s/commodity-momentum-12-1-long-short-13-commodity-etfs-after-m-d58015) | expr | custom | 0.03 | 10 | 8.16 |
+| [Commodity momentum 12-1 · long/short 13 commodity ETFs (after Miffre & Rallis 2007)](https://data.finzdata.com/s/commodity-momentum-12-1-long-short-13-commodity-etfs-after-m-d58015) | expr | custom | 0.03 | 12 | 10.22 |
 | [1-month reversal · top 20 · Top 500 · long/short](https://data.finzdata.com/s/1-month-reversal-top-20-top-500-long-short-b457eb) | expr | top500 | 0.02 | 0 | 0.00 |
 | [1-week reversal · top 50 · Top 1000 · long/short](https://data.finzdata.com/s/1-week-reversal-top-50-top-1000-long-short-3e5a0d) | expr | top1000 | 0.02 | 0 | 0.00 |
 | [RSI oversold · top 50 · Top 1000 · long/short](https://data.finzdata.com/s/rsi-oversold-top-50-top-1000-long-short-a63593) | expr | top1000 | 0.01 | 0 | 0.00 |
@@ -79,10 +79,10 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Cheap Low Leverage Screen · Top 1000 · Long Only](https://data.finzdata.com/s/cheap-low-leverage-screen-top-1000-long-only-5784e7) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Clipped Momentum Dividend](https://data.finzdata.com/s/clipped-momentum-dividend-6e6885) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Composite value quality size · top1000 · long short](https://data.finzdata.com/s/composite-value-quality-size-top1000-long-short-ca2b75) | expr | top1000 | 0.00 | 0 | 0.00 |
-| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 15 | -4.07 |
-| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 15 | -3.53 |
-| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 15 | -5.52 |
-| [Currency momentum · euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)](https://data.finzdata.com/s/currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084) | expr | custom | 0.00 | 10 | 2.61 |
+| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 17 | -6.21 |
+| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 17 | -5.67 |
+| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 17 | -5.15 |
+| [Currency momentum · euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)](https://data.finzdata.com/s/currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084) | expr | custom | 0.00 | 12 | 0.97 |
 | [Dist from High Momentum Top 1000 Long Only](https://data.finzdata.com/s/dist-from-high-momentum-top-1000-long-only-327a0d) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Distress-aware deep value composite](https://data.finzdata.com/s/distress-aware-deep-value-composite-fc2ab6) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Dividend low-volatility · top 500 · monthly](https://data.finzdata.com/s/dividend-low-volatility-top-500-monthly-d64d07) | expr | top500 | 0.00 | 0 | 0.00 |
@@ -106,6 +106,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Dividend Yield Momentum Top 500 Long Only](https://data.finzdata.com/s/dividend-yield-momentum-top-500-long-only-6b13a3) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Dividend Yield Momentum Top 500 Long Only](https://data.finzdata.com/s/dividend-yield-momentum-top-500-long-only-873b93) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Dividend Yield Momentum Top1000 Long Only](https://data.finzdata.com/s/dividend-yield-momentum-top1000-long-only-5a4a55) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Dividend Yield Quality Filtered Factor](https://data.finzdata.com/s/dividend-yield-quality-filtered-factor-68a6c5) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Dividend yield rank · top 50 · Top 1000 · long only](https://data.finzdata.com/s/dividend-yield-rank-top-50-top-1000-long-only-339034) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Dividend yield value · top1000 · long only](https://data.finzdata.com/s/dividend-yield-value-top1000-long-only-c29628) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Dividend Yield & Volatility Rank Factor](https://data.finzdata.com/s/dividend-yield-volatility-rank-factor-3a9157) | expr | top500 | 0.00 | 0 | 0.00 |
@@ -124,6 +125,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Earnings Yield Momentum 12M Skip 1M · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/earnings-yield-momentum-12m-skip-1m-top-50-top-1000-long-onl-5d8de3) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Earnings Yield Momentum 12M Skip 1M · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/earnings-yield-momentum-12m-skip-1m-top-50-top-1000-long-onl-bd1676) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Earnings Yield Momentum 12M Skip 1M · Top 50 · Top 500 · Long/Short](https://data.finzdata.com/s/earnings-yield-momentum-12m-skip-1m-top-50-top-500-long-shor-5d1d5c) | expr | top500 | 0.00 | 0 | 0.00 |
+| [Earnings Yield Momentum 12M \| Top 500 \| Long Only](https://data.finzdata.com/s/earnings-yield-momentum-12m-top-500-long-only-09f44d) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Earnings Yield Momentum 252d skip 63 · top 40 · Top 500 · long only](https://data.finzdata.com/s/earnings-yield-momentum-252d-skip-63-top-40-top-500-long-onl-c0565e) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Earnings Yield Momentum 252d skip 63 top 50 Top 1000 long only](https://data.finzdata.com/s/earnings-yield-momentum-252d-skip-63-top-50-top-1000-long-on-0f6919) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Earnings Yield Momentum 6M Skip 1M · Top 40 · Top 1000 · Long Only](https://data.finzdata.com/s/earnings-yield-momentum-6m-skip-1m-top-40-top-1000-long-only-eb710d) | expr | top1000 | 0.00 | 0 | 0.00 |
@@ -140,6 +142,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Earnings Yield Momentum Top 500 Long Only](https://data.finzdata.com/s/earnings-yield-momentum-top-500-long-only-fd0676) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Earnings Yield Momentum Top1000 Long Only](https://data.finzdata.com/s/earnings-yield-momentum-top1000-long-only-982b2e) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Earnings yield rank · top 50 · Top 500 · long only](https://data.finzdata.com/s/earnings-yield-rank-top-50-top-500-long-only-7be7e1) | expr | top500 | 0.00 | 0 | 0.00 |
+| [Earnings Yield Size Adjusted Factor](https://data.finzdata.com/s/earnings-yield-size-adjusted-factor-008c35) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Earnings-yield small-cap tilt · top 3000 · monthly](https://data.finzdata.com/s/earnings-yield-small-cap-tilt-top-3000-monthly-03320b) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Earnings yield value · top 20 · Top 500 · long only](https://data.finzdata.com/s/earnings-yield-value-top-20-top-500-long-only-5cca16) | expr | top500 | 0.00 | 0 | 0.00 |
 | [EBITDA/EV Momentum 12M Skip 1M · Top 30 · Top 1000 · Long/Short](https://data.finzdata.com/s/ebitda-ev-momentum-12m-skip-1m-top-30-top-1000-long-short-0c4c0a) | expr | top1000 | 0.00 | 0 | 0.00 |
@@ -148,6 +151,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [EBITDA/EV Momentum 12M Skip 1M · Top 40 · Top 500 · Long Only](https://data.finzdata.com/s/ebitda-ev-momentum-12m-skip-1m-top-40-top-500-long-only-f23111) | expr | top500 | 0.00 | 0 | 0.00 |
 | [EBITDA/EV Momentum 12M Skip 1M · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/ebitda-ev-momentum-12m-skip-1m-top-50-top-1000-long-only-c25be5) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [EBITDA/EV Momentum 12M Skip 1M · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/ebitda-ev-momentum-12m-skip-1m-top-50-top-1000-long-only-ef47fe) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [EBITDA/EV Momentum 12M \| Top 500 \| Long Only](https://data.finzdata.com/s/ebitda-ev-momentum-12m-top-500-long-only-856d12) | expr | top500 | 0.00 | 0 | 0.00 |
 | [EBITDA/EV Momentum 252d skip 0 top 30 Top 1000 long only](https://data.finzdata.com/s/ebitda-ev-momentum-252d-skip-0-top-30-top-1000-long-only-1b79e2) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [EBITDA/EV Momentum 252d skip 63 · top 40 · Top 1000 · long only](https://data.finzdata.com/s/ebitda-ev-momentum-252d-skip-63-top-40-top-1000-long-only-4e45a4) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [EBITDA/EV Momentum 63d · top 30 · Top 500 · long only](https://data.finzdata.com/s/ebitda-ev-momentum-63d-top-30-top-500-long-only-c4315c) | expr | top500 | 0.00 | 0 | 0.00 |
@@ -191,6 +195,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Factor: EBITDA/EV and Momentum](https://data.finzdata.com/s/factor-ebitda-ev-and-momentum-f5c656) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Factor EBITDA EV + ROE (Monthly, Top 1000, L/S)](https://data.finzdata.com/s/factor-ebitda-ev-roe-monthly-top-1000-l-s-f9f693) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Factor: Log Market Cap and Momentum](https://data.finzdata.com/s/factor-log-market-cap-and-momentum-df6ec8) | expr | top500 | 0.00 | 0 | 0.00 |
+| [Factor Quality Composite Rank Top 100](https://data.finzdata.com/s/factor-quality-composite-rank-top-100-77342b) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Factor: ROE vs Leverage](https://data.finzdata.com/s/factor-roe-vs-leverage-3747a9) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Factor Sales Yield - Leverage (Quarterly, Top 3000, L/S)](https://data.finzdata.com/s/factor-sales-yield-leverage-quarterly-top-3000-l-s-26d1f3) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Factor Value Quality Composite · Monthly · Top 1000](https://data.finzdata.com/s/factor-value-quality-composite-monthly-top-1000-d6f6b5) | expr | top1000 | 0.00 | 0 | 0.00 |
@@ -218,6 +223,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Low vol 63d · top 50 · Top 1000 · long only](https://data.finzdata.com/s/low-vol-63d-top-50-top-1000-long-only-89f1bf) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Low Vol Momentum 12M Skip 1M · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/low-vol-momentum-12m-skip-1m-top-50-top-1000-long-only-884e86) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Low Vol Momentum 12M Skip 1M Vol Target Top 40 Top500 Long Only](https://data.finzdata.com/s/low-vol-momentum-12m-skip-1m-vol-target-top-40-top500-long-o-07ae9b) | expr | top500 | 0.00 | 0 | 0.00 |
+| [Low Vol Momentum 12M \| Top 500 \| Long Only](https://data.finzdata.com/s/low-vol-momentum-12m-top-500-long-only-1230e2) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Low Vol Momentum 252d · top 40 · Top 500 · long only](https://data.finzdata.com/s/low-vol-momentum-252d-top-40-top-500-long-only-0f3038) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Low Vol Momentum 63d skip 0 top 40 Top 500 long only](https://data.finzdata.com/s/low-vol-momentum-63d-skip-0-top-40-top-500-long-only-5c7581) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Low Vol Momentum 63d Skip 21 Top 50 Top500 Long Only](https://data.finzdata.com/s/low-vol-momentum-63d-skip-21-top-50-top500-long-only-065c61) | expr | top500 | 0.00 | 0 | 0.00 |
@@ -231,6 +237,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Low volatility 63d · top 50 · Top 3000 · long only](https://data.finzdata.com/s/low-volatility-63d-top-50-top-3000-long-only-da44ea) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Low Volatility Anomaly Top 1000 Long Only](https://data.finzdata.com/s/low-volatility-anomaly-top-1000-long-only-7f99e3) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Low volatility anomaly · top1000 · long only](https://data.finzdata.com/s/low-volatility-anomaly-top1000-long-only-c5c1e8) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Low Volatility Minimum Variance Rank](https://data.finzdata.com/s/low-volatility-minimum-variance-rank-8e5b3b) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Low Volatility Momentum 126d skip 21 · top 50 · Top 1000 · long only](https://data.finzdata.com/s/low-volatility-momentum-126d-skip-21-top-50-top-1000-long-on-f24643) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Low Volatility Momentum 12M Skip 1M · Top 40 · Top 1000 · Long Only](https://data.finzdata.com/s/low-volatility-momentum-12m-skip-1m-top-40-top-1000-long-onl-5702ac) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Low Volatility Momentum 12M Skip 1M · Vol Filter · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/low-volatility-momentum-12m-skip-1m-vol-filter-top-50-top-10-49319f) | expr | top1000 | 0.00 | 0 | 0.00 |
@@ -249,9 +256,9 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [MA Cross Trend Filter Momentum Top 500](https://data.finzdata.com/s/ma-cross-trend-filter-momentum-top-500-f1ff89) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Magic formula · EBITDA/EV plus ROE · top 50 of the Top 500 (after Greenblatt 2005) · long only](https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-3a6bc8) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Magic formula · EBITDA/EV plus ROE · top 50 of the Top 500 (after Greenblatt 2005) · long/short](https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-d3d059) | expr | top500 | 0.00 | 0 | 0.00 |
-| [Managed-futures trend · 1, 3 and 12-month blend · 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)](https://data.finzdata.com/s/managed-futures-trend-1-3-and-12-month-blend-23-futures-etfs-1a2e56) | expr | custom | 0.00 | 10 | -3.53 |
-| [Managed-futures trend · 12-month · 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)](https://data.finzdata.com/s/managed-futures-trend-12-month-23-futures-etfs-after-hurst-o-53620d) | expr | custom | 0.00 | 10 | -3.54 |
-| [Multi-asset trend following · 6 and 12 month · 16 ETFs (after Hamill, Rattray & Van Hemert 2016, Man Group)](https://data.finzdata.com/s/multi-asset-trend-following-6-and-12-month-16-etfs-after-ham-6c2015) | expr | custom | 0.00 | 10 | -4.44 |
+| [Managed-futures trend · 1, 3 and 12-month blend · 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)](https://data.finzdata.com/s/managed-futures-trend-1-3-and-12-month-blend-23-futures-etfs-1a2e56) | expr | custom | 0.00 | 12 | -3.53 |
+| [Managed-futures trend · 12-month · 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)](https://data.finzdata.com/s/managed-futures-trend-12-month-23-futures-etfs-after-hurst-o-53620d) | expr | custom | 0.00 | 12 | -3.49 |
+| [Multi-asset trend following · 6 and 12 month · 16 ETFs (after Hamill, Rattray & Van Hemert 2016, Man Group)](https://data.finzdata.com/s/multi-asset-trend-following-6-and-12-month-16-etfs-after-ham-6c2015) | expr | custom | 0.00 | 12 | -4.33 |
 | [Multi-factor defensive · value, quality, momentum, low volatility · top 50 of the Top 500 (after Man Group and AQR style premia) · long/short](https://data.finzdata.com/s/multi-factor-defensive-value-quality-momentum-low-volatility-570a20) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Multi-factor defensive · value, quality, momentum, low volatility · top 50 of the Top 500 (after Man Group and AQR style premia) · long only](https://data.finzdata.com/s/multi-factor-defensive-value-quality-momentum-low-volatility-d26442) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Multi-Factor Momentum 12M Skip 1M · Top 40 · Top 1000 · Long Only](https://data.finzdata.com/s/multi-factor-momentum-12m-skip-1m-top-40-top-1000-long-only-8ce2de) | expr | top1000 | 0.00 | 0 | 0.00 |
@@ -278,6 +285,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Quality-Momentum Composite Top 1000 Long Only](https://data.finzdata.com/s/quality-momentum-composite-top-1000-long-only-9ba9cb) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Quality-Momentum Factor Top 1000](https://data.finzdata.com/s/quality-momentum-factor-top-1000-948ee1) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Quality Momentum Low Vol Top 1000](https://data.finzdata.com/s/quality-momentum-low-vol-top-1000-24622e) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Quality Momentum ROE 12M Skip 1M \| Top 1000 \| Long Only](https://data.finzdata.com/s/quality-momentum-roe-12m-skip-1m-top-1000-long-only-a1d53f) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Quality Momentum ROE 12M Skip 1M · Top 30 · Top 500 · Long Only](https://data.finzdata.com/s/quality-momentum-roe-12m-skip-1m-top-30-top-500-long-only-6bbf1d) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Quality Momentum ROE Filter 12M Skip 1M · Top 30 · Top 500 · Long Only](https://data.finzdata.com/s/quality-momentum-roe-filter-12m-skip-1m-top-30-top-500-long-9f202f) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Quality Momentum ROE Filter 12M Skip 1M · Top 30 · Top 500 · Long Only](https://data.finzdata.com/s/quality-momentum-roe-filter-12m-skip-1m-top-30-top-500-long-fdd5e4) | expr | top500 | 0.00 | 0 | 0.00 |
@@ -311,6 +319,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [RSI Mean Reversion 14d · Top 50 · Top 1000 · Long/Short](https://data.finzdata.com/s/rsi-mean-reversion-14d-top-50-top-1000-long-short-c757dd) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [RSI Mean Reversion 14D · Top 500 · Long/Short](https://data.finzdata.com/s/rsi-mean-reversion-14d-top-500-long-short-fb4350) | expr | top500 | 0.00 | 0 | 0.00 |
 | [RSI Mean Reversion 20D \| top500 \| long_short](https://data.finzdata.com/s/rsi-mean-reversion-20d-top500-long-short-a2203c) | expr | top500 | 0.00 | 0 | 0.00 |
+| [RSI Mean Reversion Expr Top 500](https://data.finzdata.com/s/rsi-mean-reversion-expr-top-500-e6df4f) | expr | top500 | 0.00 | 0 | 0.00 |
 | [RSI Mean Reversion Long Only Top 500 Weekly](https://data.finzdata.com/s/rsi-mean-reversion-long-only-top-500-weekly-fc3f93) | expr | top500 | 0.00 | 0 | 0.00 |
 | [RSI Mean Reversion Long Short](https://data.finzdata.com/s/rsi-mean-reversion-long-short-ee2a25) | expr | top500 | 0.00 | 0 | 0.00 |
 | [RSI Mean Reversion Momentum Top 1000](https://data.finzdata.com/s/rsi-mean-reversion-momentum-top-1000-6c9610) | expr | top1000 | 0.00 | 0 | 0.00 |
@@ -328,6 +337,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Sales Yield Momentum 12M Skip 1M Top 40 Top1000 Long Only](https://data.finzdata.com/s/sales-yield-momentum-12m-skip-1m-top-40-top1000-long-only-54b519) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Sales Yield Momentum 12M Skip 1M · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/sales-yield-momentum-12m-skip-1m-top-50-top-1000-long-only-4e1a5b) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Sales Yield Momentum 12M Skip 1M · Top 50 · Top 1000 · Long Only](https://data.finzdata.com/s/sales-yield-momentum-12m-skip-1m-top-50-top-1000-long-only-5a0203) | expr | top1000 | 0.00 | 0 | 0.00 |
+| [Sales Yield Momentum 12M \| Top 1000 \| Long Only](https://data.finzdata.com/s/sales-yield-momentum-12m-top-1000-long-only-9f35b8) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Sales Yield Momentum 252d skip 21 · top 40 · Top 500 · long only](https://data.finzdata.com/s/sales-yield-momentum-252d-skip-21-top-40-top-500-long-only-926ede) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Sales Yield Momentum 63d skip 0 · top 30 · Top 500 · long/short](https://data.finzdata.com/s/sales-yield-momentum-63d-skip-0-top-30-top-500-long-short-863af3) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Sales Yield Momentum 6M Skip 1M · Top 30 · Top 1000 · Long/Short](https://data.finzdata.com/s/sales-yield-momentum-6m-skip-1m-top-30-top-1000-long-short-0b2c8a) | expr | top1000 | 0.00 | 0 | 0.00 |
@@ -368,9 +378,9 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Small Cap Value Momentum Monthly Top 3000](https://data.finzdata.com/s/small-cap-value-momentum-monthly-top-3000-7c9242) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Small Cap Value Momentum Top 3000](https://data.finzdata.com/s/small-cap-value-momentum-top-3000-177831) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Small-cap value tilt · top 50 · Top 3000 · long only](https://data.finzdata.com/s/small-cap-value-tilt-top-50-top-3000-long-only-9a20e2) | expr | top3000 | 0.00 | 0 | 0.00 |
-| [Time-series momentum 1-month · 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)](https://data.finzdata.com/s/time-series-momentum-1-month-16-asset-etfs-after-moskowitz-o-f9bd3d) | expr | custom | 0.00 | 10 | -5.62 |
-| [Time-series momentum 12-month · 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)](https://data.finzdata.com/s/time-series-momentum-12-month-16-asset-etfs-after-moskowitz-1018a6) | expr | custom | 0.00 | 10 | -4.37 |
-| [Time-series momentum 3-month · 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)](https://data.finzdata.com/s/time-series-momentum-3-month-16-asset-etfs-after-moskowitz-o-aeea42) | expr | custom | 0.00 | 10 | -6.45 |
+| [Time-series momentum 1-month · 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)](https://data.finzdata.com/s/time-series-momentum-1-month-16-asset-etfs-after-moskowitz-o-f9bd3d) | expr | custom | 0.00 | 12 | -5.86 |
+| [Time-series momentum 12-month · 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)](https://data.finzdata.com/s/time-series-momentum-12-month-16-asset-etfs-after-moskowitz-1018a6) | expr | custom | 0.00 | 12 | -4.41 |
+| [Time-series momentum 3-month · 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)](https://data.finzdata.com/s/time-series-momentum-3-month-16-asset-etfs-after-moskowitz-o-aeea42) | expr | custom | 0.00 | 12 | -6.72 |
 | [Value-Adjusted Momentum](https://data.finzdata.com/s/value-adjusted-momentum-ceb25c) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value and momentum · book-to-market plus 12-1 momentum · top 50 of the Top 500 (after Asness, Moskowitz & Pedersen 2013, AQR) · long only](https://data.finzdata.com/s/value-and-momentum-book-to-market-plus-12-1-momentum-top-50-acca74) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value and momentum · book-to-market plus 12-1 momentum · top 50 of the Top 500 (after Asness, Moskowitz & Pedersen 2013, AQR) · long/short](https://data.finzdata.com/s/value-and-momentum-book-to-market-plus-12-1-momentum-top-50-feb8ea) | expr | top500 | 0.00 | 0 | 0.00 |
@@ -404,12 +414,14 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Value-Momentum Combo Top 500 Long Only](https://data.finzdata.com/s/value-momentum-combo-top-500-long-only-c5477a) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value-Momentum Combo Top 500 Long Only](https://data.finzdata.com/s/value-momentum-combo-top-500-long-only-ca1252) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value Momentum Combo Top 500 Long Only](https://data.finzdata.com/s/value-momentum-combo-top-500-long-only-d2eb6e) | expr | top500 | 0.00 | 0 | 0.00 |
+| [Value-Momentum Combo Top500 Long Only](https://data.finzdata.com/s/value-momentum-combo-top500-long-only-55b726) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value Momentum Combo Top500 Long Only](https://data.finzdata.com/s/value-momentum-combo-top500-long-only-b00cd2) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value-Momentum Composite 252d/21d Skip · Top 30 · Top 1000 · Long Only](https://data.finzdata.com/s/value-momentum-composite-252d-21d-skip-top-30-top-1000-long-58d802) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Value-Momentum Composite · Top 1000 · Long Only](https://data.finzdata.com/s/value-momentum-composite-top-1000-long-only-412b54) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Value Momentum Composite with Book to Market](https://data.finzdata.com/s/value-momentum-composite-with-book-to-market-3b365a) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Value-Momentum Hybrid Top 500](https://data.finzdata.com/s/value-momentum-hybrid-top-500-7c8dc0) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value-Momentum Hybrid Top 500](https://data.finzdata.com/s/value-momentum-hybrid-top-500-be65df) | expr | top500 | 0.00 | 0 | 0.00 |
+| [Value Momentum Intersection Long Only](https://data.finzdata.com/s/value-momentum-intersection-long-only-c6ea7d) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Value plus momentum blend · top 50 · Top 1000 · long only](https://data.finzdata.com/s/value-plus-momentum-blend-top-50-top-1000-long-only-d98b8d) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Value-quality composite · top 3000 · monthly](https://data.finzdata.com/s/value-quality-composite-top-3000-monthly-b4dc9e) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [Value Quality Composite · top 500 · long only](https://data.finzdata.com/s/value-quality-composite-top-500-long-only-262e80) | expr | top500 | 0.00 | 0 | 0.00 |

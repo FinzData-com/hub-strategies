@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield (cheap) stocks with strong 12-month momentum capture value-momentum interaction; falsified if earnings yield fails to predict returns in current regime or if momentum in value stocks reverts faster than growth stocks.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-yield-momentum-12m-top-500-long-only-09f44d",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Earnings Yield Momentum 12M | Top 500 | Long Only",
+  "universe": "top500"
+}

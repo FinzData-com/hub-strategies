@@ -1,0 +1,24 @@
+{
+  "description": "Combining value (book-to-market) and 12-month momentum minus 1-month reversal captures both risk-premium and behavioral mispricing; falsified if forward Sharpe is not positive after transaction costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-combo-top500-long-only-55b726",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value-Momentum Combo Top500 Long Only",
+  "universe": "top500"
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Stocks that are both cheap on book-to-market and have recent positive momentum earn a premium from value reversion and trend continuation, so intersection should be more robust than either alone; falsified if forward Sharpe <= 0.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-intersection-long-only-c6ea7d",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) * rank(ret(126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value Momentum Intersection Long Only",
+  "universe": "top500"
+}

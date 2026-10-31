@@ -1,4 +1,4 @@
-# Momentum (59 strategies)
+# Momentum (60 strategies)
 
 Cross-sectional momentum: hold the strongest recent performers (Jegadeesh & Titman 1993 and successors).
 
@@ -55,6 +55,7 @@ Cross-sectional momentum: hold the strongest recent performers (Jegadeesh & Titm
 | [Dual Momentum with Skip](https://data.finzdata.com/s/dual-momentum-with-skip-843840) | momentum | top500 | 0.00 | 0 | 0.00 |
 | [Intermediate 189-day momentum with one-week skip](https://data.finzdata.com/s/intermediate-189-day-momentum-with-one-week-skip-4419c5) | momentum | top3000 | 0.00 | 0 | 0.00 |
 | [Intermediate Momentum Skip 63 Top 500 Long Only](https://data.finzdata.com/s/intermediate-momentum-skip-63-top-500-long-only-817bdb) | momentum | top500 | 0.00 | 0 | 0.00 |
+| [Momentum 126d Skip 63 Top 1000 Long Short](https://data.finzdata.com/s/momentum-126d-skip-63-top-1000-long-short-ba33dd) | momentum | top1000 | 0.00 | 0 | 0.00 |
 | [Momentum 189d Skip 21 Top 500 Long Only](https://data.finzdata.com/s/momentum-189d-skip-21-top-500-long-only-c45842) | momentum | top500 | 0.00 | 0 | 0.00 |
 | [Momentum 42d Skip 21 Top 100 Long Only](https://data.finzdata.com/s/momentum-42d-skip-21-top-100-long-only-bdace0) | momentum | top1000 | 0.00 | 0 | 0.00 |
 | [Momentum 63d Skip 21 Top 1000 Long/Short](https://data.finzdata.com/s/momentum-63d-skip-21-top-1000-long-short-e4f937) | momentum | top1000 | 0.00 | 0 | 0.00 |

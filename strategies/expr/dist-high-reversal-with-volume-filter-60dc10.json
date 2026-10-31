@@ -1,0 +1,24 @@
+{
+  "description": "Stocks far from recent highs with declining volume are likely to mean revert as overextension corrects; falsified if forward Sharpe is zero or negative.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dist-high-reversal-with-volume-filter-60dc10",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-dist_high(252)) + rank(-ret(1))",
+      "type": "expr"
+    },
+    "start": "2014-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Dist High Reversal With Volume Filter",
+  "universe": "top500"
+}

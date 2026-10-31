@@ -1,0 +1,24 @@
+{
+  "description": "High EBITDA over enterprise value adjusted for size captures mispriced growth assets and should earn premium; falsified if forward Sharpe is not significantly positive.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "size-adjusted-ebitda-ev-value-7d0ae9",
+  "spec": {
+    "costs_bps": 12,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 75,
+    "universe": "top3000"
+  },
+  "title": "Size Adjusted EBITDA EV Value",
+  "universe": "top3000"
+}

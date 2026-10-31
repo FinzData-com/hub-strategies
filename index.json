@@ -472,8 +472,8 @@
   {
     "dsr": 0.4125,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": 6.265557117548606,
+    "forward_days": 13,
+    "forward_sharpe": 3.6260533028354205,
     "slug": "sector-momentum-12-month-top-3-of-9-sectors-after-moskowitz-93b4df",
     "title": "Sector momentum 12-month \u00b7 top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)",
     "universe": "custom",
@@ -522,8 +522,8 @@
   {
     "dsr": 0.3556,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -4.631881818018116,
+    "forward_days": 13,
+    "forward_sharpe": -5.9468198006273605,
     "slug": "cross-asset-momentum-12-1-top-4-of-16-etfs-after-asness-mosk-039cda",
     "title": "Cross-asset momentum 12-1 \u00b7 top 4 of 16 ETFs (after Asness, Moskowitz & Pedersen 2013)",
     "universe": "custom",
@@ -562,8 +562,8 @@
   {
     "dsr": 0.3124,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": 6.915625653850073,
+    "forward_days": 13,
+    "forward_sharpe": 2.558179220394878,
     "slug": "sector-momentum-6-month-top-3-of-9-sectors-after-moskowitz-g-198f5b",
     "title": "Sector momentum 6-month \u00b7 top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)",
     "universe": "custom",
@@ -772,8 +772,8 @@
   {
     "dsr": 0.1302,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": 4.2828860246809946,
+    "forward_days": 13,
+    "forward_sharpe": 3.1217361437939637,
     "slug": "commodity-momentum-12-1-top-4-of-13-commodity-etfs-after-mif-b37817",
     "title": "Commodity momentum 12-1 \u00b7 top 4 of 13 commodity ETFs (after Miffre & Rallis 2007)",
     "universe": "custom",
@@ -832,8 +832,8 @@
   {
     "dsr": 0.071,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": 8.276898133910276,
+    "forward_days": 13,
+    "forward_sharpe": 8.102842905698848,
     "slug": "short-term-reversal-sectors-bottom-3-of-9-last-month-after-l-a21255",
     "title": "Short-term reversal \u00b7 sectors \u00b7 bottom 3 of 9 last month (after Lehmann 1990 and Lo & MacKinlay 1990)",
     "universe": "custom",
@@ -922,8 +922,8 @@
   {
     "dsr": 0.0448,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -4.695205786199955,
+    "forward_days": 13,
+    "forward_sharpe": -6.113777500874446,
     "slug": "cross-asset-momentum-12-1-long-short-16-etfs-after-asness-mo-0639ad",
     "title": "Cross-asset momentum 12-1 \u00b7 long/short 16 ETFs (after Asness, Moskowitz & Pedersen 2013)",
     "universe": "custom",
@@ -1022,8 +1022,8 @@
   {
     "dsr": 0.0262,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": 10.223408997551145,
+    "forward_days": 13,
+    "forward_sharpe": 10.980012948942335,
     "slug": "commodity-momentum-12-1-long-short-13-commodity-etfs-after-m-d58015",
     "title": "Commodity momentum 12-1 \u00b7 long/short 13 commodity ETFs (after Miffre & Rallis 2007)",
     "universe": "custom",
@@ -1254,6 +1254,16 @@
     "family": "expr",
     "forward_days": 0,
     "forward_sharpe": 0.0,
+    "slug": "composite-factor-zscore-quality-value-1f686d",
+    "title": "Composite Factor Zscore Quality Value",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/composite-factor-zscore-quality-value-1f686d"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
     "slug": "composite-value-quality-size-top1000-long-short-ca2b75",
     "title": "Composite value quality size \u00b7 top1000 \u00b7 long short",
     "universe": "top1000",
@@ -1262,8 +1272,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 17,
-    "forward_sharpe": -6.214185619864026,
+    "forward_days": 18,
+    "forward_sharpe": -5.348956178230112,
     "slug": "crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2",
     "title": "Crypto cross-sectional momentum \u00b7 4-week \u00b7 top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)",
     "universe": "custom",
@@ -1272,8 +1282,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 17,
-    "forward_sharpe": -5.674300044409766,
+    "forward_days": 18,
+    "forward_sharpe": -5.871524007079833,
     "slug": "crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da",
     "title": "Crypto low volatility \u00b7 3 lowest-volatility of 15 coins",
     "universe": "custom",
@@ -1282,8 +1292,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 17,
-    "forward_sharpe": -5.147589427308203,
+    "forward_days": 18,
+    "forward_sharpe": -4.987252703766493,
     "slug": "crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2",
     "title": "Crypto time-series momentum \u00b7 4-week \u00b7 15 coins, cash otherwise",
     "universe": "custom",
@@ -1292,8 +1302,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": 0.9737545501911212,
+    "forward_days": 13,
+    "forward_sharpe": 1.9917261634237644,
     "slug": "currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084",
     "title": "Currency momentum \u00b7 euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)",
     "universe": "custom",
@@ -1308,6 +1318,16 @@
     "title": "Dist from High Momentum Top 1000 Long Only",
     "universe": "top1000",
     "url": "https://data.finzdata.com/s/dist-from-high-momentum-top-1000-long-only-327a0d"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "dist-high-reversal-with-volume-filter-60dc10",
+    "title": "Dist High Reversal With Volume Filter",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/dist-high-reversal-with-volume-filter-60dc10"
   },
   {
     "dsr": 0.0,
@@ -1458,6 +1478,16 @@
     "title": "Dividend Yield Momentum Hybrid",
     "universe": "top500",
     "url": "https://data.finzdata.com/s/dividend-yield-momentum-hybrid-c2e1d4"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "dividend-yield-momentum-interaction-1acd31",
+    "title": "Dividend Yield Momentum Interaction",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/dividend-yield-momentum-interaction-1acd31"
   },
   {
     "dsr": 0.0,
@@ -2182,8 +2212,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -4.961998990150467,
+    "forward_days": 13,
+    "forward_sharpe": -4.749285684017998,
     "slug": "eem-20-100-moving-average-trend-5000af",
     "title": "EEM 20/100 moving-average trend",
     "universe": "custom",
@@ -2192,8 +2222,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -2.7440375416049867,
+    "forward_days": 13,
+    "forward_sharpe": -4.742031118908921,
     "slug": "eem-50-200-moving-average-trend-94bd5e",
     "title": "EEM 50/200 moving-average trend",
     "universe": "custom",
@@ -2202,7 +2232,7 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
+    "forward_days": 13,
     "forward_sharpe": 0.0,
     "slug": "efa-20-100-moving-average-trend-b1d363",
     "title": "EFA 20/100 moving-average trend",
@@ -2212,8 +2242,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": 3.6923368990474787,
+    "forward_days": 13,
+    "forward_sharpe": 1.2515570957846567,
     "slug": "efa-50-200-moving-average-trend-c52fff",
     "title": "EFA 50/200 moving-average trend",
     "universe": "custom",
@@ -2232,8 +2262,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 17,
-    "forward_sharpe": -5.4616912402032,
+    "forward_days": 18,
+    "forward_sharpe": -5.42582980847362,
     "slug": "ethereum-50-200-moving-average-trend-86a176",
     "title": "Ethereum 50/200 moving-average trend",
     "universe": "custom",
@@ -2572,7 +2602,7 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
+    "forward_days": 13,
     "forward_sharpe": 0.0,
     "slug": "gld-20-100-moving-average-trend-cf1e8e",
     "title": "GLD 20/100 moving-average trend",
@@ -2582,7 +2612,7 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
+    "forward_days": 13,
     "forward_sharpe": 0.0,
     "slug": "gld-50-200-moving-average-trend-3fa4e0",
     "title": "GLD 50/200 moving-average trend",
@@ -2642,7 +2672,7 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
+    "forward_days": 13,
     "forward_sharpe": 0.0,
     "slug": "iwm-20-100-moving-average-trend-8492aa",
     "title": "IWM 20/100 moving-average trend",
@@ -2652,8 +2682,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": 7.234673861902891,
+    "forward_days": 13,
+    "forward_sharpe": 3.691236737129049,
     "slug": "iwm-50-200-moving-average-trend-ad6dbe",
     "title": "IWM 50/200 moving-average trend",
     "universe": "custom",
@@ -3194,6 +3224,16 @@
     "family": "expr",
     "forward_days": 0,
     "forward_sharpe": 0.0,
+    "slug": "low-volatility-rsi-mean-reversion-cbfdf4",
+    "title": "Low Volatility RSI Mean Reversion",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/low-volatility-rsi-mean-reversion-cbfdf4"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
     "slug": "low-volatility-short-term-reversal-224e35",
     "title": "Low-volatility short-term reversal",
     "universe": "top1000",
@@ -3418,6 +3458,16 @@
     "title": "MA Cross 50-200 Day Top 1000 Long Only",
     "universe": "top1000",
     "url": "https://data.finzdata.com/s/ma-cross-50-200-day-top-1000-long-only-62b07a"
+  },
+  {
+    "dsr": 0.0,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "ma-cross-50-200-factor-tilt-8fd3ad",
+    "title": "MA Cross 50 200 Factor Tilt",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/ma-cross-50-200-factor-tilt-8fd3ad"
   },
   {
     "dsr": 0.0,
@@ -3682,8 +3732,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -3.5264611808541706,
+    "forward_days": 13,
+    "forward_sharpe": -5.645753772396378,
     "slug": "managed-futures-trend-1-3-and-12-month-blend-23-futures-etfs-1a2e56",
     "title": "Managed-futures trend \u00b7 1, 3 and 12-month blend \u00b7 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)",
     "universe": "custom",
@@ -3692,8 +3742,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -3.494681734735397,
+    "forward_days": 13,
+    "forward_sharpe": -5.637423490109456,
     "slug": "managed-futures-trend-12-month-23-futures-etfs-after-hurst-o-53620d",
     "title": "Managed-futures trend \u00b7 12-month \u00b7 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)",
     "universe": "custom",
@@ -3708,6 +3758,16 @@
     "title": "Medium-term 20/100 trend crossover",
     "universe": "top3000",
     "url": "https://data.finzdata.com/s/medium-term-20-100-trend-crossover-9c935b"
+  },
+  {
+    "dsr": 0.0,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-63-top-1000-long-short-ba33dd",
+    "title": "Momentum 126d Skip 63 Top 1000 Long Short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-63-top-1000-long-short-ba33dd"
   },
   {
     "dsr": 0.0,
@@ -3742,8 +3802,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -4.332682221569731,
+    "forward_days": 13,
+    "forward_sharpe": -6.148139362888547,
     "slug": "multi-asset-trend-following-6-and-12-month-16-etfs-after-ham-6c2015",
     "title": "Multi-asset trend following \u00b7 6 and 12 month \u00b7 16 ETFs (after Hamill, Rattray & Van Hemert 2016, Man Group)",
     "universe": "custom",
@@ -3842,8 +3902,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -1.7268503567373807,
+    "forward_days": 13,
+    "forward_sharpe": -4.069080368510566,
     "slug": "qqq-20-100-moving-average-trend-1de48a",
     "title": "QQQ 20/100 moving-average trend",
     "universe": "custom",
@@ -3852,8 +3912,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -1.7268503567373807,
+    "forward_days": 13,
+    "forward_sharpe": -4.069080368510566,
     "slug": "qqq-50-200-moving-average-trend-d8ad99",
     "title": "QQQ 50/200 moving-average trend",
     "universe": "custom",
@@ -3888,6 +3948,16 @@
     "title": "Quality minus junk \u00b7 high ROE, low leverage \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
     "universe": "top500",
     "url": "https://data.finzdata.com/s/quality-minus-junk-high-roe-low-leverage-top-50-top-500-long-e33ad7"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "quality-minus-junk-roe-leverage-screen-08af40",
+    "title": "Quality Minus Junk ROE Leverage Screen",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/quality-minus-junk-roe-leverage-screen-08af40"
   },
   {
     "dsr": 0.0,
@@ -4684,6 +4754,16 @@
     "family": "expr",
     "forward_days": 0,
     "forward_sharpe": 0.0,
+    "slug": "sales-yield-trend-following-e81a86",
+    "title": "Sales Yield Trend Following",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/sales-yield-trend-following-e81a86"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
     "slug": "sales-yield-value-top-3000-dbde47",
     "title": "Sales Yield Value Top 3000",
     "universe": "top3000",
@@ -4884,6 +4964,16 @@
     "family": "expr",
     "forward_days": 0,
     "forward_sharpe": 0.0,
+    "slug": "size-adjusted-ebitda-ev-value-7d0ae9",
+    "title": "Size Adjusted EBITDA EV Value",
+    "universe": "top3000",
+    "url": "https://data.finzdata.com/s/size-adjusted-ebitda-ev-value-7d0ae9"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
     "slug": "size-adjusted-momentum-6m-skip-1m-top-50-top-3000-long-only-2fc737",
     "title": "Size-Adjusted Momentum 6M Skip 1M \u00b7 Top 50 \u00b7 Top 3000 \u00b7 Long Only",
     "universe": "top3000",
@@ -5062,8 +5152,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -0.01708267359927528,
+    "forward_days": 13,
+    "forward_sharpe": -2.852711914302389,
     "slug": "spy-20-100-moving-average-trend-0c0d51",
     "title": "SPY 20/100 moving-average trend",
     "universe": "custom",
@@ -5072,8 +5162,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -0.01708267359927528,
+    "forward_days": 13,
+    "forward_sharpe": -2.852711914302389,
     "slug": "spy-50-200-moving-average-trend-417064",
     "title": "SPY 50/200 moving-average trend",
     "universe": "custom",
@@ -5082,8 +5172,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -5.857993804022579,
+    "forward_days": 13,
+    "forward_sharpe": -7.425364562428341,
     "slug": "time-series-momentum-1-month-16-asset-etfs-after-moskowitz-o-f9bd3d",
     "title": "Time-series momentum 1-month \u00b7 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)",
     "universe": "custom",
@@ -5092,8 +5182,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -4.414898324354803,
+    "forward_days": 13,
+    "forward_sharpe": -6.355183354525203,
     "slug": "time-series-momentum-12-month-16-asset-etfs-after-moskowitz-1018a6",
     "title": "Time-series momentum 12-month \u00b7 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)",
     "universe": "custom",
@@ -5102,8 +5192,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 12,
-    "forward_sharpe": -6.721044040577946,
+    "forward_days": 13,
+    "forward_sharpe": -8.317239510773803,
     "slug": "time-series-momentum-3-month-16-asset-etfs-after-moskowitz-o-aeea42",
     "title": "Time-series momentum 3-month \u00b7 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)",
     "universe": "custom",
@@ -5112,7 +5202,7 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
+    "forward_days": 13,
     "forward_sharpe": 0.0,
     "slug": "tlt-20-100-moving-average-trend-9a79b0",
     "title": "TLT 20/100 moving-average trend",
@@ -5122,7 +5212,7 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
+    "forward_days": 13,
     "forward_sharpe": 0.0,
     "slug": "tlt-50-200-moving-average-trend-a66590",
     "title": "TLT 50/200 moving-average trend",
@@ -5554,6 +5644,16 @@
     "family": "expr",
     "forward_days": 0,
     "forward_sharpe": 0.0,
+    "slug": "value-momentum-composite-earnings-yield-book-to-market-1f95eb",
+    "title": "Value Momentum Composite Earnings Yield Book to Market",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/value-momentum-composite-earnings-yield-book-to-market-1f95eb"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
     "slug": "value-momentum-composite-top-1000-long-only-412b54",
     "title": "Value-Momentum Composite \u00b7 Top 1000 \u00b7 Long Only",
     "universe": "top1000",
@@ -5732,8 +5832,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": 1.6694793388310996,
+    "forward_days": 13,
+    "forward_sharpe": 3.2090753568034165,
     "slug": "xle-20-100-moving-average-trend-8d8d05",
     "title": "XLE 20/100 moving-average trend",
     "universe": "custom",
@@ -5742,8 +5842,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": 1.6694793388310996,
+    "forward_days": 13,
+    "forward_sharpe": 3.2090753568034165,
     "slug": "xle-50-200-moving-average-trend-cac4dc",
     "title": "XLE 50/200 moving-average trend",
     "universe": "custom",
@@ -5752,7 +5852,7 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
+    "forward_days": 13,
     "forward_sharpe": 0.0,
     "slug": "xlf-20-100-moving-average-trend-3c0690",
     "title": "XLF 20/100 moving-average trend",
@@ -5762,8 +5862,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": 7.032062446555058,
+    "forward_days": 13,
+    "forward_sharpe": 5.219543932267073,
     "slug": "xlf-50-200-moving-average-trend-10666a",
     "title": "XLF 50/200 moving-average trend",
     "universe": "custom",
@@ -5772,8 +5872,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -0.5748320012954528,
+    "forward_days": 13,
+    "forward_sharpe": -3.3401114523495745,
     "slug": "xlk-20-100-moving-average-trend-71a0e9",
     "title": "XLK 20/100 moving-average trend",
     "universe": "custom",
@@ -5782,8 +5882,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 12,
-    "forward_sharpe": -0.5748320012954528,
+    "forward_days": 13,
+    "forward_sharpe": -3.3401114523495745,
     "slug": "xlk-50-200-moving-average-trend-4daf6c",
     "title": "XLK 50/200 moving-average trend",
     "universe": "custom",

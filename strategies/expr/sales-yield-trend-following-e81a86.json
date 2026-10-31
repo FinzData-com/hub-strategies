@@ -1,0 +1,24 @@
+{
+  "description": "Stocks with rising sales yield and positive short term returns reflect improving business efficiency and trend persistence; falsified if forward Sharpe does not exceed zero.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-trend-following-e81a86",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(21))",
+      "type": "expr"
+    },
+    "start": "2012-06-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Sales Yield Trend Following",
+  "universe": "top1000"
+}

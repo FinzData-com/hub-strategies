@@ -2,9 +2,9 @@
   "description": "Using the 50/200-day moving average cross as a regime filter for momentum exposure exploits the tendency of trends to persist in bull markets and reverse in bear markets; falsified if the filter reduces returns more than it reduces drawdowns versus unfiltered momentum.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 11,
+  "forward_return": -0.0009105779992605312,
+  "forward_sharpe": -0.5712816666864798,
   "slug": "ma-cross-50-200-trend-filter-top-500-long-only-d85fd4",
   "spec": {
     "costs_bps": 10,

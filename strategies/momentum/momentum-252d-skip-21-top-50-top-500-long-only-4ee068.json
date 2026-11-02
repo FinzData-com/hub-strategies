@@ -2,9 +2,9 @@
   "description": "Cross-sectional momentum: stocks with the strongest 252-day returns (skipping the last 21 days to avoid short-term reversal) keep outperforming as investors under-react to news. Falsified if the strategy does not beat the equal-weight benchmark out of sample after costs.",
   "dsr": 0.7651,
   "family": "momentum",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 13,
+  "forward_return": -0.1230391598886974,
+  "forward_sharpe": -3.9670084447136817,
   "slug": "momentum-252d-skip-21-top-50-top-500-long-only-4ee068",
   "spec": {
     "costs_bps": 10,

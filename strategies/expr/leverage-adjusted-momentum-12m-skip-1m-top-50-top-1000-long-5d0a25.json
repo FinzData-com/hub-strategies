@@ -2,9 +2,9 @@
   "description": "Low leverage firms with strong momentum have more sustainable trends due to lower financial distress risk; falsified if high-leverage momentum stocks outperform low-leverage ones in forward testing.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": -0.04448114384107238,
+  "forward_sharpe": -6.013929575847174,
   "slug": "leverage-adjusted-momentum-12m-skip-1m-top-50-top-1000-long-5d0a25",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Momentum profits are often contaminated by high-volatility stocks; scaling past returns by realized volatility isolates persistent trends, and the strategy is falsified if volatility scaling reduces raw momentum alpha.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.013551795035279146,
+  "forward_sharpe": -2.7435490919662286,
   "slug": "vol-scaled-momentum-126d-top-500-long-only-9a88ed",
   "spec": {
     "costs_bps": 10,

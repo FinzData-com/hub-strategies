@@ -1,0 +1,25 @@
+{
+  "description": "Shorter term 20/50 MA cross should capture faster mean reversion in small caps where information diffuses quickly; falsified if forward Sharpe <=0.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-50-momentum-filter-4df655",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 50,
+      "type": "ma_cross"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "MA Cross 20 50 Momentum Filter",
+  "universe": "top1000"
+}

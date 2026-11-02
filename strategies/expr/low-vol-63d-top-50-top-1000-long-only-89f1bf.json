@@ -2,9 +2,9 @@
   "description": "Leverage-constrained and lottery-seeking investors systematically overbid high-volatility names, leaving a premium in stable low-vol stocks; falsified if the lowest-vol tercile lags the highest-vol tercile net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.0021486050487740105,
+  "forward_sharpe": 2.5270277978559395,
   "slug": "low-vol-63d-top-50-top-1000-long-only-89f1bf",
   "spec": {
     "costs_bps": 20,

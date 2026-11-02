@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum reflect profitable growth persistence; if ranking by ROE * momentum yields no excess return vs momentum alone after transaction costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.007473970089788007,
+  "forward_sharpe": -1.6009112914589232,
   "slug": "quality-momentum-top-1000-long-only-00b358",
   "spec": {
     "costs_bps": 10,

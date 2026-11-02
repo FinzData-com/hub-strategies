@@ -2,9 +2,9 @@
   "description": "Equal-weight combination of value, quality, low vol, and size with 12m momentum captures diversified factor premia; falsified if any single factor contributes >60% of forward alpha.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": -0.025525772786794243,
+  "forward_sharpe": -5.727701666047905,
   "slug": "multi-factor-momentum-top-500-long-only-2fc10f",
   "spec": {
     "costs_bps": 15,

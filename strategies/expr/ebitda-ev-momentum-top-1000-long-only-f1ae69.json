@@ -2,9 +2,9 @@
   "description": "EBITDA/EV (enterprise value) with momentum captures cash flow value + price trend; EV adjusts for capital structure differences. Falsified if forward Sharpe < 0.25 or correlation with book-to-market > 0.75.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.020451843043995055,
+  "forward_sharpe": 9.142775448234623,
   "slug": "ebitda-ev-momentum-top-1000-long-only-f1ae69",
   "spec": {
     "costs_bps": 10,

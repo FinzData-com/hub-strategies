@@ -2,9 +2,9 @@
   "description": "Leverage and benchmark constraints force institutions to overbid volatile stocks, leaving low-volatility names relatively underpriced; falsified if the lowest-volatility portfolio underperforms the highest-volatility names on a risk-adjusted basis.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.0023265766411308952,
+  "forward_sharpe": 2.8108761080688613,
   "slug": "low-volatility-126d-top-50-top-1000-long-only-fad49b",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "High ROE stocks with strong 6-month momentum (skipping 1 month) should outperform due to quality persistence and trend continuation; falsified if long/short forward Sharpe < 0.25 after 18 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.0034159997518456997,
+  "forward_sharpe": -1.1109517025007198,
   "slug": "quality-momentum-6m-skip-1m-top-30-top-500-long-short-fbdf39",
   "spec": {
     "costs_bps": 15,

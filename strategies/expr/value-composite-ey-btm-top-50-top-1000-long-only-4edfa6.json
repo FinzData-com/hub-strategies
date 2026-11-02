@@ -2,9 +2,9 @@
   "description": "Investors overextrapolate recent news and shun unglamorous firms, so stocks cheap on both earnings yield and book-to-market stay underpriced until fundamentals catch up; falsified if the composite-value long leg shows no spread versus the equal-weight universe after costs over the sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.012679500428467438,
+  "forward_sharpe": 5.086500259697639,
   "slug": "value-composite-ey-btm-top-50-top-1000-long-only-4edfa6",
   "spec": {
     "costs_bps": 20,

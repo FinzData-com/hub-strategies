@@ -2,9 +2,9 @@
   "description": "Profitable, lower-volatility intermediate winners should continue because information diffuses gradually and riskier trends reverse more often; falsified if high scores do not produce higher subsequent returns than low scores after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.0005303816670015893,
+  "forward_sharpe": -0.14102770287352362,
   "slug": "volatility-adjusted-momentum-with-profitability-51987c",
   "spec": {
     "costs_bps": 20,

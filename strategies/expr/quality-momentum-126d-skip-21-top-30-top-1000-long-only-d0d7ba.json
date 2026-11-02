@@ -2,9 +2,9 @@
   "description": "High ROE stocks with strong intermediate momentum outperform due to persistent profitability and investor underreaction to quality; falsified if forward Sharpe does not exceed momentum-only strategy with same parameters.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.012301658919190328,
+  "forward_sharpe": -5.692625080046994,
   "slug": "quality-momentum-126d-skip-21-top-30-top-1000-long-only-d0d7ba",
   "spec": {
     "costs_bps": 10,

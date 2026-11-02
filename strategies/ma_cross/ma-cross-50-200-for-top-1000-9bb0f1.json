@@ -2,9 +2,9 @@
   "description": "A 50\u2011day SMA crossing above a 200\u2011day SMA indicates a medium\u2011term trend reversal that should yield positive returns; falsified if the crossing yields a net loss.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.037777397722287276,
+  "forward_sharpe": -2.967809224635483,
   "slug": "ma-cross-50-200-for-top-1000-9bb0f1",
   "spec": {
     "costs_bps": 10,

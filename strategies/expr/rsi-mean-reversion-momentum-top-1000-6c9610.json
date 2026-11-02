@@ -2,9 +2,9 @@
   "description": "Oversold RSI (<30) combined with positive 6-month momentum identifies temporary pullbacks in uptrends; if buying top 40 by momentum where rsi(14) < 30 fails to beat momentum-only after 15bps costs, the mean-reversion entry timing adds no value.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.013527828646105355,
+  "forward_sharpe": -0.9892351095455104,
   "slug": "rsi-mean-reversion-momentum-top-1000-6c9610",
   "spec": {
     "costs_bps": 15,

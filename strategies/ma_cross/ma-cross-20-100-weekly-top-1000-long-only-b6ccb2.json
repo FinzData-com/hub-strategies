@@ -2,9 +2,9 @@
   "description": "Medium-term trend following (20/100 SMA cross) captures persistent trends while filtering noise; weekly rebalance reduces whipsaws vs daily. Falsified if forward Sharpe < 0.2 or max drawdown > 30%.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.025821562454374725,
+  "forward_sharpe": -4.672432747080553,
   "slug": "ma-cross-20-100-weekly-top-1000-long-only-b6ccb2",
   "spec": {
     "costs_bps": 10,

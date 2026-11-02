@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield combined with low leverage should earn a risk-adjusted premium because profitable firms with conservative balance sheets are less likely to distress; the effect is falsified if forward Sharpe is not greater than zero after transaction costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-value-composite-rank-top-100-160260",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(-leverage) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Quality Value Composite Rank Top 100",
+  "universe": "top1000"
+}

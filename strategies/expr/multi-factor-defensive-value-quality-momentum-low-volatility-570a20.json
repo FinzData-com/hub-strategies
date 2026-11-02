@@ -2,9 +2,9 @@
   "description": "Diversifying across four documented style premia gives a steadier return than any one: earnings yield, ROE, 12-1 momentum and low 1-year volatility, equally ranked. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 13,
+  "forward_return": 0.03199020341053771,
+  "forward_sharpe": 3.5497527470200003,
   "slug": "multi-factor-defensive-value-quality-momentum-low-volatility-570a20",
   "spec": {
     "costs_bps": 10,

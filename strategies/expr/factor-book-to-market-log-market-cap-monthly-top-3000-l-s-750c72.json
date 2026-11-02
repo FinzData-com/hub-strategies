@@ -2,9 +2,9 @@
   "description": "Small firms with cheap book equity may earn a size premium, but the signal must avoid severe distress; falsified if the forward spread is non-positive or disappears after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.014184740316031785,
+  "forward_sharpe": 17.35034268689632,
   "slug": "factor-book-to-market-log-market-cap-monthly-top-3000-l-s-750c72",
   "spec": {
     "costs_bps": 20,

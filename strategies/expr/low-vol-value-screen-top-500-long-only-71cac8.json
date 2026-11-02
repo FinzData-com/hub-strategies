@@ -2,9 +2,9 @@
   "description": "Low volatility and high earnings yield capture leverage-aversion and lottery-demand premia; the strategy is falsified if volatility sorting eliminates the value premium in cross-sectional tests.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.007325015985367722,
+  "forward_sharpe": -3.200347677598079,
   "slug": "low-vol-value-screen-top-500-long-only-71cac8",
   "spec": {
     "costs_bps": 10,

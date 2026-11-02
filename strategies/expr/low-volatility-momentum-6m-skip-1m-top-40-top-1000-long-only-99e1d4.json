@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with intermediate momentum exhibit the low-vol anomaly combined with trend persistence; falsified if the strategy underperforms the market on a risk-adjusted basis in forward testing.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": -0.003058663263318828,
+  "forward_sharpe": -2.1566353192114183,
   "slug": "low-volatility-momentum-6m-skip-1m-top-40-top-1000-long-only-99e1d4",
   "spec": {
     "costs_bps": 10,

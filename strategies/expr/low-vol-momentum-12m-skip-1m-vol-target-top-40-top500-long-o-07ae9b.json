@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong momentum exhibit 'lottery ticket' avoidance and persistent trends; risk-adjusted returns should exceed high-vol momentum, falsified if vol-adjusted Sharpe matches or trails high-vol cohort.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.0008864720200443266,
+  "forward_sharpe": 0.6407509050820526,
   "slug": "low-vol-momentum-12m-skip-1m-vol-target-top-40-top500-long-o-07ae9b",
   "spec": {
     "costs_bps": 15,

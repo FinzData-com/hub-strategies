@@ -2,9 +2,9 @@
   "description": "Attention-constrained investors underreact to durable profitability, so high-ROE, low-leverage firms trade below intrinsic value and reprice only slowly; falsified if high-ROE low-leverage names fail to separate from the universe median after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.00224833434781313,
+  "forward_sharpe": -0.34806789918119324,
   "slug": "quality-roe-minus-leverage-top-50-top-1000-long-only-53c7ed",
   "spec": {
     "costs_bps": 10,

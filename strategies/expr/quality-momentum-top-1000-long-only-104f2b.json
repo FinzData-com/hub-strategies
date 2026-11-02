@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong 12-month momentum reflect sustainable competitive advantages; falsified if forward Sharpe does not exceed 0.3 after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.02473185447164039,
+  "forward_sharpe": -9.07139039945941,
   "slug": "quality-momentum-top-1000-long-only-104f2b",
   "spec": {
     "costs_bps": 10,

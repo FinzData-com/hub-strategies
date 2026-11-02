@@ -2,9 +2,9 @@
   "description": "High trailing dividend yield marks cheap, cash-returning companies that outperform on a risk-adjusted basis. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "factor",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 13,
+  "forward_return": 0.0374557922614418,
+  "forward_sharpe": 3.840021557998999,
   "slug": "dividend-yield-top-50-of-the-top-500-long-short-4347a6",
   "spec": {
     "costs_bps": 10,

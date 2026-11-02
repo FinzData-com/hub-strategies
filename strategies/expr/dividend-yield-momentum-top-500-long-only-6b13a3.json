@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with positive momentum benefit from both income and trend following; falsified if forward total return < risk-free rate + 3% after 10 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.016110953773250003,
+  "forward_sharpe": 16.611637513568084,
   "slug": "dividend-yield-momentum-top-500-long-only-6b13a3",
   "spec": {
     "costs_bps": 10,

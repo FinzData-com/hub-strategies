@@ -2,9 +2,9 @@
   "description": "Leverage-constrained and lottery-seeking investors systematically overbid high-volatility names, leaving low-volatility stocks cheap per unit of risk; falsified if the lowest-vol ranks underperform the highest-vol ranks after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.0006889139685033463,
+  "forward_sharpe": 1.1961965420392804,
   "slug": "low-volatility-63d-top-50-top-3000-long-only-da44ea",
   "spec": {
     "costs_bps": 15,

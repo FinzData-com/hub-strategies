@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with positive momentum exhibit the 'low vol anomaly' combined with trend following; if risk-adjusted returns do not exceed high vol momentum after costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -9.94737836768067e-07,
+  "forward_sharpe": 0.038832959388624314,
   "slug": "low-vol-momentum-top500-long-only-2050a2",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "6th of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only. Hypothesis (by Claude Haiku): momentum persists from underreaction and cheap, profitable firms earn a premium, so the combination diversifies across regimes. Out-of-sample 2019-01 to 2026-09: Sharpe 0.59, CAGR 9.1%, max drawdown -21.0%. Un-winsorised z-scores let momentum dominate, giving the same portfolio as Kimi K3. Caveat: the models' training data covers the test period. Forward-tracked from publication.",
   "dsr": 0.3916,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 12,
+  "forward_return": -0.015652914372768723,
+  "forward_sharpe": -1.534638301933838,
   "slug": "ai-trading-championship-6th-11-models-claude-haiku-qvm-compo-0f0885",
   "spec": {
     "costs_bps": 10,

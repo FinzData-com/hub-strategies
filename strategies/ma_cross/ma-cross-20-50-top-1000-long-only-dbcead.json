@@ -2,9 +2,9 @@
   "description": "Faster MA cross (20/50) captures intermediate trend changes with less lag than 50/200; if increased turnover from faster signals erodes all alpha vs slower cross after costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.0006093001079073845,
+  "forward_sharpe": -1.1103605122879627,
   "slug": "ma-cross-20-50-top-1000-long-only-dbcead",
   "spec": {
     "costs_bps": 5,

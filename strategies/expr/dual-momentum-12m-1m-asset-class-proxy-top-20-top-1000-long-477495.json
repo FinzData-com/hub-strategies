@@ -2,9 +2,9 @@
   "description": "Comparing 12-month momentum against 1-month momentum (as a crash filter) rotates into equities only when both agree, reducing momentum crash risk; falsified if forward max drawdown is not materially lower than standard 12M momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.07708685619671674,
+  "forward_sharpe": -3.99201358412599,
   "slug": "dual-momentum-12m-1m-asset-class-proxy-top-20-top-1000-long-477495",
   "spec": {
     "costs_bps": 10,

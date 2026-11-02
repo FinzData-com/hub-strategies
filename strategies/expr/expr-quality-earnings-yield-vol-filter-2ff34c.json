@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with low volatility tend to be underpriced quality, and volatility filtering reduces drawdowns. Falsified if forward Sharpe <= 0 after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.0032390465829295056,
+  "forward_sharpe": 2.794052327447186,
   "slug": "expr-quality-earnings-yield-vol-filter-2ff34c",
   "spec": {
     "costs_bps": 10,

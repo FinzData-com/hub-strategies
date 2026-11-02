@@ -2,9 +2,9 @@
   "description": "Golden cross (50-day SMA above 200-day SMA) signals sustained uptrends in large-cap stocks due to institutional trend following; falsified if forward Sharpe is not positive after transaction costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.0053181181613136674,
+  "forward_sharpe": -13.20324062795602,
   "slug": "ma-cross-50-200-top-500-long-only-d1c786",
   "spec": {
     "costs_bps": 5,

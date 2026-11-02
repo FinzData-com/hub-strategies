@@ -1,0 +1,24 @@
+{
+  "description": "Value stocks that have recently improved in relative price momentum should outperform pure value because price confirmation reduces value traps; falsified if the combined signal does not produce positive forward Sharpe versus value alone.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "book-to-market-momentum-hybrid-factor-1e91f2",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-06-30",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) * 0.6 + rank(ret(126)) * 0.4",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 80,
+    "universe": "top1000"
+  },
+  "title": "Book to Market Momentum Hybrid Factor",
+  "universe": "top1000"
+}

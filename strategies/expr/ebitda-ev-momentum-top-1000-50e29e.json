@@ -2,9 +2,9 @@
   "description": "Cash-flow generative companies (high EBITDA/EV) with positive momentum outperform growth-only momentum; falsified if EBITDA/EV rank reduces the Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.007548438240757349,
+  "forward_sharpe": 2.76472204827269,
   "slug": "ebitda-ev-momentum-top-1000-50e29e",
   "spec": {
     "costs_bps": 5,

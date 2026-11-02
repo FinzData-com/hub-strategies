@@ -2,9 +2,9 @@
   "description": "Stocks with extreme earnings yields relative to their sector tend to mean revert over a quarter; falsified if high earnings yield stocks continue to underperform.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.005897071978995694,
+  "forward_sharpe": 4.985530507692231,
   "slug": "earnings-yield-mean-reversion-5c6aad",
   "spec": {
     "costs_bps": 5,

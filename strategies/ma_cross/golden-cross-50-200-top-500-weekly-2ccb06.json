@@ -2,9 +2,9 @@
   "description": "A fast moving average crossing above a slow one captures persistent trend-following profits from slow information diffusion and investor underreaction; falsified if the crossover signal fails to generate positive returns after costs across the full sample.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.011029419198812729,
+  "forward_sharpe": -2.2029468716593774,
   "slug": "golden-cross-50-200-top-500-weekly-2ccb06",
   "spec": {
     "costs_bps": 5,

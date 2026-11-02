@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month selects firms with improving fundamentals and positive price trends, avoiding value traps; falsified if forward Sharpe is not significantly higher than pure momentum or value alone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.011160293747260797,
+  "forward_sharpe": 11.487544371992984,
   "slug": "value-momentum-combo-12m-1m-skip-1m-top-50-top-1000-long-onl-fe626b",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield and low leverage should earn higher risk adjusted returns due to distress risk premium and quality, falsified if forward Sharpe is not positive after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.00010308060903629901,
+  "forward_sharpe": 0.0004341675086188031,
   "slug": "quality-value-composite-rank-long-only-4ae60a",
   "spec": {
     "costs_bps": 10,

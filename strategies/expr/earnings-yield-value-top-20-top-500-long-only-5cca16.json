@@ -2,9 +2,9 @@
   "description": "Classic value premium: investors extrapolate glamour growth and neglect cheaply valued firms, so high earnings-yield stocks earn compensation for holding unloved names; falsified if the top earnings-yield quintile shows no forward spread over the bottom quintile after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.005861956949505531,
+  "forward_sharpe": 4.5646361651011915,
   "slug": "earnings-yield-value-top-20-top-500-long-only-5cca16",
   "spec": {
     "costs_bps": 10,

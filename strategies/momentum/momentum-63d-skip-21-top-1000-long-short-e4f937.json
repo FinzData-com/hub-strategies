@@ -2,9 +2,9 @@
   "description": "3-month momentum skipping 1-month captures post-earnings drift with mean-reversion hedge; falsified if forward Sharpe < 0.25 indicating drift is arbitraged.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.016968452990133498,
+  "forward_sharpe": -6.422350756273297,
   "slug": "momentum-63d-skip-21-top-1000-long-short-e4f937",
   "spec": {
     "costs_bps": 15,

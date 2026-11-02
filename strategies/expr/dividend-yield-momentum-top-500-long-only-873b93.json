@@ -2,9 +2,9 @@
   "description": "High dividend yield with momentum reflects sustainable payouts + price appreciation; dividends provide downside cushion during momentum crashes. Falsified if forward Sharpe < 0.2 or dividend cut frequency > 10% annually.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.004267509631532329,
+  "forward_sharpe": 3.410097951275316,
   "slug": "dividend-yield-momentum-top-500-long-only-873b93",
   "spec": {
     "costs_bps": 10,

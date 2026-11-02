@@ -2,9 +2,9 @@
   "description": "Small, cheap stocks are neglected by institutions and carry compensation for illiquidity and distress risk that is only slowly arbitraged; falsified if small-value names underperform large-growth names net of costs over the sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.005011431845042935,
+  "forward_sharpe": 1.0169455380883778,
   "slug": "small-cap-value-book-to-market-minus-log-size-top-100-top-30-849851",
   "spec": {
     "costs_bps": 20,

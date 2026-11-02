@@ -2,8 +2,8 @@
   "description": "High sales yield (revenue/price) with strong short-term momentum identifies cheap revenue growth; long/short isolates the factor from market beta. Falsified if long-short spread shows zero or negative alpha after transaction costs in forward tracking period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.03648904495453542,
   "forward_sharpe": 0.0,
   "slug": "sales-yield-momentum-63d-skip-0-top-30-top-500-long-short-863af3",
   "spec": {

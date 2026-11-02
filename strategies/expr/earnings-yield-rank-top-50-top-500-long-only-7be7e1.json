@@ -2,9 +2,9 @@
   "description": "Cheapness on earnings is rewarded because fundamental information diffuses slowly while glamour stocks attract crowded demand that fades; falsified if top earnings-yield ranks show no monotonic spread versus low ranks net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.006775759405425408,
+  "forward_sharpe": 5.126208540214346,
   "slug": "earnings-yield-rank-top-50-top-500-long-only-7be7e1",
   "spec": {
     "costs_bps": 10,

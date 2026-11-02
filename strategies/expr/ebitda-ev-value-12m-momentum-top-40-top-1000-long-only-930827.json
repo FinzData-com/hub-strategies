@@ -2,9 +2,9 @@
   "description": "EBITDA/EV is a cleaner valuation metric than book-to-market; combining it with 12-month momentum selects cheap, improving businesses; falsified if forward returns do not exceed those using book-to-market in the same framework.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.01391841658895343,
+  "forward_sharpe": 6.001174071982762,
   "slug": "ebitda-ev-value-12m-momentum-top-40-top-1000-long-only-930827",
   "spec": {
     "costs_bps": 10,

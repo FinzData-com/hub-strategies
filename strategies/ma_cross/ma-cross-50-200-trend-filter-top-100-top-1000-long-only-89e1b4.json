@@ -2,9 +2,9 @@
   "description": "A 50/200-day moving average cross on the universe index filters momentum signals to avoid bear markets; falsified if the filter does not reduce maximum drawdown without significantly lowering returns vs. unfiltered momentum.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.009366936125553171,
+  "forward_sharpe": -1.6618012173003094,
   "slug": "ma-cross-50-200-trend-filter-top-100-top-1000-long-only-89e1b4",
   "spec": {
     "costs_bps": 5,

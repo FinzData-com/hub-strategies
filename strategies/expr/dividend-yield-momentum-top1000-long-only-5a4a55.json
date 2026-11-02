@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with momentum represent quality income trends; if the combo fails to beat high yield or momentum alone net of costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.00013328712712923352,
+  "forward_sharpe": -0.025741574447965668,
   "slug": "dividend-yield-momentum-top1000-long-only-5a4a55",
   "spec": {
     "costs_bps": 10,

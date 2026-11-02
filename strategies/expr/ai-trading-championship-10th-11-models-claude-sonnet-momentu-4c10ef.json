@@ -2,9 +2,9 @@
   "description": "10th of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only. Hypothesis (by Claude Sonnet): 12-1 momentum, earnings yield and ROE are weakly correlated premia; an equal-rank long-short monthly book limits beta and cost. Out-of-sample 2019-01 to 2026-09: Sharpe 0.28, CAGR 3.1%, max drawdown -28.7%; in-sample Sharpe -0.15. Caveat: the models' training data covers the test period. Forward-tracked from publication.",
   "dsr": 0.1524,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 12,
+  "forward_return": 0.016805393561959425,
+  "forward_sharpe": 3.2877764625247865,
   "slug": "ai-trading-championship-10th-11-models-claude-sonnet-momentu-4c10ef",
   "spec": {
     "costs_bps": 10,

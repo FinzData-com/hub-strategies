@@ -2,8 +2,8 @@
   "description": "Stocks with worst 5-day returns revert upward over the next week due to liquidity provision and overreaction; falsified if 5-day reversal alpha disappears after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.033224928812351395,
   "forward_sharpe": 0.0,
   "slug": "short-term-reversal-5d-top-1000-long-short-0cc498",
   "spec": {

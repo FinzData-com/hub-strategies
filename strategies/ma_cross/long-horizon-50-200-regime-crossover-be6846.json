@@ -2,9 +2,9 @@
   "description": "The 50/200-day regime should separate persistent winners from persistent losers because return continuation survives slow information diffusion; falsified if the long-short spread is not positive after costs or is explained solely by market beta.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.006719915584531444,
+  "forward_sharpe": -4.6255210097605435,
   "slug": "long-horizon-50-200-regime-crossover-be6846",
   "spec": {
     "costs_bps": 15,

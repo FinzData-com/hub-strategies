@@ -2,9 +2,9 @@
   "description": "High sales yield stocks with strong 12-month momentum skipping 1 month capture revenue-based value and momentum; falsified if forward Sharpe <= 0 or underperforms earnings yield momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.013015951472482357,
+  "forward_sharpe": 6.280257170683457,
   "slug": "sales-yield-momentum-12m-skip-1m-top-50-top-1000-long-only-4e1a5b",
   "spec": {
     "costs_bps": 10,

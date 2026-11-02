@@ -2,9 +2,9 @@
   "description": "One-week losers rebound relative to winners because market makers earn inventory compensation for absorbing order flow imbalances; falsified if the reversal spread is negative net of transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": -0.018644634006910743,
+  "forward_sharpe": -3.590057525498002,
   "slug": "short-term-reversal-top1000-long-short-d9bbf7",
   "spec": {
     "costs_bps": 15,

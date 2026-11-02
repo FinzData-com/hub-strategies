@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with 12-month momentum (skipping 1 month) benefit from income demand and trend persistence; falsified if forward risk-adjusted returns are not superior to high-dividend or momentum-only portfolios.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.003909888262154659,
+  "forward_sharpe": 2.6354115628459276,
   "slug": "dividend-yield-momentum-12m-skip-1m-top-50-top-500-long-only-e7e6b8",
   "spec": {
     "costs_bps": 10,

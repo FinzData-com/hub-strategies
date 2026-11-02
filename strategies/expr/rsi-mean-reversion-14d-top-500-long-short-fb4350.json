@@ -2,8 +2,8 @@
   "description": "Extreme RSI readings (>70 overbought, <30 oversold) predict short-term reversals due to mean-reverting behavior; falsified if RSI extremes do not generate profitable mean-reversion signals after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.002949277647971149,
   "forward_sharpe": 0.0,
   "slug": "rsi-mean-reversion-14d-top-500-long-short-fb4350",
   "spec": {

@@ -2,9 +2,9 @@
   "description": "Investors anchor on the 52-week high and underreact to good news in stocks trading close to it, so nearness predicts continued drift; falsified if nearness to the 52-week high carries no cross-sectional predictive power net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.018846687962816744,
+  "forward_sharpe": -3.4109858604154746,
   "slug": "52-week-high-anchoring-nearness-to-high-top-50-top-500-long-8a412a",
   "spec": {
     "costs_bps": 10,

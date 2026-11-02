@@ -2,9 +2,9 @@
   "description": "Combining value and momentum factors captures complementary risk premia; value stocks with strong recent momentum outperform due to delayed market reaction to fundamental improvements. Falsified if the combined strategy underperforms pure momentum or value alone over a full market cycle.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.001249721486396016,
+  "forward_sharpe": -0.9264815514211494,
   "slug": "value-momentum-combo-top-500-long-only-d2eb6e",
   "spec": {
     "costs_bps": 10,

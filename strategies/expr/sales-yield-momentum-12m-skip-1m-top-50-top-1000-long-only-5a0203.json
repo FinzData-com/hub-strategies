@@ -2,9 +2,9 @@
   "description": "High sales yield combined with price momentum identifies companies with strong top-line growth that are still reasonably valued; falsified if the strategy fails to generate positive alpha net of costs in out-of-sample periods.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.009175505563550956,
+  "forward_sharpe": 4.848731424371478,
   "slug": "sales-yield-momentum-12m-skip-1m-top-50-top-1000-long-only-5a0203",
   "spec": {
     "costs_bps": 10,

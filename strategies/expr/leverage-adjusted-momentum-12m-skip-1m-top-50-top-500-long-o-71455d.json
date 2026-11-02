@@ -2,9 +2,9 @@
   "description": "Low leverage firms with strong 12-month momentum (skip 1 month) have more sustainable trends due to financial flexibility; falsified if forward Sharpe < 0.3.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.035156327696976075,
+  "forward_sharpe": -3.7318728173471682,
   "slug": "leverage-adjusted-momentum-12m-skip-1m-top-50-top-500-long-o-71455d",
   "spec": {
     "costs_bps": 10,

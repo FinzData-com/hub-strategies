@@ -1,0 +1,24 @@
+{
+  "description": "Extreme dividend yield deviations revert as payout policy normalizes, generating short-term contrarian returns, falsified if the strategy underperforms the median forward tracked strategy in the library.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "expr-dividend-yield-mean-reversion-top-3000-b664bb",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "-rank(dividend_yield)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Expr Dividend Yield Mean Reversion Top 3000",
+  "universe": "top3000"
+}

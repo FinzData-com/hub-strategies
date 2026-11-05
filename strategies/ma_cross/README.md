@@ -1,4 +1,4 @@
-# Moving-average trend (82 strategies)
+# Moving-average trend (84 strategies)
 
 Hold an asset while its fast moving average is above its slow one.
 
@@ -6,12 +6,12 @@ Hold an asset while its fast moving average is above its slow one.
 |---|---|---|---|---|---|
 | [20/50 MA Cross Momentum](https://data.finzdata.com/s/20-50-ma-cross-momentum-b6bb11) | ma_cross | top500 | 0.00 | 5 | -2.18 |
 | [50/200 MA Cross Trend](https://data.finzdata.com/s/50-200-ma-cross-trend-dcbabb) | ma_cross | top500 | 0.00 | 5 | -2.67 |
-| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 19 | -4.88 |
+| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 20 | -4.17 |
 | [EEM 20/100 moving-average trend](https://data.finzdata.com/s/eem-20-100-moving-average-trend-5000af) | ma_cross | custom | 0.00 | 13 | -4.75 |
 | [EEM 50/200 moving-average trend](https://data.finzdata.com/s/eem-50-200-moving-average-trend-94bd5e) | ma_cross | custom | 0.00 | 13 | -4.74 |
 | [EFA 20/100 moving-average trend](https://data.finzdata.com/s/efa-20-100-moving-average-trend-b1d363) | ma_cross | custom | 0.00 | 13 | 0.00 |
 | [EFA 50/200 moving-average trend](https://data.finzdata.com/s/efa-50-200-moving-average-trend-c52fff) | ma_cross | custom | 0.00 | 13 | 1.25 |
-| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 19 | -4.51 |
+| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 20 | -3.79 |
 | [Fast trend 20-100 · top 1000 · daily](https://data.finzdata.com/s/fast-trend-20-100-top-1000-daily-ea561f) | ma_cross | top1000 | 0.00 | 5 | -3.90 |
 | [Fundamental‑Adjusted MA Cross](https://data.finzdata.com/s/fundamental-adjusted-ma-cross-3b6379) | ma_cross | top500 | 0.00 | 4 | -6.48 |
 | [GLD 20/100 moving-average trend](https://data.finzdata.com/s/gld-20-100-moving-average-trend-cf1e8e) | ma_cross | custom | 0.00 | 13 | 0.00 |
@@ -65,7 +65,9 @@ Hold an asset while its fast moving average is above its slow one.
 | [MA Cross 50/200 Trend Filter · Top 500 · Long Only](https://data.finzdata.com/s/ma-cross-50-200-trend-filter-top-500-long-only-f068e1) | ma_cross | top500 | 0.00 | 2 | 0.00 |
 | [MA Cross Fast 20 Slow 100 Long Short](https://data.finzdata.com/s/ma-cross-fast-20-slow-100-long-short-80d54c) | ma_cross | top500 | 0.00 | 5 | -0.83 |
 | [ma_cross fast 20 slow 100 top3000 long only](https://data.finzdata.com/s/ma-cross-fast-20-slow-100-top3000-long-only-3d7d40) | ma_cross | top3000 | 0.00 | 5 | -3.78 |
+| [MA Cross Fast 21 Slow 63 Top 1000 Long Short](https://data.finzdata.com/s/ma-cross-fast-21-slow-63-top-1000-long-short-2ddf6b) | ma_cross | top1000 | 0.00 | 0 | 0.00 |
 | [MA Cross Fast 50 Slow 200 Long Only](https://data.finzdata.com/s/ma-cross-fast-50-slow-200-long-only-2e1220) | ma_cross | top1000 | 0.00 | 5 | -2.44 |
+| [MA Cross Fast 50 Slow 200 Top 500 Long Only](https://data.finzdata.com/s/ma-cross-fast-50-slow-200-top-500-long-only-ad13e2) | ma_cross | top500 | 0.00 | 0 | 0.00 |
 | [ma_cross fast 50 slow 200 top500 long only](https://data.finzdata.com/s/ma-cross-fast-50-slow-200-top500-long-only-7ef054) | ma_cross | top500 | 0.00 | 5 | -1.96 |
 | [MA Cross Trend Follower Top 500](https://data.finzdata.com/s/ma-cross-trend-follower-top-500-99ed4d) | ma_cross | top500 | 0.00 | 5 | -1.96 |
 | [MA Cross with Adaptive Fast Period](https://data.finzdata.com/s/ma-cross-with-adaptive-fast-period-a924fa) | ma_cross | top500 | 0.00 | 4 | 15.92 |

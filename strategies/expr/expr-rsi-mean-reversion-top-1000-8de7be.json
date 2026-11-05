@@ -1,0 +1,24 @@
+{
+  "description": "Overbought RSI levels revert as short-term sentiment corrects, providing contrarian alpha, falsified if the portfolio exhibits positive autocorrelation in monthly returns.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "expr-rsi-mean-reversion-top-1000-8de7be",
+  "spec": {
+    "costs_bps": 12,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "-rank(rsi(14))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 80,
+    "universe": "top1000"
+  },
+  "title": "Expr RSI Mean Reversion Top 1000",
+  "universe": "top1000"
+}

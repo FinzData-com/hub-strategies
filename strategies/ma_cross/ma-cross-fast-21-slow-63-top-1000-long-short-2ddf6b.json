@@ -1,0 +1,25 @@
+{
+  "description": "Shorter term moving average cross exploits mean reversion in volatility regimes, falsified if the long-short spread shows no positive skew in monthly returns.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-fast-21-slow-63-top-1000-long-short-2ddf6b",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "D",
+    "side": "long_short",
+    "signal": {
+      "fast": 21,
+      "slow": 63,
+      "type": "ma_cross"
+    },
+    "start": "2014-01-01",
+    "top_n": 30,
+    "universe": "top1000"
+  },
+  "title": "MA Cross Fast 21 Slow 63 Top 1000 Long Short",
+  "universe": "top1000"
+}

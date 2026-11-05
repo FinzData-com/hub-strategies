@@ -1182,8 +1182,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 19,
-    "forward_sharpe": -4.88228340144552,
+    "forward_days": 20,
+    "forward_sharpe": -4.169636415541726,
     "slug": "bitcoin-50-200-moving-average-trend-2a424b",
     "title": "Bitcoin 50/200 moving-average trend",
     "universe": "custom",
@@ -1282,8 +1282,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 19,
-    "forward_sharpe": -4.1190806265742275,
+    "forward_days": 20,
+    "forward_sharpe": -4.700984865669279,
     "slug": "crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2",
     "title": "Crypto cross-sectional momentum \u00b7 4-week \u00b7 top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)",
     "universe": "custom",
@@ -1292,8 +1292,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 19,
-    "forward_sharpe": -5.577401354476882,
+    "forward_days": 20,
+    "forward_sharpe": -5.107461786715942,
     "slug": "crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da",
     "title": "Crypto low volatility \u00b7 3 lowest-volatility of 15 coins",
     "universe": "custom",
@@ -1302,8 +1302,8 @@
   {
     "dsr": 0.0,
     "family": "expr",
-    "forward_days": 19,
-    "forward_sharpe": -4.841063815554143,
+    "forward_days": 20,
+    "forward_sharpe": -4.7070521922185335,
     "slug": "crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2",
     "title": "Crypto time-series momentum \u00b7 4-week \u00b7 15 coins, cash otherwise",
     "universe": "custom",
@@ -2282,8 +2282,8 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
-    "forward_days": 19,
-    "forward_sharpe": -4.508751889402053,
+    "forward_days": 20,
+    "forward_sharpe": -3.7862255831414697,
     "slug": "ethereum-50-200-moving-average-trend-86a176",
     "title": "Ethereum 50/200 moving-average trend",
     "universe": "custom",
@@ -2308,6 +2308,16 @@
     "title": "expr book to market momentum reversal long short",
     "universe": "top1000",
     "url": "https://data.finzdata.com/s/expr-book-to-market-momentum-reversal-long-short-59e27b"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "expr-dividend-yield-mean-reversion-top-3000-b664bb",
+    "title": "Expr Dividend Yield Mean Reversion Top 3000",
+    "universe": "top3000",
+    "url": "https://data.finzdata.com/s/expr-dividend-yield-mean-reversion-top-3000-b664bb"
   },
   {
     "dsr": 0.0,
@@ -2372,12 +2382,32 @@
   {
     "dsr": 0.0,
     "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "expr-quality-momentum-skip-factor-top-500-92b6f5",
+    "title": "Expr Quality Momentum Skip Factor Top 500",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/expr-quality-momentum-skip-factor-top-500-92b6f5"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
     "forward_days": 5,
     "forward_sharpe": 4.578880752084152,
     "slug": "expr-quality-value-hybrid-ebitda-84469c",
     "title": "Expr Quality Value Hybrid EBITDA",
     "universe": "top1000",
     "url": "https://data.finzdata.com/s/expr-quality-value-hybrid-ebitda-84469c"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "expr-rsi-mean-reversion-top-1000-8de7be",
+    "title": "Expr RSI Mean Reversion Top 1000",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/expr-rsi-mean-reversion-top-1000-8de7be"
   },
   {
     "dsr": 0.0,
@@ -2412,6 +2442,16 @@
   {
     "dsr": 0.0,
     "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "expr-value-momentum-hybrid-top-1000-40f857",
+    "title": "Expr Value Momentum Hybrid Top 1000",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/expr-value-momentum-hybrid-top-1000-40f857"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
     "forward_days": 5,
     "forward_sharpe": -0.059737688735590024,
     "slug": "expr-value-momentum-quality-composite-long-only-a0450f",
@@ -2428,6 +2468,16 @@
     "title": "Expr Value Quality Composite Rank",
     "universe": "top1000",
     "url": "https://data.finzdata.com/s/expr-value-quality-composite-rank-daea2b"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "expr-volatility-adjusted-momentum-top-500-708af0",
+    "title": "Expr Volatility Adjusted Momentum Top 500",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/expr-volatility-adjusted-momentum-top-500-708af0"
   },
   {
     "dsr": 0.0,
@@ -2458,6 +2508,16 @@
     "title": "Factor Book To Market Size Adjusted",
     "universe": "top3000",
     "url": "https://data.finzdata.com/s/factor-book-to-market-size-adjusted-4a5470"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "factor-book-to-market-size-adjusted-top-1000-e50151",
+    "title": "Factor Book to Market Size Adjusted Top 1000",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/factor-book-to-market-size-adjusted-top-1000-e50151"
   },
   {
     "dsr": 0.0,
@@ -3702,12 +3762,32 @@
   {
     "dsr": 0.0,
     "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "ma-cross-fast-21-slow-63-top-1000-long-short-2ddf6b",
+    "title": "MA Cross Fast 21 Slow 63 Top 1000 Long Short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/ma-cross-fast-21-slow-63-top-1000-long-short-2ddf6b"
+  },
+  {
+    "dsr": 0.0,
+    "family": "ma_cross",
     "forward_days": 5,
     "forward_sharpe": -2.443957803287685,
     "slug": "ma-cross-fast-50-slow-200-long-only-2e1220",
     "title": "MA Cross Fast 50 Slow 200 Long Only",
     "universe": "top1000",
     "url": "https://data.finzdata.com/s/ma-cross-fast-50-slow-200-long-only-2e1220"
+  },
+  {
+    "dsr": 0.0,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "ma-cross-fast-50-slow-200-top-500-long-only-ad13e2",
+    "title": "MA Cross Fast 50 Slow 200 Top 500 Long Only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/ma-cross-fast-50-slow-200-top-500-long-only-ad13e2"
   },
   {
     "dsr": 0.0,

@@ -1,6 +1,6 @@
 # FinzData Hub strategies
 
-[![Strategies](https://img.shields.io/badge/strategies-597-0B1B3F)](https://data.finzdata.com/strategies) [![Hub](https://img.shields.io/badge/Hub-data.finzdata.com-9DB0CC)](https://data.finzdata.com/hub) [![MCP](https://img.shields.io/badge/MCP-api.finzdata.com%2Fmcp-52667F)](https://api.finzdata.com/mcp) [![PyPI](https://img.shields.io/pypi/v/finzdata?label=pip%20install%20finzdata)](https://pypi.org/project/finzdata/)
+[![Strategies](https://img.shields.io/badge/strategies-605-0B1B3F)](https://data.finzdata.com/strategies) [![Hub](https://img.shields.io/badge/Hub-data.finzdata.com-9DB0CC)](https://data.finzdata.com/hub) [![MCP](https://img.shields.io/badge/MCP-api.finzdata.com%2Fmcp-52667F)](https://api.finzdata.com/mcp) [![PyPI](https://img.shields.io/pypi/v/finzdata?label=pip%20install%20finzdata)](https://pypi.org/project/finzdata/)
 
 Every public strategy on the [FinzData Hub](https://data.finzdata.com/hub), as plain JSON you can read, rerun and fork. Each one is a complete backtest specification run on FinzData's point-in-time, survivorship-free data: US stocks including the 7,000+ tickers that stopped trading, ETFs, futures ETFs and crypto, and SEC fundamentals as they were known on each date. Nothing here is hand-entered: every number was computed by the FinzData backtest engine, and this repository is regenerated from the Hub every night.
 
@@ -22,8 +22,8 @@ strategies/<family>/   one JSON file per strategy (spec, result summary, forward
 
 | Family | Strategies | Folder |
 |---|---|---|
-| `expr` | 442 | [strategies/expr/](strategies/expr/) |
-| `ma_cross` | 82 | [strategies/ma_cross/](strategies/ma_cross/) |
+| `expr` | 448 | [strategies/expr/](strategies/expr/) |
+| `ma_cross` | 84 | [strategies/ma_cross/](strategies/ma_cross/) |
 | `momentum` | 61 | [strategies/momentum/](strategies/momentum/) |
 | `factor` | 12 | [strategies/factor/](strategies/factor/) |
 
@@ -55,7 +55,7 @@ From an AI agent (Claude, ChatGPT, Cursor, Gemini) connected to the MCP server `
 
 Metrics: **CAGR** compound annual return; **Sharpe** annualised return over volatility; **max drawdown** worst peak-to-trough fall; **DSR** deflated Sharpe ratio; **forward days / forward Sharpe** the out-of-sample record since publication.
 
-## All strategies (597), ranked by deflated Sharpe
+## All strategies (605), ranked by deflated Sharpe
 
 | Strategy | Family | Universe | DSR | Forward days | Forward Sharpe |
 |---|---|---|---|---|---|
@@ -177,7 +177,7 @@ Metrics: **CAGR** compound annual return; **Sharpe** annualised return over vola
 | [52-week high proximity · top 50 · Top 1000 · long only](https://data.finzdata.com/s/52-week-high-proximity-top-50-top-1000-long-only-757c7a) | expr | top1000 | 0.00 | 5 | -3.49 |
 | [52-week high proximity · top 50 · Top 500 · long only](https://data.finzdata.com/s/52-week-high-proximity-top-50-top-500-long-only-24b3d3) | expr | top500 | 0.00 | 5 | -1.01 |
 | [52-week high proximity · top 50 · Top 500 · long only](https://data.finzdata.com/s/52-week-high-proximity-top-50-top-500-long-only-6e5c41) | expr | top500 | 0.00 | 5 | -3.52 |
-| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 19 | -4.88 |
+| [Bitcoin 50/200 moving-average trend](https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b) | ma_cross | custom | 0.00 | 20 | -4.17 |
 | [Book-to-Market + Earnings Yield Factor](https://data.finzdata.com/s/book-to-market-earnings-yield-factor-16bb9d) | expr | top500 | 0.00 | 4 | 9.77 |
 | [Book to Market Momentum Hybrid Factor](https://data.finzdata.com/s/book-to-market-momentum-hybrid-factor-1e91f2) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Book-to-Market Momentum Top 500 Long Only](https://data.finzdata.com/s/book-to-market-momentum-top-500-long-only-cc9b42) | expr | top500 | 0.00 | 5 | -0.22 |
@@ -187,9 +187,9 @@ Metrics: **CAGR** compound annual return; **Sharpe** annualised return over vola
 | [Clipped Momentum Dividend](https://data.finzdata.com/s/clipped-momentum-dividend-6e6885) | expr | top500 | 0.00 | 5 | 7.82 |
 | [Composite Factor Zscore Quality Value](https://data.finzdata.com/s/composite-factor-zscore-quality-value-1f686d) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Composite value quality size · top1000 · long short](https://data.finzdata.com/s/composite-value-quality-size-top1000-long-short-ca2b75) | expr | top1000 | 0.00 | 4 | 10.22 |
-| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 19 | -4.12 |
-| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 19 | -5.58 |
-| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 19 | -4.84 |
+| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 20 | -4.70 |
+| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 20 | -5.11 |
+| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 20 | -4.71 |
 | [Currency momentum · euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)](https://data.finzdata.com/s/currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084) | expr | custom | 0.00 | 13 | 1.99 |
 | [Dist from High Momentum Top 1000 Long Only](https://data.finzdata.com/s/dist-from-high-momentum-top-1000-long-only-327a0d) | expr | top1000 | 0.00 | 5 | -1.79 |
 | [Dist High Reversal With Volume Filter](https://data.finzdata.com/s/dist-high-reversal-with-volume-filter-60dc10) | expr | top500 | 0.00 | 0 | 0.00 |
@@ -287,24 +287,30 @@ Metrics: **CAGR** compound annual return; **Sharpe** annualised return over vola
 | [EFA 20/100 moving-average trend](https://data.finzdata.com/s/efa-20-100-moving-average-trend-b1d363) | ma_cross | custom | 0.00 | 13 | 0.00 |
 | [EFA 50/200 moving-average trend](https://data.finzdata.com/s/efa-50-200-moving-average-trend-c52fff) | ma_cross | custom | 0.00 | 13 | 1.25 |
 | [Enterprise value yield · top500 · long only](https://data.finzdata.com/s/enterprise-value-yield-top500-long-only-fe3d27) | expr | top500 | 0.00 | 4 | 8.27 |
-| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 19 | -4.51 |
+| [Ethereum 50/200 moving-average trend](https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176) | ma_cross | custom | 0.00 | 20 | -3.79 |
 | [EV value EBITDA/EV · top 50 · Top 1000 · long only](https://data.finzdata.com/s/ev-value-ebitda-ev-top-50-top-1000-long-only-a01eff) | expr | top1000 | 0.00 | 5 | 7.91 |
 | [expr book to market momentum reversal long short](https://data.finzdata.com/s/expr-book-to-market-momentum-reversal-long-short-59e27b) | expr | top1000 | 0.00 | 5 | 9.28 |
+| [Expr Dividend Yield Mean Reversion Top 3000](https://data.finzdata.com/s/expr-dividend-yield-mean-reversion-top-3000-b664bb) | expr | top3000 | 0.00 | 0 | 0.00 |
 | [expr dividend yield vol adjusted factor long only](https://data.finzdata.com/s/expr-dividend-yield-vol-adjusted-factor-long-only-639142) | expr | top1000 | 0.00 | 5 | 5.30 |
 | [expr earnings yield size adjusted quality long only](https://data.finzdata.com/s/expr-earnings-yield-size-adjusted-quality-long-only-d16f8f) | expr | top1000 | 0.00 | 5 | 1.49 |
 | [Expr Low Vol Mean Reversion RSI](https://data.finzdata.com/s/expr-low-vol-mean-reversion-rsi-798575) | expr | top500 | 0.00 | 5 | 6.94 |
 | [Expr Momentum Reversal Skip Fundamentals](https://data.finzdata.com/s/expr-momentum-reversal-skip-fundamentals-a37bdf) | expr | top1000 | 0.00 | 9 | -2.99 |
 | [expr quality earnings yield vol filter](https://data.finzdata.com/s/expr-quality-earnings-yield-vol-filter-2ff34c) | expr | top1000 | 0.00 | 4 | 2.79 |
 | [Expr Quality Momentum Rank](https://data.finzdata.com/s/expr-quality-momentum-rank-53021f) | expr | top1000 | 0.00 | 5 | -7.12 |
+| [Expr Quality Momentum Skip Factor Top 500](https://data.finzdata.com/s/expr-quality-momentum-skip-factor-top-500-92b6f5) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Expr Quality Value Hybrid EBITDA](https://data.finzdata.com/s/expr-quality-value-hybrid-ebitda-84469c) | expr | top1000 | 0.00 | 5 | 4.58 |
+| [Expr RSI Mean Reversion Top 1000](https://data.finzdata.com/s/expr-rsi-mean-reversion-top-1000-8de7be) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [expr rsi mean reversion vol filter long short](https://data.finzdata.com/s/expr-rsi-mean-reversion-vol-filter-long-short-93978f) | expr | top500 | 0.00 | 5 | -0.13 |
 | [Expr Value Composite Earnings Yield](https://data.finzdata.com/s/expr-value-composite-earnings-yield-a4cf75) | expr | top1000 | 0.00 | 5 | 4.80 |
 | [expr value momentum hybrid rank](https://data.finzdata.com/s/expr-value-momentum-hybrid-rank-d4a2a4) | expr | top1000 | 0.00 | 4 | 12.15 |
+| [Expr Value Momentum Hybrid Top 1000](https://data.finzdata.com/s/expr-value-momentum-hybrid-top-1000-40f857) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [expr value momentum quality composite long only](https://data.finzdata.com/s/expr-value-momentum-quality-composite-long-only-a0450f) | expr | top1000 | 0.00 | 5 | -0.06 |
 | [Expr Value Quality Composite Rank](https://data.finzdata.com/s/expr-value-quality-composite-rank-daea2b) | expr | top1000 | 0.00 | 9 | 2.05 |
+| [Expr Volatility Adjusted Momentum Top 500](https://data.finzdata.com/s/expr-volatility-adjusted-momentum-top-500-708af0) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Factor Book-to-Market + 12-1 Momentum (Monthly, Top 1000, L/S)](https://data.finzdata.com/s/factor-book-to-market-12-1-momentum-monthly-top-1000-l-s-da886e) | expr | top1000 | 0.00 | 5 | 16.01 |
 | [Factor Book-to-Market - Log Market Cap (Monthly, Top 3000, L/S)](https://data.finzdata.com/s/factor-book-to-market-log-market-cap-monthly-top-3000-l-s-750c72) | expr | top3000 | 0.00 | 5 | 17.35 |
 | [Factor Book To Market Size Adjusted](https://data.finzdata.com/s/factor-book-to-market-size-adjusted-4a5470) | expr | top3000 | 0.00 | 9 | -1.26 |
+| [Factor Book to Market Size Adjusted Top 1000](https://data.finzdata.com/s/factor-book-to-market-size-adjusted-top-1000-e50151) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [Factor: Dividend Yield and Momentum](https://data.finzdata.com/s/factor-dividend-yield-and-momentum-953589) | expr | top500 | 0.00 | 5 | 0.24 |
 | [Factor Dividend Yield + Earnings Yield (Quarterly, Top 1000, L/S)](https://data.finzdata.com/s/factor-dividend-yield-earnings-yield-quarterly-top-1000-l-s-ded7ad) | expr | top1000 | 0.00 | 5 | 0.39 |
 | [Factor Earnings Yield - 252d Volatility (Monthly, Top 1000, L/S)](https://data.finzdata.com/s/factor-earnings-yield-252d-volatility-monthly-top-1000-l-s-f7920e) | expr | top1000 | 0.00 | 5 | 1.59 |
@@ -429,7 +435,9 @@ Metrics: **CAGR** compound annual return; **Sharpe** annualised return over vola
 | [MA Cross 50/200 Trend Filter · Top 500 · Long Only](https://data.finzdata.com/s/ma-cross-50-200-trend-filter-top-500-long-only-f068e1) | ma_cross | top500 | 0.00 | 2 | 0.00 |
 | [MA Cross Fast 20 Slow 100 Long Short](https://data.finzdata.com/s/ma-cross-fast-20-slow-100-long-short-80d54c) | ma_cross | top500 | 0.00 | 5 | -0.83 |
 | [ma_cross fast 20 slow 100 top3000 long only](https://data.finzdata.com/s/ma-cross-fast-20-slow-100-top3000-long-only-3d7d40) | ma_cross | top3000 | 0.00 | 5 | -3.78 |
+| [MA Cross Fast 21 Slow 63 Top 1000 Long Short](https://data.finzdata.com/s/ma-cross-fast-21-slow-63-top-1000-long-short-2ddf6b) | ma_cross | top1000 | 0.00 | 0 | 0.00 |
 | [MA Cross Fast 50 Slow 200 Long Only](https://data.finzdata.com/s/ma-cross-fast-50-slow-200-long-only-2e1220) | ma_cross | top1000 | 0.00 | 5 | -2.44 |
+| [MA Cross Fast 50 Slow 200 Top 500 Long Only](https://data.finzdata.com/s/ma-cross-fast-50-slow-200-top-500-long-only-ad13e2) | ma_cross | top500 | 0.00 | 0 | 0.00 |
 | [ma_cross fast 50 slow 200 top500 long only](https://data.finzdata.com/s/ma-cross-fast-50-slow-200-top500-long-only-7ef054) | ma_cross | top500 | 0.00 | 5 | -1.96 |
 | [MA Cross Trend Filter Momentum Top 500](https://data.finzdata.com/s/ma-cross-trend-filter-momentum-top-500-f1ff89) | expr | top500 | 0.00 | 5 | -1.86 |
 | [MA Cross Trend Follower Top 500](https://data.finzdata.com/s/ma-cross-trend-follower-top-500-99ed4d) | ma_cross | top500 | 0.00 | 5 | -1.96 |

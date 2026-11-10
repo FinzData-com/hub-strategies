@@ -1,0 +1,27 @@
+{
+  "description": "Holds gold futures while the 50-day average is above the 200-day average, cash otherwise. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
+  "dsr": 0.6305,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "gc-50-200-moving-average-trend-364d2a",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-08",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 50,
+      "slow": 200,
+      "type": "ma_cross"
+    },
+    "start": "2009-01-01",
+    "top_n": 1,
+    "universe": [
+      "/GC"
+    ]
+  },
+  "title": "/GC 50/200 moving-average trend",
+  "universe": "custom"
+}

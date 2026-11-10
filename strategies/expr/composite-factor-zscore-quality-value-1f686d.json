@@ -2,9 +2,9 @@
   "description": "Combining ROE, book to market and earnings yield into a zscore should capture diversified factor exposure and reduce idiosyncratic risk; falsified if forward Sharpe is not positive after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 7,
+  "forward_return": -0.009098031612123192,
+  "forward_sharpe": -1.6032831806760273,
   "slug": "composite-factor-zscore-quality-value-1f686d",
   "spec": {
     "costs_bps": 12,

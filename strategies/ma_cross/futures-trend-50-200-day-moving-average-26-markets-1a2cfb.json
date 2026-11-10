@@ -1,0 +1,52 @@
+{
+  "description": "Holds each of 26 futures markets while its 50-day average is above its 200-day average; a market in a downtrend is held as cash. Equal slots, rebalanced monthly. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
+  "dsr": 0.7917,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "futures-trend-50-200-day-moving-average-26-markets-1a2cfb",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-08",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "fast": 50,
+      "slow": 200,
+      "type": "ma_cross"
+    },
+    "start": "2009-01-01",
+    "top_n": 26,
+    "universe": [
+      "/ES",
+      "/NQ",
+      "/RTY",
+      "/YM",
+      "/FDAX",
+      "/FESX",
+      "/NKD",
+      "/ZN",
+      "/ZF",
+      "/US",
+      "/FGBL",
+      "/CL",
+      "/B",
+      "/NG",
+      "/HO",
+      "/RB",
+      "/GC",
+      "/SI",
+      "/HG",
+      "/ZC",
+      "/ZS",
+      "/ZW",
+      "/E6",
+      "/J1",
+      "/B6",
+      "/A6"
+    ]
+  },
+  "title": "Futures trend \u00b7 50/200-day moving average \u00b7 26 markets",
+  "universe": "custom"
+}

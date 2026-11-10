@@ -1,0 +1,24 @@
+{
+  "description": "Combining value and quality fundamentals with recent price momentum should capture firms with durable cash generation that are temporarily mispriced, and the effect is falsified if the composite rank shows no persistence after transaction costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "expr-value-momentum-quality-composite-long-only-d3c427",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(0.5*rank(earnings_yield) + 0.3*rank(roe) - 0.2*rank(leverage) + 0.4*rank(ret(126)))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Expr value momentum quality composite long only",
+  "universe": "top1000"
+}

@@ -2,9 +2,9 @@
   "description": "One-month reversal (Jegadeesh 1990): stocks that fell most last month tend to recover next month as overreaction fades. Falsified if the effect is absent after costs or concentrated in the smallest names.",
   "dsr": 0.003,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 0.07099466443603242,
-  "forward_sharpe": 4.266751630426965,
+  "forward_days": 21,
+  "forward_return": -0.05481594903567599,
+  "forward_sharpe": -1.139553262212434,
   "slug": "1-month-reversal-top-50-top-1000-long-short-d8caf2",
   "spec": {
     "costs_bps": 10,

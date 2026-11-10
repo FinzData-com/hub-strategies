@@ -2,9 +2,9 @@
   "description": "Classic trend following via 50/200 day moving average cross captures persistent uptrends and avoids prolonged downtrends, providing risk adjusted gains in trending markets; falsified if forward Sharpe is zero or negative after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 5,
-  "forward_return": -0.014188679086792111,
-  "forward_sharpe": -1.962100744852803,
+  "forward_days": 10,
+  "forward_return": -0.10497816520523862,
+  "forward_sharpe": -4.80952153815682,
   "slug": "ma-cross-fast-50-slow-200-top500-long-only-7ef054",
   "spec": {
     "costs_bps": 5,

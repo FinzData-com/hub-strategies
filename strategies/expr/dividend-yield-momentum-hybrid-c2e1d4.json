@@ -2,9 +2,9 @@
   "description": "Dividend payers with recent positive price momentum benefit from cash flow stability and trend continuation, falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.0013035474693858795,
-  "forward_sharpe": -0.5190339700258559,
+  "forward_days": 10,
+  "forward_return": -0.03613918990200893,
+  "forward_sharpe": -6.66703857383249,
   "slug": "dividend-yield-momentum-hybrid-c2e1d4",
   "spec": {
     "costs_bps": 10,

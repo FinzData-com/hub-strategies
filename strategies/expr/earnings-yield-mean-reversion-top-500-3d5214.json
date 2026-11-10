@@ -2,9 +2,9 @@
   "description": "Extreme deviations in earnings yield relative to the universe lead to mean reversion in the long run; falsified if high earnings yield stocks underperform.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.006881218518671961,
-  "forward_sharpe": 5.310755080795934,
+  "forward_days": 10,
+  "forward_return": 0.0022529326627849233,
+  "forward_sharpe": 0.42261754942901447,
   "slug": "earnings-yield-mean-reversion-top-500-3d5214",
   "spec": {
     "costs_bps": 5,

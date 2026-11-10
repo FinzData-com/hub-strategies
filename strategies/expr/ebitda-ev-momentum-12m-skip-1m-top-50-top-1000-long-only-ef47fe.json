@@ -2,9 +2,9 @@
   "description": "Enterprise value multiples combined with momentum capture value in capital-intensive industries where earnings are distorted; falsified if forward Sharpe ratio is not significantly different from zero after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": 0.025196250301167344,
-  "forward_sharpe": 17.925062007971526,
+  "forward_days": 12,
+  "forward_return": 0.016898645426841385,
+  "forward_sharpe": 4.07821900424986,
   "slug": "ebitda-ev-momentum-12m-skip-1m-top-50-top-1000-long-only-ef47fe",
   "spec": {
     "costs_bps": 10,

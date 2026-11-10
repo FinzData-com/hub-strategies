@@ -1,0 +1,24 @@
+{
+  "description": "Combining value rank with short term momentum should reduce value traps via recent price confirmation, falsified if hybrid signal does not improve forward stability versus pure value.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-hybrid-top-500-bb944b",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(ret(63))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value Momentum Hybrid Top 500",
+  "universe": "top500"
+}

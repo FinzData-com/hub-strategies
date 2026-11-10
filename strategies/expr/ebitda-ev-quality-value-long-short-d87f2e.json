@@ -1,0 +1,24 @@
+{
+  "description": "Low EBITDA/EV stocks should outperform high EBITDA/EV stocks due to mispricing of cash flow, falsified if long-short forward Sharpe is not positive.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-quality-value-long-short-d87f2e",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(ebitda_ev)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 150,
+    "universe": "top1000"
+  },
+  "title": "EBITDA EV quality value long short",
+  "universe": "top1000"
+}

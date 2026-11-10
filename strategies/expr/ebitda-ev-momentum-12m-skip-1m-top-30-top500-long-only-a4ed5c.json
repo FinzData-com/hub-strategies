@@ -2,9 +2,9 @@
   "description": "EBITDA/EV captures cash earnings yield better than P/E for capital-intensive firms; combined with momentum identifies improving operations before earnings reflect it, falsified if alpha is subsumed by operating profitability factor.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.01109658098327948,
-  "forward_sharpe": 16.664950851035364,
+  "forward_days": 10,
+  "forward_return": -0.054034439730471506,
+  "forward_sharpe": -6.131729820942044,
   "slug": "ebitda-ev-momentum-12m-skip-1m-top-30-top500-long-only-a4ed5c",
   "spec": {
     "costs_bps": 15,

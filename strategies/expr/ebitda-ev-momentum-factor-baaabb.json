@@ -2,9 +2,9 @@
   "description": "EBITDA/EV reflects operating cash flow relative to enterprise value, and momentum indicates trend; together they should outperform; failure falsifies.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": 0.008884738847989793,
-  "forward_sharpe": 9.679740017657222,
+  "forward_days": 9,
+  "forward_return": -0.06812935570615042,
+  "forward_sharpe": -8.09871221750901,
   "slug": "ebitda-ev-momentum-factor-baaabb",
   "spec": {
     "costs_bps": 5,

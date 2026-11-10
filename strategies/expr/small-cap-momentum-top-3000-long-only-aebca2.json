@@ -2,9 +2,9 @@
   "description": "Smaller stocks (low log_mcap) with strong 6-month momentum outperform due to neglected firm effect; fails if forward Sharpe < 0.3 or max drawdown > 35%.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.015166381252040062,
-  "forward_sharpe": -3.353394699361915,
+  "forward_days": 12,
+  "forward_return": -0.022476760804036378,
+  "forward_sharpe": -2.9549282568051494,
   "slug": "small-cap-momentum-top-3000-long-only-aebca2",
   "spec": {
     "costs_bps": 20,

@@ -2,9 +2,9 @@
   "description": "'Momentum Has Its Moments' showed momentum crashes are predictable from momentum's own volatility. Approximation: rank on 12-1 return minus 6-month volatility so violent winners are down-weighted. Falsified if its worst drawdown is not smaller than plain 12-1 momentum's.",
   "dsr": 0.2655,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 0.02667286152493431,
-  "forward_sharpe": 6.189294951327845,
+  "forward_days": 18,
+  "forward_return": 0.0009741914211203184,
+  "forward_sharpe": 0.1673055829446688,
   "slug": "volatility-scaled-momentum-top-50-top-500-after-barroso-sant-319970",
   "spec": {
     "costs_bps": 10,

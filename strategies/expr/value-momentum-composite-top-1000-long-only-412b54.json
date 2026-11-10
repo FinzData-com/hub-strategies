@@ -2,9 +2,9 @@
   "description": "Value and momentum anomalies stem from distinct behavioral biases; combining book-to-market with intermediate-term price momentum diversifies mispricing sources, and the strategy is falsified if the combined signal underperforms either standalone factor net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.011160293747260797,
-  "forward_sharpe": 11.487544371992984,
+  "forward_days": 13,
+  "forward_return": -0.009936677355957269,
+  "forward_sharpe": -1.8994270316867568,
   "slug": "value-momentum-composite-top-1000-long-only-412b54",
   "spec": {
     "costs_bps": 10,

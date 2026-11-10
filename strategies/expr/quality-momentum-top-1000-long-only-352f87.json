@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum reflect profitable growth persistence; if ROE-momentum interaction adds no alpha over momentum alone, the quality enhancement hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.01597789097522684,
-  "forward_sharpe": -4.233523669211056,
+  "forward_days": 12,
+  "forward_return": -0.040178666577353694,
+  "forward_sharpe": -5.079069262187371,
   "slug": "quality-momentum-top-1000-long-only-352f87",
   "spec": {
     "costs_bps": 10,

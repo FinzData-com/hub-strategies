@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV stocks with strong 12-month momentum skipping 1 month exploit cash-flow value and momentum; falsified if forward Sharpe <= 0 or underperforms other value-momentum blends.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.020451843043995055,
-  "forward_sharpe": 9.142775448234623,
+  "forward_days": 13,
+  "forward_return": 0.01219263785828617,
+  "forward_sharpe": 2.7213830505159917,
   "slug": "ebitda-ev-momentum-12m-skip-1m-top-50-top-1000-long-only-c25be5",
   "spec": {
     "costs_bps": 10,

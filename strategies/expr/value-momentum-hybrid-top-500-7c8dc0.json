@@ -2,9 +2,9 @@
   "description": "Combining book-to-market value with medium-term momentum reduces the drawdown of pure momentum strategies; falsified if the combined Sharpe is lower than pure momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.004175488237794345,
-  "forward_sharpe": -2.123232445440749,
+  "forward_days": 9,
+  "forward_return": -0.0338429058604498,
+  "forward_sharpe": -6.186314103498496,
   "slug": "value-momentum-hybrid-top-500-7c8dc0",
   "spec": {
     "costs_bps": 5,

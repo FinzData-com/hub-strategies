@@ -2,9 +2,9 @@
   "description": "Scaling momentum by volatility isolates steady uptrends and mutes crash-prone volatile winners whose reversal erodes raw momentum; falsified if vol-scaled rankings underperform unscaled momentum rankings or show no spread to the universe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.013551795035279146,
-  "forward_sharpe": -2.7435490919662286,
+  "forward_days": 10,
+  "forward_return": -0.05287248016109203,
+  "forward_sharpe": -4.535254436330248,
   "slug": "volatility-scaled-momentum-126d-return-over-126d-vol-top-50-e09442",
   "spec": {
     "costs_bps": 10,

@@ -1,0 +1,24 @@
+{
+  "description": "Classic value defined by book to market and sales yield should persist due to behavioral underreaction and risk compensation, falsified if the long-short portfolio has a negative information ratio after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-book-to-market-sales-yield-long-short-9ed466",
+  "spec": {
+    "costs_bps": 8,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(book_to_market) + rank(sales_yield)",
+      "type": "expr"
+    },
+    "start": "2012-06-01",
+    "top_n": 80,
+    "universe": "top1000"
+  },
+  "title": "Factor book to market sales yield long short",
+  "universe": "top1000"
+}

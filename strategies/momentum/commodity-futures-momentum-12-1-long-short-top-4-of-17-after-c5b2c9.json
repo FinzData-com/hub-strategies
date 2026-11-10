@@ -1,0 +1,43 @@
+{
+  "description": "Each month, long the 4 commodity futures with the strongest 12-month return (skipping the last month) and short the 4 weakest: energy, metals, grains, softs and livestock. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
+  "dsr": 0.0942,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "commodity-futures-momentum-12-1-long-short-top-4-of-17-after-c5b2c9",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-08",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "lookback": 252,
+      "skip": 21,
+      "type": "momentum"
+    },
+    "start": "2009-01-01",
+    "top_n": 4,
+    "universe": [
+      "/CL",
+      "/B",
+      "/NG",
+      "/HO",
+      "/RB",
+      "/GC",
+      "/SI",
+      "/HG",
+      "/PL",
+      "/ZC",
+      "/ZS",
+      "/ZW",
+      "/KC",
+      "/SB",
+      "/CT",
+      "/LE",
+      "/HE"
+    ]
+  },
+  "title": "Commodity futures momentum 12-1 \u00b7 long/short \u00b7 top 4 of 17 (after Miffre & Rallis 2007)",
+  "universe": "custom"
+}

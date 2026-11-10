@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) and 12-month momentum minus 1-month reversal captures both risk-premium and behavioral mispricing; falsified if forward Sharpe is not positive after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 3,
-  "forward_return": 0.004414165322816244,
-  "forward_sharpe": 5.143273185420139,
+  "forward_days": 8,
+  "forward_return": -0.048471673215153666,
+  "forward_sharpe": -6.816096391934889,
   "slug": "value-momentum-combo-top-500-long-only-ca1252",
   "spec": {
     "costs_bps": 10,

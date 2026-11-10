@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong momentum represent undervalued improvers; if the dual sort adds no value over momentum, the value-momentum interaction is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": 0.013903752952094894,
-  "forward_sharpe": 7.583682341109416,
+  "forward_days": 12,
+  "forward_return": 0.0011342851450695246,
+  "forward_sharpe": 0.30065810644119595,
   "slug": "earnings-yield-momentum-top-1000-long-only-0ec714",
   "spec": {
     "costs_bps": 10,

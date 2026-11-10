@@ -1,0 +1,24 @@
+{
+  "description": "High sales yield captures cheap revenue generating assets and should outperform, falsified if demeaned signal shows no out-of-sample Sharpe improvement.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-value-sales-yield-rank-with-volatility-demean-c0c198",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "demean(rank(sales_yield))",
+      "type": "expr"
+    },
+    "start": "2013-01-01",
+    "top_n": 60,
+    "universe": "top1000"
+  },
+  "title": "Sales Yield Value \u00b7 sales_yield rank with volatility demean",
+  "universe": "top1000"
+}

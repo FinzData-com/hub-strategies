@@ -2,9 +2,9 @@
   "description": "High dividend yield paired with low return volatility reflects mature, stable firms that investors underprice due to lottery preference; falsified if the combined rank does not produce positive risk-adjusted returns versus the high-volatility low-dividend cohort.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.002743884351454451,
-  "forward_sharpe": -1.0710937802612843,
+  "forward_days": 10,
+  "forward_return": -0.009112662408289895,
+  "forward_sharpe": -0.9104278379233604,
   "slug": "dividend-low-volatility-top-500-monthly-d64d07",
   "spec": {
     "costs_bps": 10,

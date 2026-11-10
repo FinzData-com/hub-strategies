@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with 6-month momentum (skipping 1 month) capture the low-vol anomaly combined with trend following, reducing crash risk; falsified if forward volatility > 15% annualized or Sharpe < 0.3.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 6,
-  "forward_return": 0.00044296855224623677,
-  "forward_sharpe": 0.2782933627201075,
+  "forward_days": 11,
+  "forward_return": -0.011243968194657117,
+  "forward_sharpe": -1.4635032271141746,
   "slug": "low-vol-momentum-6m-skip-1m-top-40-top500-long-only-e5835b",
   "spec": {
     "costs_bps": 10,

@@ -1,0 +1,27 @@
+{
+  "description": "Shorter fast moving average captures trend changes faster in small caps, falsified if forward Sharpe does not exceed buy-and-hold.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-20-100-on-russell-2000-proxy-4626fb",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2015-01-01",
+    "top_n": 1,
+    "universe": [
+      "IWM"
+    ]
+  },
+  "title": "MA cross 20/100 on Russell 2000 proxy",
+  "universe": "custom"
+}

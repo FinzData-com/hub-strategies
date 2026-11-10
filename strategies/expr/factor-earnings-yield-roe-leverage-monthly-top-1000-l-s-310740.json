@@ -2,9 +2,9 @@
   "description": "High earnings yields can reveal underpriced cash generation, while ROE and leverage distinguish productive firms from distressed ones; falsified if the forward long-short spread is non-positive or the quality terms add no improvement.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.008342485343615147,
-  "forward_sharpe": 4.636917110883811,
+  "forward_days": 13,
+  "forward_return": 0.01036020732266163,
+  "forward_sharpe": 3.4788164921878746,
   "slug": "factor-earnings-yield-roe-leverage-monthly-top-1000-l-s-310740",
   "spec": {
     "costs_bps": 15,

@@ -2,9 +2,9 @@
   "description": "Earnings yield provides value signal independent of size, and adjusting for log market cap reduces microcap bias, so the adjusted rank should persist; falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 8,
+  "forward_return": -0.019059238767718867,
+  "forward_sharpe": -2.54489687364546,
   "slug": "earnings-yield-size-adjusted-factor-008c35",
   "spec": {
     "costs_bps": 15,

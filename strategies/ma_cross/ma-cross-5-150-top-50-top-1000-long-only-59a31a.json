@@ -2,9 +2,9 @@
   "description": "A slow average filters multi-month trend noise while a fast average times entries, capturing drift that passive holders forgo; falsified if the crossover rule fails to separate from the universe after costs over the full sample.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 5,
-  "forward_return": -0.015334673558867973,
-  "forward_sharpe": -5.004717799766805,
+  "forward_days": 13,
+  "forward_return": 0.01634898985073896,
+  "forward_sharpe": 1.919591390722894,
   "slug": "ma-cross-5-150-top-50-top-1000-long-only-59a31a",
   "spec": {
     "costs_bps": 20,

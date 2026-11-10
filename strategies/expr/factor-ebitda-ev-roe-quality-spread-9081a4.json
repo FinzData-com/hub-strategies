@@ -1,0 +1,24 @@
+{
+  "description": "Firms with high EBITDA to EV and high ROE should earn a premium from efficient capital allocation, falsified if the top decile does not outperform the bottom decile net of costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-ebitda-ev-roe-quality-spread-9081a4",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Factor ebitda ev roe quality spread",
+  "universe": "top1000"
+}

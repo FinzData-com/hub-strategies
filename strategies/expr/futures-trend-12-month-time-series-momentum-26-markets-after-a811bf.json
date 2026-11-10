@@ -1,0 +1,51 @@
+{
+  "description": "Holds every futures market (equity indexes, bonds, energy, metals, grains, currencies) whose 12-month return is positive, equally weighted, rebalanced monthly. Time-series momentum, the core of managed-futures trend following. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
+  "dsr": 0.9805,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "futures-trend-12-month-time-series-momentum-26-markets-after-a811bf",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-08",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "where(ret(252), ret(252), log(-1))",
+      "type": "expr"
+    },
+    "start": "2009-01-01",
+    "top_n": 26,
+    "universe": [
+      "/ES",
+      "/NQ",
+      "/RTY",
+      "/YM",
+      "/FDAX",
+      "/FESX",
+      "/NKD",
+      "/ZN",
+      "/ZF",
+      "/US",
+      "/FGBL",
+      "/CL",
+      "/B",
+      "/NG",
+      "/HO",
+      "/RB",
+      "/GC",
+      "/SI",
+      "/HG",
+      "/ZC",
+      "/ZS",
+      "/ZW",
+      "/E6",
+      "/J1",
+      "/B6",
+      "/A6"
+    ]
+  },
+  "title": "Futures trend \u00b7 12-month time-series momentum \u00b7 26 markets (after Moskowitz, Ooi & Pedersen 2012)",
+  "universe": "custom"
+}

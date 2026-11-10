@@ -1,0 +1,24 @@
+{
+  "description": "Low leverage reduces financial distress risk and should deliver higher risk-adjusted returns, falsified if long low leverage underperforms market after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-leverage-quality-negative-leverage-rank-with-size-contro-84964c",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "-rank(leverage) + rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Low Leverage Quality \u00b7 negative leverage rank with size control",
+  "universe": "top1000"
+}

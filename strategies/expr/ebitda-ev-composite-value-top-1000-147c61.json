@@ -1,0 +1,24 @@
+{
+  "description": "EBITDA over enterprise value measures cash flow cheapness and should be rewarded for risk and mispricing, falsified if out of sample forward tracking shows no outperformance versus random.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-composite-value-top-1000-147c61",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(ebitda_ev)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "EBITDA EV Composite Value Top 1000",
+  "universe": "top1000"
+}

@@ -2,9 +2,9 @@
   "description": "Small firms with high earnings yields should combine a neglected-firm discount with cheap cash generation; falsified if small cheap firms do not outperform large cheap firms after costs or if the size component adds no incremental value.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.003062661698748359,
-  "forward_sharpe": -0.9595418930203092,
+  "forward_days": 13,
+  "forward_return": -0.01466101948875731,
+  "forward_sharpe": -1.1654372447901487,
   "slug": "small-cap-earnings-yield-value-b601da",
   "spec": {
     "costs_bps": 15,

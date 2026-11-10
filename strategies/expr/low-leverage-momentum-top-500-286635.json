@@ -2,9 +2,9 @@
   "description": "Momentum is more sustainable in companies with low leverage as they are less prone to credit shocks; falsified if leverage rank negatively correlates with returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.02655217259265319,
-  "forward_sharpe": -4.195234866890425,
+  "forward_days": 10,
+  "forward_return": -0.08171474751877383,
+  "forward_sharpe": -6.23826023078019,
   "slug": "low-leverage-momentum-top-500-286635",
   "spec": {
     "costs_bps": 5,

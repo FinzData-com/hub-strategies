@@ -2,9 +2,9 @@
   "description": "Earnings yield combined with low leverage should capture value with quality tilt because distressed firms are overpriced relative to fundamentals, and the effect should disappear if forward Sharpe is non-positive after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": 0.011190885661770178,
-  "forward_sharpe": 2.0484839559059074,
+  "forward_days": 17,
+  "forward_return": 0.014358433571671547,
+  "forward_sharpe": 1.889197886420735,
   "slug": "expr-value-quality-composite-rank-daea2b",
   "spec": {
     "costs_bps": 10,

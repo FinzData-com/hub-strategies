@@ -2,9 +2,9 @@
   "description": "Liquidity-shock selling is typically unwound as liquidity providers earn a spread, so oversold names revert over short horizons; falsified if low-RSI names keep underperforming the universe after costs at weekly rebalance.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.0011943168306558505,
-  "forward_sharpe": 0.09740196439431628,
+  "forward_days": 13,
+  "forward_return": 0.04030078149401839,
+  "forward_sharpe": 2.4571609073400027,
   "slug": "rsi-14-oversold-reversal-top-50-top-1000-long-only-e8cd43",
   "spec": {
     "costs_bps": 20,

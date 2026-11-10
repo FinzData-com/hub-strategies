@@ -2,7 +2,7 @@
   "description": "Short term moving average cross exploits short term continuation and mean reversion cycles, so 20/50 cross with long short should be profitable net of costs; falsified if forward Sharpe <= 0.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
+  "forward_days": 8,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "ma-cross-20-50-long-short-top-1000-858b1a",

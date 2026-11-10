@@ -2,9 +2,9 @@
   "description": "Book to market premium persists after controlling for size because investors underreact to distress risk, and the strategy is falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.009970371762083152,
-  "forward_sharpe": -1.2589518885580224,
+  "forward_days": 17,
+  "forward_return": -0.011986400776012873,
+  "forward_sharpe": -0.49802695498015354,
   "slug": "factor-book-to-market-size-adjusted-4a5470",
   "spec": {
     "costs_bps": 8,

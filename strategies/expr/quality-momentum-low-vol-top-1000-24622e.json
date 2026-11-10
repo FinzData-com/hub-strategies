@@ -2,9 +2,9 @@
   "description": "High ROE stocks with strong 12-month momentum and low volatility represent 'quality growth' anomalies; if selecting top 30 by ROE * momentum / vol underperforms market-cap weighted benchmark net of costs, the quality-momentum interaction is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.006257474011136743,
-  "forward_sharpe": 3.1978284121261944,
+  "forward_days": 13,
+  "forward_return": -0.002634043491139826,
+  "forward_sharpe": -0.664001943384583,
   "slug": "quality-momentum-low-vol-top-1000-24622e",
   "spec": {
     "costs_bps": 15,

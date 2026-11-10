@@ -2,9 +2,9 @@
   "description": "Stocks with low 63-day volatility and strong 6-month momentum skipping 1 month deliver better risk-adjusted returns by avoiding high-volatility momentum crashes; falsified if volatility filter does not reduce drawdowns or improve Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 2,
-  "forward_return": -0.01081921086865667,
-  "forward_sharpe": 0.0,
+  "forward_days": 10,
+  "forward_return": -0.0189326379527871,
+  "forward_sharpe": -7.849531718975353,
   "slug": "low-volatility-momentum-6m-skip-1m-top-40-top-1000-long-only-70b6ed",
   "spec": {
     "costs_bps": 10,

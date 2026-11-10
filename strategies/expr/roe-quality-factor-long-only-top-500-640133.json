@@ -1,0 +1,24 @@
+{
+  "description": "High return on equity reflects quality and competitive advantage leading to more stable cash flows, falsified if forward performance deteriorates relative to random ranking after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "roe-quality-factor-long-only-top-500-640133",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe)",
+      "type": "expr"
+    },
+    "start": "2013-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "ROE Quality Factor Long Only Top 500",
+  "universe": "top500"
+}

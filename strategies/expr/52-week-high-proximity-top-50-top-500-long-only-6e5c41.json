@@ -2,9 +2,9 @@
   "description": "Anchoring bias: investors treat the 52-week high as a reference point and underreact as fundamentals push prices toward it, so nearness to the high should predict continued strength; falsified if near-high names show no spread versus far-from-high names after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.016847033181407456,
-  "forward_sharpe": -3.5154909747881944,
+  "forward_days": 10,
+  "forward_return": -0.07014380447001156,
+  "forward_sharpe": -4.235885170421221,
   "slug": "52-week-high-proximity-top-50-top-500-long-only-6e5c41",
   "spec": {
     "costs_bps": 20,

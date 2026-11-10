@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong 12-month momentum skipping 1 month capture both value and momentum premia; falsified if earnings yield adds no incremental alpha over price momentum alone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 2,
-  "forward_return": -0.00651366742038173,
-  "forward_sharpe": 0.0,
+  "forward_days": 10,
+  "forward_return": -0.019025990906371026,
+  "forward_sharpe": -7.47809943282657,
   "slug": "earnings-yield-momentum-12m-skip-1m-top-50-top-1000-long-onl-bd1676",
   "spec": {
     "costs_bps": 10,

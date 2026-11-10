@@ -2,9 +2,9 @@
   "description": "Momentum is stronger in smaller, less efficiently priced stocks; excluding microcaps controls liquidity risk while capturing size-momentum interaction; falsified if forward alpha versus large cap momentum is not positive after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.008704060893187093,
-  "forward_sharpe": -0.8414287464419703,
+  "forward_days": 13,
+  "forward_return": -0.07107832722003815,
+  "forward_sharpe": -2.9188754566966106,
   "slug": "small-cap-momentum-12m-skip-1m-microcap-excluded-top-100-top-afaa34",
   "spec": {
     "costs_bps": 20,

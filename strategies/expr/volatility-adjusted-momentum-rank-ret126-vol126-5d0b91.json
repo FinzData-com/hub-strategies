@@ -1,0 +1,24 @@
+{
+  "description": "Risk adjusted momentum should select higher Sharpe opportunities and persist, falsified if forward Sharpe does not exceed raw momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "volatility-adjusted-momentum-rank-ret126-vol126-5d0b91",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) / vol(126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Volatility Adjusted Momentum \u00b7 rank(ret126 / vol126)",
+  "universe": "top1000"
+}

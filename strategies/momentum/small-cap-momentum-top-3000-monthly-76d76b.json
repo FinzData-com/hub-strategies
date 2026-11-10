@@ -2,9 +2,9 @@
   "description": "Momentum is stronger in less efficient small caps; if top 3000 momentum underperforms top 500 momentum after higher costs, the size-dependent anomaly is falsified.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 5,
-  "forward_return": -0.01382171016786038,
-  "forward_sharpe": -1.2147643863282918,
+  "forward_days": 13,
+  "forward_return": -0.007078903364931888,
+  "forward_sharpe": -0.06799294172912386,
   "slug": "small-cap-momentum-top-3000-monthly-76d76b",
   "spec": {
     "costs_bps": 20,

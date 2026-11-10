@@ -2,9 +2,9 @@
   "description": "2nd place of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only; final field adds Google Gemma 4 31B, Meta Muse Glimmer 30B and Poolside Laguna XS 2.1 to the first eight (so Claude Fable finishes 3rd and GPT-OSS-20B 4th). Hypothesis (by Muse Glimmer 30B): profitable, cheap, low-leverage stocks outperform; a 3-month momentum overlay improves timing and a volatility penalty reduces drawdowns. Out-of-sample 2019-01 to 2026-09: Sharpe 0.75, CAGR 15.5%, max drawdown -33.4% vs equal-weight top500 Sharpe 0.63. Judges flagged five hand-set weights and a weak in-sample Sharpe (0.19). Caveat: the models' training data covers the test period. Forward-tracked from publication.",
   "dsr": 0.5637,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.03224260309868465,
-  "forward_sharpe": -3.0758296771700775,
+  "forward_days": 17,
+  "forward_return": -0.04258478133665755,
+  "forward_sharpe": -2.3860266005231954,
   "slug": "ai-trading-championship-2nd-11-models-meta-muse-glimmer-qual-f84ed1",
   "spec": {
     "costs_bps": 10,

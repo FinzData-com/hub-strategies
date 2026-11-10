@@ -1,0 +1,24 @@
+{
+  "description": "Oversold stocks with low RSI should revert upward over medium term due to contrarian demand, falsified if forward returns are negative.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "rsi-mean-reversion-expr-long-only-a658f3",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-rsi(14))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "RSI mean reversion expr long only",
+  "universe": "top500"
+}

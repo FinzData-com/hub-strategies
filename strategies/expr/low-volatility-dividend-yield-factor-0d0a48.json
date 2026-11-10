@@ -2,7 +2,7 @@
   "description": "Low realized volatility stocks with stable dividend yield should deliver better risk-adjusted returns due to flight-to-quality demand; falsified if forward Sharpe is <=0 after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 6,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "low-volatility-dividend-yield-factor-0d0a48",

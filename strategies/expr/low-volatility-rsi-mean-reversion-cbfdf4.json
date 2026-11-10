@@ -2,7 +2,7 @@
   "description": "Low realized volatility stocks with oversold RSI should revert as mean reversion dominates short term noise; falsified if forward Sharpe is zero or negative after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 7,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "low-volatility-rsi-mean-reversion-cbfdf4",

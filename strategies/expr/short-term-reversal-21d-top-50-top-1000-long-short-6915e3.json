@@ -2,9 +2,9 @@
   "description": "One-month price moves are dominated by non-informational liquidity shocks that revert as liquidity providers are compensated for warehousing risk; falsified if the reversal long/short spread is non-positive after costs across the sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.006329363786919617,
-  "forward_sharpe": -0.26765143874766906,
+  "forward_days": 13,
+  "forward_return": -0.05541869733343607,
+  "forward_sharpe": -2.4824660706874604,
   "slug": "short-term-reversal-21d-top-50-top-1000-long-short-6915e3",
   "spec": {
     "costs_bps": 20,

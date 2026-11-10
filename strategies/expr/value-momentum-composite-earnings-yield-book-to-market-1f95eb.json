@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield and high book to market should earn risk-adjusted premiums due to distress and mispricing, and the effect should persist after controlling for momentum; falsified if forward Sharpe is not positive and statistically indistinguishable from zero.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 7,
   "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_sharpe": 0.004185945068547164,
   "slug": "value-momentum-composite-earnings-yield-book-to-market-1f95eb",
   "spec": {
     "costs_bps": 10,

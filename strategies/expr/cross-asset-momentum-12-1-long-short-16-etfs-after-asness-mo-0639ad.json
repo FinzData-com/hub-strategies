@@ -2,9 +2,9 @@
   "description": "Same cross-asset 12-1 momentum, long the top 4 and short the bottom 4 ETFs so the market exposure nets out; the paper reports momentum premia in every asset class. Falsified if the long/short spread is not positive.",
   "dsr": 0.0448,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.04361194354363962,
-  "forward_sharpe": -6.113777500874446,
+  "forward_days": 18,
+  "forward_return": -0.06799623405472932,
+  "forward_sharpe": -6.377804710043638,
   "slug": "cross-asset-momentum-12-1-long-short-16-etfs-after-asness-mo-0639ad",
   "spec": {
     "costs_bps": 10,

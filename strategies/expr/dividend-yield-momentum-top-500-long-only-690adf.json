@@ -2,9 +2,9 @@
   "description": "High dividend yield with momentum captures quality income compounders; if dual sort adds no alpha over high yield alone, the dividend-momentum synergy is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": 0.016212983963710625,
-  "forward_sharpe": 16.384707017935565,
+  "forward_days": 9,
+  "forward_return": -0.058874265269614035,
+  "forward_sharpe": -9.516732092664999,
   "slug": "dividend-yield-momentum-top-500-long-only-690adf",
   "spec": {
     "costs_bps": 10,

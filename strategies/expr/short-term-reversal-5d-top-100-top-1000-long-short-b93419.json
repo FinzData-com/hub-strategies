@@ -2,9 +2,9 @@
   "description": "Five-day reversal captures liquidity provision profits where short-term price pressure reverses; falsified if the strategy cannot generate positive returns after 15 bps round-trip costs given high turnover.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": 0.021243383552739248,
-  "forward_sharpe": 1.8782166781701213,
+  "forward_days": 19,
+  "forward_return": 0.05424270698369593,
+  "forward_sharpe": 1.9243579073575987,
   "slug": "short-term-reversal-5d-top-100-top-1000-long-short-b93419",
   "spec": {
     "costs_bps": 15,

@@ -1,0 +1,33 @@
+{
+  "description": "Each month, holds the 2 strongest of /ES, /NQ, /RTY, /YM, FDAX, Euro Stoxx 50 and Nikkei 225 futures by 6-month return. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
+  "dsr": 0.9577,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "equity-index-futures-rotation-6-month-momentum-top-2-of-7-0a7087",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-08",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "lookback": 126,
+      "skip": 0,
+      "type": "momentum"
+    },
+    "start": "2009-01-01",
+    "top_n": 2,
+    "universe": [
+      "/ES",
+      "/NQ",
+      "/RTY",
+      "/YM",
+      "/FDAX",
+      "/FESX",
+      "/NKD"
+    ]
+  },
+  "title": "Equity index futures rotation \u00b7 6-month momentum \u00b7 top 2 of 7",
+  "universe": "custom"
+}

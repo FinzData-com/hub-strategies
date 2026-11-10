@@ -1,0 +1,25 @@
+{
+  "description": "Shorter moving average cross should capture faster mean reversion in small caps, falsified if forward Sharpe is negative.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-10-50-russell-2000-small-cap-trend-155186",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 10,
+      "slow": 50,
+      "type": "ma_cross"
+    },
+    "start": "2014-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "MA Cross 10/50 \u00b7 Russell 2000 small cap trend",
+  "universe": "top1000"
+}

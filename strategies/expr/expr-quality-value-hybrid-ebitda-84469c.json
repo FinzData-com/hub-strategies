@@ -2,9 +2,9 @@
   "description": "Combining low leverage, high ROE and cheap EBITDA to EV should select firms with durable cash flows trading at discount, falsified if the hybrid rank fails to generate positive forward excess returns net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.009337471114650997,
-  "forward_sharpe": 4.578880752084152,
+  "forward_days": 13,
+  "forward_return": -0.03658189707595905,
+  "forward_sharpe": -3.6514917928621187,
   "slug": "expr-quality-value-hybrid-ebitda-84469c",
   "spec": {
     "costs_bps": 10,

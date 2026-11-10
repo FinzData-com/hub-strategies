@@ -2,9 +2,9 @@
   "description": "A 189-day formation window with a 7-day skip should capture slower institutional repricing while avoiding immediate reversal; falsified if it fails to beat matched 126-day and 252-day momentum after costs.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 5,
-  "forward_return": -0.03917196385350452,
-  "forward_sharpe": -3.1900920533071826,
+  "forward_days": 13,
+  "forward_return": -0.06617296047837995,
+  "forward_sharpe": -2.5127477643265617,
   "slug": "intermediate-189-day-momentum-with-one-week-skip-4419c5",
   "spec": {
     "costs_bps": 15,

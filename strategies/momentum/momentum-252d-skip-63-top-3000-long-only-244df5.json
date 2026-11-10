@@ -2,9 +2,9 @@
   "description": "Longer lookback momentum with a skip avoids short-term reversal and should persist in broader universe; falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 6,
+  "forward_return": -0.007225395913174504,
+  "forward_sharpe": -0.44466240387197475,
   "slug": "momentum-252d-skip-63-top-3000-long-only-244df5",
   "spec": {
     "costs_bps": 10,

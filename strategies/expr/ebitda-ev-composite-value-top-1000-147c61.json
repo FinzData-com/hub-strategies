@@ -2,8 +2,8 @@
   "description": "EBITDA over enterprise value measures cash flow cheapness and should be rewarded for risk and mispricing, falsified if out of sample forward tracking shows no outperformance versus random.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.00040282110666123305,
   "forward_sharpe": 0.0,
   "slug": "ebitda-ev-composite-value-top-1000-147c61",
   "spec": {

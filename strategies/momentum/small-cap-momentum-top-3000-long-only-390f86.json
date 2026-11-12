@@ -2,9 +2,9 @@
   "description": "Momentum effect is stronger in smaller, less efficient stocks; if top3000 momentum underperforms top500 after higher costs, the size-dependent anomaly hypothesis is falsified.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 12,
-  "forward_return": -0.040278450363196105,
-  "forward_sharpe": -1.695424131077288,
+  "forward_days": 14,
+  "forward_return": -0.05777037933817586,
+  "forward_sharpe": -2.351418597084161,
   "slug": "small-cap-momentum-top-3000-long-only-390f86",
   "spec": {
     "costs_bps": 20,

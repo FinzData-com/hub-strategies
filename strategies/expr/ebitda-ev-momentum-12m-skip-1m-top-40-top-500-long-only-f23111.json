@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV stocks with 12-month momentum (skipping 1 month) should capture cheap quality trends; falsified if forward Sharpe < 0.3 after 24 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.05577263155357792,
-  "forward_sharpe": -6.221911202423247,
+  "forward_days": 11,
+  "forward_return": -0.026649635322365306,
+  "forward_sharpe": -2.1102311732700256,
   "slug": "ebitda-ev-momentum-12m-skip-1m-top-40-top-500-long-only-f23111",
   "spec": {
     "costs_bps": 10,

@@ -1,0 +1,24 @@
+{
+  "description": "Cheap enterprise value relative to cash flow should outperform as markets misprice operating efficiency, and tilting toward larger caps reduces idiosyncratic risk, falsified by no out-of-sample risk-adjusted excess return.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-quality-factor-with-size-tilt-14dd0b",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) + 0.5 * rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "EBITDA EV Quality Factor with Size Tilt",
+  "universe": "top1000"
+}

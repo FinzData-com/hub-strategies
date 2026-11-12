@@ -2,9 +2,9 @@
   "description": "'Quality Minus Junk': profitable, safely financed companies earn more than their price implies. Proxy: rank of return on equity minus rank of debt to equity. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.02541440005769391,
-  "forward_sharpe": -6.845104150889285,
+  "forward_days": 19,
+  "forward_return": -0.01954784343695881,
+  "forward_sharpe": -4.517634432050645,
   "slug": "quality-high-roe-low-leverage-top-50-of-the-top-500-after-as-e57455",
   "spec": {
     "costs_bps": 10,

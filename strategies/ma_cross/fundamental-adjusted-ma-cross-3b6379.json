@@ -2,9 +2,9 @@
   "description": "Limiting MA cross trades to the top 30% of value stocks (rank(book_to_market) < 0.3) should enhance returns because value stocks are less likely to be over\u2011traded; if the strategy underperforms, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 9,
-  "forward_return": -0.12570307895931765,
-  "forward_sharpe": -6.754943564477808,
+  "forward_days": 10,
+  "forward_return": -0.10306929832188505,
+  "forward_sharpe": -4.760735705561001,
   "slug": "fundamental-adjusted-ma-cross-3b6379",
   "spec": {
     "costs_bps": 5,

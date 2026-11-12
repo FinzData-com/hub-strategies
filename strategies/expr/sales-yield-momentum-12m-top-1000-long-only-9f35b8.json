@@ -2,9 +2,9 @@
   "description": "High sales yield (price-to-sales) combined with 12-month momentum identifies cheap stocks with improving fundamentals; falsified if sales yield loses efficacy as value metric or if momentum in low P/S stocks reverts due to structural changes.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 8,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.003929886616841501,
+  "forward_days": 10,
+  "forward_return": -0.0010000000000000009,
+  "forward_sharpe": -2.9311306861775854,
   "slug": "sales-yield-momentum-12m-top-1000-long-only-9f35b8",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "RSI < 30 identifies oversold large caps that rebound from panic selling; if mean reversion fails after 10bps costs, the behavioral overshoot hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.01720452437457387,
-  "forward_sharpe": -0.9530764711806051,
+  "forward_days": 10,
+  "forward_return": 0.022546992453052583,
+  "forward_sharpe": 1.4887048032317567,
   "slug": "rsi-mean-reversion-oversold-top-500-long-only-6da821",
   "spec": {
     "costs_bps": 10,

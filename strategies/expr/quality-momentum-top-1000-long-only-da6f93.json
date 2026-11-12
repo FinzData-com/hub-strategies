@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong 12m momentum skipping 1m reflect persistent competitive advantages; if forward Sharpe does not exceed 0.3, quality does not enhance momentum profitability.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.03188388883941051,
-  "forward_sharpe": -3.6467089589420474,
+  "forward_days": 15,
+  "forward_return": -0.03285127710606561,
+  "forward_sharpe": -3.495384824705783,
   "slug": "quality-momentum-top-1000-long-only-da6f93",
   "spec": {
     "costs_bps": 10,

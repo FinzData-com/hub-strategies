@@ -2,9 +2,9 @@
   "description": "Small-cap stocks earn a premium for bearing higher information asymmetry and illiquidity risk; falsified if the smallest capitalization decile underperforms the largest after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": 0.002699974314403608,
-  "forward_sharpe": 0.841930827688691,
+  "forward_days": 14,
+  "forward_return": 0.0006949048936040203,
+  "forward_sharpe": 0.22348265029022746,
   "slug": "size-factor-top3000-long-short-31bf67",
   "spec": {
     "costs_bps": 20,

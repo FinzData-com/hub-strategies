@@ -2,9 +2,9 @@
   "description": "Stocks that are both cheap on book-to-market and have recent positive momentum earn a premium from value reversion and trend continuation, so intersection should be more robust than either alone; falsified if forward Sharpe <= 0.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.02265568856940925,
-  "forward_sharpe": -6.26301397350606,
+  "forward_days": 6,
+  "forward_return": -0.008968041700404106,
+  "forward_sharpe": -1.7864558596641322,
   "slug": "value-momentum-intersection-long-only-c6ea7d",
   "spec": {
     "costs_bps": 10,

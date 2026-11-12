@@ -2,9 +2,9 @@
   "description": "Low volatility stocks exhibiting strong momentum may indicate sustainable trends with lower drawdown risk; if the risk-adjusted return does not improve versus unfiltered momentum, the low-vol filter is economically unjustified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.001264101128090278,
-  "forward_sharpe": -0.14679362042933122,
+  "forward_days": 12,
+  "forward_return": 0.014507160572845956,
+  "forward_sharpe": 2.1323578956253106,
   "slug": "low-vol-momentum-top500-long-only-51a3e1",
   "spec": {
     "costs_bps": 10,

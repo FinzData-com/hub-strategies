@@ -2,9 +2,9 @@
   "description": "Long term moving average crossovers capture trend persistence in equity prices with lower turnover than short term signals, falsified if forward Sharpe does not exceed zero.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 13,
+  "forward_days": 15,
   "forward_return": 0.007616573680450545,
-  "forward_sharpe": 0.9915708780777018,
+  "forward_sharpe": 0.9236773868632366,
   "slug": "ma-cross-fast-50-slow-200-long-only-2e1220",
   "spec": {
     "costs_bps": 5,

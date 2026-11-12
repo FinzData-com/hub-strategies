@@ -2,9 +2,9 @@
   "description": "Holds every major coin whose own 28-day return is positive and sits in cash otherwise, testing whether crypto trends persist like futures trends do. Falsified if it does not cut drawdowns versus an equal-weight basket.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 26,
-  "forward_return": -0.09141499581387735,
-  "forward_sharpe": -4.092519997425203,
+  "forward_days": 27,
+  "forward_return": -0.09232342761460044,
+  "forward_sharpe": -4.056488104919661,
   "slug": "crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2",
   "spec": {
     "costs_bps": 10,

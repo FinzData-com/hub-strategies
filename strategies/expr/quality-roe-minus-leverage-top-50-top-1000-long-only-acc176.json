@@ -2,9 +2,9 @@
   "description": "Lottery-seeking and leverage-constrained investors overpay for junk, so high-ROE low-leverage firms should carry a durable quality premium; falsified if the quality long leg fails to separate from the universe after costs across the full window.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.013186313161692165,
-  "forward_sharpe": -1.6235781914582994,
+  "forward_days": 15,
+  "forward_return": -0.01516015661928416,
+  "forward_sharpe": -1.7501461999957704,
   "slug": "quality-roe-minus-leverage-top-50-top-1000-long-only-acc176",
   "spec": {
     "costs_bps": 20,

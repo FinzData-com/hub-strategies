@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV (cheap on enterprise value basis) with 12-month momentum (skipping 1 month) captures value and trend in capital-structure-neutral terms; falsified if the combo does not beat standalone momentum or EBITDA/EV strategies.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 6.19706878646209e-05,
-  "forward_sharpe": 0.061515231284021595,
+  "forward_days": 15,
+  "forward_return": -0.0009375565357585547,
+  "forward_sharpe": -0.12368449276534384,
   "slug": "ebitda-ev-momentum-12m-skip-1m-top-40-top-1000-long-only-03223b",
   "spec": {
     "costs_bps": 10,

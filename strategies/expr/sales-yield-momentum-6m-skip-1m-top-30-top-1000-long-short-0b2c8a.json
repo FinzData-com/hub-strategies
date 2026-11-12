@@ -2,9 +2,9 @@
   "description": "High sales yield stocks with 6-month momentum (skipping 1 month) should identify profitable growth trends; falsified if long/short forward Sharpe < 0.3 after 18 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 0.019339410653931077,
-  "forward_sharpe": 2.1879151144408024,
+  "forward_days": 15,
+  "forward_return": 0.017810819268440303,
+  "forward_sharpe": 1.8791510472377497,
   "slug": "sales-yield-momentum-6m-skip-1m-top-30-top-1000-long-short-0b2c8a",
   "spec": {
     "costs_bps": 15,

@@ -2,9 +2,9 @@
   "description": "Companies with both high earnings yield and high book-to-market ratios are likely undervalued and will generate superior risk\u2011adjusted returns; if these firms do not outperform the market, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": 0.024964133115982,
-  "forward_sharpe": 4.168001137731081,
+  "forward_days": 11,
+  "forward_return": 0.03437747989695339,
+  "forward_sharpe": 5.325089587243999,
   "slug": "earnings-book-momentum-factor-35f0c1",
   "spec": {
     "costs_bps": 5,

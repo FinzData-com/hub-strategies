@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with positive momentum exhibit 'low-risk anomaly' persistence; combining vol filter with momentum reduces drawdowns while capturing upside. Falsified if forward Sharpe < 0.3 or volatility > 15% annualized.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.02221043684787183,
-  "forward_sharpe": -3.146291649344256,
+  "forward_days": 11,
+  "forward_return": -0.0029073919266190407,
+  "forward_sharpe": -0.24509502938124336,
   "slug": "low-volatility-momentum-top-500-long-only-ac06f2",
   "spec": {
     "costs_bps": 10,

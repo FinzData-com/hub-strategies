@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum capture the 'quality at reasonable price' effect where profitable firms' trends persist due to slow information diffusion; falsified if ROE-momentum combo underperforms momentum alone after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": 0.02170811162992714,
-  "forward_sharpe": 1.0675174868636812,
+  "forward_days": 21,
+  "forward_return": 0.020175914865891986,
+  "forward_sharpe": 0.9544807728672864,
   "slug": "quality-momentum-12m-skip-1m-top-30-top-1000-long-only-3aeca0",
   "spec": {
     "costs_bps": 15,

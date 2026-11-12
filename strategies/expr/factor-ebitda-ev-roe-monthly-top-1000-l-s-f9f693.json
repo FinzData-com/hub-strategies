@@ -2,9 +2,9 @@
   "description": "High EBITDA-to-EV identifies cheap operating cash flow and high ROE identifies efficient capital use; falsified if the forward spread is non-positive or if the profitability leg adds no diversification.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 0.019142675384959285,
-  "forward_sharpe": 2.509705806792969,
+  "forward_days": 15,
+  "forward_return": 0.0176147471220629,
+  "forward_sharpe": 2.1493901676986464,
   "slug": "factor-ebitda-ev-roe-monthly-top-1000-l-s-f9f693",
   "spec": {
     "costs_bps": 15,

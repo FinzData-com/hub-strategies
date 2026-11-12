@@ -2,9 +2,9 @@
   "description": "Sales yield (revenue/price) identifies unprofitable but growing firms where momentum reflects revenue traction; less manipulated than earnings, falsified if strategy underperforms earnings yield momentum during earnings manipulation cycles.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.024296463727770834,
-  "forward_sharpe": -2.941138646827614,
+  "forward_days": 15,
+  "forward_return": -0.02576039947286135,
+  "forward_sharpe": -2.908166768063929,
   "slug": "sales-yield-momentum-12m-skip-1m-top-40-top1000-long-only-54b519",
   "spec": {
     "costs_bps": 15,

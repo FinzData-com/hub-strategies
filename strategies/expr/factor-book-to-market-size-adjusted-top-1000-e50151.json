@@ -2,9 +2,9 @@
   "description": "Value premium persists after controlling for size via log market cap, as investors underreact to distress risk, falsified if forward Sharpe is negative for three consecutive years.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.004234895942844001,
+  "forward_days": 6,
+  "forward_return": -0.0008000000000000229,
+  "forward_sharpe": -3.7903942469259575,
   "slug": "factor-book-to-market-size-adjusted-top-1000-e50151",
   "spec": {
     "costs_bps": 8,

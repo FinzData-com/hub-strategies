@@ -2,9 +2,9 @@
   "description": "Golden cross (50-day > 200-day SMA) signals sustained institutional accumulation; if this classic trend filter fails to beat buy-and-hold after whipsaw costs in large caps, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 10,
-  "forward_return": -0.010784306842764546,
-  "forward_sharpe": -3.9718547491077536,
+  "forward_days": 11,
+  "forward_return": -0.0057476855310968356,
+  "forward_sharpe": -1.8246916328697098,
   "slug": "ma-cross-50-200-top-500-long-only-4374a2",
   "spec": {
     "costs_bps": 5,

@@ -2,9 +2,9 @@
   "description": "A composite of value, quality, and low volatility with momentum captures multiple independent risk premia that are not fully arbitraged; falsified if the multi-factor approach does not improve risk-adjusted returns over single-factor momentum in forward tests.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
+  "forward_days": 14,
   "forward_return": -0.015160617454899161,
-  "forward_sharpe": -4.3853046656514305,
+  "forward_sharpe": -4.0388091188860455,
   "slug": "multi-factor-momentum-12m-skip-1m-top-40-top-1000-long-only-8ce2de",
   "spec": {
     "costs_bps": 10,

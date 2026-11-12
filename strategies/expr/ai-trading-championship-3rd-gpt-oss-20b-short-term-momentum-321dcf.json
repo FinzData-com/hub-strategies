@@ -2,9 +2,9 @@
   "description": "3rd place, FinzData AI Trading Championship (Oct 2026), 8 AI models, FinzData data only. Hypothesis (by GPT-OSS-20B): 20-day momentum plus high earnings yield captures trend and undervaluation. Out-of-sample 2019-01 to 2026-09: Sharpe 0.69, CAGR 14.0%, max drawdown -36.0%, but 9.3x annual turnover; judges marked it down because its own falsification test (Sharpe below 1) was met. Caveat: the models' training data covers the test period. Forward-tracked from publication.",
   "dsr": 0.541,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": 0.00818835479917901,
-  "forward_sharpe": 0.8775470208456165,
+  "forward_days": 18,
+  "forward_return": 0.015412099945371516,
+  "forward_sharpe": 1.5178385792558007,
   "slug": "ai-trading-championship-3rd-gpt-oss-20b-short-term-momentum-321dcf",
   "spec": {
     "costs_bps": 10,

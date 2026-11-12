@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum reflect persistent competitive advantages; if ROE-filtered momentum underperforms raw momentum after costs, the quality screen adds no value.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.0807418625174573,
-  "forward_sharpe": -4.437109521898815,
+  "forward_days": 15,
+  "forward_return": -0.08060156109430816,
+  "forward_sharpe": -4.100672730642865,
   "slug": "quality-momentum-top-1000-quarterly-044f7b",
   "spec": {
     "costs_bps": 10,

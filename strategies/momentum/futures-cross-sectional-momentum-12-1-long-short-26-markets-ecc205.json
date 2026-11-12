@@ -2,7 +2,7 @@
   "description": "Each month, long the 6 futures markets with the strongest 12-month return (skipping the last month) and short the 6 weakest, dollar neutral. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
   "dsr": 0.5732,
   "family": "momentum",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "futures-cross-sectional-momentum-12-1-long-short-26-markets-ecc205",

@@ -2,9 +2,9 @@
   "description": "Buying top 500 stocks only when price crosses above 200-day SMA and 50-day SMA is above 200-day SMA captures persistent trends while avoiding bear markets; falsified if trend filter does not reduce max drawdown vs buy-and-hold.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 7,
-  "forward_return": -0.016129755900102682,
-  "forward_sharpe": -7.499684414604286,
+  "forward_days": 8,
+  "forward_return": -0.011119740855102367,
+  "forward_sharpe": -4.19785908476489,
   "slug": "ma-cross-50-200-trend-filter-top-500-long-only-f068e1",
   "spec": {
     "costs_bps": 5,

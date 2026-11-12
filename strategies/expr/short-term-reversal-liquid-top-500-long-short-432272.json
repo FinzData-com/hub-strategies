@@ -2,9 +2,9 @@
   "description": "Liquid large caps exhibit short-term mean reversion due to microstructure noise; if 5-day reversal fails to generate positive spread after 10bps costs, the liquidity-driven reversal hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.010057980006818679,
-  "forward_sharpe": -1.4248465306745355,
+  "forward_days": 10,
+  "forward_return": 0.02044263881930819,
+  "forward_sharpe": 2.3035360331853028,
   "slug": "short-term-reversal-liquid-top-500-long-short-432272",
   "spec": {
     "costs_bps": 10,

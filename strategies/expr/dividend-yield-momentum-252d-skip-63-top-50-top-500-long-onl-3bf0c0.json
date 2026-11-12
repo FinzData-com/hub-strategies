@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with long-term momentum skipping 3 months capture quality income stocks in uptrends while avoiding value traps; falsified if forward Sharpe does not exceed high dividend yield or momentum alone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 8,
-  "forward_return": -0.06290236184053177,
-  "forward_sharpe": -11.150473558468626,
+  "forward_days": 9,
+  "forward_return": -0.04561599781783243,
+  "forward_sharpe": -5.8393730347365205,
   "slug": "dividend-yield-momentum-252d-skip-63-top-50-top-500-long-onl-3bf0c0",
   "spec": {
     "costs_bps": 10,

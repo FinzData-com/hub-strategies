@@ -1,0 +1,24 @@
+{
+  "description": "High profitability and low leverage should earn a risk-adjusted premium because quality firms are less sensitive to distress and value firms are mean-reverting, and the effect would be falsified by a persistently negative forward Sharpe over multiple years.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "us-quality-value-composite-factor-long-only-a8a3ad",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) + rank(earnings_yield) - rank(leverage) - rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "US Quality-Value Composite Factor Long Only",
+  "universe": "top1000"
+}

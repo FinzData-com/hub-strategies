@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong 6m momentum capture 'low-risk anomaly' and trend persistence; falsified if forward Sharpe < 0.25 indicating volatility-momentum interaction is spurious.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.03591901481778914,
-  "forward_sharpe": -3.7082966101924386,
+  "forward_days": 11,
+  "forward_return": -0.0168275721882718,
+  "forward_sharpe": -1.4070781225769444,
   "slug": "low-vol-momentum-top-500-long-only-6b44f9",
   "spec": {
     "costs_bps": 10,

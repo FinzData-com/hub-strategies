@@ -2,9 +2,9 @@
   "description": "Cheap, profitable firms can be underpriced because markets underreact to durable cash generation, while ROE filters distressed value traps; reject if composite ranks do not predict subsequent returns or if the portfolio fails to beat an equal-weight universe after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 0.01605781401783868,
-  "forward_sharpe": 3.5108300721325056,
+  "forward_days": 15,
+  "forward_return": 0.014532984015777961,
+  "forward_sharpe": 2.9362312930640733,
   "slug": "factor-value-quality-composite-monthly-top-1000-d6f6b5",
   "spec": {
     "costs_bps": 15,

@@ -2,9 +2,9 @@
   "description": "Golden cross (50-day > 200-day SMA) signals sustained uptrends in large caps; if the strategy underperforms buy-and-hold after 10bps costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 13,
+  "forward_days": 15,
   "forward_return": 0.007838971520486293,
-  "forward_sharpe": 0.9393688997228035,
+  "forward_sharpe": 0.8750769699737561,
   "slug": "ma-cross-50-200-top1000-long-only-6aded9",
   "spec": {
     "costs_bps": 10,

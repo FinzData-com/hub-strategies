@@ -2,9 +2,9 @@
   "description": "High book-to-market among low-leverage firms avoids distress risk and isolates the pure value premium; falsified if low-leverage value does not outperform high-leverage value after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 0.025950335823764048,
-  "forward_sharpe": 2.635575774074314,
+  "forward_days": 15,
+  "forward_return": 0.02645654259774921,
+  "forward_sharpe": 2.496450692313538,
   "slug": "leverage-adjusted-value-top-1000-quarterly-b18fef",
   "spec": {
     "costs_bps": 10,

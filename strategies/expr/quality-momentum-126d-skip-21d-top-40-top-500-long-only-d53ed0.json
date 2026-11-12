@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum benefit from persistent profitability and investor underreaction to fundamental improvements; falsified if the strategy's information ratio versus the momentum-only benchmark is not statistically positive over rolling 3-year windows.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.09110260070396958,
-  "forward_sharpe": -6.8995858427939645,
+  "forward_days": 11,
+  "forward_return": -0.059558766574420274,
+  "forward_sharpe": -3.4750847513677225,
   "slug": "quality-momentum-126d-skip-21d-top-40-top-500-long-only-d53ed0",
   "spec": {
     "costs_bps": 10,

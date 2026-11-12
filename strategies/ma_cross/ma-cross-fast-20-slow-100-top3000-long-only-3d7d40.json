@@ -2,9 +2,9 @@
   "description": "Shorter term moving average cross captures faster regime changes in a broader universe, exploiting micro trends before they mean revert; falsified if forward Sharpe <=0 after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 13,
-  "forward_return": -0.01225938134751381,
-  "forward_sharpe": -1.0020104304890902,
+  "forward_days": 15,
+  "forward_return": -0.01239578339749825,
+  "forward_sharpe": -0.9450313901617279,
   "slug": "ma-cross-fast-20-slow-100-top3000-long-only-3d7d40",
   "spec": {
     "costs_bps": 10,

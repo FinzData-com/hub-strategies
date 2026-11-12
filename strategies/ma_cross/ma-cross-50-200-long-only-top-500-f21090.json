@@ -2,9 +2,9 @@
   "description": "Long term moving average cross captures trend persistence from institutional momentum and slow mean reversion, so 50/200 cross should generate positive risk-adjusted returns; falsified if forward Sharpe is zero.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 5,
-  "forward_return": -0.07426413012431832,
-  "forward_sharpe": -5.182287309212501,
+  "forward_days": 6,
+  "forward_return": -0.04209578607725395,
+  "forward_sharpe": -2.209166624130842,
   "slug": "ma-cross-50-200-long-only-top-500-f21090",
   "spec": {
     "costs_bps": 5,

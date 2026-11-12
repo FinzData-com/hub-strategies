@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong 12-month momentum (skipping 1 month) combine the value effect with trend persistence; falsified if the combination does not outperform either factor in isolation on a risk-adjusted basis.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.06608657493521419,
-  "forward_sharpe": -8.102417032380039,
+  "forward_days": 11,
+  "forward_return": -0.0416062953526114,
+  "forward_sharpe": -3.7357376450070143,
   "slug": "earnings-yield-momentum-12m-skip-1m-top-40-top-500-long-only-b438d3",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "One-month losers rebound due to liquidity provision and overreaction correction; if buying prior month losers and selling winners (skip 0) yields no premium after 10bps costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 10,
-  "forward_return": 0.04963151043600056,
-  "forward_sharpe": 2.823697975847042,
+  "forward_days": 11,
+  "forward_return": 0.015811642191436492,
+  "forward_sharpe": 0.9819868053978292,
   "slug": "short-term-reversal-top-500-long-short-434b66",
   "spec": {
     "costs_bps": 10,

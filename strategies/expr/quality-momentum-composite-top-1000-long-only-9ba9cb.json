@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum reflect profitable growth persistence; if the composite rank does not yield higher risk-adjusted returns than momentum alone net of costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.0062447579410981335,
-  "forward_sharpe": -0.8438529208310901,
+  "forward_days": 13,
+  "forward_return": -0.007238513183157047,
+  "forward_sharpe": -0.9127879378928914,
   "slug": "quality-momentum-composite-top-1000-long-only-9ba9cb",
   "spec": {
     "costs_bps": 10,

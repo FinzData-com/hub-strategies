@@ -2,9 +2,9 @@
   "description": "Oversold RSI signals temporary pessimism and subsequent reversion, so buying low RSI stocks should earn mean reversion premium; falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.002939504429296358,
-  "forward_sharpe": 0.5531152490389494,
+  "forward_days": 6,
+  "forward_return": 0.05755817571422983,
+  "forward_sharpe": 5.033416782553987,
   "slug": "rsi-mean-reversion-expr-top-500-e6df4f",
   "spec": {
     "costs_bps": 10,

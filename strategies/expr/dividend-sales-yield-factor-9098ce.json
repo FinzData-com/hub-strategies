@@ -2,9 +2,9 @@
   "description": "Firms offering high dividend and sales yields are expected to deliver higher risk\u2011adjusted performance; failure to outperform would falsify the hypothesis.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": 0.00045380704007302874,
-  "forward_sharpe": 0.15827492460300183,
+  "forward_days": 11,
+  "forward_return": 0.018559143087120145,
+  "forward_sharpe": 2.026763656657723,
   "slug": "dividend-sales-yield-factor-9098ce",
   "spec": {
     "costs_bps": 5,

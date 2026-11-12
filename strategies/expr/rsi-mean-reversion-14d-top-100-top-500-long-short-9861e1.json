@@ -2,9 +2,9 @@
   "description": "Short-term RSI extremes (14-day) revert in large caps; if long-short quintile spread shows no forward alpha, mean reversion is absent.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.016271877919014632,
-  "forward_sharpe": -1.0441799505106848,
+  "forward_days": 12,
+  "forward_return": 0.005320399224117089,
+  "forward_sharpe": 0.5101113583463753,
   "slug": "rsi-mean-reversion-14d-top-100-top-500-long-short-9861e1",
   "spec": {
     "costs_bps": 15,

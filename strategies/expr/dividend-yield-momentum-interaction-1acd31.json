@@ -2,9 +2,9 @@
   "description": "Dividend paying stocks with recent positive momentum benefit from both income and trend continuation, generating persistence; falsified if the combined signal does not produce positive forward Sharpe relative to dividend yield alone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.03264422234947084,
-  "forward_sharpe": -10.040611741271208,
+  "forward_days": 6,
+  "forward_return": -0.018520595602834367,
+  "forward_sharpe": -3.809573153477399,
   "slug": "dividend-yield-momentum-interaction-1acd31",
   "spec": {
     "costs_bps": 10,

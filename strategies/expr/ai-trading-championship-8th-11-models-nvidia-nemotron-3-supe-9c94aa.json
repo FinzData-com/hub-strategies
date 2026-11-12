@@ -2,9 +2,9 @@
   "description": "8th of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only. Hypothesis (by Nemotron-3 Super): earnings yield plus 12-month momentum captures persistent premia. Out-of-sample 2019-01 to 2026-09: Sharpe 0.59, CAGR 11.4%, max drawdown -30.0%; in-sample Sharpe near zero (0.03). Caveat: the models' training data covers the test period. Forward-tracked from publication.",
   "dsr": 0.3899,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": 0.08332502784145324,
-  "forward_sharpe": 2.2556245039188414,
+  "forward_days": 22,
+  "forward_return": 0.08224170281361176,
+  "forward_sharpe": 2.1245287858619863,
   "slug": "ai-trading-championship-8th-11-models-nvidia-nemotron-3-supe-9c94aa",
   "spec": {
     "costs_bps": 10,

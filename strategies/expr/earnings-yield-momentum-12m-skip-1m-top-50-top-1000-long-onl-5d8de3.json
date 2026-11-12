@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong 12-month momentum skipping 1 month combine value and momentum signals; falsified if forward Sharpe <= 0 or underperforms book-to-market momentum blend.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.005477828122700257,
-  "forward_sharpe": -1.0818467548029198,
+  "forward_days": 15,
+  "forward_return": -0.006472350294577489,
+  "forward_sharpe": -1.198925834325363,
   "slug": "earnings-yield-momentum-12m-skip-1m-top-50-top-1000-long-onl-5d8de3",
   "spec": {
     "costs_bps": 10,

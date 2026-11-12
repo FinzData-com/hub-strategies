@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong intermediate momentum exploit the low-vol anomaly combined with trend persistence; low vol reduces tail risk during momentum crashes. Falsified if portfolio volatility exceeds market volatility during 2020 drawdown or if risk-adjusted returns match high-vol momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
+  "forward_days": 12,
   "forward_return": -0.01464435558726207,
-  "forward_sharpe": -7.331090613016837,
+  "forward_sharpe": -6.56449570863183,
   "slug": "low-volatility-momentum-126d-skip-21-top-50-top-1000-long-on-f24643",
   "spec": {
     "costs_bps": 10,

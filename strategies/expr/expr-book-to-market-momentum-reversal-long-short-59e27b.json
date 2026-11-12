@@ -2,9 +2,9 @@
   "description": "Value stocks that have recently underperformed may experience mean reversion while overvalued momentum stocks fade, generating long short alpha; falsified if long short forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
+  "forward_days": 15,
   "forward_return": 0.04149793428645299,
-  "forward_sharpe": 6.637998421198858,
+  "forward_sharpe": 6.102779004141952,
   "slug": "expr-book-to-market-momentum-reversal-long-short-59e27b",
   "spec": {
     "costs_bps": 15,

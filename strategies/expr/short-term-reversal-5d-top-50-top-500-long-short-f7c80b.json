@@ -2,9 +2,9 @@
   "description": "Liquidity-driven selling and bid-ask bounce push prices temporarily below fair value, so recent losers bounce as liquidity providers are compensated; falsified if five-day losers continue to underperform winners over the following week after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": 0.01219551081057535,
-  "forward_sharpe": 1.4703910127358988,
+  "forward_days": 11,
+  "forward_return": 0.04247808868264258,
+  "forward_sharpe": 3.936675651366648,
   "slug": "short-term-reversal-5d-top-50-top-500-long-short-f7c80b",
   "spec": {
     "costs_bps": 20,

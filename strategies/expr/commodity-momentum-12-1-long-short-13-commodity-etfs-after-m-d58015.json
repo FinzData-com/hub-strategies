@@ -2,9 +2,9 @@
   "description": "Long the 3 strongest and short the 3 weakest commodity ETFs by 12-1 month return, the long/short form tested in the paper. Falsified if the spread is not positive after 10 bps costs.",
   "dsr": 0.0262,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": 0.0012227079361570858,
-  "forward_sharpe": 0.21241476364928716,
+  "forward_days": 19,
+  "forward_return": -0.04100668967966037,
+  "forward_sharpe": -1.4863926727994983,
   "slug": "commodity-momentum-12-1-long-short-13-commodity-etfs-after-m-d58015",
   "spec": {
     "costs_bps": 10,

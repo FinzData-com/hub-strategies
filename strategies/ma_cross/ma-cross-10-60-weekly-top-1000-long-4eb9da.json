@@ -2,9 +2,9 @@
   "description": "Short moving-average breaks can capture gradual information diffusion before full price adjustment, while weekly rebalancing limits turnover; falsified if the forward long-only result is non-positive after costs or trades lack persistence.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 13,
+  "forward_days": 15,
   "forward_return": 0.0444409629745679,
-  "forward_sharpe": 3.701273171521537,
+  "forward_sharpe": 3.4343751604268866,
   "slug": "ma-cross-10-60-weekly-top-1000-long-4eb9da",
   "spec": {
     "costs_bps": 10,

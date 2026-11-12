@@ -2,9 +2,9 @@
   "description": "The low-volatility anomaly: less volatile stocks have historically earned similar or better returns than volatile ones because leverage-constrained investors overpay for risky names. Falsified if the strategy fails to match the benchmark's Sharpe ratio out of sample.",
   "dsr": 0.0434,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": 0.007424303367967289,
-  "forward_sharpe": 1.6281703403242802,
+  "forward_days": 19,
+  "forward_return": 0.014855576043106167,
+  "forward_sharpe": 2.9207175364458777,
   "slug": "low-volatility-top-20-top-500-long-only-e3fa09",
   "spec": {
     "costs_bps": 10,

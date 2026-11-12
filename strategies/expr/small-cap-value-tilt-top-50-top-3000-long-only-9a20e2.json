@@ -2,9 +2,9 @@
   "description": "Analysts and institutions neglect small cheap firms, so information diffuses slowly and mispricing persists longer than in large caps; falsified if the small-value tilt shows no spread versus the top500 universe after the higher trading costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": 0.010294428586531401,
-  "forward_sharpe": 1.0352055455117537,
+  "forward_days": 15,
+  "forward_return": 0.007263805194347661,
+  "forward_sharpe": 0.709402590209775,
   "slug": "small-cap-value-tilt-top-50-top-3000-long-only-9a20e2",
   "spec": {
     "costs_bps": 30,

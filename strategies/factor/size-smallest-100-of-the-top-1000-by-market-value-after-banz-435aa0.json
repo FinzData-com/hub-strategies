@@ -2,9 +2,9 @@
   "description": "Smaller listed companies earn a premium over larger ones. Disputed since the 1980s; included as a test. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "factor",
-  "forward_days": 21,
-  "forward_return": 0.03337490945052357,
-  "forward_sharpe": 4.133932523791143,
+  "forward_days": 23,
+  "forward_return": 0.032341534541073136,
+  "forward_sharpe": 3.810026010995239,
   "slug": "size-smallest-100-of-the-top-1000-by-market-value-after-banz-435aa0",
   "spec": {
     "costs_bps": 10,

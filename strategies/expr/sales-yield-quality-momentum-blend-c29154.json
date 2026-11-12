@@ -2,9 +2,9 @@
   "description": "Combining sales yield with recent return momentum selects profitable growers with trend confirmation, falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
+  "forward_days": 15,
   "forward_return": -0.012768877087306008,
-  "forward_sharpe": -2.6342406179102427,
+  "forward_sharpe": -2.449368396881253,
   "slug": "sales-yield-quality-momentum-blend-c29154",
   "spec": {
     "costs_bps": 10,

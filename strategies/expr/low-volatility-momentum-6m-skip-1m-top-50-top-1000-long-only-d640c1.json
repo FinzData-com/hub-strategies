@@ -2,9 +2,9 @@
   "description": "Stocks with low 1-year volatility and strong 6-month momentum (skipping 1 month) capture the low-vol anomaly combined with trend following; falsified if forward Sharpe is not higher than high-vol momentum or low-vol alone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
+  "forward_days": 15,
   "forward_return": -0.01024593409029717,
-  "forward_sharpe": -3.8060750493376627,
+  "forward_sharpe": -3.530768132929763,
   "slug": "low-volatility-momentum-6m-skip-1m-top-50-top-1000-long-only-d640c1",
   "spec": {
     "costs_bps": 10,

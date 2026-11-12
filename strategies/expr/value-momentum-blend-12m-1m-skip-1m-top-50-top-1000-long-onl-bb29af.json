@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month should capture both mean-reversion and trend-following premia; falsified if forward Sharpe remains below 0.3 after 12 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.009936677355957269,
-  "forward_sharpe": -1.8994270316867568,
+  "forward_days": 15,
+  "forward_return": -0.010926279591387478,
+  "forward_sharpe": -1.9504981599029325,
   "slug": "value-momentum-blend-12m-1m-skip-1m-top-50-top-1000-long-onl-bb29af",
   "spec": {
     "costs_bps": 10,

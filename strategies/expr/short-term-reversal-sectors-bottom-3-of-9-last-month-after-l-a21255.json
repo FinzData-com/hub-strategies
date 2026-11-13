@@ -2,9 +2,9 @@
   "description": "Short-horizon reversal: last month's worst sectors tend to recover as liquidity-driven selling fades. Holds the 3 sector ETFs with the weakest 21-day return. Falsified if it does not beat equal-weight sectors.",
   "dsr": 0.071,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": 0.0403886505092419,
-  "forward_sharpe": 2.371883436881801,
+  "forward_days": 20,
+  "forward_return": 0.03807623695460838,
+  "forward_sharpe": 2.18380140291546,
   "slug": "short-term-reversal-sectors-bottom-3-of-9-last-month-after-l-a21255",
   "spec": {
     "costs_bps": 10,

@@ -1,0 +1,24 @@
+{
+  "description": "Combining value (earnings yield) with 12-month momentum exploits complementary risk premia\u2014value captures discount-rate news, momentum captures cash-flow news\u2014yielding lower drawdowns; falsified if max drawdown > 35% or forward Sharpe < 0.3.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-blend-12m-momentum-earnings-yield-top-1000-lo-3e459c",
+  "spec": {
+    "costs_bps": 25,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "0.5 * zscore(ret(252) - ret(21)) + 0.5 * zscore(earnings_yield)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Value-Momentum Blend \u00b7 12m momentum + earnings yield \u00b7 Top 1000 \u00b7 Long-Short",
+  "universe": "top1000"
+}

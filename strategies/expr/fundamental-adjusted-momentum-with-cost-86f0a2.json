@@ -2,9 +2,9 @@
   "description": "Adding dividend yield and subtracting leverage to a 21\u2011day momentum score should improve performance by favoring income\u2011generating, low\u2011leveraged stocks; a negative Sharpe would falsify this idea.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": 0.006120792081200088,
-  "forward_sharpe": 0.9813717376495131,
+  "forward_days": 11,
+  "forward_return": 0.001013089682079027,
+  "forward_sharpe": 0.22204458485652648,
   "slug": "fundamental-adjusted-momentum-with-cost-86f0a2",
   "spec": {
     "costs_bps": 5,

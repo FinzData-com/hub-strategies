@@ -2,9 +2,9 @@
   "description": "'Value and Momentum Everywhere' found 12-1 momentum across asset classes, not just stocks. Approximation: rank 16 asset ETFs on 12-month return excluding the last month and hold the top 4. Falsified if it does not beat an equal-weight mix of the same ETFs.",
   "dsr": 0.3556,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.08062294536224035,
-  "forward_sharpe": -3.5275968390605823,
+  "forward_days": 20,
+  "forward_return": -0.08989950480629194,
+  "forward_sharpe": -3.86213814763572,
   "slug": "cross-asset-momentum-12-1-top-4-of-16-etfs-after-asness-mosk-039cda",
   "spec": {
     "costs_bps": 10,

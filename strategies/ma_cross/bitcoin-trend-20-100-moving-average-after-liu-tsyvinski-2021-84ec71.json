@@ -1,0 +1,27 @@
+{
+  "description": "Holds Bitcoin while its 20-day average is above its 100-day average, cash otherwise. Crypto returns show strong time-series momentum. Falsified if the rule does not cut Bitcoin's drawdowns. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
+  "dsr": 0.8173,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "bitcoin-trend-20-100-moving-average-after-liu-tsyvinski-2021-84ec71",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-11-11",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2015-01-01",
+    "top_n": 1,
+    "universe": [
+      "BTC-USD"
+    ]
+  },
+  "title": "Bitcoin trend \u00b7 20/100 moving average (after Liu & Tsyvinski 2021)",
+  "universe": "custom"
+}

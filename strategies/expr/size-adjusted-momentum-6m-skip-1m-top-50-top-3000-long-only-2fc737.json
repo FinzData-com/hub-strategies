@@ -2,9 +2,9 @@
   "description": "Momentum in smaller caps (adjusted for log market cap) with 6-month lookback (skipping 1 month) captures the size-momentum interaction; falsified if size adjustment does not yield higher forward Sharpe than large-cap momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.017104963910800408,
-  "forward_sharpe": -1.3342832454238558,
+  "forward_sharpe": -1.2920134636352993,
   "slug": "size-adjusted-momentum-6m-skip-1m-top-50-top-3000-long-only-2fc737",
   "spec": {
     "costs_bps": 15,

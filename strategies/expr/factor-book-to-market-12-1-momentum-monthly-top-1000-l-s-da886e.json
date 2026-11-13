@@ -2,9 +2,9 @@
   "description": "Cheap book equity should mean-revert as prices adjust, while 12-1 momentum captures persistent underreaction; falsified if quintile returns are not monotonic or the forward spread is non-positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.012811135802642037,
-  "forward_sharpe": -1.4442015121051865,
+  "forward_sharpe": -1.3983887403201292,
   "slug": "factor-book-to-market-12-1-momentum-monthly-top-1000-l-s-da886e",
   "spec": {
     "costs_bps": 15,

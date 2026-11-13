@@ -2,9 +2,9 @@
   "description": "Small market cap stocks with strong 12-month momentum skipping 1 month exploit size and momentum premia jointly; falsified if forward Sharpe <= 0 or higher volatility than large-cap momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.05819263826225418,
-  "forward_sharpe": -3.0873240887001896,
+  "forward_days": 16,
+  "forward_return": -0.06236755609088873,
+  "forward_sharpe": -3.2231457923903863,
   "slug": "small-cap-momentum-12m-skip-1m-top-50-top-1000-long-only-433ca8",
   "spec": {
     "costs_bps": 15,

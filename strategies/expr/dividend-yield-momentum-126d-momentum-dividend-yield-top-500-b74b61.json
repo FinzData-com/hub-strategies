@@ -1,0 +1,24 @@
+{
+  "description": "High-dividend-yield stocks with positive momentum represent 'quality income' compounds where payouts signal confidence; falsified if forward Sharpe < 0.25 or dividend cut frequency > 15% per year.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "dividend-yield-momentum-126d-momentum-dividend-yield-top-500-b74b61",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) - ret(21)) * rank(dividend_yield)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 25,
+    "universe": "top500"
+  },
+  "title": "Dividend Yield Momentum \u00b7 126d momentum \u00d7 dividend yield \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

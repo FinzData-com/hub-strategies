@@ -2,9 +2,9 @@
   "description": "Intermediate moving-average crossovers balance signal responsiveness against whipsaw risk; the strategy is falsified if frequent false signals degrade net performance below a passive benchmark.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": 0.00481810280294015,
-  "forward_sharpe": 1.9023428480649978,
+  "forward_sharpe": 1.8415950491545976,
   "slug": "intermediate-trend-crossover-20-100-top-1000-long-short-25675f",
   "spec": {
     "costs_bps": 10,

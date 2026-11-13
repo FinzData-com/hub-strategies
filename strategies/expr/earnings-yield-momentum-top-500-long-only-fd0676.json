@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with positive momentum represent undervalued improvers; falsified if forward Sharpe not positive versus momentum-only benchmark.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.028857088703563183,
-  "forward_sharpe": -2.6630747905609895,
+  "forward_days": 11,
+  "forward_return": -0.030612285190800947,
+  "forward_sharpe": -2.7063722382231172,
   "slug": "earnings-yield-momentum-top-500-long-only-fd0676",
   "spec": {
     "costs_bps": 10,

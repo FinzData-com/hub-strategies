@@ -2,9 +2,9 @@
   "description": "Short term 20 vs 50 day moving average cross captures intermediate momentum with faster turnover than long term trends, falsified if forward returns are indistinguishable from zero after costs and risk adjustment.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": 0.052489769799437536,
-  "forward_sharpe": 3.703254332290008,
+  "forward_sharpe": 3.579858695205221,
   "slug": "ma-cross-20-50-top-1000-long-short-e2d138",
   "spec": {
     "costs_bps": 10,

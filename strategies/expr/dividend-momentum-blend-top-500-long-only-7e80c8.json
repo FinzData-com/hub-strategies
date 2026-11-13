@@ -2,9 +2,9 @@
   "description": "Dividend yield and price momentum reflect income stability and growth expectations; the strategy is falsified if dividend yield dilutes standalone momentum alpha when combined.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.04172846889361914,
-  "forward_sharpe": -5.032085869718611,
+  "forward_days": 12,
+  "forward_return": -0.03800207833117697,
+  "forward_sharpe": -4.292408555876604,
   "slug": "dividend-momentum-blend-top-500-long-only-7e80c8",
   "spec": {
     "costs_bps": 10,

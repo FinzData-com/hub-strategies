@@ -1,0 +1,27 @@
+{
+  "description": "Holds US Dollar Index futures while the 50-day average is above the 200-day average, cash otherwise. The dollar trends with the Federal Reserve cycle. Falsified if dollar trends are too short for a 50/200 filter. Backtested on FinzData currency futures: front-month contract rolled on the FinzData roll calendar as an excess-return index, so the interest-rate differential (carry) is in the return; costs as stated, re-run free on full history.",
+  "dsr": 0.0157,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "us-dollar-index-trend-dx-50-200-moving-average-7e7c76",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-11",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 50,
+      "slow": 200,
+      "type": "ma_cross"
+    },
+    "start": "2009-01-01",
+    "top_n": 1,
+    "universe": [
+      "/DX"
+    ]
+  },
+  "title": "US Dollar Index trend \u00b7 /DX 50/200 moving average",
+  "universe": "custom"
+}

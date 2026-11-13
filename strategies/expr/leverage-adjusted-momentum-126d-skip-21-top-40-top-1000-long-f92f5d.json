@@ -2,9 +2,9 @@
   "description": "Low leverage stocks with strong momentum outperform high leverage momentum stocks due to lower distress risk and more sustainable trends; long/short isolates this spread; falsified if long-short forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
+  "forward_days": 14,
   "forward_return": -0.025907827564711106,
-  "forward_sharpe": -4.284309710583298,
+  "forward_sharpe": -4.118032767174698,
   "slug": "leverage-adjusted-momentum-126d-skip-21-top-40-top-1000-long-f92f5d",
   "spec": {
     "costs_bps": 15,

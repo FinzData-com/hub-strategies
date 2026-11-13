@@ -2,9 +2,9 @@
   "description": "One-month losers with strong fundamentals rebound due to liquidity-driven overreaction while quality supports recovery; falsified if the combined rank of recent return and ROE does not yield positive weekly alpha net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.016809854712549366,
-  "forward_sharpe": -0.878667757623889,
+  "forward_sharpe": -0.8509539340940437,
   "slug": "short-term-reversal-with-quality-top-1000-weekly-097b73",
   "spec": {
     "costs_bps": 10,

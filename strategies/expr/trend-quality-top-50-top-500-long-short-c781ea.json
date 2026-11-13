@@ -2,9 +2,9 @@
   "description": "Momentum earned with low volatility is more persistent than momentum from a few violent moves, so ranking on 12-month return minus volatility should beat raw momentum. Falsified if it underperforms plain momentum.",
   "dsr": 0.1189,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": 0.009224175384300093,
-  "forward_sharpe": 1.130147489645164,
+  "forward_days": 20,
+  "forward_return": 0.016794481896774682,
+  "forward_sharpe": 1.9116982440757986,
   "slug": "trend-quality-top-50-top-500-long-short-c781ea",
   "spec": {
     "costs_bps": 10,

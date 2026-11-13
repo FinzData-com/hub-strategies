@@ -1,0 +1,36 @@
+{
+  "description": "Each week, holds the 3 of ten large coins (BTC, ETH, SOL, XRP, DOGE, ADA, AVAX, LINK, LTC, DOT) with the strongest 3-week return. Crypto momentum is strongest at 1-4 week horizons. Falsified if winners revert within a week. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
+  "dsr": 0.4627,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "crypto-large-cap-momentum-3-week-top-3-of-10-after-liu-tsyvi-a96f1a",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-11-11",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "lookback": 21,
+      "skip": 0,
+      "type": "momentum"
+    },
+    "start": "2019-01-01",
+    "top_n": 3,
+    "universe": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD",
+      "XRP-USD",
+      "DOGE-USD",
+      "ADA-USD",
+      "AVAX-USD",
+      "LINK-USD",
+      "LTC-USD",
+      "DOT-USD"
+    ]
+  },
+  "title": "Crypto large-cap momentum \u00b7 3-week \u00b7 top 3 of 10 (after Liu, Tsyvinski & Wu 2022)",
+  "universe": "custom"
+}

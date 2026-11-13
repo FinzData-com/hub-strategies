@@ -2,7 +2,7 @@
   "description": "Risk adjusted momentum should select higher Sharpe opportunities and persist, falsified if forward Sharpe does not exceed raw momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "volatility-adjusted-momentum-rank-ret126-vol126-5d0b91",

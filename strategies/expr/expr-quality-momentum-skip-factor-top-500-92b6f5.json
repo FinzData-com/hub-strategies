@@ -2,9 +2,9 @@
   "description": "High ROE and low leverage stocks with medium-term momentum should persist due to quality-driven cash flow stability, falsified if the long-short portfolio shows negative forward Sharpe over the full sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.014741647477073516,
-  "forward_sharpe": -4.746310998810282,
+  "forward_days": 5,
+  "forward_return": -0.012223770856057858,
+  "forward_sharpe": -3.4613896660814514,
   "slug": "expr-quality-momentum-skip-factor-top-500-92b6f5",
   "spec": {
     "costs_bps": 10,

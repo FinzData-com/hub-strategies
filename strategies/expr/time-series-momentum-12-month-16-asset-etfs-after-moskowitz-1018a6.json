@@ -2,9 +2,9 @@
   "description": "Each asset's own past 12-month return predicts its next month (time-series momentum, documented across 58 futures markets by AQR researchers). Approximation: long-only on 16 ETFs, holding every asset whose 12-month return is positive, cash otherwise. Falsified if it fails to beat buy-and-hold on risk-adjusted terms.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.04816800678150235,
-  "forward_sharpe": -2.631428427731122,
+  "forward_days": 20,
+  "forward_return": -0.05517583349107469,
+  "forward_sharpe": -2.9582941621211267,
   "slug": "time-series-momentum-12-month-16-asset-etfs-after-moskowitz-1018a6",
   "spec": {
     "costs_bps": 10,

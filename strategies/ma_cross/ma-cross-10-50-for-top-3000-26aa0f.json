@@ -2,9 +2,9 @@
   "description": "A 10\u2011day SMA crossing above a 50\u2011day SMA signals a short\u2011term bullish reversal that should generate excess returns; falsified if the crossing yields negative performance.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": 0.12282045592023816,
-  "forward_sharpe": 4.1456802588628765,
+  "forward_sharpe": 4.0055693763208815,
   "slug": "ma-cross-10-50-for-top-3000-26aa0f",
   "spec": {
     "costs_bps": 10,

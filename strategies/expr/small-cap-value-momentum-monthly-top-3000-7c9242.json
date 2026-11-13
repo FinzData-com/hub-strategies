@@ -2,9 +2,9 @@
   "description": "Microcap value-momentum combination exploits limits to arbitrage in neglected stocks; if top 100 by log_mcap * book_to_market * momentum rank fails to outperform large-cap momentum after 30bps costs, the size-dependent anomaly is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.008136839933414963,
-  "forward_sharpe": -1.4516020606435756,
+  "forward_sharpe": -1.4055502413393441,
   "slug": "small-cap-value-momentum-monthly-top-3000-7c9242",
   "spec": {
     "costs_bps": 30,

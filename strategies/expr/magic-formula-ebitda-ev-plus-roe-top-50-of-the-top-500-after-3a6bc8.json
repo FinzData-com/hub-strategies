@@ -2,9 +2,9 @@
   "description": "Good companies at cheap prices: the sum of the ranks of earnings yield on enterprise value and return on capital (ROE as proxy). Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": 0.05164512193314774,
-  "forward_sharpe": 3.456274747629549,
+  "forward_days": 20,
+  "forward_return": 0.05215587289512813,
+  "forward_sharpe": 3.3977132452730596,
   "slug": "magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-3a6bc8",
   "spec": {
     "costs_bps": 10,

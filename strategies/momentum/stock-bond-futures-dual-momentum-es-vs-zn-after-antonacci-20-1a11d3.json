@@ -2,8 +2,8 @@
   "description": "Each month, holds whichever of E-mini S&P 500 and 10-year Treasury note futures has the higher 12-month return. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
   "dsr": 0.7187,
   "family": "momentum",
-  "forward_days": 1,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.003961111272308138,
   "forward_sharpe": 0.0,
   "slug": "stock-bond-futures-dual-momentum-es-vs-zn-after-antonacci-20-1a11d3",
   "spec": {

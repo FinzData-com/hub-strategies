@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with positive momentum provide superior risk-adjusted returns by avoiding high-beta momentum crashes during market stress. Falsified if the strategy's maximum drawdown exceeds that of standard momentum or if Sharpe ratio is not meaningfully higher.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.015162400912773433,
-  "forward_sharpe": -1.3579101373599827,
+  "forward_days": 12,
+  "forward_return": -0.01906659957051826,
+  "forward_sharpe": -1.6667365276766426,
   "slug": "low-volatility-momentum-top-500-long-only-c60d18",
   "spec": {
     "costs_bps": 10,

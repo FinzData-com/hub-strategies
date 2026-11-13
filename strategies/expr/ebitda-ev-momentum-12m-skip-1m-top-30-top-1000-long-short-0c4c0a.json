@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV (cheap valuation) combined with 12-month momentum (skip 1 month) captures value-momentum synergy; long/short removes market risk; falsified if forward Sharpe < 0.2.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.030023589128759354,
-  "forward_sharpe": -2.1854925585445266,
+  "forward_sharpe": -2.115354502262765,
   "slug": "ebitda-ev-momentum-12m-skip-1m-top-30-top-1000-long-short-0c4c0a",
   "spec": {
     "costs_bps": 15,

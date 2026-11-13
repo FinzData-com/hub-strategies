@@ -2,8 +2,8 @@
   "description": "High return on equity reflects quality and competitive advantage leading to more stable cash flows, falsified if forward performance deteriorates relative to random ranking after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.004008978828740295,
   "forward_sharpe": 0.0,
   "slug": "roe-quality-factor-long-only-top-500-640133",
   "spec": {

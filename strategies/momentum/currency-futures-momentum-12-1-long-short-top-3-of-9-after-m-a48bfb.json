@@ -1,0 +1,35 @@
+{
+  "description": "Each month, long the 3 currency futures with the strongest 12-month return (skipping the last month) and short the 3 weakest. Falsified if cross-sectional currency momentum has decayed since publication. Backtested on FinzData currency futures: front-month contract rolled on the FinzData roll calendar as an excess-return index, so the interest-rate differential (carry) is in the return; costs as stated, re-run free on full history.",
+  "dsr": 0.0045,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "currency-futures-momentum-12-1-long-short-top-3-of-9-after-m-a48bfb",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-11",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "lookback": 252,
+      "skip": 21,
+      "type": "momentum"
+    },
+    "start": "2009-01-01",
+    "top_n": 3,
+    "universe": [
+      "/E6",
+      "/J1",
+      "/B6",
+      "/A6",
+      "/AD",
+      "/E1",
+      "/N6",
+      "/MP",
+      "/BR"
+    ]
+  },
+  "title": "Currency futures momentum 12-1 \u00b7 long/short \u00b7 top 3 of 9 (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)",
+  "universe": "custom"
+}

@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong 12-month momentum reflect profitable growth persistence; if ROE-momentum interaction adds no alpha over momentum alone net of costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.03285127710606561,
-  "forward_sharpe": -3.495384824705783,
+  "forward_sharpe": -3.379633251749515,
   "slug": "quality-momentum-top1000-long-only-de4627",
   "spec": {
     "costs_bps": 10,

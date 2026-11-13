@@ -2,9 +2,9 @@
   "description": "Low sales multiples may reflect neglected revenue-producing assets, and low leverage reduces bankruptcy risk; falsified if the forward long-short spread is non-positive or leverage provides no incremental benefit.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.006432752590474933,
-  "forward_sharpe": -1.533221865071149,
+  "forward_days": 16,
+  "forward_return": -0.010025313247728262,
+  "forward_sharpe": -2.2982792574763877,
   "slug": "factor-sales-yield-leverage-quarterly-top-3000-l-s-26d1f3",
   "spec": {
     "costs_bps": 20,

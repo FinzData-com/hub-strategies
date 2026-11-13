@@ -1,0 +1,35 @@
+{
+  "description": "Each week, holds every one of the ten large coins whose 4-week return is positive, equally weighted, and cash for the rest. Falsified if the filter fails to step aside in crypto bear markets. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
+  "dsr": 0.5371,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "crypto-time-series-momentum-4-week-10-large-coins-4aa4d7",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-11-11",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "where(ret(28), ret(28), log(-1))",
+      "type": "expr"
+    },
+    "start": "2019-01-01",
+    "top_n": 10,
+    "universe": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD",
+      "XRP-USD",
+      "DOGE-USD",
+      "ADA-USD",
+      "AVAX-USD",
+      "LINK-USD",
+      "LTC-USD",
+      "DOT-USD"
+    ]
+  },
+  "title": "Crypto time-series momentum \u00b7 4-week \u00b7 10 large coins",
+  "universe": "custom"
+}

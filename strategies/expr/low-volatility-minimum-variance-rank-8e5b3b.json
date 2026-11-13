@@ -2,7 +2,7 @@
   "description": "Low realized volatility stocks provide higher risk-adjusted returns due to leverage constraints and lottery preference, so ranking by inverse volatility should outperform; falsified if forward Sharpe is not greater than market.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
+  "forward_days": 11,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "low-volatility-minimum-variance-rank-8e5b3b",

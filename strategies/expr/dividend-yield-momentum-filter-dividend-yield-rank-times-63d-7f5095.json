@@ -2,7 +2,7 @@
   "description": "Dividend paying stocks with recent positive momentum should benefit from income and trend continuation, falsified if the interaction produces negative forward Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "dividend-yield-momentum-filter-dividend-yield-rank-times-63d-7f5095",

@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with 9-month momentum (skipping 1 month) should capture value and momentum premia simultaneously; falsified if forward Sharpe < 0.35 after 12 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.050879553646135056,
-  "forward_sharpe": -4.147362976112646,
+  "forward_days": 12,
+  "forward_return": -0.04890644107614084,
+  "forward_sharpe": -3.7843477977119004,
   "slug": "earnings-yield-momentum-9m-skip-1m-top-50-top-500-long-only-135654",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Monthly reversal (lag 1-month return) orthogonalized to size and value captures liquidity provision premium; falsified if forward Sharpe < 0.15 after factor neutralization.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.025633752475473837,
-  "forward_sharpe": -3.2200549369112204,
+  "forward_days": 16,
+  "forward_return": -0.027094619727734304,
+  "forward_sharpe": -3.302647486303468,
   "slug": "short-term-reversal-factor-neutral-top-1000-long-short-cd7fb3",
   "spec": {
     "costs_bps": 15,

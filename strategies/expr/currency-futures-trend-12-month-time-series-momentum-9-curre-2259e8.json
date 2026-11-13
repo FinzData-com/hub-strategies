@@ -1,0 +1,34 @@
+{
+  "description": "Holds every currency future (euro, yen, pound, Australian, Canadian and New Zealand dollars, Swiss franc, Mexican peso, Brazilian real) whose 12-month return is positive, equally weighted, monthly. Falsified if trend in currencies has no edge after carry is included. Backtested on FinzData currency futures: front-month contract rolled on the FinzData roll calendar as an excess-return index, so the interest-rate differential (carry) is in the return; costs as stated, re-run free on full history.",
+  "dsr": 0.0005,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "currency-futures-trend-12-month-time-series-momentum-9-curre-2259e8",
+  "spec": {
+    "costs_bps": 5,
+    "end": "2026-11-11",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "where(ret(252), ret(252), log(-1))",
+      "type": "expr"
+    },
+    "start": "2009-01-01",
+    "top_n": 9,
+    "universe": [
+      "/E6",
+      "/J1",
+      "/B6",
+      "/A6",
+      "/AD",
+      "/E1",
+      "/N6",
+      "/MP",
+      "/BR"
+    ]
+  },
+  "title": "Currency futures trend \u00b7 12-month time-series momentum \u00b7 9 currencies (after Moskowitz, Ooi & Pedersen 2012)",
+  "universe": "custom"
+}

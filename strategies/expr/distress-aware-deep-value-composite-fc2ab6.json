@@ -2,9 +2,9 @@
   "description": "Cheap assets and high earnings yields should identify firms whose distress is overdiscounted; falsified if the composite does not outperform a random equal-weight portfolio after costs or if its return spread reverses.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": 0.007965790768120762,
-  "forward_sharpe": 1.5153109964695461,
+  "forward_sharpe": 1.4671985412041633,
   "slug": "distress-aware-deep-value-composite-fc2ab6",
   "spec": {
     "costs_bps": 15,

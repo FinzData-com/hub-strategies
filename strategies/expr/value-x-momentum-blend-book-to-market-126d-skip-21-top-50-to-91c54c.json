@@ -2,9 +2,9 @@
   "description": "Value and momentum premia are negatively correlated, so blending them captures two distinct risk channels with smoother performance; falsified if the blend underperforms either standalone leg or shows no spread to the universe net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": 0.01832787073092179,
-  "forward_sharpe": 2.0272667323744464,
+  "forward_days": 12,
+  "forward_return": 0.01655277190029425,
+  "forward_sharpe": 1.7610399366923903,
   "slug": "value-x-momentum-blend-book-to-market-126d-skip-21-top-50-to-91c54c",
   "spec": {
     "costs_bps": 10,

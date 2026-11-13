@@ -1,0 +1,24 @@
+{
+  "description": "EBITDA/EV captures operating cash flow yield; combining with 12-month momentum (skip 3 months) targets value-momentum intersection avoiding value traps; falsified if forward Sharpe < 0.3 or long leg underperforms short leg in >60% of months.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-momentum-252d-skip-63-top-500-long-short-b7f00f",
+  "spec": {
+    "costs_bps": 25,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(ret(252) - ret(63))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "EBITDA/EV Momentum \u00b7 252d skip 63 \u00b7 Top 500 \u00b7 Long-Short",
+  "universe": "top500"
+}

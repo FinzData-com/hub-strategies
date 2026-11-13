@@ -2,7 +2,7 @@
   "description": "Golden cross signals capture regime shifts from bear to bull with persistence due to institutional rebalancing; falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 9,
+  "forward_days": 10,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "ma-cross-50-200-factor-tilt-8fd3ad",

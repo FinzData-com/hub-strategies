@@ -2,9 +2,9 @@
   "description": "Low leverage stocks with strong 12-month momentum skipping 1 month reduce financial distress risk in momentum portfolios; falsified if forward Sharpe <= 0 or higher max drawdown than unadjusted momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.06645295757014213,
-  "forward_sharpe": -3.226219472438611,
+  "forward_days": 16,
+  "forward_return": -0.06539892191948504,
+  "forward_sharpe": -3.0636162484930884,
   "slug": "leverage-adjusted-momentum-12m-skip-1m-top-50-top-1000-long-f3c1b2",
   "spec": {
     "costs_bps": 10,

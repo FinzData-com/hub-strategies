@@ -2,9 +2,9 @@
   "description": "Dividend yield signals income and stability, and when paired with momentum it should enhance performance; falsified if dividend\u2011yield\u2011momentum portfolios underperform.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.03103848320490299,
-  "forward_sharpe": -3.936482657121225,
+  "forward_days": 12,
+  "forward_return": -0.034479658522169276,
+  "forward_sharpe": -4.207075973578501,
   "slug": "factor-dividend-yield-and-momentum-953589",
   "spec": {
     "costs_bps": 10,

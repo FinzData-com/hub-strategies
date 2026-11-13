@@ -2,9 +2,9 @@
   "description": "Dividend paying stocks with momentum exhibit lower volatility and higher risk-adjusted returns; falsified if dividend yield rank is uncorrelated with returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.04851760472986877,
-  "forward_sharpe": -5.910969484881999,
+  "forward_days": 16,
+  "forward_return": -0.04655597122414945,
+  "forward_sharpe": -5.416994370578828,
   "slug": "dividend-yield-momentum-top-1000-4e9063",
   "spec": {
     "costs_bps": 5,

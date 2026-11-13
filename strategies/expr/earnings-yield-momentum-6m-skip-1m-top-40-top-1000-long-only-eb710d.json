@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield and strong 6-month momentum capture undervalued firms experiencing positive sentiment shifts; falsified if forward performance is indistinguishable from low earnings yield momentum portfolios.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.012846794066321165,
-  "forward_sharpe": -2.561472944338778,
+  "forward_sharpe": -2.478639480605693,
   "slug": "earnings-yield-momentum-6m-skip-1m-top-40-top-1000-long-only-eb710d",
   "spec": {
     "costs_bps": 10,

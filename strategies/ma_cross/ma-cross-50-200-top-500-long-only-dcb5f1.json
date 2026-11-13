@@ -2,9 +2,9 @@
   "description": "Golden cross (50-day > 200-day SMA) on large caps captures long-term trend following; if forward Sharpe is zero or negative, the trend signal has no predictive power.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 12,
-  "forward_return": -0.006051848073459931,
-  "forward_sharpe": -1.7504856829058597,
+  "forward_days": 13,
+  "forward_return": -0.007151181959299646,
+  "forward_sharpe": -1.9946717304628214,
   "slug": "ma-cross-50-200-top-500-long-only-dcb5f1",
   "spec": {
     "costs_bps": 5,

@@ -2,9 +2,9 @@
   "description": "High dividend yield combined with momentum filters for 'quality' value stocks; falsified if the combination is inferior to a simple dividend yield rank.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.04607021037442671,
-  "forward_sharpe": -6.647228248826238,
+  "forward_days": 12,
+  "forward_return": -0.05145500227526412,
+  "forward_sharpe": -7.140256366520103,
   "slug": "dividend-yield-momentum-top-500-508975",
   "spec": {
     "costs_bps": 5,

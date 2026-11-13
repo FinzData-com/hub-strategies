@@ -2,8 +2,8 @@
   "description": "Combining value rank with short term momentum should reduce value traps via recent price confirmation, falsified if hybrid signal does not improve forward stability versus pure value.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.002431549642492703,
   "forward_sharpe": 0.0,
   "slug": "value-momentum-hybrid-top-500-bb944b",
   "spec": {

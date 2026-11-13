@@ -2,9 +2,9 @@
   "description": "Long-horizon trends aggregate slow-moving risk premia and herding by institutional allocators, so the golden cross should time exposure better than static holding; falsified if the 50/200 long leg underperforms the universe after costs over the full sample.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": 0.043537424904438016,
-  "forward_sharpe": 2.1548207854125545,
+  "forward_sharpe": 2.0857065642411854,
   "slug": "ma-cross-50-200-top-50-top-1000-long-only-fa94e5",
   "spec": {
     "costs_bps": 20,

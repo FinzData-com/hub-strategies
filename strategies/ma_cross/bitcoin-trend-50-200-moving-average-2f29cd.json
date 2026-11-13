@@ -1,0 +1,27 @@
+{
+  "description": "Holds Bitcoin while its 50-day average is above its 200-day average (the golden cross), cash otherwise. Falsified if the slower filter gives back more than it saves. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
+  "dsr": 0.7622,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "bitcoin-trend-50-200-moving-average-2f29cd",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-11-11",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 50,
+      "slow": 200,
+      "type": "ma_cross"
+    },
+    "start": "2015-01-01",
+    "top_n": 1,
+    "universe": [
+      "BTC-USD"
+    ]
+  },
+  "title": "Bitcoin trend \u00b7 50/200 moving average",
+  "universe": "custom"
+}

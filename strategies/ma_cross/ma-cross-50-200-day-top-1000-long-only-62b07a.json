@@ -2,9 +2,9 @@
   "description": "Golden cross (50>200 SMA) signals regime change to bull market; if trend-following MA cross underperforms buy-and-hold after whipsaw costs, the regime detection hypothesis is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 14,
+  "forward_days": 15,
   "forward_return": -0.006389906511226395,
-  "forward_sharpe": -3.66699316675715,
+  "forward_sharpe": -3.5368097346064444,
   "slug": "ma-cross-50-200-day-top-1000-long-only-62b07a",
   "spec": {
     "costs_bps": 5,

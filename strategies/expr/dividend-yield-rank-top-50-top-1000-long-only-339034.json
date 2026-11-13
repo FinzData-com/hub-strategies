@@ -2,9 +2,9 @@
   "description": "Sustained dividends signal free-cash-flow credibility and serve a tax-driven income clientele whose demand supports payer prices; falsified if high dividend-yield ranks show no spread versus non-payers after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.012757298116151228,
-  "forward_sharpe": 1.4808795177966418,
+  "forward_days": 16,
+  "forward_return": 0.00891592515035522,
+  "forward_sharpe": 1.0192331635774228,
   "slug": "dividend-yield-rank-top-50-top-1000-long-only-339034",
   "spec": {
     "costs_bps": 10,

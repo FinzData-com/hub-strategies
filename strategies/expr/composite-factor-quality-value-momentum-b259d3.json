@@ -2,7 +2,7 @@
   "description": "Combining quality, value and short-term momentum should diversify factor exposures and improve robustness, falsified if forward Sharpe is lower than single factor components.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "composite-factor-quality-value-momentum-b259d3",

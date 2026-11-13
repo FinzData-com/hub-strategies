@@ -2,9 +2,9 @@
   "description": "5-day reversal skipping 1 day captures liquidity provision premia and overreaction correction; long/short isolates the effect; falsified if forward Sharpe < 0.1.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.04686439167867773,
-  "forward_sharpe": 2.4556235557392405,
+  "forward_days": 16,
+  "forward_return": 0.04294304861021825,
+  "forward_sharpe": 2.1892712058505976,
   "slug": "short-term-reversal-5d-skip-1d-top-100-top-3000-long-short-8daa6d",
   "spec": {
     "costs_bps": 20,

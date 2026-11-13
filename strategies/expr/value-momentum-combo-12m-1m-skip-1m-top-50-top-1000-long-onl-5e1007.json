@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month captures both mean-reversion in valuation and delayed overreaction to fundamentals; falsified if forward Sharpe is not positive after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": -0.014805567051242585,
-  "forward_sharpe": -2.8263755686014287,
+  "forward_days": 15,
+  "forward_return": -0.011780253383600559,
+  "forward_sharpe": -2.1238395596739665,
   "slug": "value-momentum-combo-12m-1m-skip-1m-top-50-top-1000-long-onl-5e1007",
   "spec": {
     "costs_bps": 10,

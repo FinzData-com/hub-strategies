@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding XLE only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
-  "forward_return": -0.08413402165450645,
-  "forward_sharpe": -3.6763829376796915,
+  "forward_days": 20,
+  "forward_return": -0.08014177137206246,
+  "forward_sharpe": -3.3794481487425316,
   "slug": "xle-50-200-moving-average-trend-cac4dc",
   "spec": {
     "costs_bps": 10,

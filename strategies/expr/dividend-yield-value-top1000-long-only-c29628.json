@@ -2,9 +2,9 @@
   "description": "High dividend yield signals both undervaluation and management confidence in future cash flows; falsified if yield-ranked portfolios fail to beat the equal-weighted universe after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
+  "forward_days": 15,
   "forward_return": 0.029773700014203985,
-  "forward_sharpe": 5.638217487377745,
+  "forward_sharpe": 5.422864925431462,
   "slug": "dividend-yield-value-top1000-long-only-c29628",
   "spec": {
     "costs_bps": 10,

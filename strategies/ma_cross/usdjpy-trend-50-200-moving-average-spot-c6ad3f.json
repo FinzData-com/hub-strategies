@@ -1,0 +1,27 @@
+{
+  "description": "Holds USDJPY while its 50-day average is above its 200-day average, cash otherwise. The yen is the classic policy-driven trending currency. Falsified if Bank of Japan interventions break the trend too often. Backtested on FinzData FX daily closes (spot: the price change only, no interest differential), costs as stated, re-run free on full history.",
+  "dsr": 0.0836,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "usdjpy-trend-50-200-moving-average-spot-c6ad3f",
+  "spec": {
+    "costs_bps": 2,
+    "end": "2026-11-11",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 50,
+      "slow": 200,
+      "type": "ma_cross"
+    },
+    "start": "2011-01-01",
+    "top_n": 1,
+    "universe": [
+      "FX:USDJPY"
+    ]
+  },
+  "title": "USDJPY trend \u00b7 50/200 moving average (spot)",
+  "universe": "custom"
+}

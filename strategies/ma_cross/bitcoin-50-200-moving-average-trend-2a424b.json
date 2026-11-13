@@ -2,9 +2,9 @@
   "description": "Bitcoin's big bull and bear runs have lasted months, so holding it only while the 50-day average is above the 200-day average should avoid most of its 70-80% drawdowns. Falsified if drawdowns are not much smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 27,
-  "forward_return": -0.10141218246657424,
-  "forward_sharpe": -3.5156611917242784,
+  "forward_days": 28,
+  "forward_return": -0.12005525975426834,
+  "forward_sharpe": -4.080818050541973,
   "slug": "bitcoin-50-200-moving-average-trend-2a424b",
   "spec": {
     "costs_bps": 10,

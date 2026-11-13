@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month exploits the documented negative correlation between value and momentum premiums, providing diversification benefits; falsified if the composite Sharpe ratio does not exceed the higher of the standalone value or momentum strategy Sharpe ratios over the full sample period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.005268279121490194,
-  "forward_sharpe": -1.106271676319769,
+  "forward_sharpe": -1.0713101307885489,
   "slug": "value-momentum-composite-252d-21d-skip-top-30-top-1000-long-58d802",
   "spec": {
     "costs_bps": 10,

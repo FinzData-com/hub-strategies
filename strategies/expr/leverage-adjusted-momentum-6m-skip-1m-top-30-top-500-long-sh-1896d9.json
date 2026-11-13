@@ -2,9 +2,9 @@
   "description": "Low leverage stocks with 6-month momentum (skipping 1 month) should avoid financial distress risks in momentum strategies; falsified if long/short forward Sharpe < 0.2 after 18 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.06894143333385505,
-  "forward_sharpe": -8.185161177275123,
+  "forward_days": 11,
+  "forward_return": -0.07460519931760923,
+  "forward_sharpe": -8.48420317648642,
   "slug": "leverage-adjusted-momentum-6m-skip-1m-top-30-top-500-long-sh-1896d9",
   "spec": {
     "costs_bps": 15,

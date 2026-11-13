@@ -2,9 +2,9 @@
   "description": "Stocks with high sales-to-EV ratios are undervalued and provide a value premium; falsified if sales_yield rank is negatively correlated with forward returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.018604703106503084,
-  "forward_sharpe": 1.2926664644374308,
+  "forward_days": 16,
+  "forward_return": 0.010694785403760232,
+  "forward_sharpe": 0.7715616740171071,
   "slug": "sales-yield-value-top-3000-dbde47",
   "spec": {
     "costs_bps": 10,

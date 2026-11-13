@@ -2,9 +2,9 @@
   "description": "High ROE and low leverage indicate efficient, low\u2011risk firms that should outperform; falsified if high\u2011ROE low\u2011leverage stocks underperform.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.04291342157573841,
-  "forward_sharpe": -1.9526191362472072,
+  "forward_days": 12,
+  "forward_return": -0.05282510259027462,
+  "forward_sharpe": -2.3614270708189036,
   "slug": "factor-roe-vs-leverage-3747a9",
   "spec": {
     "costs_bps": 10,

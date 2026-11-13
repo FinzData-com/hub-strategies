@@ -2,8 +2,8 @@
   "description": "Stocks with extreme positive earnings yield zscores that also show positive short term momentum should outperform as analyst revisions catch up, falsified if the intersection portfolio underperforms the broad market over the sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.007844388860621221,
   "forward_sharpe": 0.0,
   "slug": "expr-earnings-yield-zscore-demeaned-momentum-63f4bf",
   "spec": {

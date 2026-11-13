@@ -2,9 +2,9 @@
   "description": "Sales yield (revenue/price) combined with momentum identifies improving fundamentals at reasonable prices, exploiting analyst underreaction to revenue trends; falsified if sales yield adds no incremental alpha over book-to-market in a combined sort.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 21,
+  "forward_days": 22,
   "forward_return": -0.030276989568712165,
-  "forward_sharpe": -2.4812194049170184,
+  "forward_sharpe": -2.4229715566224987,
   "slug": "sales-yield-momentum-12m-skip-1m-top-40-top-1000-long-only-35ff16",
   "spec": {
     "costs_bps": 15,

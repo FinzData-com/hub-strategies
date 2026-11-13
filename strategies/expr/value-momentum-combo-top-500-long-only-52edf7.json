@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) and momentum (12m-1m return) exploits complementary risk premia; falsified if forward Sharpe < 0.3 or underperforms pure momentum by >20% risk-adjusted.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.02476795823050082,
-  "forward_sharpe": -2.398778323419607,
+  "forward_days": 11,
+  "forward_return": -0.024232172497256732,
+  "forward_sharpe": -2.2328312184548222,
   "slug": "value-momentum-combo-top-500-long-only-52edf7",
   "spec": {
     "costs_bps": 10,

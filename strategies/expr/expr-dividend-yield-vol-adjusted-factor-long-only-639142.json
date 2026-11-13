@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with low realized volatility offer income with reduced drawdown risk, an effect that should persist after transaction costs; falsified if forward Sharpe <=0 or turnover erodes returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.040562153822832014,
-  "forward_sharpe": -3.2559179963365055,
+  "forward_sharpe": -3.148819241606731,
   "slug": "expr-dividend-yield-vol-adjusted-factor-long-only-639142",
   "spec": {
     "costs_bps": 10,

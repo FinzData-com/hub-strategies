@@ -2,9 +2,9 @@
   "description": "Value and momentum premia stem from distinct behavioural errors and load negatively on each other, so a blended rank should be steadier than either leg alone; falsified if the blend fails to separate top from bottom deciles after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.010926279591387478,
-  "forward_sharpe": -1.9504981599029325,
+  "forward_days": 16,
+  "forward_return": -0.007889053492066367,
+  "forward_sharpe": -1.3303940021481329,
   "slug": "value-plus-momentum-blend-top-50-top-1000-long-only-d98b8d",
   "spec": {
     "costs_bps": 10,

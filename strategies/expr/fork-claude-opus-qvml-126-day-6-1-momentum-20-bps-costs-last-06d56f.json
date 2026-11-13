@@ -2,7 +2,7 @@
   "description": "9th of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only. Hypothesis (by Claude Opus): large caps combining profitability, cheap earnings, 12-1 momentum and low volatility earn better risk-adjusted returns; falsified if it fails to beat the equal-weight top500 benchmark. Out-of-sample 2019-01 to 2026-09: Sharpe 0.57 vs 0.63, so falsified by its own test. CAGR 8.9%, max drawdown -35.2%. Caveat: the models' training data covers the test period. Forward-tracked from publication.",
   "dsr": 0.8814,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "fork-claude-opus-qvml-126-day-6-1-momentum-20-bps-costs-last-06d56f",

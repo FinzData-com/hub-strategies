@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month targets the value-momentum negative correlation documented by Asness et al. (2013); if the combined portfolio fails to outperform either standalone factor after transaction costs, the diversification benefit is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 21,
+  "forward_days": 22,
   "forward_return": 0.013035393036544551,
-  "forward_sharpe": 2.979080258392707,
+  "forward_sharpe": 2.9083596293057963,
   "slug": "value-momentum-combo-12m-1m-skip-1m-top-50-top-1000-long-onl-939d99",
   "spec": {
     "costs_bps": 15,

@@ -1,0 +1,27 @@
+{
+  "description": "Holds Ether while its 20-day average is above its 100-day average, cash otherwise. Falsified if Ether's trends are shorter than Bitcoin's. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
+  "dsr": 0.6192,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ether-trend-20-100-moving-average-c7c9b2",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-11-11",
+    "rebalance": "D",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2017-06-01",
+    "top_n": 1,
+    "universe": [
+      "ETH-USD"
+    ]
+  },
+  "title": "Ether trend \u00b7 20/100 moving average",
+  "universe": "custom"
+}

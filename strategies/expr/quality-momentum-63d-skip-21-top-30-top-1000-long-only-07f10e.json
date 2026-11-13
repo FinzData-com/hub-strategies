@@ -2,9 +2,9 @@
   "description": "High ROE firms with intermediate momentum (63d skip 21d) outperform due to persistent profitability trends; if forward Sharpe is not positive, the quality-momentum interaction is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.06497613719434148,
-  "forward_sharpe": -4.109561236277765,
+  "forward_days": 17,
+  "forward_return": -0.06591059746079886,
+  "forward_sharpe": -4.043886480752038,
   "slug": "quality-momentum-63d-skip-21-top-30-top-1000-long-only-07f10e",
   "spec": {
     "costs_bps": 10,

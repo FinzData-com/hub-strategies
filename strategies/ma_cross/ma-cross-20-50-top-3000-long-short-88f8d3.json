@@ -2,7 +2,7 @@
   "description": "Short term moving average cross exploits mean reversion and momentum at high frequency, falsified if forward tracking shows systematic underperformance versus buy and hold.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 3,
+  "forward_days": 4,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "ma-cross-20-50-top-3000-long-short-88f8d3",

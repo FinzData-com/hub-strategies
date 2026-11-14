@@ -2,9 +2,9 @@
   "description": "Anchoring bias makes investors treat proximity to the 52-week high as an implicit sell cue, leaving near-high stocks under-owned relative to fundamentals; falsified if nearness to the high carries no spread versus distant names after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
+  "forward_days": 17,
   "forward_return": -0.01136632140283178,
-  "forward_sharpe": -3.865369029924702,
+  "forward_sharpe": -3.7435480811576793,
   "slug": "52-week-high-proximity-top-50-top-1000-long-only-757c7a",
   "spec": {
     "costs_bps": 10,

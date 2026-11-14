@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with positive momentum provide better risk-adjusted returns; hypothesis fails if annualized volatility exceeds 18% or forward Sharpe < 0.25.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.009854426174971676,
-  "forward_sharpe": -0.9318434247936472,
+  "forward_days": 12,
+  "forward_return": -0.013370257316067335,
+  "forward_sharpe": -1.2487674358691914,
   "slug": "low-volatility-momentum-top-500-long-only-5add8a",
   "spec": {
     "costs_bps": 10,

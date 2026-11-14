@@ -2,9 +2,9 @@
   "description": "5th of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only. Hypothesis (by Gemma 4 31B): high earnings yield and ROE with positive 1-month momentum capture strong companies during trend reversals. Out-of-sample 2019-01 to 2026-09: Sharpe 0.60, CAGR 11.1%, max drawdown -38.0%, turnover 8.0x, below the equal-weight top500 benchmark (0.63). Caveat: the models' training data covers the test period. Forward-tracked from publication.",
   "dsr": 0.417,
   "family": "expr",
-  "forward_days": 23,
-  "forward_return": -0.004458511132326315,
-  "forward_sharpe": -0.3439069698134139,
+  "forward_days": 24,
+  "forward_return": -0.003461973105431726,
+  "forward_sharpe": -0.24787440142449363,
   "slug": "ai-trading-championship-5th-11-models-google-gemma-4-31b-val-0e4dad",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Slow-moving institutional capital causes index-level trends, so a 10/200 average cross times exposure to bull and bear regimes; falsified if cross-based timing adds nothing versus holding the same names through the full sample after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 11,
-  "forward_return": -0.07657340182858674,
-  "forward_sharpe": -4.226217081848948,
+  "forward_days": 12,
+  "forward_return": -0.07854915187196987,
+  "forward_sharpe": -4.1567705869253295,
   "slug": "ma-cross-10-200-regime-top-20-top-500-long-only-58d8e5",
   "spec": {
     "costs_bps": 15,

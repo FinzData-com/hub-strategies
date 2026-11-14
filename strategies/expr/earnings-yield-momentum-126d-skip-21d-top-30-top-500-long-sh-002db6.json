@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield and positive intermediate momentum represent undervalued firms with improving fundamentals, while low earnings yield with negative momentum captures overvalued deteriorating firms; falsified if the long-short spread returns are not significantly positive after transaction costs in a Fama-French 5-factor regression.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": 0.008909048840213485,
-  "forward_sharpe": 0.7898865153890632,
+  "forward_days": 13,
+  "forward_return": 0.006512349844783216,
+  "forward_sharpe": 0.5920969240399901,
   "slug": "earnings-yield-momentum-126d-skip-21d-top-30-top-500-long-sh-002db6",
   "spec": {
     "costs_bps": 15,

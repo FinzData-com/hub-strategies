@@ -2,9 +2,9 @@
   "description": "Profitable, low-leverage firms generate persistent cash flows that investors underweight because of demand for distressed lottery stocks; falsified if the quality long leg underperforms the junk short leg net of costs over the sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.008459393085012312,
-  "forward_sharpe": -3.5518062256917937,
+  "forward_days": 13,
+  "forward_return": -0.004542010550627307,
+  "forward_sharpe": -1.6753105298610385,
   "slug": "quality-minus-junk-high-roe-low-leverage-top-50-top-500-long-e33ad7",
   "spec": {
     "costs_bps": 10,

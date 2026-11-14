@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong 126-day momentum represent undervalued trends; if the strategy fails to beat momentum alone after costs, the value signal adds no information.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": 0.025113593948291824,
-  "forward_sharpe": 3.9004600757879913,
+  "forward_days": 18,
+  "forward_return": 0.029477194117500716,
+  "forward_sharpe": 4.409342883842975,
   "slug": "earnings-yield-momentum-126d-top-50-top-1000-long-only-ddae4b",
   "spec": {
     "costs_bps": 10,

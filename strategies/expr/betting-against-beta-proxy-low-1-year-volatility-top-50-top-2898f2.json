@@ -2,9 +2,9 @@
   "description": "'Betting Against Beta' argues leverage-constrained investors bid up high-risk stocks, so low-risk stocks earn higher risk-adjusted returns. Approximation: 252-day volatility instead of beta, no leverage to equalise risk. Falsified if the low-risk portfolio's Sharpe ratio is not above the benchmark's.",
   "dsr": 0.2661,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": 0.021148827405056858,
-  "forward_sharpe": 2.205952721212988,
+  "forward_days": 21,
+  "forward_return": 0.013492832399525811,
+  "forward_sharpe": 1.3639547675384855,
   "slug": "betting-against-beta-proxy-low-1-year-volatility-top-50-top-2898f2",
   "spec": {
     "costs_bps": 10,

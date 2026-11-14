@@ -1,0 +1,25 @@
+{
+  "description": "Medium term moving average crossovers should capture trend persistence in individual equities due to slow information diffusion; falsified if forward Sharpe is zero or negative.",
+  "dsr": 0.0,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ma-cross-30-150-on-top-500-equal-weight-c7f6ec",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 30,
+      "slow": 150,
+      "type": "ma_cross"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "MA cross 30/150 on top 500 equal weight",
+  "universe": "top500"
+}

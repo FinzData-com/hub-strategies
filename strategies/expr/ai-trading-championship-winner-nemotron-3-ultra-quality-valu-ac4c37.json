@@ -2,9 +2,9 @@
   "description": "1st place, FinzData AI Trading Championship (Oct 2026): 8 AI models (NVIDIA Nemotron-3 Ultra/Super, Kimi K3, GPT-OSS-20B; Claude Opus, Sonnet, Haiku, Fable) each designed one strategy using only FinzData data. Hypothesis (by Nemotron-3 Ultra): buy profitable, cheap stocks (ROE x earnings yield) filtered by 12-month momentum to avoid value traps. Out-of-sample 2019-01 to 2026-09: Sharpe 0.81, CAGR 16.1%, max drawdown -35.6% vs equal-weight top500 Sharpe 0.63. Falsified if quality-value premiums stay negative or momentum crashes persist. Caveat: the models' training data covers the test period, so 'out-of-sample' means unseen by the backtest, not by the model. Forward-tracked from publication.",
   "dsr": 0.6612,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.04436845664491862,
-  "forward_sharpe": -2.709805293157445,
+  "forward_days": 20,
+  "forward_return": -0.03796163341837577,
+  "forward_sharpe": -2.210070197313361,
   "slug": "ai-trading-championship-winner-nemotron-3-ultra-quality-valu-ac4c37",
   "spec": {
     "costs_bps": 10,

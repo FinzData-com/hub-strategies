@@ -2,9 +2,9 @@
   "description": "One-month losers rebound and winners reverse due to liquidity provision; if the strategy shows no positive expectancy after 20bps round-trip costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.06652312380521286,
-  "forward_sharpe": -2.169646427962412,
+  "forward_days": 13,
+  "forward_return": -0.0513329076219845,
+  "forward_sharpe": -1.504305663727481,
   "slug": "short-term-reversal-top500-long-short-1c4898",
   "spec": {
     "costs_bps": 20,

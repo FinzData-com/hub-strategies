@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month exploits the value premium and momentum anomaly simultaneously; falsified if forward Sharpe is not positive or underperforms pure momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.007889053492066367,
-  "forward_sharpe": -1.3303940021481329,
+  "forward_days": 17,
+  "forward_return": -0.014740908649202855,
+  "forward_sharpe": -2.369701385176733,
   "slug": "value-momentum-blend-12m-1m-skip-1m-top-50-top-1000-long-onl-9f3215",
   "spec": {
     "costs_bps": 10,

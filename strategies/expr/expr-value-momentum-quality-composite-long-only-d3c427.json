@@ -2,9 +2,9 @@
   "description": "Combining value and quality fundamentals with recent price momentum should capture firms with durable cash generation that are temporarily mispriced, and the effect is falsified if the composite rank shows no persistence after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 3,
-  "forward_return": -0.0010002315807108308,
-  "forward_sharpe": -11.224972160321826,
+  "forward_days": 4,
+  "forward_return": -0.0420718097293461,
+  "forward_sharpe": -9.501577810224262,
   "slug": "expr-value-momentum-quality-composite-long-only-d3c427",
   "spec": {
     "costs_bps": 10,

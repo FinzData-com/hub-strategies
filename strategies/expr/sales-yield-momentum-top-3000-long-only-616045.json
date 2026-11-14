@@ -2,9 +2,9 @@
   "description": "High sales yield (revenue/price) with 12m momentum identifies overlooked growth-at-reasonable-price; falsified if forward Sharpe < 0.2 in broader universe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": 0.00609983855504681,
-  "forward_sharpe": 1.3625804228851695,
+  "forward_days": 17,
+  "forward_return": 0.008609705788361843,
+  "forward_sharpe": 1.8390088821893393,
   "slug": "sales-yield-momentum-top-3000-long-only-616045",
   "spec": {
     "costs_bps": 15,

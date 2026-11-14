@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong momentum exhibit the 'low vol anomaly' combined with trend following; if volatility-adjusted momentum (momentum/vol) fails to improve risk-adjusted returns vs raw momentum, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.08356241658474173,
-  "forward_sharpe": -3.112371016406787,
+  "forward_days": 13,
+  "forward_return": -0.06293879236166611,
+  "forward_sharpe": -2.0869862520899094,
   "slug": "low-vol-momentum-top-500-long-only-ae0401",
   "spec": {
     "costs_bps": 10,

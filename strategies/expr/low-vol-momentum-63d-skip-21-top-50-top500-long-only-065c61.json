@@ -2,9 +2,9 @@
   "description": "Selecting high 63-day momentum stocks (skipping 21 days) with the lowest 252-day realized volatility targets the 'low-vol anomaly' within momentum, yielding better risk-adjusted returns; falsified if the volatility filter does not improve forward Sharpe relative to unfiltered 63-day momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.03481753378018948,
-  "forward_sharpe": -3.6135750501572512,
+  "forward_days": 11,
+  "forward_return": -0.03754536534619535,
+  "forward_sharpe": -3.73358014585461,
   "slug": "low-vol-momentum-63d-skip-21-top-50-top500-long-only-065c61",
   "spec": {
     "costs_bps": 10,

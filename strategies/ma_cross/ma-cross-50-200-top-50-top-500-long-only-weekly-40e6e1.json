@@ -2,9 +2,9 @@
   "description": "Price trends persist because information diffuses slowly among heterogeneous investors with limited attention; falsified if the 50/200 moving-average spread shows no cross-sectional predictive power after transaction costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 12,
-  "forward_return": -0.06067901709073209,
-  "forward_sharpe": -2.1694113960761325,
+  "forward_days": 13,
+  "forward_return": -0.04158351910215996,
+  "forward_sharpe": -1.2914896727057223,
   "slug": "ma-cross-50-200-top-50-top-500-long-only-weekly-40e6e1",
   "spec": {
     "costs_bps": 10,

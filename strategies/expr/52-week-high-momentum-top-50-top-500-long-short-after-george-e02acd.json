@@ -2,9 +2,9 @@
   "description": "Stocks trading near their 52-week high keep outperforming because investors anchor on the high and under-react to good news. Ranks on price relative to the 252-day high. Falsified if it does not beat the benchmark after 10 bps costs.",
   "dsr": 0.0112,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": 0.004509776276052868,
-  "forward_sharpe": 0.45411785415884925,
+  "forward_days": 21,
+  "forward_return": 0.01028059405999171,
+  "forward_sharpe": 0.9095051276259057,
   "slug": "52-week-high-momentum-top-50-top-500-long-short-after-george-e02acd",
   "spec": {
     "costs_bps": 10,

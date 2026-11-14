@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong 12-month momentum (skipping 1 month) represent profitable firms with persistent trends; falsified if the ROE filter does not improve risk-adjusted returns vs. unfiltered momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.1261922477786771,
-  "forward_sharpe": -3.5839268883936604,
+  "forward_days": 13,
+  "forward_return": -0.12765753770374821,
+  "forward_sharpe": -3.487219017553353,
   "slug": "quality-momentum-roe-filter-12m-skip-1m-top-30-top-500-long-9f202f",
   "spec": {
     "costs_bps": 10,

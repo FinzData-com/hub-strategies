@@ -2,9 +2,9 @@
   "description": "Low leverage (low debt/equity) stocks with strong momentum are more resilient; hypothesis fails if forward Sortino ratio < 0.5 or max leverage quintile outperforms.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.06659742175607353,
-  "forward_sharpe": -6.271885007757409,
+  "forward_days": 16,
+  "forward_return": -0.05987520862851803,
+  "forward_sharpe": -5.249891705814333,
   "slug": "leverage-adjusted-momentum-top-1000-long-only-e9bc71",
   "spec": {
     "costs_bps": 12,

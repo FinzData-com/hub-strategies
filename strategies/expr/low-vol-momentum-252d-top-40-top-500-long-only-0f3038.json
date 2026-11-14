@@ -2,9 +2,9 @@
   "description": "Selecting low-volatility stocks within 252-day momentum leaders exploits the low-vol anomaly; if risk-adjusted returns do not exceed high-vol momentum, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.004989528522215236,
-  "forward_sharpe": -0.4131450054391419,
+  "forward_days": 14,
+  "forward_return": -0.005487978904293422,
+  "forward_sharpe": -0.44744869829562917,
   "slug": "low-vol-momentum-252d-top-40-top-500-long-only-0f3038",
   "spec": {
     "costs_bps": 10,

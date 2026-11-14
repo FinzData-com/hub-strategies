@@ -2,9 +2,9 @@
   "description": "Longer lookback momentum with a skip period should avoid short term reversal and capture intermediate trend persistence, falsified if forward Sharpe is not statistically different from zero.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 3,
-  "forward_return": -0.0010001404500744604,
-  "forward_sharpe": -11.224972160321826,
+  "forward_days": 4,
+  "forward_return": -0.09056424684780184,
+  "forward_sharpe": -9.31893580932018,
   "slug": "momentum-252d-skip-63-top-1000-long-only-76e058",
   "spec": {
     "costs_bps": 10,

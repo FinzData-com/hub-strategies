@@ -2,9 +2,9 @@
   "description": "Long\u2011term 50/200 moving\u2011average crossovers capture sustained trends and should outperform; failure to do so falsifies hypothesis.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 12,
-  "forward_return": -0.07403468304622152,
-  "forward_sharpe": -2.4159499045213155,
+  "forward_days": 13,
+  "forward_return": -0.04767744662641349,
+  "forward_sharpe": -1.3095754594431896,
   "slug": "50-200-ma-cross-trend-dcbabb",
   "spec": {
     "costs_bps": 5,

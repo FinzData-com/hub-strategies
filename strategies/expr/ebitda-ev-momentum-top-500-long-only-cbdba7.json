@@ -2,9 +2,9 @@
   "description": "EBITDA/EV is a cleaner valuation metric than P/E; combining it with momentum captures value in capital-intensive industries where earnings are distorted by depreciation. Falsified if EBITDA/EV momentum underperforms earnings yield momentum in sectors with high depreciation.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.0010766647142348429,
-  "forward_sharpe": 0.027808514363093246,
+  "forward_days": 13,
+  "forward_return": -0.0009349720456331978,
+  "forward_sharpe": 0.03856553743063232,
   "slug": "ebitda-ev-momentum-top-500-long-only-cbdba7",
   "spec": {
     "costs_bps": 10,

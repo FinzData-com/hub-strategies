@@ -2,9 +2,9 @@
   "description": "Information diffuses slowly and investors anchor to stale reference prices, so the 50/200 crossover captures persistent regime shifts in individual names; falsified if post-golden-cross returns are indistinguishable from post-death-cross returns.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 12,
-  "forward_return": -0.08297122960240455,
-  "forward_sharpe": -3.0910847910943304,
+  "forward_days": 13,
+  "forward_return": -0.06303228733972865,
+  "forward_sharpe": -2.0971529646275178,
   "slug": "ma-cross-50-200-top-50-top-500-long-only-830759",
   "spec": {
     "costs_bps": 20,

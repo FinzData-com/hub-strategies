@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong 12-month momentum (skipping 1 month) should provide better risk-adjusted returns by avoiding high-beta momentum crashes; falsified if forward Sharpe < 0.4 after 24 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
+  "forward_days": 17,
   "forward_return": -0.0017190398134412366,
-  "forward_sharpe": -0.5383797439816407,
+  "forward_sharpe": -0.522426111070249,
   "slug": "low-volatility-momentum-12m-skip-1m-top-40-top-1000-long-onl-5702ac",
   "spec": {
     "costs_bps": 10,

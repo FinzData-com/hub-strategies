@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with intermediate momentum (6-month skip 1-month) exploit the low-vol anomaly and momentum simultaneously; falsified if forward Sharpe < 0.3.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
+  "forward_days": 17,
   "forward_return": -0.010404605972801906,
-  "forward_sharpe": -3.0838736659933095,
+  "forward_sharpe": -2.9888312061706,
   "slug": "low-volatility-momentum-6m-skip-1m-top-40-top-1000-long-only-2f6b7c",
   "spec": {
     "costs_bps": 10,

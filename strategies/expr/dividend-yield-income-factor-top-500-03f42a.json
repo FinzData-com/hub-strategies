@@ -2,9 +2,9 @@
   "description": "Dividend yield reflects payout policy and value tilt, with higher yields compensating for risk, falsified if forward returns are indistinguishable from market after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 2,
-  "forward_return": -0.0016643783089017594,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.005386816915462611,
+  "forward_sharpe": -29.325932617015123,
   "slug": "dividend-yield-income-factor-top-500-03f42a",
   "spec": {
     "costs_bps": 10,

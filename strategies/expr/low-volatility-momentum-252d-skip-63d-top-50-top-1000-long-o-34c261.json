@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong annual momentum skipping two quarters capture the low-vol anomaly while avoiding high-beta momentum crashes; falsified if the strategy's maximum drawdown exceeds that of the equal-weight universe index during the same period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
+  "forward_days": 17,
   "forward_return": -0.0032076776931833084,
-  "forward_sharpe": -1.0986280278783827,
+  "forward_sharpe": -1.0659428659419805,
   "slug": "low-volatility-momentum-252d-skip-63d-top-50-top-1000-long-o-34c261",
   "spec": {
     "costs_bps": 10,

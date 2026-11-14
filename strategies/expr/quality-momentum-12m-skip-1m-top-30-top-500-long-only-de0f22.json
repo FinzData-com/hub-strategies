@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong 12-month momentum skipping the recent month benefit from persistent profitability and investor underreaction to quality; falsified if forward Sharpe does not exceed 0.3 after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.1155696593310106,
-  "forward_sharpe": -5.052203153400066,
+  "forward_days": 12,
+  "forward_return": -0.11980446714590998,
+  "forward_sharpe": -5.03240780960495,
   "slug": "quality-momentum-12m-skip-1m-top-30-top-500-long-only-de0f22",
   "spec": {
     "costs_bps": 10,

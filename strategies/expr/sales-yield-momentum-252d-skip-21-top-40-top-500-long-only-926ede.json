@@ -2,9 +2,9 @@
   "description": "High sales yield combined with 1-year momentum (skip 1m) identifies profitable growth trends; if forward returns match random selection, the fundamental-momentum link is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.017517186607599267,
-  "forward_sharpe": -1.379972507852935,
+  "forward_days": 14,
+  "forward_return": -0.011429731705877688,
+  "forward_sharpe": -0.8168869002267142,
   "slug": "sales-yield-momentum-252d-skip-21-top-40-top-500-long-only-926ede",
   "spec": {
     "costs_bps": 10,

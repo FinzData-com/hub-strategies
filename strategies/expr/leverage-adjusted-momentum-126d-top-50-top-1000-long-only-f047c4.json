@@ -2,9 +2,9 @@
   "description": "Low-leverage firms with strong momentum have more sustainable trends; if high-leverage momentum outperforms, the financial risk filter is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.00027426507508543363,
-  "forward_sharpe": 0.11394553993862752,
+  "forward_days": 18,
+  "forward_return": 0.0017647902716066977,
+  "forward_sharpe": 0.22477872950642455,
   "slug": "leverage-adjusted-momentum-126d-top-50-top-1000-long-only-f047c4",
   "spec": {
     "costs_bps": 10,

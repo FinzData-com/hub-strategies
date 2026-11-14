@@ -2,9 +2,9 @@
   "description": "Low leverage firms with strong momentum outperform because high leverage amplifies momentum crashes during stress; falsified if leverage filter does not reduce tail risk or improve Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
+  "forward_days": 14,
   "forward_return": -0.01260680698390415,
-  "forward_sharpe": -0.5401543708263139,
+  "forward_sharpe": -0.5207496325765261,
   "slug": "leverage-adjusted-momentum-12m-skip-1m-top-50-top-1000-long-0b9e2b",
   "spec": {
     "costs_bps": 10,

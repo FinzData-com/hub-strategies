@@ -2,9 +2,9 @@
   "description": "Long term moving average cross captures trend persistence from institutional flows and behavioral anchoring, falsified if forward Sharpe is not positive after transaction costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 3,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": -0.070859,
+  "forward_sharpe": -9.16515138991168,
   "slug": "ma-cross-50-200-top-1000-long-only-47076e",
   "spec": {
     "costs_bps": 5,

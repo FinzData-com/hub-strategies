@@ -1,0 +1,25 @@
+{
+  "description": "Short term momentum with a skip should exploit underreaction to news while avoiding short term reversal; falsified if forward Sharpe is not positive.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "momentum-63d-skip-21-top-30-top500-long-only-b2c8c2",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "lookback": 63,
+      "skip": 21,
+      "type": "momentum"
+    },
+    "start": "2015-01-01",
+    "top_n": 30,
+    "universe": "top500"
+  },
+  "title": "Momentum 63d skip 21 top 30 top500 long only",
+  "universe": "top500"
+}

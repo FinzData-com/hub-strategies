@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month selects firms with sustainable competitive advantages and delayed market recognition; falsified if forward Sharpe is not positive or underperforms pure momentum by >0.2 Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.023770032122736318,
-  "forward_sharpe": -2.0104074829971337,
+  "forward_days": 14,
+  "forward_return": -0.017524825266979516,
+  "forward_sharpe": -1.3763994166346698,
   "slug": "value-momentum-combo-12m-skip-1m-top-50-top500-long-only-0ee458",
   "spec": {
     "costs_bps": 10,

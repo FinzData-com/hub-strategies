@@ -2,9 +2,9 @@
   "description": "Golden/death cross (50/200 SMA) reflects institutional trend mandates; if forward Sharpe <= 0.15, the signal is too slow for current market dynamics.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 16,
+  "forward_days": 17,
   "forward_return": 0.002045174200543176,
-  "forward_sharpe": 1.5794400049668949,
+  "forward_sharpe": 1.5321882320917377,
   "slug": "ma-cross-50-200-top-1000-long-only-a1562b",
   "spec": {
     "costs_bps": 5,

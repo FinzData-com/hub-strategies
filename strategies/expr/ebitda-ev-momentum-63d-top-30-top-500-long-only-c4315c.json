@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV (cheap quality) with 63-day momentum captures value-momentum synergy; if the combo does not beat either factor alone, the interaction is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.0394222296733544,
-  "forward_sharpe": -3.321891958581682,
+  "forward_days": 14,
+  "forward_return": -0.04696065282315598,
+  "forward_sharpe": -3.835783008329139,
   "slug": "ebitda-ev-momentum-63d-top-30-top-500-long-only-c4315c",
   "spec": {
     "costs_bps": 10,

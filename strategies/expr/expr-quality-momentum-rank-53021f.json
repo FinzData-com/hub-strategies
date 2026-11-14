@@ -2,9 +2,9 @@
   "description": "High profitability and low leverage stocks that also exhibit recent price momentum should outperform because quality improves persistence of cash flows while momentum captures underreaction, falsified if the combined rank shows no forward Sharpe advantage versus random selection.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -7.175513049184623e-05,
-  "forward_sharpe": 0.07071998089342606,
+  "forward_days": 17,
+  "forward_return": 5.9454250978863143e-05,
+  "forward_sharpe": 0.08144474303894998,
   "slug": "expr-quality-momentum-rank-53021f",
   "spec": {
     "costs_bps": 10,

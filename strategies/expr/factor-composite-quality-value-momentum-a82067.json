@@ -1,0 +1,24 @@
+{
+  "description": "A composite of quality, value and momentum should diversify factor exposures and deliver more stable risk-adjusted returns than single factors; falsified if forward Sharpe is negative after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-composite-quality-value-momentum-a82067",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(roe) + rank(earnings_yield) + rank(ret(126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Factor composite quality value momentum",
+  "universe": "top1000"
+}

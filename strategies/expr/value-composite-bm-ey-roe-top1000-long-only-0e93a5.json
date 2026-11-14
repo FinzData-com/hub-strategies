@@ -2,9 +2,9 @@
   "description": "Stocks with high book-to-market, earnings yield, and ROE are systematically underpriced due to investor neglect of accounting data; falsified if the composite factor fails to generate positive risk-adjusted returns over the full backtest.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.02010141073333127,
-  "forward_sharpe": 4.08138500142839,
+  "forward_days": 16,
+  "forward_return": 0.023364588071031145,
+  "forward_sharpe": 4.565434210464039,
   "slug": "value-composite-bm-ey-roe-top1000-long-only-0e93a5",
   "spec": {
     "costs_bps": 10,

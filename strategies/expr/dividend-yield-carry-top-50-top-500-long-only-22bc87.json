@@ -2,9 +2,9 @@
   "description": "High-dividend-yield stocks embed a value and payout-discipline premium created by tax-sensitive and yield-seeking flows; falsified if the top-yield portfolio underperforms the bottom-yield portfolio net of costs over the full sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": 0.01283598653986151,
-  "forward_sharpe": 1.551399338594162,
+  "forward_days": 13,
+  "forward_return": 0.009572893535459759,
+  "forward_sharpe": 1.1305134862662365,
   "slug": "dividend-yield-carry-top-50-top-500-long-only-22bc87",
   "spec": {
     "costs_bps": 10,

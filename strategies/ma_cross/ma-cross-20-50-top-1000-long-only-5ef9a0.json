@@ -2,9 +2,9 @@
   "description": "Medium-term trend (20/50 SMA cross) on broader universe captures intermediate momentum; if it underperforms buy-and-hold after costs, the crossover signal is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 17,
+  "forward_days": 18,
   "forward_return": 0.005396970940005907,
-  "forward_sharpe": 2.8980203938441993,
+  "forward_sharpe": 2.8140593343234377,
   "slug": "ma-cross-20-50-top-1000-long-only-5ef9a0",
   "spec": {
     "costs_bps": 5,

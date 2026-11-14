@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong price momentum represent undervalued trends; falsified if forward returns do not exceed market by >2% annually after 12 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.00309469097854298,
-  "forward_sharpe": 0.6439343874736818,
+  "forward_days": 16,
+  "forward_return": 0.006344564146945508,
+  "forward_sharpe": 1.2223776070274137,
   "slug": "earnings-yield-momentum-top-1000-long-only-2a5c67",
   "spec": {
     "costs_bps": 12,

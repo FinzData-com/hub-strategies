@@ -2,9 +2,9 @@
   "description": "Low volatility stocks deliver superior risk-adjusted returns because leverage-constrained investors overpay for lottery-like high-volatility assets; falsified if the lowest volatility tercile underperforms the highest after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
+  "forward_days": 16,
   "forward_return": -0.006648501578932264,
-  "forward_sharpe": -2.175124900835649,
+  "forward_sharpe": -2.105333109395946,
   "slug": "low-volatility-anomaly-top1000-long-only-c5c1e8",
   "spec": {
     "costs_bps": 8,

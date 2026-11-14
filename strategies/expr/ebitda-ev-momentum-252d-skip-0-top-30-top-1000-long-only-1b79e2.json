@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV (cheap valuation) with 12-month momentum captures value and trend in a metric less distorted by capital structure; falsified if forward Sharpe is not higher than EBITDA/EV or momentum standalone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": 0.0028257803520430613,
-  "forward_sharpe": 0.45796104257677245,
+  "forward_days": 15,
+  "forward_return": 0.0038296099620049873,
+  "forward_sharpe": 0.5773796644763486,
   "slug": "ebitda-ev-momentum-252d-skip-0-top-30-top-1000-long-only-1b79e2",
   "spec": {
     "costs_bps": 10,

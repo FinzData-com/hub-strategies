@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with strong 12-month momentum skipping 1 month combine income and momentum premia; falsified if forward Sharpe <= 0 or higher turnover than non-dividend momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": 0.001194085140635126,
-  "forward_sharpe": 0.3737800124498002,
+  "forward_days": 17,
+  "forward_return": 0.00027684647237502524,
+  "forward_sharpe": 0.10420029125017766,
   "slug": "dividend-yield-momentum-12m-skip-1m-top-50-top-1000-long-onl-88d492",
   "spec": {
     "costs_bps": 10,

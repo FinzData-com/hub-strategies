@@ -2,9 +2,9 @@
   "description": "Short-term RSI extremes in large caps reflect liquidity provision opportunities where institutional rebalancing creates predictable reversals; falsified if strategy profits disappear when restricting to stocks with >$10M daily dollar volume where liquidity provision is competitive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": 0.030096817672054632,
-  "forward_sharpe": 2.6303635317748193,
+  "forward_days": 13,
+  "forward_return": 0.028172810799131698,
+  "forward_sharpe": 2.369036419988266,
   "slug": "rsi-mean-reversion-20d-top500-long-short-a2203c",
   "spec": {
     "costs_bps": 20,

@@ -2,9 +2,9 @@
   "description": "Investors anchor to the 52-week high and underreact when price approaches it, so proximity to the high should predict continued drift; falsified if nearness to the high carries no incremental information once standard 12-1 momentum is controlled for.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.08024588703450719,
-  "forward_sharpe": -3.97470008072552,
+  "forward_days": 12,
+  "forward_return": -0.08344815980677467,
+  "forward_sharpe": -3.9733353970393765,
   "slug": "52-week-high-anchoring-top-50-top-500-long-only-0c8e81",
   "spec": {
     "costs_bps": 20,

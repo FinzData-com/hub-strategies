@@ -2,9 +2,9 @@
   "description": "One-month losers rebound and winners revert due to liquidity provision and overreaction; falsified if long/short forward Sharpe <= 0 after 20 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 11,
-  "forward_return": -0.10303209633490262,
-  "forward_sharpe": -4.097886208534917,
+  "forward_days": 12,
+  "forward_return": -0.08942579718381938,
+  "forward_sharpe": -3.2699099072257884,
   "slug": "short-term-reversal-top-500-long-short-ff1bd9",
   "spec": {
     "costs_bps": 20,

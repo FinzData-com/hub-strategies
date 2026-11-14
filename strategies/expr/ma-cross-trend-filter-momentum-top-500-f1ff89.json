@@ -2,9 +2,9 @@
   "description": "50/200-day MA cross as regime filter for 12-month momentum reduces crash risk; if applying golden cross filter to momentum selection fails to improve risk-adjusted returns vs unfiltered momentum net of costs, the trend-filtering hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.07705098181249459,
-  "forward_sharpe": -2.722072646419284,
+  "forward_days": 13,
+  "forward_return": -0.052208306409459615,
+  "forward_sharpe": -1.5873907788190167,
   "slug": "ma-cross-trend-filter-momentum-top-500-f1ff89",
   "spec": {
     "costs_bps": 15,

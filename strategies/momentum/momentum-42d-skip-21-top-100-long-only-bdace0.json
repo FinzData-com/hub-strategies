@@ -2,9 +2,9 @@
   "description": "Shorter lookback momentum with skip avoids short term reversal while capturing intermediate trends, falsified if forward Sharpe is zero.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 16,
-  "forward_return": -0.06991222361835414,
-  "forward_sharpe": -2.994865324003335,
+  "forward_days": 17,
+  "forward_return": -0.06803094414839117,
+  "forward_sharpe": -2.8129353020291776,
   "slug": "momentum-42d-skip-21-top-100-long-only-bdace0",
   "spec": {
     "costs_bps": 10,

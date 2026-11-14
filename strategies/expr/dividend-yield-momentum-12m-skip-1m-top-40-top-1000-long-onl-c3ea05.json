@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with momentum benefit from both income demand and price trend persistence, especially in low-rate environments; falsified if the strategy does not outperform a high-dividend benchmark on a risk-adjusted basis.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.017601245318683345,
-  "forward_sharpe": 7.2272978158239205,
+  "forward_days": 16,
+  "forward_return": 0.02493568717432937,
+  "forward_sharpe": 8.544090275851906,
   "slug": "dividend-yield-momentum-12m-skip-1m-top-40-top-1000-long-onl-c3ea05",
   "spec": {
     "costs_bps": 10,

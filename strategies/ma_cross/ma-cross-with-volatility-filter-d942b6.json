@@ -2,9 +2,9 @@
   "description": "Filtering MA cross trades to periods where 21\u2011day volatility is below its median should improve risk\u2011adjusted performance by avoiding noisy markets; a negative Sharpe would falsify this idea.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 11,
-  "forward_return": -0.08287904446744987,
-  "forward_sharpe": -6.513797530572246,
+  "forward_days": 12,
+  "forward_return": -0.07167990138291314,
+  "forward_sharpe": -5.083567921580771,
   "slug": "ma-cross-with-volatility-filter-d942b6",
   "spec": {
     "costs_bps": 5,

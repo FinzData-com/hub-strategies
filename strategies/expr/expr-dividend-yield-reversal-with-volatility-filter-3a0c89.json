@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks that have recently underperformed may revert as income demand reasserts, but only when volatility is low enough to avoid distress, falsified if the long-short spread is indistinguishable from zero after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 3,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.030524999999999913,
+  "forward_sharpe": 9.16515138991168,
   "slug": "expr-dividend-yield-reversal-with-volatility-filter-3a0c89",
   "spec": {
     "costs_bps": 10,

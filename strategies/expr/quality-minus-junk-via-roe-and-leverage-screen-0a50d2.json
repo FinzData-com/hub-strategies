@@ -1,0 +1,24 @@
+{
+  "description": "Higher return on equity combined with lower leverage should persist due to operational efficiency and lower distress risk, so a long-short portfolio sorted on ROE minus leverage should earn positive risk-adjusted returns; falsified if forward Sharpe is not significantly positive.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-minus-junk-via-roe-and-leverage-screen-0a50d2",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(roe) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Quality minus junk via ROE and leverage screen",
+  "universe": "top1000"
+}

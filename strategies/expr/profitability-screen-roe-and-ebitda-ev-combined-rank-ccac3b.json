@@ -2,8 +2,8 @@
   "description": "Firms with high return on equity and high EBITDA over enterprise value should outperform because of persistent competitive advantage, falsified if forward Sharpe is not positive after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.01751998709150948,
   "forward_sharpe": 0.0,
   "slug": "profitability-screen-roe-and-ebitda-ev-combined-rank-ccac3b",
   "spec": {

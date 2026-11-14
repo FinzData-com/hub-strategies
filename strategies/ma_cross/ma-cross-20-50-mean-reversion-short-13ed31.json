@@ -2,9 +2,9 @@
   "description": "A death cross of 20 day vs 50 day moving average may capture short term overextension that reverts, falsified if the short side underperforms the long side in a long short implementation.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 2,
-  "forward_return": 0.013783866164902348,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.006303317350340065,
+  "forward_sharpe": -2.014673192739951,
   "slug": "ma-cross-20-50-mean-reversion-short-13ed31",
   "spec": {
     "costs_bps": 20,

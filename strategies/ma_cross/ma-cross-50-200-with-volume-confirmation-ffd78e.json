@@ -2,9 +2,9 @@
   "description": "A golden cross of 50 day vs 200 day moving average confirmed by rising volume should mark sustainable trend initiation, falsified if the signal generates no excess returns after transaction costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 3,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": -0.07230000000000003,
+  "forward_sharpe": -9.165151389911681,
   "slug": "ma-cross-50-200-with-volume-confirmation-ffd78e",
   "spec": {
     "costs_bps": 12,

@@ -2,9 +2,9 @@
   "description": "Low-volatility recent losers should rebound because temporary price pressure, rather than fundamental deterioration, caused their decline; falsified if they do not outperform recent winners after costs or if the effect disappears out of sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
+  "forward_days": 17,
   "forward_return": -0.003651616824338788,
-  "forward_sharpe": -1.1549559839144257,
+  "forward_sharpe": -1.120576121791083,
   "slug": "low-volatility-short-term-reversal-224e35",
   "spec": {
     "costs_bps": 20,

@@ -2,8 +2,8 @@
   "description": "Low realized volatility combined with dividend yield should attract risk-averse capital and deliver stable returns, falsified if forward Sharpe is not higher than market volatility.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.0011430964388687848,
   "forward_sharpe": 0.0,
   "slug": "low-volatility-dividend-yield-factor-fe87ed",
   "spec": {

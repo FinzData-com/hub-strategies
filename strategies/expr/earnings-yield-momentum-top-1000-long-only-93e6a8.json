@@ -2,9 +2,9 @@
   "description": "High earnings yield (cheap) stocks with strong momentum represent undervalued improvers; earnings yield provides fundamental anchor to momentum's price signal. Falsified if forward Sharpe < 0.25 or correlation with value factor > 0.8.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.006472350294577489,
-  "forward_sharpe": -1.1610008249057793,
+  "forward_days": 17,
+  "forward_return": -0.03848900257382348,
+  "forward_sharpe": -3.9458445820037555,
   "slug": "earnings-yield-momentum-top-1000-long-only-93e6a8",
   "spec": {
     "costs_bps": 10,

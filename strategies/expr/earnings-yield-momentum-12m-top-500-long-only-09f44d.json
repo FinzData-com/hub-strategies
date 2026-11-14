@@ -2,9 +2,9 @@
   "description": "High earnings yield (cheap) stocks with strong 12-month momentum capture value-momentum interaction; falsified if earnings yield fails to predict returns in current regime or if momentum in value stocks reverts faster than growth stocks.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 7,
-  "forward_return": -0.018975489950378566,
-  "forward_sharpe": -2.1312265508817547,
+  "forward_days": 8,
+  "forward_return": -0.02305849330860621,
+  "forward_sharpe": -2.4663925663332034,
   "slug": "earnings-yield-momentum-12m-top-500-long-only-09f44d",
   "spec": {
     "costs_bps": 10,

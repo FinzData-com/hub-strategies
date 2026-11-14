@@ -2,9 +2,9 @@
   "description": "High sales yield combined with momentum identifies companies with strong top-line growth that the market has not fully priced. Falsified if sales yield adds no incremental predictive power beyond earnings yield and momentum in multivariate sorts.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.018787924621425423,
-  "forward_sharpe": -2.90731902528508,
+  "forward_days": 17,
+  "forward_return": -0.0229911020802942,
+  "forward_sharpe": -3.4468301252661346,
   "slug": "sales-yield-momentum-top-1000-long-only-a2cb9d",
   "spec": {
     "costs_bps": 10,

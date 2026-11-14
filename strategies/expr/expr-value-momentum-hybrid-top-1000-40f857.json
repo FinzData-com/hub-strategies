@@ -2,9 +2,9 @@
   "description": "Combining value via earnings yield with short-term reversal-adjusted momentum should capture mispricing correction where cheap stocks with recent relative strength outperform, falsified if forward Sharpe is not statistically distinguishable from zero after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 7,
-  "forward_return": -0.0010000000000000009,
-  "forward_sharpe": -3.509710083156573,
+  "forward_days": 8,
+  "forward_return": -0.03319300000000003,
+  "forward_sharpe": -6.208146993242536,
   "slug": "expr-value-momentum-hybrid-top-1000-40f857",
   "spec": {
     "costs_bps": 10,

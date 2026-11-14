@@ -2,9 +2,9 @@
   "description": "Cheap stocks on trailing earnings over market value earn more than expensive ones, as investors over-extrapolate growth. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "factor",
-  "forward_days": 20,
-  "forward_return": 0.06371032688963951,
-  "forward_sharpe": 3.4454580352169524,
+  "forward_days": 21,
+  "forward_return": 0.044639155992787005,
+  "forward_sharpe": 2.309158109013185,
   "slug": "value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-e6ad2f",
   "spec": {
     "costs_bps": 10,

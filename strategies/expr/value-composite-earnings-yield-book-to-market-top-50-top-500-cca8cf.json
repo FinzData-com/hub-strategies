@@ -2,9 +2,9 @@
   "description": "Cheap stocks earn a premium because investors overextrapolate recent distress and demand compensation for bearing value risk; falsified if the top composite-value portfolio underperforms the bottom-value names net of costs over the full sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": 0.034620651448769246,
-  "forward_sharpe": 4.371187243774913,
+  "forward_days": 13,
+  "forward_return": 0.034949340865555234,
+  "forward_sharpe": 4.22904860443357,
   "slug": "value-composite-earnings-yield-book-to-market-top-50-top-500-cca8cf",
   "spec": {
     "costs_bps": 10,

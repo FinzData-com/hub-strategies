@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield, high book to market and high sales yield should earn a value premium due to mispricing of distress and mean reversion in multiples, falsified if the composite value rank does not produce positive forward excess returns after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.0014257003630128162,
-  "forward_sharpe": -0.11908427426944485,
+  "forward_days": 17,
+  "forward_return": -0.005573013556935624,
+  "forward_sharpe": -0.6213116786255818,
   "slug": "expr-value-composite-earnings-yield-a4cf75",
   "spec": {
     "costs_bps": 10,

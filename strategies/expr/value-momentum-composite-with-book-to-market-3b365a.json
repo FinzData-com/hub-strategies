@@ -2,9 +2,9 @@
   "description": "Combining value via book to market with short term momentum captures mispricing correction and behavioral anchoring, falsified if the composite underperforms a random rank signal in forward tracking.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": 0.012326042572885498,
-  "forward_sharpe": 3.1257485633437683,
+  "forward_days": 18,
+  "forward_return": 0.016134969385054987,
+  "forward_sharpe": 3.892347849626377,
   "slug": "value-momentum-composite-with-book-to-market-3b365a",
   "spec": {
     "costs_bps": 10,

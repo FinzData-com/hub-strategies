@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with 9m momentum skipping 1m represent undervalued improvers; if forward Sharpe <= 0.2, earnings yield adds no incremental signal to momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.04890644107614084,
-  "forward_sharpe": -3.7843477977119004,
+  "forward_days": 13,
+  "forward_return": -0.046866954688807416,
+  "forward_sharpe": -3.4568995872767383,
   "slug": "earnings-yield-momentum-top-500-long-only-a75bf7",
   "spec": {
     "costs_bps": 10,

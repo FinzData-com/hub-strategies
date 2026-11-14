@@ -2,9 +2,9 @@
   "description": "High earnings yield combined with low leverage identifies financially healthy value stocks with lower distress risk, falsified if forward performance is indistinguishable from market.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.002602747111220216,
-  "forward_sharpe": -0.15309192115599216,
+  "forward_days": 17,
+  "forward_return": -0.019597976905735948,
+  "forward_sharpe": -1.5566536368321757,
   "slug": "earnings-yield-minus-leverage-factor-6e7c48",
   "spec": {
     "costs_bps": 10,

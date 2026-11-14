@@ -2,9 +2,9 @@
   "description": "Low-volatility stocks with positive momentum exploit the low-vol anomaly and trend persistence; if selecting low-vol momentum leaders fails to improve Sharpe over vanilla momentum after costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.028591385285711035,
-  "forward_sharpe": -2.489616524810212,
+  "forward_days": 11,
+  "forward_return": -0.02542445825364903,
+  "forward_sharpe": -2.081707138958613,
   "slug": "low-volatility-momentum-top-500-long-only-87b551",
   "spec": {
     "costs_bps": 10,

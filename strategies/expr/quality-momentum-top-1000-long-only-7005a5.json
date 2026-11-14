@@ -2,9 +2,9 @@
   "description": "High ROE stocks with strong momentum reflect sustainable competitive advantages; quality filters reduce momentum crashes during regime shifts. Falsified if forward Sharpe < 0.25 or underperforms pure momentum by >2% annualized.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.03285127710606561,
-  "forward_sharpe": -3.379633251749515,
+  "forward_days": 17,
+  "forward_return": -0.041934489899749905,
+  "forward_sharpe": -4.154860434692584,
   "slug": "quality-momentum-top-1000-long-only-7005a5",
   "spec": {
     "costs_bps": 10,

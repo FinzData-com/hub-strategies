@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with positive 6-month momentum are undervalued winners; if long top quintile / short bottom quintile by earnings_yield * momentum yields zero or negative forward Sharpe after costs, the mispricing correction hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.019248648328988538,
-  "forward_sharpe": -2.0457912236065394,
+  "forward_days": 13,
+  "forward_return": -0.01965097464762522,
+  "forward_sharpe": -2.0094414142368064,
   "slug": "earnings-yield-momentum-long-short-top-500-ec7cca",
   "spec": {
     "costs_bps": 20,

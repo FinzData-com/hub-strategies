@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong 12-month momentum (skip 1 month) capture value and momentum premia; long/short neutralizes market beta; falsified if forward Sharpe < 0.2.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.003472485657758706,
-  "forward_sharpe": -0.4240787931048531,
+  "forward_days": 13,
+  "forward_return": -0.006487809338165618,
+  "forward_sharpe": -0.8205558489867308,
   "slug": "earnings-yield-momentum-12m-skip-1m-top-50-top-500-long-shor-5d1d5c",
   "spec": {
     "costs_bps": 15,

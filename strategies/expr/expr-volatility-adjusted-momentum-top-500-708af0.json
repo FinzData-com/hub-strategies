@@ -2,9 +2,9 @@
   "description": "Momentum scaled by realized volatility should improve risk-adjusted returns by avoiding high noise stocks, falsified if volatility scaling does not increase the information ratio versus raw momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.016867433566082224,
-  "forward_sharpe": -1.975500681734837,
+  "forward_days": 6,
+  "forward_return": -0.013028582910533992,
+  "forward_sharpe": -1.3538348494488466,
   "slug": "expr-volatility-adjusted-momentum-top-500-708af0",
   "spec": {
     "costs_bps": 10,

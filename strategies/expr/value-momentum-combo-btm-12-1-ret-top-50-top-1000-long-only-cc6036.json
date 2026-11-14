@@ -2,9 +2,9 @@
   "description": "Value and momentum signals are negatively correlated, so combining them should diversify signal noise and dampen the crashes each suffers alone; falsified if the combined rank does not beat a pure 12-1 momentum rank of identical breadth after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.0010944026154837694,
-  "forward_sharpe": -0.37942155069623734,
+  "forward_days": 16,
+  "forward_return": -0.0037007828046194957,
+  "forward_sharpe": -1.2654438158234216,
   "slug": "value-momentum-combo-btm-12-1-ret-top-50-top-1000-long-only-cc6036",
   "spec": {
     "costs_bps": 20,

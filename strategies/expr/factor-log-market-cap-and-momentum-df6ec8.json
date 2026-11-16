@@ -2,9 +2,9 @@
   "description": "Large market cap firms with momentum are expected to deliver higher returns due to liquidity and trend persistence; falsified if small\u2011cap momentum outperforms.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
+  "forward_days": 15,
   "forward_return": -0.13549542977060447,
-  "forward_sharpe": -3.2014829556417603,
+  "forward_sharpe": -2.9736528482302784,
   "slug": "factor-log-market-cap-and-momentum-df6ec8",
   "spec": {
     "costs_bps": 10,

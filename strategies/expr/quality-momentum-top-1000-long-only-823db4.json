@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum outperform due to persistent profitability and investor underreaction; falsified if forward Sharpe <= 0 after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
+  "forward_days": 18,
   "forward_return": -0.02427829341814547,
-  "forward_sharpe": -2.8571246539069333,
+  "forward_sharpe": -2.6895687279723246,
   "slug": "quality-momentum-top-1000-long-only-823db4",
   "spec": {
     "costs_bps": 10,

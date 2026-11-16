@@ -2,9 +2,9 @@
   "description": "Short-term reversal (1-month) exploits liquidity provision and overreaction; long/short construction isolates pure reversal premium. Falsified if forward Sharpe < 0.2 or turnover > 500% annually.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.0526130249485981,
-  "forward_sharpe": -1.5595175203343767,
+  "forward_days": 15,
+  "forward_return": -0.0537602114368092,
+  "forward_sharpe": -1.4899725346716284,
   "slug": "short-term-reversal-long-short-top-500-5b4a5a",
   "spec": {
     "costs_bps": 15,

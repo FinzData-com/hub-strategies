@@ -2,9 +2,9 @@
   "description": "Long term moving average cross captures equity trend persistence from behavioral underreaction, falsified if forward Sharpe is not positive after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 2,
+  "forward_days": 4,
   "forward_return": -5.002296053935318e-06,
-  "forward_sharpe": 0.0,
+  "forward_sharpe": -4.582541309916808,
   "slug": "ma-cross-20-100-top3000-us-equity-trend-d08c26",
   "spec": {
     "costs_bps": 5,

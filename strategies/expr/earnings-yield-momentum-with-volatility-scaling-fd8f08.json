@@ -2,8 +2,8 @@
   "description": "Firms with improving earnings yield and low realized volatility should outperform because the market underreacts to fundamental revisions and volatility predicts downside risk, falsified if forward Sharpe is not positive after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.000999956906852395,
   "forward_sharpe": 0.0,
   "slug": "earnings-yield-momentum-with-volatility-scaling-fd8f08",
   "spec": {

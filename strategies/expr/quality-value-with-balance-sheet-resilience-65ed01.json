@@ -2,9 +2,9 @@
   "description": "High profitability, cheap earnings, and low leverage should identify durable firms whose distress risk is underpriced; falsified if the composite does not beat the broad-universe median after costs or if leverage does not predict downside.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.02670248064465164,
-  "forward_sharpe": -2.0993987751701213,
+  "forward_days": 19,
+  "forward_return": -0.02671341165901986,
+  "forward_sharpe": -1.9768588700588816,
   "slug": "quality-value-with-balance-sheet-resilience-65ed01",
   "spec": {
     "costs_bps": 15,

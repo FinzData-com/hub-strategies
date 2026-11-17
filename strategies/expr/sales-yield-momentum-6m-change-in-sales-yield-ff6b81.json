@@ -1,0 +1,24 @@
+{
+  "description": "Recent improvements in sales yield reflect demand acceleration that is underpriced, and the effect is falsified by a non-positive forward Sharpe after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-6m-change-in-sales-yield-ff6b81",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield - lag(sales_yield, 126))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Sales Yield Momentum \u00b7 6m change in sales yield",
+  "universe": "top1000"
+}

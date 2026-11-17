@@ -2,9 +2,9 @@
   "description": "EBITDA/EV captures operating value better than book/market; if high EBITDA/EV portfolio fails to beat market after costs, the valuation metric lacks predictive power for returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.006125219184325736,
-  "forward_sharpe": -0.5357960569571354,
+  "forward_days": 21,
+  "forward_return": -0.009462990938059024,
+  "forward_sharpe": -0.8224775323813781,
   "slug": "ebitda-ev-value-top-1000-quarterly-b0cd9b",
   "spec": {
     "costs_bps": 10,

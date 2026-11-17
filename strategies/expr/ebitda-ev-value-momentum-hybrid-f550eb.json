@@ -1,0 +1,24 @@
+{
+  "description": "Stocks cheap on EBITDA/EV with positive recent returns should outperform due to value plus trend continuation; falsified if forward Sharpe does not exceed zero.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-value-momentum-hybrid-f550eb",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ebitda_ev) + rank(ret(63))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "EBITDA/EV value momentum hybrid",
+  "universe": "top1000"
+}

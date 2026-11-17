@@ -1,0 +1,24 @@
+{
+  "description": "Value premium should be stronger after controlling for size because small value firms carry higher distress risk, and the strategy is falsified if the deflated Sharpe does not exceed that of raw book-to-market.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "size-adjusted-value-book-to-market-over-log-market-cap-f587c9",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(book_to_market / (log_mcap + 1))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Size Adjusted Value \u00b7 book to market over log market cap",
+  "universe": "top3000"
+}

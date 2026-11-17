@@ -2,9 +2,9 @@
   "description": "Enterprise value to EBITDA and leverage interact through financial distress risk; the strategy is falsified if leverage destroys the EBITDA yield premium in joint rankings.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.029654851374416924,
-  "forward_sharpe": -2.7627359690957003,
+  "forward_days": 21,
+  "forward_return": -0.029908586898073408,
+  "forward_sharpe": -2.6450147834822033,
   "slug": "cheap-low-leverage-screen-top-1000-long-only-5784e7",
   "spec": {
     "costs_bps": 15,

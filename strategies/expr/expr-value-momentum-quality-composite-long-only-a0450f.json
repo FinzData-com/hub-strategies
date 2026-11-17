@@ -2,9 +2,9 @@
   "description": "Combining value and quality fundamentals with recent price momentum should capture stocks with durable earnings power and positive trend, while pure momentum fails during reversals; falsified if forward Sharpe is not positive and underperforms equal weight.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
+  "forward_days": 21,
   "forward_return": -0.012116294688784723,
-  "forward_sharpe": -2.384341603346674,
+  "forward_sharpe": -2.2659235166629155,
   "slug": "expr-value-momentum-quality-composite-long-only-a0450f",
   "spec": {
     "costs_bps": 10,

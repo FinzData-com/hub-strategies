@@ -2,9 +2,9 @@
   "description": "A 20/100-day crossover should filter short-lived price noise and retain persistent institutional repricing; falsified if trend entrants do not outperform random entries with the same holding periods after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
-  "forward_return": 0.0016484723053644679,
-  "forward_sharpe": 0.21085036388934925,
+  "forward_days": 21,
+  "forward_return": 0.0006758335363841184,
+  "forward_sharpe": 0.1463002468370463,
   "slug": "medium-term-20-100-trend-crossover-9c935b",
   "spec": {
     "costs_bps": 15,

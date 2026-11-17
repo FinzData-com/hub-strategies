@@ -2,9 +2,9 @@
   "description": "A 10/40-day crossover should capture delayed market reactions to earnings and analyst news; falsified if crossover portfolios do not outperform buy-and-hold or if their advantage disappears after one week.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
+  "forward_days": 21,
   "forward_return": 0.04769747525862411,
-  "forward_sharpe": 3.831110169892733,
+  "forward_sharpe": 3.633996130600529,
   "slug": "post-news-10-40-trend-crossover-17aeb5",
   "spec": {
     "costs_bps": 20,

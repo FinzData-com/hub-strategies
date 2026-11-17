@@ -1,0 +1,24 @@
+{
+  "description": "High earnings yield and high ROE stocks should earn higher risk-adjusted returns due to quality and value effects, and the composite should underperform a random factor if the joint signal has no incremental explanatory power.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "us-quality-value-blend-earnings-yield-roe-composite-7de7fc",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "US Quality Value Blend \u00b7 earnings yield + ROE composite",
+  "universe": "top1000"
+}

@@ -2,9 +2,9 @@
   "description": "Intermediate price trends combined with high sales yields should capture gradual information diffusion in operationally cheap firms; falsified if high-scoring firms do not earn higher subsequent returns than low-scoring firms after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": 0.0006383014629312012,
-  "forward_sharpe": 0.14515784245582686,
+  "forward_days": 21,
+  "forward_return": 0.002141238344545826,
+  "forward_sharpe": 0.3718351365483421,
   "slug": "sales-yield-conditioned-intermediate-momentum-1bbeea",
   "spec": {
     "costs_bps": 15,

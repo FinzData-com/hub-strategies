@@ -1,0 +1,24 @@
+{
+  "description": "Momentum in fundamental earnings yield should persist due to slow diffusion of accounting information; falsified if forward Sharpe is negative.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-momentum-252d-momentum-of-earnings-yield-9b5540",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield - lag(earnings_yield, 252))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Factor momentum \u00b7 252d momentum of earnings yield",
+  "universe": "top1000"
+}

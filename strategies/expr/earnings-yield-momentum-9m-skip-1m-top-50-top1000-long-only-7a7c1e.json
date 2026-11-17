@@ -2,9 +2,9 @@
   "description": "High earnings yield (cheap) stocks with positive momentum capture 'value recovery' dynamics; market underreacts to fundamentals improvement in cheap stocks, falsified if alpha vanishes when controlling for Fama-French 5-factor model.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
+  "forward_days": 21,
   "forward_return": -0.004269908149399204,
-  "forward_sharpe": -1.014245674242534,
+  "forward_sharpe": -0.9648152897564222,
   "slug": "earnings-yield-momentum-9m-skip-1m-top-50-top1000-long-only-7a7c1e",
   "spec": {
     "costs_bps": 15,

@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong momentum exhibit the 'low vol anomaly' combined with trend persistence, offering superior risk-adjusted returns; falsified if the portfolio's forward Sharpe is not higher than high volatility momentum peers.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.019873897246518224,
-  "forward_sharpe": -4.069020664848479,
+  "forward_days": 21,
+  "forward_return": -0.01889256832055697,
+  "forward_sharpe": -3.647253678178632,
   "slug": "low-volatility-momentum-12m-skip-1m-vol-filter-top-50-top-10-49319f",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "High sales yield combined with momentum identifies undervalued growth; falsified if sales yield adds no predictive power over pure momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
+  "forward_days": 21,
   "forward_return": -0.016890981646243808,
-  "forward_sharpe": -2.2349038123920986,
+  "forward_sharpe": -2.124214878007214,
   "slug": "sales-yield-momentum-top-1000-17386c",
   "spec": {
     "costs_bps": 5,

@@ -1,0 +1,24 @@
+{
+  "description": "Combining value, profitability and low leverage should capture multiple risk premia and reduce idiosyncratic noise, and the hypothesis fails if the composite does not outperform its individual components in out-of-sample Sharpe.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "composite-factor-value-profitability-and-low-leverage-7a65c2",
+  "spec": {
+    "costs_bps": 25,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(roe) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 75,
+    "universe": "top1000"
+  },
+  "title": "Composite Factor \u00b7 value profitability and low leverage",
+  "universe": "top1000"
+}

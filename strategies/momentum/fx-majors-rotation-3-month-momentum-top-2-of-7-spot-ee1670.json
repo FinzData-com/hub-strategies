@@ -2,8 +2,8 @@
   "description": "Each month, holds the 2 major pairs with the strongest 3-month change. Short-horizon currency momentum (after Menkhoff et al. 2012). Falsified if 3-month leaders do not keep leading. Backtested on FinzData FX daily closes (spot: the price change only, no interest differential), costs as stated, re-run free on full history.",
   "dsr": 0.0001,
   "family": "momentum",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.0012057383301755653,
   "forward_sharpe": 0.0,
   "slug": "fx-majors-rotation-3-month-momentum-top-2-of-7-spot-ee1670",
   "spec": {

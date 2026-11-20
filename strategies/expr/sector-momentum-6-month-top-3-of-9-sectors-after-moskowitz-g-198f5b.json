@@ -2,9 +2,9 @@
   "description": "'Do Industries Explain Momentum?' showed industry momentum drives much of stock momentum. Approximation: rank the 9 SPDR sector ETFs on 126-day return and hold the top 3. Falsified if it fails to beat equal-weight sectors.",
   "dsr": 0.3124,
   "family": "expr",
-  "forward_days": 23,
-  "forward_return": -0.019389457546106326,
-  "forward_sharpe": -0.9024905100528652,
+  "forward_days": 25,
+  "forward_return": -0.04757381270886252,
+  "forward_sharpe": -2.201937967832127,
   "slug": "sector-momentum-6-month-top-3-of-9-sectors-after-moskowitz-g-198f5b",
   "spec": {
     "costs_bps": 10,

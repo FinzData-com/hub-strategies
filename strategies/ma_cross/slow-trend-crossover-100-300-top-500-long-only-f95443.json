@@ -2,9 +2,9 @@
   "description": "Slow moving-average crossovers mitigate microstructure noise and identify persistent regime shifts; the strategy is falsified if the 100/300-day crossover fails to exceed buy-and-hold after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
-  "forward_return": -0.052727408481952454,
-  "forward_sharpe": -1.0657196821797892,
+  "forward_days": 17,
+  "forward_return": -0.0798052308217424,
+  "forward_sharpe": -1.6914861395503256,
   "slug": "slow-trend-crossover-100-300-top-500-long-only-f95443",
   "spec": {
     "costs_bps": 5,

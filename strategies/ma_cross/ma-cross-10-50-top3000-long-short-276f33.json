@@ -2,9 +2,9 @@
   "description": "Fast-slow moving average crossovers exploit gradual information diffusion and investor underreaction to emerging trends; falsified if the signal produces negative alpha after realistic transaction costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 20,
+  "forward_days": 22,
   "forward_return": 0.00956461516406426,
-  "forward_sharpe": 0.8787200639612586,
+  "forward_sharpe": 0.837908733088532,
   "slug": "ma-cross-10-50-top3000-long-short-276f33",
   "spec": {
     "costs_bps": 12,

@@ -2,9 +2,9 @@
   "description": "EBITDA-to-enterprise-value captures operating profitability independent of capital structure and accounting noise; falsified if the metric does not predict cross-sectional return differences.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": 0.04340252547673695,
-  "forward_sharpe": 4.005024218631551,
+  "forward_days": 16,
+  "forward_return": 0.01574292135905142,
+  "forward_sharpe": 1.3119984198560264,
   "slug": "enterprise-value-yield-top500-long-only-fe3d27",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Faster 20/50 cross captures intermediate trend changes with lower lag; falsified if forward Sharpe not positive after 15 bps costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 20,
+  "forward_days": 22,
   "forward_return": -0.00311625857569231,
-  "forward_sharpe": -3.4756036076386114,
+  "forward_sharpe": -3.3067349380899125,
   "slug": "ma-cross-20-50-top-1000-long-only-1bf297",
   "spec": {
     "costs_bps": 15,

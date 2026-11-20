@@ -2,9 +2,9 @@
   "description": "Holds DAX futures while the 50-day average is above the 200-day average, cash otherwise. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
   "dsr": 0.3655,
   "family": "ma_cross",
-  "forward_days": 5,
-  "forward_return": 0.018332976776248344,
-  "forward_sharpe": 14.370200969678566,
+  "forward_days": 7,
+  "forward_return": -0.007515430998280781,
+  "forward_sharpe": -1.7312552859034307,
   "slug": "fdax-50-200-moving-average-trend-b40c18",
   "spec": {
     "costs_bps": 5,

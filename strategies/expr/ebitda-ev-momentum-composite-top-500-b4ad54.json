@@ -2,9 +2,9 @@
   "description": "EBITDA/EV identifies cheap cash generators; combined with 9-month momentum skipping 1-month, it targets value-momentum convergence; if the composite rank fails to beat random selection after 20bps costs, the joint anomaly is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.048144882033804626,
-  "forward_sharpe": -2.7832433216057284,
+  "forward_days": 17,
+  "forward_return": -0.07406851394706304,
+  "forward_sharpe": -4.064560129423139,
   "slug": "ebitda-ev-momentum-composite-top-500-b4ad54",
   "spec": {
     "costs_bps": 20,

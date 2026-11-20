@@ -2,7 +2,7 @@
   "description": "Stocks cheap on EBITDA/EV with positive recent returns should outperform due to value plus trend continuation; falsified if forward Sharpe does not exceed zero.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "ebitda-ev-value-momentum-hybrid-f550eb",

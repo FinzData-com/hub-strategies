@@ -2,9 +2,9 @@
   "description": "Longer-horizon crossovers filter noise and capture secular trends in small and mid caps where information travels slowly; falsified if the signal does not outperform a random long portfolio of the same universe after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 21,
-  "forward_return": 0.013899178938608259,
-  "forward_sharpe": 0.871027582121427,
+  "forward_days": 23,
+  "forward_return": 0.013876850940313101,
+  "forward_sharpe": 0.8311928366205064,
   "slug": "slow-trend-100-300-top-3000-weekly-0b703e",
   "spec": {
     "costs_bps": 10,

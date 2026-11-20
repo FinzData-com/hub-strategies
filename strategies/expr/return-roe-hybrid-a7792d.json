@@ -2,9 +2,9 @@
   "description": "Combining short\u2011term momentum with ROE should produce superior returns; if the hybrid signal does not outperform either component, hypothesis falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.12740998801573988,
-  "forward_sharpe": -3.74100694051121,
+  "forward_days": 17,
+  "forward_return": -0.14339395521984066,
+  "forward_sharpe": -4.0187442981827015,
   "slug": "return-roe-hybrid-a7792d",
   "spec": {
     "costs_bps": 5,

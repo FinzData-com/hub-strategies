@@ -2,9 +2,9 @@
   "description": "Short\u2011term 20/50 moving\u2011average crossovers capture transient trends and should generate excess returns; if not, hypothesis falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
-  "forward_return": -0.055989641852053906,
-  "forward_sharpe": -1.7304667310501016,
+  "forward_days": 17,
+  "forward_return": -0.07144981969546182,
+  "forward_sharpe": -2.1545096569334197,
   "slug": "20-50-ma-cross-momentum-b6bb11",
   "spec": {
     "costs_bps": 5,

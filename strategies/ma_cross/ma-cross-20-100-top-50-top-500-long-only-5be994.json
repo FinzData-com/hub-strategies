@@ -2,9 +2,9 @@
   "description": "Capital reallocates toward winning businesses only slowly and risk premia vary with regime, so intermediate trend signals capture persistent drift; falsified if the 20/100 cross long leg fails to beat buy-and-hold on the same universe after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
-  "forward_return": -0.031051562696199686,
-  "forward_sharpe": -1.9012221239228704,
+  "forward_days": 17,
+  "forward_return": -0.04671432707604528,
+  "forward_sharpe": -2.747227336489309,
   "slug": "ma-cross-20-100-top-50-top-500-long-only-5be994",
   "spec": {
     "costs_bps": 20,

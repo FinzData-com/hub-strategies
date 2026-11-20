@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV (cheap on cash flow basis) with strong 12-month momentum captures value-momentum in cash-generative firms; falsified if EBITDA/EV fails to identify undervalued firms or if momentum in value traps leads to underperformance.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.03009107973274583,
-  "forward_sharpe": -2.232364420772829,
+  "forward_days": 12,
+  "forward_return": -0.05296552061656479,
+  "forward_sharpe": -3.680582435322727,
   "slug": "ebitda-ev-momentum-12m-top-500-long-only-856d12",
   "spec": {
     "costs_bps": 10,

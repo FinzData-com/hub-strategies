@@ -1,0 +1,24 @@
+{
+  "description": "Improvements in return on equity are underreacted by markets due to accounting recognition lags and investor attention limits, leading to continuation; falsified if ranking on recent ROE change shows no persistence in subsequent returns after costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "us-profitability-change-12-month-roe-momentum-89afbf",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(roe - lag(roe,252))",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "US Profitability Change \u00b7 12-month ROE momentum",
+  "universe": "top1000"
+}

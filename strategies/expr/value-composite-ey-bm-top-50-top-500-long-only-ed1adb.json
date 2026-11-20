@@ -2,9 +2,9 @@
   "description": "Cheap stocks on earnings yield and book-to-market earn a premium because investors overextrapolate recent fundamentals and demand compensation for distress risk; falsified if the cheap half shows no return spread versus the expensive half after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.03780704299121673,
-  "forward_sharpe": 4.192149806075319,
+  "forward_days": 17,
+  "forward_return": -0.00194059982356376,
+  "forward_sharpe": -0.06740725522819524,
   "slug": "value-composite-ey-bm-top-50-top-500-long-only-ed1adb",
   "spec": {
     "costs_bps": 10,

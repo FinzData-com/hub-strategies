@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield (cheap valuation) and strong 1-year momentum skipping 1 quarter capture undervalued firms with improving fundamentals; the skip period avoids earnings announcement noise. Falsified if strategy fails to outperform value-only or momentum-only benchmarks in out-of-sample period post-2020.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.04226944674285282,
-  "forward_sharpe": -3.622080371608151,
+  "forward_days": 14,
+  "forward_return": -0.0585470853074288,
+  "forward_sharpe": -4.654790175410988,
   "slug": "earnings-yield-momentum-252d-skip-63-top-40-top-500-long-onl-c0565e",
   "spec": {
     "costs_bps": 10,

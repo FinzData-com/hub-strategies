@@ -2,9 +2,9 @@
   "description": "Stocks with low EV/EBITDA and high ROE should outperform due to efficient capital use; if they do not, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.030160953134831248,
-  "forward_sharpe": 2.730925232518338,
+  "forward_days": 17,
+  "forward_return": 0.004046783015303035,
+  "forward_sharpe": 0.40366312625230766,
   "slug": "ebitda-roe-value-factor-7cf199",
   "spec": {
     "costs_bps": 5,

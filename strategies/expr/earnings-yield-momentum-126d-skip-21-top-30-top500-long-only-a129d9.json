@@ -2,9 +2,9 @@
   "description": "Stocks with strong 126-day momentum (skipping 21 days) and high earnings yield represent profitable trends with fundamental backing; falsified if the earnings yield tilt fails to add forward alpha over the raw momentum signal.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 13,
-  "forward_return": -0.04016823304407069,
-  "forward_sharpe": -3.2118755616783163,
+  "forward_days": 15,
+  "forward_return": -0.07169284255900588,
+  "forward_sharpe": -5.231673083861499,
   "slug": "earnings-yield-momentum-126d-skip-21-top-30-top500-long-only-a129d9",
   "spec": {
     "costs_bps": 10,

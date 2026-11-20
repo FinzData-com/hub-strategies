@@ -2,9 +2,9 @@
   "description": "A 50 day moving average crossing above a 200 day moving average signals a regime shift from bear to bull as trend following exploits slow information diffusion, falsified if the cross generates no positive forward Sharpe after transaction costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 15,
-  "forward_return": -0.03144575694488083,
-  "forward_sharpe": -1.4989683042682707,
+  "forward_days": 17,
+  "forward_return": -0.05504707180317103,
+  "forward_sharpe": -2.5656648092963663,
   "slug": "ma-cross-50-200-top-500-long-only-71cfef",
   "spec": {
     "costs_bps": 10,

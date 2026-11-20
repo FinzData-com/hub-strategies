@@ -2,9 +2,9 @@
   "description": "Earnings yield trends reflect persistent fundamental improvement; a moving-average crossover on earnings yield captures structural re-rating cycles; falsified if forward Sharpe \u2264 0 or turnover > 200% annually.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 1,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.031272260857031164,
+  "forward_sharpe": -38.64098348191641,
   "slug": "earnings-yield-trend-50-200-ma-on-earnings-yield-top-500-lon-6049e0",
   "spec": {
     "costs_bps": 20,

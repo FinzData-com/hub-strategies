@@ -2,9 +2,9 @@
   "description": "Trend following via 50/200 day moving average cross captures persistent price trends from institutional flows, falsified if the strategy has a forward Sharpe below zero over the entire out-of-sample period.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 8,
-  "forward_return": -0.04392818087809214,
-  "forward_sharpe": -1.9768209863971498,
+  "forward_days": 10,
+  "forward_return": -0.07317298143234441,
+  "forward_sharpe": -3.1586555206103175,
   "slug": "ma-cross-fast-50-slow-200-top-500-long-only-ad13e2",
   "spec": {
     "costs_bps": 10,

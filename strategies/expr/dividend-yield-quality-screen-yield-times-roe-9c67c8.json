@@ -2,8 +2,8 @@
   "description": "Dividend paying quality stocks should generate persistent premium due to cash flow stability, and the hypothesis is falsified if the long portfolio shows negative forward Sharpe over the test period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.01450091552432331,
   "forward_sharpe": 0.0,
   "slug": "dividend-yield-quality-screen-yield-times-roe-9c67c8",
   "spec": {

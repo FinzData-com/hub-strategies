@@ -2,7 +2,7 @@
   "description": "High ROE low leverage stocks should outperform high leverage low ROE due to distress avoidance and quality premium; falsified if forward Sharpe <=0.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "quality-minus-junk-roe-minus-leverage-long-short-bfcf0d",

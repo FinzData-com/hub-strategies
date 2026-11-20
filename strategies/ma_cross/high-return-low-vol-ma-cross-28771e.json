@@ -2,9 +2,9 @@
   "description": "Combining a 15\u2011fast/45\u2011slow MA cross with a filter for high 252\u2011day return and low 21\u2011day volatility should capture strong, low\u2011risk trends; if returns are negative, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 14,
-  "forward_return": -0.0829662117558565,
-  "forward_sharpe": -4.364652398597466,
+  "forward_days": 16,
+  "forward_return": -0.09830108735893817,
+  "forward_sharpe": -4.882616469352379,
   "slug": "high-return-low-vol-ma-cross-28771e",
   "spec": {
     "costs_bps": 5,

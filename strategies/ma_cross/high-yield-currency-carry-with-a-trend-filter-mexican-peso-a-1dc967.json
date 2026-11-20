@@ -2,9 +2,9 @@
   "description": "Holds Mexican peso and Brazilian real futures, whose prices carry a large interest-rate differential, only while the 50-day average is above the 200-day average, so the carry is earned in calm markets and the crash risk is cut in a sell-off (after Burnside, Eichenbaum & Rebelo 2011). Falsified if the trend filter does not cut the carry crash drawdowns. Backtested on FinzData currency futures: front-month contract rolled on the FinzData roll calendar as an excess-return index, so the interest-rate differential (carry) is in the return; costs as stated, re-run free on full history.",
   "dsr": 0.0247,
   "family": "ma_cross",
-  "forward_days": 2,
-  "forward_return": 0.0002835259243298971,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": -0.010475215870948018,
+  "forward_sharpe": -7.444767410509122,
   "slug": "high-yield-currency-carry-with-a-trend-filter-mexican-peso-a-1dc967",
   "spec": {
     "costs_bps": 5,

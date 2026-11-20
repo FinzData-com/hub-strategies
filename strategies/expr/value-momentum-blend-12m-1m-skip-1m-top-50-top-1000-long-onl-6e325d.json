@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 12-month momentum skipping the most recent month captures the value premium and momentum effect while avoiding short-term reversal; falsified if forward Sharpe is not significantly higher than pure momentum or value alone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.02530291324799272,
-  "forward_sharpe": -4.348623374346855,
+  "forward_days": 20,
+  "forward_return": -0.026277907624905894,
+  "forward_sharpe": -4.27943842675633,
   "slug": "value-momentum-blend-12m-1m-skip-1m-top-50-top-1000-long-onl-6e325d",
   "spec": {
     "costs_bps": 10,

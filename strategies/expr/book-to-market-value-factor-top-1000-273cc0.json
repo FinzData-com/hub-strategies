@@ -2,9 +2,9 @@
   "description": "Book to market proxies for value premium where cheap assets earn higher returns due to mean reversion and risk, falsified if long short portfolio shows no persistence in forward tracking period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 6,
-  "forward_return": 0.003756526723137199,
-  "forward_sharpe": 6.69516742161189,
+  "forward_days": 8,
+  "forward_return": -0.0022616614498064402,
+  "forward_sharpe": -1.9420195487467553,
   "slug": "book-to-market-value-factor-top-1000-273cc0",
   "spec": {
     "costs_bps": 10,

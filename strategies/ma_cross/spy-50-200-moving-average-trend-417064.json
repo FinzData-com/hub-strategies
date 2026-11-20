@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding SPY only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 23,
-  "forward_return": -0.019789227992344727,
-  "forward_sharpe": -0.9694378023719025,
+  "forward_days": 25,
+  "forward_return": -0.048284869746446635,
+  "forward_sharpe": -2.3208510808083713,
   "slug": "spy-50-200-moving-average-trend-417064",
   "spec": {
     "costs_bps": 10,

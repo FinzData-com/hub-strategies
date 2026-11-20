@@ -2,9 +2,9 @@
   "description": "Momentum is more sustainable in companies with low leverage due to lower bankruptcy risk during volatility; falsified if leverage has no correlation with momentum persistence.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.04143070482712252,
-  "forward_sharpe": -4.919364188567688,
+  "forward_days": 22,
+  "forward_return": -0.04238955332722272,
+  "forward_sharpe": -4.788770680700028,
   "slug": "low-leverage-momentum-top-3000-7a7285",
   "spec": {
     "costs_bps": 10,

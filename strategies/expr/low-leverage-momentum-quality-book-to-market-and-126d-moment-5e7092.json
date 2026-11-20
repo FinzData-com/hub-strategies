@@ -2,7 +2,7 @@
   "description": "Low leverage value stocks with recent momentum should outperform as distress risk is priced and trend persistence exists; falsified if forward Sharpe <=0.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "low-leverage-momentum-quality-book-to-market-and-126d-moment-5e7092",

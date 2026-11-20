@@ -2,9 +2,9 @@
   "description": "A multi-factor composite of value, profitability, and size diversifies idiosyncratic risk while capturing distinct behavioral biases; falsified if the combined signal does not achieve a positive information ratio.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": 0.05496825737953537,
-  "forward_sharpe": 5.733475232030159,
+  "forward_days": 22,
+  "forward_return": 0.053385455126945036,
+  "forward_sharpe": 5.2591378575692,
   "slug": "composite-value-quality-size-top1000-long-short-ca2b75",
   "spec": {
     "costs_bps": 15,

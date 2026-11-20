@@ -2,9 +2,9 @@
   "description": "Oversold large-cap stocks (RSI<30) outperform over the next month due to mean reversion; if annualized Sharpe remains below 0.5 after costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": 0.05089088533295483,
-  "forward_sharpe": 2.2932978970539186,
+  "forward_days": 17,
+  "forward_return": 0.01504151759435901,
+  "forward_sharpe": 0.762904742277947,
   "slug": "rsi-mean-reversion-top500-long-only-37855a",
   "spec": {
     "costs_bps": 15,

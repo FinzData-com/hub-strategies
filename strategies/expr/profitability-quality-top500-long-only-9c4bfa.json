@@ -2,9 +2,9 @@
   "description": "High ROE combined with low leverage identifies firms with durable competitive advantages and lower bankruptcy risk; falsified if the quality-sorted portfolio does not outperform the universe median.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": -0.0542421024580898,
-  "forward_sharpe": -2.5603135034879814,
+  "forward_days": 16,
+  "forward_return": -0.08145652314351248,
+  "forward_sharpe": -3.6596253463780584,
   "slug": "profitability-quality-top500-long-only-9c4bfa",
   "spec": {
     "costs_bps": 10,

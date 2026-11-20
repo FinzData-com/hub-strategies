@@ -2,7 +2,7 @@
   "description": "Trend following should work in small caps due to slower information diffusion, and the hypothesis is falsified if the forward Sharpe is zero or negative after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "ma-cross-small-cap-50-200-on-top-3000-cdbf5d",

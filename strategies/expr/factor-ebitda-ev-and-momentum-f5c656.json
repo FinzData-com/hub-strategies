@@ -2,9 +2,9 @@
   "description": "Low EBITDA/EV signals valuation attractiveness, and combined with momentum should produce excess returns; falsified if the strategy underperforms.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.04810408690133883,
-  "forward_sharpe": -2.786078231705051,
+  "forward_days": 18,
+  "forward_return": -0.06591419488435846,
+  "forward_sharpe": -3.6834339373537235,
   "slug": "factor-ebitda-ev-and-momentum-f5c656",
   "spec": {
     "costs_bps": 10,

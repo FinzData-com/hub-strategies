@@ -1,0 +1,24 @@
+{
+  "description": "Stocks exhibit persistent seasonal patterns in returns (e.g., retail in Q4), so momentum computed using only same-month returns from prior years (252-day lookback skipping most recent month) should capture this seasonality and outperform standard momentum; falsified if forward Sharpe is not higher than the best existing 252d-skip-21 momentum strategy (currently 1.68).",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "seasonal-momentum-252d-skip-21-top-500-long-only-7a4ffb",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Seasonal Momentum \u00b7 252d skip 21 \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

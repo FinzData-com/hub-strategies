@@ -2,9 +2,9 @@
   "description": "Firms with high EBITDA/EV and high sales yield are undervalued cash generators and should outperform; falsified if the long portfolio underperforms the broad market on a risk-adjusted basis.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 12,
-  "forward_return": -0.012135557521965268,
-  "forward_sharpe": -1.1136824782329098,
+  "forward_days": 13,
+  "forward_return": -0.019443567965392927,
+  "forward_sharpe": -1.7647295420716922,
   "slug": "ebitda-ev-sales-yield-quality-factor-23d682",
   "spec": {
     "costs_bps": 15,

@@ -2,9 +2,9 @@
   "description": "EBITDA/EV identifies cash-flow-based value with less accounting distortion; requiring positive 12-month momentum confirms the value trap is not deteriorating; falsified if the strategy underperforms a simple EBITDA/EV value strategy in a bear market (drawdown > 20%).",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
-  "forward_return": -0.027272219518228002,
-  "forward_sharpe": -1.72233799310611,
+  "forward_days": 24,
+  "forward_return": -0.03792119142417161,
+  "forward_sharpe": -2.3457171736622753,
   "slug": "ebitda-ev-value-252d-momentum-confirmation-top-40-top-1000-l-bf3e0d",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with value characteristics should deliver better risk-adjusted returns due to behavioral underweighting and lower crash risk; falsified if the long-short portfolio shows negative forward Sharpe after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 2,
-  "forward_return": -0.0014440047063856154,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.002396770500311063,
+  "forward_sharpe": -54.95261088648549,
   "slug": "low-volatility-quality-via-inverse-realized-vol-and-book-to-e45dfc",
   "spec": {
     "costs_bps": 20,

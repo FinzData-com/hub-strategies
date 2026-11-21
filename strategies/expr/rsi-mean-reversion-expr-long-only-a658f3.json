@@ -2,9 +2,9 @@
   "description": "Oversold stocks with low RSI should revert upward over medium term due to contrarian demand, falsified if forward returns are negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 6,
-  "forward_return": -0.0632471094484448,
-  "forward_sharpe": -11.401039088230606,
+  "forward_days": 7,
+  "forward_return": -0.07894282862154844,
+  "forward_sharpe": -13.326309103868029,
   "slug": "rsi-mean-reversion-expr-long-only-a658f3",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Short term momentum with a skip should exploit underreaction to news while avoiding short term reversal; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 2,
-  "forward_return": -0.02590407102641834,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.03829331781434964,
+  "forward_sharpe": -32.880387860911384,
   "slug": "momentum-63d-skip-21-top-30-top500-long-only-b2c8c2",
   "spec": {
     "costs_bps": 20,

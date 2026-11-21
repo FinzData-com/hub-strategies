@@ -2,9 +2,9 @@
   "description": "Cross-sectional momentum: stocks with the strongest 126-day returns (skipping the last 21 days to avoid short-term reversal) keep outperforming as investors under-react to news. Falsified if the strategy does not beat the equal-weight benchmark out of sample after costs.",
   "dsr": 0.6801,
   "family": "momentum",
-  "forward_days": 25,
-  "forward_return": -0.054881807091149315,
-  "forward_sharpe": -1.1254046042908563,
+  "forward_days": 26,
+  "forward_return": -0.047936034278281414,
+  "forward_sharpe": -0.9308663130255381,
   "slug": "momentum-126d-skip-21-top-20-top-500-long-short-210616",
   "spec": {
     "costs_bps": 10,

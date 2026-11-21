@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong intermediate momentum represent profitable growth persistence; economic moat protects momentum from mean reversion, falsified if strategy fails to beat momentum-only during high dispersion regimes.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": -0.03675796831742417,
-  "forward_sharpe": -3.2604284243988313,
+  "forward_sharpe": -3.188998946867621,
   "slug": "quality-momentum-6m-skip-1m-roe-top-30-top1000-long-only-839c1b",
   "spec": {
     "costs_bps": 15,

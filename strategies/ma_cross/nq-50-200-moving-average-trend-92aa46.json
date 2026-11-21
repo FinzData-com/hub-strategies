@@ -2,9 +2,9 @@
   "description": "Holds E-mini Nasdaq-100 futures while the 50-day average is above the 200-day average, cash otherwise. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
   "dsr": 0.809,
   "family": "ma_cross",
-  "forward_days": 5,
-  "forward_return": -0.04908943195497861,
-  "forward_sharpe": -19.30332543208544,
+  "forward_days": 6,
+  "forward_return": -0.045182479298982225,
+  "forward_sharpe": -12.560041359589555,
   "slug": "nq-50-200-moving-average-trend-92aa46",
   "spec": {
     "costs_bps": 5,

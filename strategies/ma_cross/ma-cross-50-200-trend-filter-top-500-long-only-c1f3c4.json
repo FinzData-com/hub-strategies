@@ -2,9 +2,9 @@
   "description": "Using 50/200-day moving average cross as a trend filter for top 500 universe reduces whipsaws in sideways markets; falsified if forward Sharpe <= 0 or underperforms buy-and-hold on risk-adjusted basis.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 17,
-  "forward_return": -0.010229696809838984,
-  "forward_sharpe": -2.5652491462774303,
+  "forward_days": 18,
+  "forward_return": -0.010952795966691298,
+  "forward_sharpe": -2.67273777199631,
   "slug": "ma-cross-50-200-trend-filter-top-500-long-only-c1f3c4",
   "spec": {
     "costs_bps": 5,

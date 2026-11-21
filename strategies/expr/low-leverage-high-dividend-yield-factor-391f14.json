@@ -2,9 +2,9 @@
   "description": "Low leverage combined with stable dividend yield should provide a defensive premium as capital structure risk is priced and dividends signal cash flow quality, falsified by consistent underperformance versus market in forward tracking.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.029706879987843826,
-  "forward_sharpe": -17.525469438811257,
+  "forward_days": 5,
+  "forward_return": -0.03401255814464965,
+  "forward_sharpe": -17.306803348203257,
   "slug": "low-leverage-high-dividend-yield-factor-391f14",
   "spec": {
     "costs_bps": 10,

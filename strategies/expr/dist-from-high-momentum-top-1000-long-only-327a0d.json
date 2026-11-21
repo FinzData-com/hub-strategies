@@ -2,9 +2,9 @@
   "description": "Stocks near 52-week highs with strong momentum reflect 'disposition effect' underreaction; if distance from high * momentum adds no alpha vs momentum alone, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": 0.05344772371015871,
-  "forward_sharpe": 1.798915083102062,
+  "forward_sharpe": 1.760679162526891,
   "slug": "dist-from-high-momentum-top-1000-long-only-327a0d",
   "spec": {
     "costs_bps": 10,

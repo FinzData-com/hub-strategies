@@ -2,7 +2,7 @@
   "description": "Each week, holds whichever of Bitcoin and Ether has the higher 4-week return, and cash when both are negative. Falsified if the leader does not keep leading over the next week. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
   "dsr": 0.5966,
   "family": "expr",
-  "forward_days": 6,
+  "forward_days": 7,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "bitcoin-vs-ether-dual-momentum-4-week-cash-when-both-fall-32cfb7",

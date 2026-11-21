@@ -2,9 +2,9 @@
   "description": "'Value and Momentum Everywhere': the two premia are negatively correlated, so an equal blend has a higher Sharpe ratio than either alone. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
-  "forward_return": -0.027085085085085114,
-  "forward_sharpe": -1.5472683870324908,
+  "forward_days": 26,
+  "forward_return": -0.04478378378378378,
+  "forward_sharpe": -2.4600507605919626,
   "slug": "value-and-momentum-book-to-market-plus-12-1-momentum-top-50-acca74",
   "spec": {
     "costs_bps": 10,

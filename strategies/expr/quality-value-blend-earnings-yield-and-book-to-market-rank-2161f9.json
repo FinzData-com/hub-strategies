@@ -2,9 +2,9 @@
   "description": "High earnings yield and high book-to-market should earn premium due to distress risk and mispricing, but if fundamentals add no incremental return after controlling for momentum the strategy will be falsified by zero forward Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 6,
-  "forward_return": -0.03527572133684642,
-  "forward_sharpe": -10.887461467755179,
+  "forward_days": 7,
+  "forward_return": -0.04464881249103558,
+  "forward_sharpe": -12.830893824477155,
   "slug": "quality-value-blend-earnings-yield-and-book-to-market-rank-2161f9",
   "spec": {
     "costs_bps": 10,

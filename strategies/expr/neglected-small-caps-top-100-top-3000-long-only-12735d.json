@@ -2,9 +2,9 @@
   "description": "Small firms receive less analyst coverage and institutional attention, so information about them is incorporated slowly; falsified if the small-cap tilt fails to beat the equal-weight universe after the higher trading costs of less liquid names.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 22,
-  "forward_return": -0.11249194567821075,
-  "forward_sharpe": -4.658216143081816,
+  "forward_days": 23,
+  "forward_return": -0.10272641866733556,
+  "forward_sharpe": -4.047595642685244,
   "slug": "neglected-small-caps-top-100-top-3000-long-only-12735d",
   "spec": {
     "costs_bps": 30,

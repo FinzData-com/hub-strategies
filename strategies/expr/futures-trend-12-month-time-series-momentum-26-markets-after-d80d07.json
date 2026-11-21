@@ -2,9 +2,9 @@
   "description": "Holds every futures market (equity indexes, bonds, energy, metals, grains, currencies) whose 12-month return is positive, equally weighted, rebalanced monthly. Time-series momentum, the core of managed-futures trend following. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
   "dsr": 0.6012,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.02671580812327501,
-  "forward_sharpe": -13.78150067080365,
+  "forward_days": 6,
+  "forward_return": -0.0405099909368587,
+  "forward_sharpe": -17.41039208034557,
   "slug": "futures-trend-12-month-time-series-momentum-26-markets-after-d80d07",
   "spec": {
     "costs_bps": 5,

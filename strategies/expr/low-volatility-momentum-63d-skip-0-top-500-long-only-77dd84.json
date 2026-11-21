@@ -1,0 +1,24 @@
+{
+  "description": "Low-volatility stocks exhibit higher risk-adjusted momentum because they are less subject to speculative bubbles and crashes, so ranking by 63-day momentum divided by 63-day volatility should select more persistent trends; falsified if forward Sharpe is not higher than the best existing 63d-skip-0 momentum strategy (currently -2.53).",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-momentum-63d-skip-0-top-500-long-only-77dd84",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(63) / vol(63))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Low-Volatility Momentum \u00b7 63d skip 0 \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

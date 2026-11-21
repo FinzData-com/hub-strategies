@@ -2,9 +2,9 @@
   "description": "High sales yield (low price-to-sales) with strong 9-month momentum captures value-momentum interaction; fails if information ratio vs benchmark < 0.4 forward.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 22,
+  "forward_days": 23,
   "forward_return": -0.0022076564259290166,
-  "forward_sharpe": -0.2883371577406075,
+  "forward_sharpe": -0.28202555166689036,
   "slug": "sales-yield-momentum-top-1000-long-only-ee9d5f",
   "spec": {
     "costs_bps": 12,

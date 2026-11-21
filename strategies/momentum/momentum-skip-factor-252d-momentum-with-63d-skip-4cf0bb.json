@@ -2,8 +2,8 @@
   "description": "Skipping recent returns removes short-term reversal contamination and should improve momentum persistence, and the strategy is falsified if forward Sharpe is lower than a no-skip 252d momentum benchmark.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 1,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.004309147879792752,
   "forward_sharpe": 0.0,
   "slug": "momentum-skip-factor-252d-momentum-with-63d-skip-4cf0bb",
   "spec": {

@@ -2,9 +2,9 @@
   "description": "Extreme RSI levels predict short term mean reversion due to overbought oversold conditions, falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": 0.008587949676317042,
-  "forward_sharpe": 0.6395081034912602,
+  "forward_days": 18,
+  "forward_return": 0.003960794774574117,
+  "forward_sharpe": 0.3507165446993025,
   "slug": "rsi-mean-reversion-long-short-ee2a25",
   "spec": {
     "costs_bps": 10,

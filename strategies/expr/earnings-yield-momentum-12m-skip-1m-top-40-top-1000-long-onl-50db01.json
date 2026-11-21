@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong momentum capture the 'value-momentum' synergy where cheap improvers outperform; falsified if the strategy cannot beat a simple momentum sort after accounting for higher turnover from fundamental data.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 29,
+  "forward_days": 30,
   "forward_return": -0.00981276899581518,
-  "forward_sharpe": -1.0739523113164464,
+  "forward_sharpe": -1.0558607033039347,
   "slug": "earnings-yield-momentum-12m-skip-1m-top-40-top-1000-long-onl-50db01",
   "spec": {
     "costs_bps": 15,

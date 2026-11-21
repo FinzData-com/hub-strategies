@@ -2,9 +2,9 @@
   "description": "Low-leverage firms with strong 12-month momentum (skipping 1 month) have more sustainable trends due to lower financial distress risk; falsified if leverage adjustment does not improve Sharpe or reduce tail risk vs. raw momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": -0.07271603687988415,
-  "forward_sharpe": -2.975537482322014,
+  "forward_sharpe": -2.910815887554341,
   "slug": "leverage-adjusted-momentum-12m-skip-1m-top-50-top-1000-long-2a90a3",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) and momentum (12m minus 1m return) captures complementary risk premia; if the combined rank signal fails to outperform either standalone factor after costs, the diversification hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.03742577238316713,
-  "forward_sharpe": -2.81483696696243,
+  "forward_days": 17,
+  "forward_return": -0.0549363593507981,
+  "forward_sharpe": -3.9171313704466137,
   "slug": "value-momentum-combo-top-500-long-only-6392e9",
   "spec": {
     "costs_bps": 10,

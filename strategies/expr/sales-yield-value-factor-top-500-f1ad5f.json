@@ -2,9 +2,9 @@
   "description": "Sales yield captures value in low coverage firms where earnings are noisy, and should persist due to mispricing, falsified if forward Sharpe is negative and statistically significant.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 7,
-  "forward_return": -0.033482041922545225,
-  "forward_sharpe": -9.065835244230943,
+  "forward_days": 8,
+  "forward_return": -0.04280479087313471,
+  "forward_sharpe": -10.793928794248972,
   "slug": "sales-yield-value-factor-top-500-f1ad5f",
   "spec": {
     "costs_bps": 10,

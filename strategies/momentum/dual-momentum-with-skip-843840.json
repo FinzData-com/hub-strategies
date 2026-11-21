@@ -2,9 +2,9 @@
   "description": "Skipping the most recent 21 days in a 63\u2011day momentum calculation should reduce short\u2011term noise and improve risk\u2011adjusted returns; if the strategy underperforms, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 16,
-  "forward_return": -0.21509249063883729,
-  "forward_sharpe": -5.018374107563445,
+  "forward_days": 17,
+  "forward_return": -0.22538298953321645,
+  "forward_sharpe": -5.154372942026797,
   "slug": "dual-momentum-with-skip-843840",
   "spec": {
     "costs_bps": 5,

@@ -2,9 +2,9 @@
   "description": "Momentum in factor exposures persists because investor underreaction to fundamental news is slow, so a 252 day lookback with skip should capture trend, falsified if forward Sharpe is negative after costs.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 4,
-  "forward_return": 0.015402992777668434,
-  "forward_sharpe": 9.36578542576337,
+  "forward_days": 5,
+  "forward_return": 0.02058276026042427,
+  "forward_sharpe": 11.452687082191888,
   "slug": "factor-momentum-252d-skip-63-long-short-bea594",
   "spec": {
     "costs_bps": 20,

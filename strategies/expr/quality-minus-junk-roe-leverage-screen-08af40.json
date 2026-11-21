@@ -2,9 +2,9 @@
   "description": "High ROE combined with low leverage proxies for quality and should outperform due to lower distress risk and more stable cash flows; falsified if long-short portfolio shows zero or negative forward Sharpe after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.008252263111386271,
-  "forward_sharpe": -2.8312701348657656,
+  "forward_days": 18,
+  "forward_return": -0.0073787815237265075,
+  "forward_sharpe": -2.4394431707364235,
   "slug": "quality-minus-junk-roe-leverage-screen-08af40",
   "spec": {
     "costs_bps": 15,

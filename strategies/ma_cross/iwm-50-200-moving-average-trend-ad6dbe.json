@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding IWM only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 25,
-  "forward_return": -0.008549527993719774,
-  "forward_sharpe": -0.24097538463998927,
+  "forward_days": 26,
+  "forward_return": -0.005601775341526394,
+  "forward_sharpe": -0.11344629949650838,
   "slug": "iwm-50-200-moving-average-trend-ad6dbe",
   "spec": {
     "costs_bps": 10,

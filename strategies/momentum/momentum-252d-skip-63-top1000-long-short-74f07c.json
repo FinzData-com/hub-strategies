@@ -2,9 +2,9 @@
   "description": "Longer lookback with skip reduces whipsaw and should improve momentum profitability, falsified if forward Sharpe remains negative.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 6,
-  "forward_return": -0.018271409198279298,
-  "forward_sharpe": -2.769391034168925,
+  "forward_days": 7,
+  "forward_return": -0.013263421367146422,
+  "forward_sharpe": -1.7975786722212872,
   "slug": "momentum-252d-skip-63-top1000-long-short-74f07c",
   "spec": {
     "costs_bps": 20,

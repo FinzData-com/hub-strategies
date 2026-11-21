@@ -2,9 +2,9 @@
   "description": "High dividend yield signals stable cash flows, and low volatility indicates less risk; together they should produce superior risk-adjusted returns; if the factor fails to beat, hypothesis falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": 0.006738053971320435,
-  "forward_sharpe": 0.6222653395177963,
+  "forward_days": 17,
+  "forward_return": -0.005533073516595266,
+  "forward_sharpe": -0.3066955215303533,
   "slug": "dividend-yield-volatility-rank-factor-3a9157",
   "spec": {
     "costs_bps": 5,

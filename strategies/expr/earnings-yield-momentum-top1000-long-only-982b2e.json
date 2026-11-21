@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong momentum represent undervalued trends; if the combination fails to beat momentum-only strategies net of transaction costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 21,
-  "forward_return": -0.062269022225581616,
-  "forward_sharpe": -5.46006634360196,
+  "forward_days": 22,
+  "forward_return": -0.08247075110292512,
+  "forward_sharpe": -6.527550474487702,
   "slug": "earnings-yield-momentum-top1000-long-only-982b2e",
   "spec": {
     "costs_bps": 10,

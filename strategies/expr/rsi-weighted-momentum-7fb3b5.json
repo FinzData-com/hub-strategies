@@ -2,9 +2,9 @@
   "description": "Momentum signals weighted by RSI should filter overbought conditions and improve performance; if weighted signals do not outperform simple momentum, hypothesis falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.17516904401027067,
-  "forward_sharpe": -10.053410092493076,
+  "forward_days": 18,
+  "forward_return": -0.18664594338867124,
+  "forward_sharpe": -10.488371127993778,
   "slug": "rsi-weighted-momentum-7fb3b5",
   "spec": {
     "costs_bps": 5,

@@ -2,9 +2,9 @@
   "description": "Low leverage firms with strong 1-year momentum have less financial distress risk and more sustainable trends; high leverage shorts capture overleveraged momentum crashes. Falsified if leverage factor adds no explanatory power beyond size and value in cross-sectional regression of momentum returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": -0.08904562596997401,
-  "forward_sharpe": -6.919325601537315,
+  "forward_days": 15,
+  "forward_return": -0.08753990463094752,
+  "forward_sharpe": -6.494004850335855,
   "slug": "leverage-adjusted-momentum-252d-skip-0-top-30-top-500-long-s-4b549b",
   "spec": {
     "costs_bps": 15,

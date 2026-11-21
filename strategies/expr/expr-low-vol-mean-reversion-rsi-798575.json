@@ -2,9 +2,9 @@
   "description": "Low volatility stocks that have recently oversold as measured by RSI should revert as risk aversion normalizes, generating a contrarian premium, falsified if the signal shows negative forward Sharpe or no outperformance versus market.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.014497432570944824,
-  "forward_sharpe": -1.5662133511868623,
+  "forward_days": 18,
+  "forward_return": -0.017347600679366026,
+  "forward_sharpe": -1.833831084005831,
   "slug": "expr-low-vol-mean-reversion-rsi-798575",
   "spec": {
     "costs_bps": 10,

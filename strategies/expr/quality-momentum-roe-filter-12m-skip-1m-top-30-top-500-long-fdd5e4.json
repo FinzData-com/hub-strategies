@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong 12-month momentum skipping 1 month outperform because profitability screens reduce momentum crashes; falsified if adding ROE filter does not improve risk-adjusted returns vs unfiltered momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": -0.13674241736882742,
-  "forward_sharpe": -5.432336992850621,
+  "forward_days": 15,
+  "forward_return": -0.14076887870008004,
+  "forward_sharpe": -5.417120835504615,
   "slug": "quality-momentum-roe-filter-12m-skip-1m-top-30-top-500-long-fdd5e4",
   "spec": {
     "costs_bps": 10,

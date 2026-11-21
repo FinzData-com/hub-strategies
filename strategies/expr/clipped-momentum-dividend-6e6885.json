@@ -2,9 +2,9 @@
   "description": "Clipping extreme short\u2011term returns and weighting by dividend yield should reduce risk while preserving performance; if the strategy underperforms, hypothesis falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": 0.00411244464487126,
-  "forward_sharpe": 0.4224627306101888,
+  "forward_days": 18,
+  "forward_return": -0.0014242910092607808,
+  "forward_sharpe": -0.02186214100171363,
   "slug": "clipped-momentum-dividend-6e6885",
   "spec": {
     "costs_bps": 5,

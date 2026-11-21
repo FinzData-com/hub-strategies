@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with long-term momentum capture value and trend following while skipping intermediate reversal; falsified if forward returns do not exceed earnings yield or momentum alone.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 21,
+  "forward_days": 22,
   "forward_return": -0.015212453865808606,
-  "forward_sharpe": -1.8250963692667768,
+  "forward_sharpe": -1.7827517564848219,
   "slug": "earnings-yield-momentum-252d-skip-63-top-50-top-1000-long-on-0f6919",
   "spec": {
     "costs_bps": 10,

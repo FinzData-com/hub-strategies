@@ -2,9 +2,9 @@
   "description": "Low leverage reduces distress risk in momentum winners; if filtering momentum by low leverage fails to improve risk-adjusted returns vs plain momentum, the financial constraint hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.18659723709520948,
-  "forward_sharpe": -5.707921701966316,
+  "forward_days": 16,
+  "forward_return": -0.18717954538500947,
+  "forward_sharpe": -5.5257629479357355,
   "slug": "low-leverage-momentum-top-500-long-only-4c48b2",
   "spec": {
     "costs_bps": 10,

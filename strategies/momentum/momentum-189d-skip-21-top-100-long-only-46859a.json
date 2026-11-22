@@ -2,9 +2,9 @@
   "description": "Intermediate horizon momentum should persist due to underreaction and herding, and skipping one month reduces whipsaw, falsified by consistently negative forward Sharpe.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 5,
-  "forward_return": -0.0425600013432158,
-  "forward_sharpe": -10.132293121946276,
+  "forward_days": 6,
+  "forward_return": -0.06304404173623235,
+  "forward_sharpe": -13.332457879362096,
   "slug": "momentum-189d-skip-21-top-100-long-only-46859a",
   "spec": {
     "costs_bps": 10,

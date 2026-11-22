@@ -2,9 +2,9 @@
   "description": "High earnings yield combined with low financial leverage identifies cheap, solvent firms whose risk-adjusted returns exceed the market; falsified if the strategy underperforms a passive universe benchmark.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": -0.00793397099355242,
-  "forward_sharpe": -1.9364368572431148,
+  "forward_sharpe": -1.8951899829197636,
   "slug": "earnings-yield-low-leverage-top-1000-long-only-7acca4",
   "spec": {
     "costs_bps": 10,

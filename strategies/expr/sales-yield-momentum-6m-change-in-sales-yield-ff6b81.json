@@ -2,9 +2,9 @@
   "description": "Recent improvements in sales yield reflect demand acceleration that is underpriced, and the effect is falsified by a non-positive forward Sharpe after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 2,
-  "forward_return": 0.004920578457681346,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.01671263438882742,
+  "forward_sharpe": -7.048199704191816,
   "slug": "sales-yield-momentum-6m-change-in-sales-yield-ff6b81",
   "spec": {
     "costs_bps": 20,

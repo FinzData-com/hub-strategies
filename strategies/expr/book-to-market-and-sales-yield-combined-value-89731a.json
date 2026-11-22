@@ -2,9 +2,9 @@
   "description": "Value premium persists because investors overpay for growth and underreact to distress, so combining book-to-market with sales yield should capture mispricing, falsified if forward Sharpe remains negative over full sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 7,
+  "forward_days": 8,
   "forward_return": -0.0010000000000000009,
-  "forward_sharpe": -6.48074069840786,
+  "forward_sharpe": -6.0,
   "slug": "book-to-market-and-sales-yield-combined-value-89731a",
   "spec": {
     "costs_bps": 10,

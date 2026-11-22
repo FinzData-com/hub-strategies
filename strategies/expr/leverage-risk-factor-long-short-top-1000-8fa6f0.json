@@ -2,9 +2,9 @@
   "description": "Higher leverage increases financial distress risk and required return, so low leverage should outperform, falsified if the long low leverage short high leverage spread is flat in forward period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.01261915355610188,
-  "forward_sharpe": -5.468573489081925,
+  "forward_days": 10,
+  "forward_return": -0.013729442231157352,
+  "forward_sharpe": -5.65626437986188,
   "slug": "leverage-risk-factor-long-short-top-1000-8fa6f0",
   "spec": {
     "costs_bps": 10,

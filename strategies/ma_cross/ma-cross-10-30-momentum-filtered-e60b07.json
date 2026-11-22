@@ -2,9 +2,9 @@
   "description": "Very short term MA cross benefits from intraday momentum spillover, and filtering by positive 63d momentum reduces whipsaw; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 13,
-  "forward_return": -0.040576772361125,
-  "forward_sharpe": -5.304485969670067,
+  "forward_days": 14,
+  "forward_return": -0.05930949953742726,
+  "forward_sharpe": -6.872349852872889,
   "slug": "ma-cross-10-30-momentum-filtered-e60b07",
   "spec": {
     "costs_bps": 20,

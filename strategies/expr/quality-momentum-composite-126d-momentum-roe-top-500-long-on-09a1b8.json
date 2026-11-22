@@ -2,9 +2,9 @@
   "description": "High-quality firms with strong profitability (ROE) sustain momentum longer because earnings persistence reduces mean-reversion pressure; falsified if forward Sharpe \u2264 0 or underperforms pure momentum by >0.2 Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.02356991610004111,
-  "forward_sharpe": -108.19325030552896,
+  "forward_days": 5,
+  "forward_return": -0.041998950319002915,
+  "forward_sharpe": -30.43339622174123,
   "slug": "quality-momentum-composite-126d-momentum-roe-top-500-long-on-09a1b8",
   "spec": {
     "costs_bps": 20,

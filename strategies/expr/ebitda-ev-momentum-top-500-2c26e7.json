@@ -2,9 +2,9 @@
   "description": "Cash-flow based value (EBITDA/EV) combined with momentum filters out 'value traps'; falsified if the strategy underperforms pure value.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.04541565362607136,
-  "forward_sharpe": -3.660559729270216,
+  "forward_days": 19,
+  "forward_return": -0.0645418600653258,
+  "forward_sharpe": -4.827120824576022,
   "slug": "ebitda-ev-momentum-top-500-2c26e7",
   "spec": {
     "costs_bps": 5,

@@ -2,9 +2,9 @@
   "description": "Small cap stocks (low log_mcap) with 9-month momentum (skipping 1 month) should capture size and momentum premia; falsified if forward Sharpe < 0.3 after 24 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": -0.009811174026100211,
-  "forward_sharpe": -0.7619701006035323,
+  "forward_sharpe": -0.7459533715892097,
   "slug": "small-cap-momentum-9m-skip-1m-top-50-top-3000-long-only-271945",
   "spec": {
     "costs_bps": 15,

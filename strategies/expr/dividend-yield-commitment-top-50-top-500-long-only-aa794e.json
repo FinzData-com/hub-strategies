@@ -2,9 +2,9 @@
   "description": "Managers commit cash only when earnings are sustainable, so a high dividend yield signals quality and disciplines agency costs; falsified if the yield spread carries no return spread outside ex-dividend capture windows or concentrates in distressed payers.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.011387978705679758,
-  "forward_sharpe": -0.9308985728506636,
+  "forward_days": 18,
+  "forward_return": -0.026396745555088197,
+  "forward_sharpe": -2.103649716199856,
   "slug": "dividend-yield-commitment-top-50-top-500-long-only-aa794e",
   "spec": {
     "costs_bps": 20,

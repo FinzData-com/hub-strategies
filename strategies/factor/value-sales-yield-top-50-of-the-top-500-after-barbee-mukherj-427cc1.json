@@ -2,9 +2,9 @@
   "description": "Revenue over market value is harder to flatter than earnings and still predicts returns. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "factor",
-  "forward_days": 26,
-  "forward_return": 0.011634032882425815,
-  "forward_sharpe": 0.6755200971950481,
+  "forward_days": 27,
+  "forward_return": -0.007466216788182378,
+  "forward_sharpe": -0.2528388607375797,
   "slug": "value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-427cc1",
   "spec": {
     "costs_bps": 10,

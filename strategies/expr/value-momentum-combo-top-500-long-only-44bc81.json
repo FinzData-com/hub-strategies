@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) and momentum (12m-1m return) exploits complementary risk premia; value captures mean reversion while momentum captures trend continuation. Falsified if forward Sharpe < 0.3 or max drawdown > 25% over 5+ years.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.05526476537076663,
-  "forward_sharpe": -3.8258058546530567,
+  "forward_days": 19,
+  "forward_return": -0.06841516984247842,
+  "forward_sharpe": -4.578553005224995,
   "slug": "value-momentum-combo-top-500-long-only-44bc81",
   "spec": {
     "costs_bps": 10,

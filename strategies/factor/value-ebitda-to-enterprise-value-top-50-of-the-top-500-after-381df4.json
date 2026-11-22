@@ -2,9 +2,9 @@
   "description": "The enterprise multiple compares operating earnings with debt-inclusive value, so it ranks firms with different leverage fairly; cheap firms on it outperform. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "factor",
-  "forward_days": 26,
-  "forward_return": 0.07731452667104288,
-  "forward_sharpe": 3.280166989896368,
+  "forward_days": 27,
+  "forward_return": 0.07600826322769083,
+  "forward_sharpe": 3.163277584366548,
   "slug": "value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-381df4",
   "spec": {
     "costs_bps": 10,

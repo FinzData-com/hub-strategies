@@ -2,9 +2,9 @@
   "description": "Value premium should be stronger after controlling for size because small value firms carry higher distress risk, and the strategy is falsified if the deflated Sharpe does not exceed that of raw book-to-market.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 2,
-  "forward_return": -0.00030944813334599086,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.016761599060116872,
+  "forward_sharpe": -11.655191466874138,
   "slug": "size-adjusted-value-book-to-market-over-log-market-cap-f587c9",
   "spec": {
     "costs_bps": 20,

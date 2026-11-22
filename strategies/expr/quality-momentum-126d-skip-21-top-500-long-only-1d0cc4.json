@@ -1,0 +1,24 @@
+{
+  "description": "High-quality firms with strong profitability and low leverage exhibit more persistent momentum because their earnings streams are more predictable and less prone to reversal, so combining quality with momentum should yield higher risk-adjusted returns than momentum alone; falsified if forward Sharpe is not significantly higher than the standalone 126d skip 21 momentum strategy (currently -3.36).",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-momentum-126d-skip-21-top-500-long-only-1d0cc4",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) - ret(21)) + rank(roe) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Quality Momentum \u00b7 126d skip 21 \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

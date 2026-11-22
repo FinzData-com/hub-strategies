@@ -2,9 +2,9 @@
   "description": "Monthly losers bounce as liquidity-driven selling pressure unwinds and providers are compensated for bearing inventory risk; falsified if the reversal spread disappears at weekly turnover or once costs are doubled, showing it was never economically real.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": -0.0389370811111841,
-  "forward_sharpe": -0.8019273236525895,
+  "forward_sharpe": -0.7850662545424726,
   "slug": "one-month-reversal-top-50-top-1000-long-only-e75164",
   "spec": {
     "costs_bps": 20,

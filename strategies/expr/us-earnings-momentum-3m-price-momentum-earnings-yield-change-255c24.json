@@ -1,0 +1,24 @@
+{
+  "description": "Stocks with rising earnings yields and positive price momentum reflect improving fundamentals not yet fully priced; if the composite signal fails to generate positive alpha relative to a Fama-French 5-factor model over the sample, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "us-earnings-momentum-3m-price-momentum-earnings-yield-change-255c24",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(63)) + rank(earnings_yield - lag(earnings_yield, 63))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 30,
+    "universe": "top1000"
+  },
+  "title": "US Earnings Momentum \u00b7 3m Price Momentum + Earnings Yield Change \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

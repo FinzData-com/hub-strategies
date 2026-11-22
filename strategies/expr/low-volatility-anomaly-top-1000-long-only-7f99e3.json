@@ -2,9 +2,9 @@
   "description": "Low realized volatility stocks earn higher risk-adjusted returns due to leverage constraints and lottery preferences; falsified if forward Sharpe is not significantly positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": -0.002234993614304015,
-  "forward_sharpe": -0.7318576648792036,
+  "forward_sharpe": -0.7164768162929172,
   "slug": "low-volatility-anomaly-top-1000-long-only-7f99e3",
   "spec": {
     "costs_bps": 10,

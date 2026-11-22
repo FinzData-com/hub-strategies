@@ -2,9 +2,9 @@
   "description": "High ROE stocks with strong 12-month momentum skipping 1 month capture quality and momentum premia; falsified if forward Sharpe <= 0 or underperforms momentum-only baseline.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 24,
+  "forward_days": 25,
   "forward_return": -0.03422232251843804,
-  "forward_sharpe": -2.6287499794862823,
+  "forward_sharpe": -2.5743003940706184,
   "slug": "quality-momentum-12m-skip-1m-top-30-top-1000-long-only-ebc238",
   "spec": {
     "costs_bps": 10,

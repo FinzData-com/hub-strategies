@@ -2,9 +2,9 @@
   "description": "Cash-flow-based valuation is harder to manipulate than accrual-based earnings, so cheap EBITDA/EV firms are systematically mispriced; falsified if the ebitda_ev spread collapses once book_to_market is included, meaning it merely proxies generic value.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
-  "forward_return": -0.025431826972890592,
-  "forward_sharpe": -2.034099451905226,
+  "forward_days": 24,
+  "forward_return": -0.04665749864020852,
+  "forward_sharpe": -3.3398397320407462,
   "slug": "cash-flow-cheapness-ebitda-ev-top-50-top-1000-long-only-42c471",
   "spec": {
     "costs_bps": 20,

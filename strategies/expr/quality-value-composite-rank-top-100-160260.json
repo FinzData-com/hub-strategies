@@ -2,9 +2,9 @@
   "description": "High earnings yield combined with low leverage should earn a risk-adjusted premium because profitable firms with conservative balance sheets are less likely to distress; the effect is falsified if forward Sharpe is not greater than zero after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.045582480395473635,
-  "forward_sharpe": -8.684085910980167,
+  "forward_days": 16,
+  "forward_return": -0.06797178362056344,
+  "forward_sharpe": -9.453021283325407,
   "slug": "quality-value-composite-rank-top-100-160260",
   "spec": {
     "costs_bps": 10,

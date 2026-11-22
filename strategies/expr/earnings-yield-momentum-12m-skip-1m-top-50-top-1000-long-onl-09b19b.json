@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with strong momentum represent undervalued firms experiencing positive fundamental momentum; falsified if forward returns do not exceed the market after accounting for turnover costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 21,
-  "forward_return": -0.07637052780800635,
-  "forward_sharpe": -6.171790627434001,
+  "forward_days": 22,
+  "forward_return": -0.09449706517484313,
+  "forward_sharpe": -7.120188900169235,
   "slug": "earnings-yield-momentum-12m-skip-1m-top-50-top-1000-long-onl-09b19b",
   "spec": {
     "costs_bps": 10,

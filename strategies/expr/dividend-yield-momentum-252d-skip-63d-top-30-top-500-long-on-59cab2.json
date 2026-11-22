@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with positive annual momentum represent quality income compounders where payouts signal management confidence; falsified if the strategy's dividend-adjusted total return does not exceed the high-dividend-yield index return over rolling 5-year periods.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.06838082734529771,
-  "forward_sharpe": -6.102584018664362,
+  "forward_days": 19,
+  "forward_return": -0.07769891414348629,
+  "forward_sharpe": -6.732271253823874,
   "slug": "dividend-yield-momentum-252d-skip-63d-top-30-top-500-long-on-59cab2",
   "spec": {
     "costs_bps": 10,

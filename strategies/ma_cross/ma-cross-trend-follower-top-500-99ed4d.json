@@ -2,9 +2,9 @@
   "description": "A 50-day SMA crossing above a 200-day SMA signals a structural regime shift to bullishness; falsified if the MA cross signal has a negative forward Sharpe.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 18,
-  "forward_return": -0.0928579903588802,
-  "forward_sharpe": -2.720114621775381,
+  "forward_days": 19,
+  "forward_return": -0.09416314303444318,
+  "forward_sharpe": -2.6894797946118416,
   "slug": "ma-cross-trend-follower-top-500-99ed4d",
   "spec": {
     "costs_bps": 5,

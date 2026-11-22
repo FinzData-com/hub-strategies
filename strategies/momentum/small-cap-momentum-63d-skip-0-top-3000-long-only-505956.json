@@ -1,0 +1,25 @@
+{
+  "description": "Momentum effects are stronger in smaller, less-analyzed stocks due to slower information diffusion and higher limits to arbitrage; restricting to top3000 (ex-top1000) should capture this small-cap momentum premium; falsified if forward Sharpe is not higher than the comparable top500 63d skip 0 strategy (currently -4.14).",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "small-cap-momentum-63d-skip-0-top-3000-long-only-505956",
+  "spec": {
+    "costs_bps": 30,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "lookback": 63,
+      "skip": 0,
+      "type": "momentum"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top3000"
+  },
+  "title": "Small-Cap Momentum \u00b7 63d skip 0 \u00b7 Top 3000 \u00b7 Long Only",
+  "universe": "top3000"
+}

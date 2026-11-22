@@ -2,9 +2,9 @@
   "description": "Low volatility recent losers revert as overreaction fades and risk premium normalizes, falsified if long short returns are negative after costs over the forward period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": 0.005720187495034557,
-  "forward_sharpe": 0.7248680994265324,
+  "forward_days": 20,
+  "forward_return": 0.007184992452530237,
+  "forward_sharpe": 0.8723966054758985,
   "slug": "volatility-adjusted-mean-reversion-with-rsi-063d55",
   "spec": {
     "costs_bps": 15,

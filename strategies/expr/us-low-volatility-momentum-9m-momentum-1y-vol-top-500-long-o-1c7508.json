@@ -1,0 +1,24 @@
+{
+  "description": "Risk-adjusted momentum (momentum scaled by trailing volatility) isolates trends with lower crash risk; if the volatility-scaled signal does not reduce maximum drawdown by at least 20% relative to raw 9-month momentum while maintaining comparable returns, the hypothesis is falsified.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "us-low-volatility-momentum-9m-momentum-1y-vol-top-500-long-o-1c7508",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "(ret(189) - ret(21)) / vol(252)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 25,
+    "universe": "top500"
+  },
+  "title": "US Low-Volatility Momentum \u00b7 9m Momentum / 1y Vol \u00b7 Top 500 \u00b7 Long Only",
+  "universe": "top500"
+}

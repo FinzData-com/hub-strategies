@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield and strong intermediate momentum represent undervalued companies experiencing improving fundamentals. Falsified if the strategy fails to outperform a simple earnings yield sort or momentum sort in out-of-sample testing.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 24,
+  "forward_days": 25,
   "forward_return": 0.003263030964441249,
-  "forward_sharpe": 0.5189558687168422,
+  "forward_sharpe": 0.5084982829229371,
   "slug": "earnings-yield-momentum-top-1000-long-only-7c8e72",
   "spec": {
     "costs_bps": 10,

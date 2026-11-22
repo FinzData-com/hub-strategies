@@ -2,9 +2,9 @@
   "description": "Low leverage firms with momentum have more flexible balance sheets to sustain growth; falsified if forward Sharpe <= high leverage momentum portfolio.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 23,
+  "forward_days": 24,
   "forward_return": -0.0606270112039522,
-  "forward_sharpe": -4.379913119739313,
+  "forward_sharpe": -4.280656665603283,
   "slug": "low-leverage-momentum-top-1000-long-only-00b6bc",
   "spec": {
     "costs_bps": 10,

@@ -1,0 +1,24 @@
+{
+  "description": "Value and momentum are negatively correlated anomalies; combining high earnings yield (cheap) with strong 12-month momentum should capture both premia and smooth drawdowns, producing a higher forward Sharpe than either pure value or pure momentum; falsified if forward Sharpe is below the best pure momentum strategy in top1000 (currently 1.63 for 252d skip 21 top 50).",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-252d-skip-21-top-1000-long-only-75baed",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Value Momentum \u00b7 252d skip 21 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}

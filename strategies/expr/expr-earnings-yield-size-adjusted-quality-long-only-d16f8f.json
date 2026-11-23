@@ -2,9 +2,9 @@
   "description": "Earnings yield adjusted for size and leverage should identify undervalued high quality firms with lower distress risk, persisting due to limited arbitrage; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
-  "forward_return": -0.05921601334445381,
-  "forward_sharpe": -3.2786149859100004,
+  "forward_days": 26,
+  "forward_return": -0.07581046850720541,
+  "forward_sharpe": -4.038105298374702,
   "slug": "expr-earnings-yield-size-adjusted-quality-long-only-d16f8f",
   "spec": {
     "costs_bps": 10,

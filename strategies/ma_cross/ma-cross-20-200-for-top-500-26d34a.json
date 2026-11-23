@@ -2,9 +2,9 @@
   "description": "A 20\u2011day SMA crossing above a 200\u2011day SMA signals a bullish trend that should generate excess returns; falsified if the crossing produces negative cumulative returns.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
-  "forward_return": -0.05912928745266954,
-  "forward_sharpe": -2.9228083517372245,
+  "forward_days": 20,
+  "forward_return": -0.0759370443672005,
+  "forward_sharpe": -3.6538083724646993,
   "slug": "ma-cross-20-200-for-top-500-26d34a",
   "spec": {
     "costs_bps": 10,

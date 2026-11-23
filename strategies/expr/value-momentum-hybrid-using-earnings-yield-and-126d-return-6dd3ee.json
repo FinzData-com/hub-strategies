@@ -2,9 +2,9 @@
   "description": "Combining value with recent price momentum should capture mispricing correction while avoiding value traps, so ranking on earnings_yield plus 126 day momentum should outperform value alone; falsified if forward Sharpe is below zero over the test period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.009135351293433347,
-  "forward_sharpe": -25.97068416932771,
+  "forward_days": 5,
+  "forward_return": 0.017215482932802617,
+  "forward_sharpe": 4.643037610553871,
   "slug": "value-momentum-hybrid-using-earnings-yield-and-126d-return-6dd3ee",
   "spec": {
     "costs_bps": 20,

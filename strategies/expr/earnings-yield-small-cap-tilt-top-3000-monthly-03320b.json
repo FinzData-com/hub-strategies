@@ -2,9 +2,9 @@
   "description": "High earnings yield combined with smaller market capitalization captures the value and size premiums because cheap small firms carry higher risk and slower information diffusion; falsified if the long-short spread is indistinguishable from zero after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
+  "forward_days": 26,
   "forward_return": 0.01345035267784822,
-  "forward_sharpe": 3.158316426319506,
+  "forward_sharpe": 3.0946398047283714,
   "slug": "earnings-yield-small-cap-tilt-top-3000-monthly-03320b",
   "spec": {
     "costs_bps": 10,

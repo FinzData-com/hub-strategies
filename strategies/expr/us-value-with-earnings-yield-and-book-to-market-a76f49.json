@@ -2,7 +2,7 @@
   "description": "Value premium persists because investors overextrapolate growth and require compensation for distress risk; falsified if a combined earnings yield and book-to-market long-short portfolio fails to beat the benchmark after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "us-value-with-earnings-yield-and-book-to-market-a76f49",

@@ -1,0 +1,25 @@
+{
+  "description": "The Halloween effect suggests stronger equity returns in Nov-Apr; a momentum signal active only in those months should outperform annual momentum; falsified if forward Sharpe is not higher.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "seasonal-momentum-nov-apr-6m-momentum-top-500-long-only-4e2a08",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "lookback": 126,
+      "skip": 21,
+      "type": "momentum"
+    },
+    "start": "2012-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Seasonal Momentum \u00b7 Nov-Apr 6m momentum \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

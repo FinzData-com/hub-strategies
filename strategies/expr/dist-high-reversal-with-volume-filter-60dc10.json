@@ -2,9 +2,9 @@
   "description": "Stocks far from recent highs with declining volume are likely to mean revert as overextension corrects; falsified if forward Sharpe is zero or negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": -0.12758287014491776,
-  "forward_sharpe": -4.223526472398056,
+  "forward_days": 15,
+  "forward_return": -0.20254802606169509,
+  "forward_sharpe": -5.927033757835162,
   "slug": "dist-high-reversal-with-volume-filter-60dc10",
   "spec": {
     "costs_bps": 20,

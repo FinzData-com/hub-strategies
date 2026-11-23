@@ -2,9 +2,9 @@
   "description": "High-dividend-yield stocks with positive momentum represent 'quality income' compounds where payouts signal confidence; falsified if forward Sharpe < 0.25 or dividend cut frequency > 15% per year.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.0505794633993496,
-  "forward_sharpe": -20.488597778481434,
+  "forward_days": 6,
+  "forward_return": -0.055352469297921036,
+  "forward_sharpe": -19.2520388413908,
   "slug": "dividend-yield-momentum-126d-momentum-dividend-yield-top-500-b74b61",
   "spec": {
     "costs_bps": 15,

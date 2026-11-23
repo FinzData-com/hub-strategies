@@ -2,9 +2,9 @@
   "description": "A medium-slow crossover filters noise while retaining persistent trend exposure; falsified if the forward long-short spread is non-positive or slower confirmation does not improve turnover-adjusted performance.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
-  "forward_return": 0.00543519819054783,
-  "forward_sharpe": 0.6142523624229427,
+  "forward_days": 20,
+  "forward_return": 0.003445042318481306,
+  "forward_sharpe": 0.40275808769997024,
   "slug": "ma-cross-40-160-monthly-top-500-long-short-2debfa",
   "spec": {
     "costs_bps": 15,

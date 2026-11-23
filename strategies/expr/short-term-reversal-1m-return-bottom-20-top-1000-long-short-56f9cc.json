@@ -1,0 +1,24 @@
+{
+  "description": "Liquidity provision earns a premium by buying recent losers and selling recent winners; falsified if forward Sharpe is not positive after 20 bps costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-1m-return-bottom-20-top-1000-long-short-56f9cc",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "W",
+    "side": "long_short",
+    "signal": {
+      "expr": "-ret(21)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 20,
+    "universe": "top1000"
+  },
+  "title": "Short-Term Reversal \u00b7 1m return \u00b7 bottom 20 \u00b7 Top 1000 \u00b7 long_short",
+  "universe": "top1000"
+}

@@ -2,7 +2,7 @@
   "description": "Improvements in return on equity are underreacted by markets due to accounting recognition lags and investor attention limits, leading to continuation; falsified if ranking on recent ROE change shows no persistence in subsequent returns after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "us-profitability-change-12-month-roe-momentum-89afbf",

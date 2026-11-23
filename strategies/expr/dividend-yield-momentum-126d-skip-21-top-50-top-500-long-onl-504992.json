@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with intermediate momentum represent mature firms with sustainable payouts and positive price trends; yield provides downside cushion during momentum reversals. Falsified if dividend yield screen increases concentration in declining sectors (energy, utilities) causing underperformance vs broad momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 16,
-  "forward_return": -0.07051407215911076,
-  "forward_sharpe": -6.802326101391688,
+  "forward_days": 17,
+  "forward_return": -0.08121316968208281,
+  "forward_sharpe": -7.56533246451135,
   "slug": "dividend-yield-momentum-126d-skip-21-top-50-top-500-long-onl-504992",
   "spec": {
     "costs_bps": 10,

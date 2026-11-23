@@ -2,9 +2,9 @@
   "description": "Moving average crossovers capture medium term trends in mid caps where liquidity is lower and price pressure persists, falsified if forward Sharpe does not exceed zero over multiple years.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 6,
-  "forward_return": -0.0651388480872177,
-  "forward_sharpe": -15.594289528369597,
+  "forward_days": 7,
+  "forward_return": -0.11552177177177181,
+  "forward_sharpe": -15.52198789933141,
   "slug": "mid-cap-50-200-ma-cross-long-only-1e6d60",
   "spec": {
     "costs_bps": 10,

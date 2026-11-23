@@ -2,9 +2,9 @@
   "description": "High return on equity paired with small market capitalization reflects limited analyst coverage and neglected firm risk; the strategy is falsified if quality and size do not jointly predict cross-sectional returns after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
-  "forward_return": -0.06336846477031044,
-  "forward_sharpe": -3.228045888460325,
+  "forward_days": 26,
+  "forward_return": -0.08884064289643923,
+  "forward_sharpe": -4.219495546176491,
   "slug": "quality-size-tilt-top-1000-long-only-0589e2",
   "spec": {
     "costs_bps": 15,

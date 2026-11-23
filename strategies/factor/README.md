@@ -4,17 +4,17 @@ Single point-in-time fundamental factors: value (earnings yield, book-to-market,
 
 | Strategy | Family | Universe | DSR | Forward days | Forward Sharpe |
 |---|---|---|---|---|---|
-| [Dividend yield · top 50 of the Top 500 · long only](https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-only-8e4326) | factor | top500 | 0.00 | 27 | 0.15 |
-| [Dividend yield · top 50 of the Top 500 · long/short](https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-short-4347a6) | factor | top500 | 0.00 | 27 | 2.97 |
-| [Size · smallest 100 of the Top 1000 by market value (after Banz 1981) · long/short](https://data.finzdata.com/s/size-smallest-100-of-the-top-1000-by-market-value-after-banz-435aa0) | factor | top1000 | 0.00 | 33 | 3.15 |
-| [Size · smallest 100 of the Top 1000 by market value (after Banz 1981) · long only](https://data.finzdata.com/s/size-smallest-100-of-the-top-1000-by-market-value-after-banz-884945) | factor | top1000 | 0.00 | 33 | 2.38 |
-| [Value · book-to-market · top 50 of the Top 500 (after Fama & French 1992, the HML factor) · long/short](https://data.finzdata.com/s/value-book-to-market-top-50-of-the-top-500-after-fama-french-5fa648) | factor | top500 | 0.00 | 27 | 1.72 |
-| [Value · book-to-market · top 50 of the Top 500 (after Fama & French 1992, the HML factor) · long only](https://data.finzdata.com/s/value-book-to-market-top-50-of-the-top-500-after-fama-french-b81beb) | factor | top500 | 0.00 | 27 | -2.42 |
-| [Value · earnings yield · top 50 of the Top 500 (after Basu 1977; Fama & French 1992) · long only](https://data.finzdata.com/s/value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-7d5a40) | factor | top500 | 0.00 | 27 | -1.24 |
-| [Value · earnings yield · top 50 of the Top 500 (after Basu 1977; Fama & French 1992) · long/short](https://data.finzdata.com/s/value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-e6ad2f) | factor | top500 | 0.00 | 27 | 2.69 |
-| [Value · EBITDA to enterprise value · top 50 of the Top 500 (after Loughran & Wellman 2011) · long only](https://data.finzdata.com/s/value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-28b33a) | factor | top500 | 0.00 | 27 | -0.90 |
-| [Value · EBITDA to enterprise value · top 50 of the Top 500 (after Loughran & Wellman 2011) · long/short](https://data.finzdata.com/s/value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-381df4) | factor | top500 | 0.00 | 27 | 3.16 |
-| [Value · sales yield · top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) · long only](https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-427cc1) | factor | top500 | 0.00 | 27 | -0.25 |
-| [Value · sales yield · top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) · long/short](https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-48be28) | factor | top500 | 0.00 | 27 | 3.97 |
+| [Dividend yield · top 50 of the Top 500 · long only](https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-only-8e4326) | factor | top500 | 0.00 | 28 | -0.16 |
+| [Dividend yield · top 50 of the Top 500 · long/short](https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-short-4347a6) | factor | top500 | 0.00 | 28 | 3.79 |
+| [Size · smallest 100 of the Top 1000 by market value (after Banz 1981) · long/short](https://data.finzdata.com/s/size-smallest-100-of-the-top-1000-by-market-value-after-banz-435aa0) | factor | top1000 | 0.00 | 34 | 3.10 |
+| [Size · smallest 100 of the Top 1000 by market value (after Banz 1981) · long only](https://data.finzdata.com/s/size-smallest-100-of-the-top-1000-by-market-value-after-banz-884945) | factor | top1000 | 0.00 | 34 | 2.34 |
+| [Value · book-to-market · top 50 of the Top 500 (after Fama & French 1992, the HML factor) · long/short](https://data.finzdata.com/s/value-book-to-market-top-50-of-the-top-500-after-fama-french-5fa648) | factor | top500 | 0.00 | 28 | 2.45 |
+| [Value · book-to-market · top 50 of the Top 500 (after Fama & French 1992, the HML factor) · long only](https://data.finzdata.com/s/value-book-to-market-top-50-of-the-top-500-after-fama-french-b81beb) | factor | top500 | 0.00 | 28 | -3.34 |
+| [Value · earnings yield · top 50 of the Top 500 (after Basu 1977; Fama & French 1992) · long only](https://data.finzdata.com/s/value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-7d5a40) | factor | top500 | 0.00 | 28 | -2.39 |
+| [Value · earnings yield · top 50 of the Top 500 (after Basu 1977; Fama & French 1992) · long/short](https://data.finzdata.com/s/value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-e6ad2f) | factor | top500 | 0.00 | 28 | 3.28 |
+| [Value · EBITDA to enterprise value · top 50 of the Top 500 (after Loughran & Wellman 2011) · long only](https://data.finzdata.com/s/value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-28b33a) | factor | top500 | 0.00 | 28 | -1.98 |
+| [Value · EBITDA to enterprise value · top 50 of the Top 500 (after Loughran & Wellman 2011) · long/short](https://data.finzdata.com/s/value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-381df4) | factor | top500 | 0.00 | 28 | 3.72 |
+| [Value · sales yield · top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) · long only](https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-427cc1) | factor | top500 | 0.00 | 28 | -1.00 |
+| [Value · sales yield · top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) · long/short](https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-48be28) | factor | top500 | 0.00 | 28 | 4.70 |
 
 [Back to all strategies](../../README.md)

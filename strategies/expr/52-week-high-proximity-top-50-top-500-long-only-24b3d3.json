@@ -2,9 +2,9 @@
   "description": "Anchoring bias makes investors treat the 52-week high as a resistance level, so stocks near their high keep drifting upward as the anchor dissolves; falsified if nearness to the high carries no information once momentum is controlled for.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.028152500289871374,
-  "forward_sharpe": -3.0635416227801358,
+  "forward_days": 20,
+  "forward_return": -0.037896174098700275,
+  "forward_sharpe": -3.9369847258766444,
   "slug": "52-week-high-proximity-top-50-top-500-long-only-24b3d3",
   "spec": {
     "costs_bps": 20,

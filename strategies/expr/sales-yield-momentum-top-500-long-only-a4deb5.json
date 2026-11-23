@@ -2,9 +2,9 @@
   "description": "High sales yield (price-to-sales) with momentum identifies improving fundamentals before earnings revisions; sales less manipulated than earnings. Falsified if forward Sharpe < 0.25 or underperforms earnings yield version.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.05541317933993095,
-  "forward_sharpe": -3.8098824873957096,
+  "forward_days": 20,
+  "forward_return": -0.07968837976311882,
+  "forward_sharpe": -5.017654329612621,
   "slug": "sales-yield-momentum-top-500-long-only-a4deb5",
   "spec": {
     "costs_bps": 10,

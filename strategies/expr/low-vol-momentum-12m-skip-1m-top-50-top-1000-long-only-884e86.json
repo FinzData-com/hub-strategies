@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong 12-month momentum skipping 1 month exploit the low-vol anomaly and momentum; falsified if forward Sharpe <= 0 or higher drawdown than momentum-only.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
+  "forward_days": 26,
   "forward_return": -0.0005207287003471395,
-  "forward_sharpe": -0.10990097819392589,
+  "forward_sharpe": -0.10777401428611127,
   "slug": "low-vol-momentum-12m-skip-1m-top-50-top-1000-long-only-884e86",
   "spec": {
     "costs_bps": 10,

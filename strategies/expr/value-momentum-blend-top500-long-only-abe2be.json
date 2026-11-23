@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) and momentum (12m minus 1m return) captures complementary risk premia; if the blended rank portfolio fails to outperform either standalone factor after transaction costs, the diversification benefit is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.06764996720349892,
-  "forward_sharpe": -4.395370843225084,
+  "forward_days": 21,
+  "forward_return": -0.09467289701105974,
+  "forward_sharpe": -5.5731645260180755,
   "slug": "value-momentum-blend-top500-long-only-abe2be",
   "spec": {
     "costs_bps": 10,

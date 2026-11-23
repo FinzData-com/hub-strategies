@@ -2,9 +2,9 @@
   "description": "Investors overextrapolate poor recent fundamentals and demand compensation for distress risk, so cheap stocks on earnings and book yield should carry a persistent spread; falsified if the long-short spread is indistinguishable from zero after costs or flips sign in the second half of the sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 24,
-  "forward_return": 0.07116277881397082,
-  "forward_sharpe": 3.905754689363049,
+  "forward_days": 25,
+  "forward_return": 0.0984031273154653,
+  "forward_sharpe": 4.876229726779174,
   "slug": "value-composite-ey-btm-top-50-top-1000-long-short-249dc3",
   "spec": {
     "costs_bps": 20,

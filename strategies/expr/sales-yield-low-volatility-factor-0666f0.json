@@ -2,9 +2,9 @@
   "description": "High sales yield indicates strong revenue generation, and low volatility signals stability; combined they should deliver superior returns; underperformance falsifies.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.015711222487600263,
-  "forward_sharpe": -0.8746455779725933,
+  "forward_days": 19,
+  "forward_return": -0.03382485518999645,
+  "forward_sharpe": -1.8920444634425344,
   "slug": "sales-yield-low-volatility-factor-0666f0",
   "spec": {
     "costs_bps": 5,

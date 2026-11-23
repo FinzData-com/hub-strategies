@@ -2,9 +2,9 @@
   "description": "High EBITDA/EV (cheap) stocks with positive momentum vs low EBITDA/EV with negative momentum; falsified if long-short forward Sharpe < 0.3 after 15 bps per leg.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": 0.06576367286673546,
-  "forward_sharpe": 5.16333583111283,
+  "forward_days": 19,
+  "forward_return": 0.08104862877023322,
+  "forward_sharpe": 5.99661423682379,
   "slug": "ebitda-ev-momentum-top-500-long-short-052353",
   "spec": {
     "costs_bps": 15,

@@ -2,9 +2,9 @@
   "description": "Using a short fast period (10) and a long slow period (50) should capture early trend reversals more quickly than standard settings; if the strategy yields negative returns, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 18,
-  "forward_return": -0.03714327913423443,
-  "forward_sharpe": -2.7459377188422387,
+  "forward_days": 19,
+  "forward_return": -0.04256184936716367,
+  "forward_sharpe": -3.0774831287901203,
   "slug": "ma-cross-with-adaptive-fast-period-a924fa",
   "spec": {
     "costs_bps": 5,

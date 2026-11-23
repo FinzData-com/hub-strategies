@@ -2,9 +2,9 @@
   "description": "Combining value (book-to-market) with 126-day momentum captures complementary risk premia; if the blended rank portfolio underperforms pure momentum after costs, the diversification benefit is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.053462207342032775,
-  "forward_sharpe": -3.425292581323854,
+  "forward_days": 21,
+  "forward_return": -0.07900335592966345,
+  "forward_sharpe": -4.63028205033333,
   "slug": "value-momentum-blend-126d-top-50-top-500-long-only-aad4a6",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with strong 12-month momentum exploit the low-vol anomaly combined with trend persistence; falsified if low-vol stocks no longer outperform high-vol on risk-adjusted basis or if momentum signals in low-vol regime are noise-driven.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": -0.05375339589159489,
-  "forward_sharpe": -4.024040837269874,
+  "forward_days": 15,
+  "forward_return": -0.0741037940168432,
+  "forward_sharpe": -5.225135916299899,
   "slug": "low-vol-momentum-12m-top-500-long-only-1230e2",
   "spec": {
     "costs_bps": 10,

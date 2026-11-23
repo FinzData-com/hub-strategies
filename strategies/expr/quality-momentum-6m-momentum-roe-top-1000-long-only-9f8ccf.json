@@ -1,0 +1,24 @@
+{
+  "description": "High ROE firms with strong intermediate momentum reflect profitable growth persistence; falsified if forward Sharpe does not exceed the standalone momentum benchmark.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-momentum-6m-momentum-roe-top-1000-long-only-9f8ccf",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) - ret(21)) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 30,
+    "universe": "top1000"
+  },
+  "title": "Quality-Momentum \u00b7 6m momentum + ROE \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

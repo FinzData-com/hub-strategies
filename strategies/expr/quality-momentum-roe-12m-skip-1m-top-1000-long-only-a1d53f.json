@@ -2,9 +2,9 @@
   "description": "High ROE firms with strong 12-month momentum (skipping recent month) represent profitable firms with persistent trends; the effect should vanish if ROE loses predictive power for future returns or if momentum crashes disproportionately affect high-quality stocks.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
+  "forward_days": 21,
   "forward_return": -0.011371338601327441,
-  "forward_sharpe": -4.369651447192801,
+  "forward_sharpe": -4.256418514749399,
   "slug": "quality-momentum-roe-12m-skip-1m-top-1000-long-only-a1d53f",
   "spec": {
     "costs_bps": 10,

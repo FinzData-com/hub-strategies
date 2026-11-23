@@ -2,9 +2,9 @@
   "description": "Stocks with high book-to-market and high return on equity are undervalued quality firms that earn excess returns as market corrects mispricing; falsified if composite factor fails to outperform equal-weight universe over full period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.032924782697424826,
-  "forward_sharpe": -2.428486183016046,
+  "forward_days": 19,
+  "forward_return": -0.05636195763516161,
+  "forward_sharpe": -3.794279346773968,
   "slug": "value-quality-composite-top-500-long-only-262e80",
   "spec": {
     "costs_bps": 10,

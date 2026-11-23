@@ -2,9 +2,9 @@
   "description": "Holds each of the seven major currency pairs (EURUSD, USDJPY, GBPUSD, AUDUSD, USDCAD, USDCHF, NZDUSD) whose 12-month change is positive, equally weighted, monthly. Falsified if spot FX trends do not persist past a year. Backtested on FinzData FX daily closes (spot: the price change only, no interest differential), costs as stated, re-run free on full history.",
   "dsr": 0.0028,
   "family": "expr",
-  "forward_days": 6,
-  "forward_return": -0.0039692878730789305,
-  "forward_sharpe": -21.40716203298486,
+  "forward_days": 7,
+  "forward_return": -0.01056505984495626,
+  "forward_sharpe": -11.506445129167565,
   "slug": "fx-majors-trend-12-month-time-series-momentum-7-pairs-spot-fc6935",
   "spec": {
     "costs_bps": 2,

@@ -2,9 +2,9 @@
   "description": "Cheap earnings can identify neglected cash flow and 6-1 momentum can capture delayed information diffusion; falsified if the forward spread is non-positive or either leg contributes no joint signal.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": 0.03435092582665811,
-  "forward_sharpe": 1.8390662364788548,
+  "forward_days": 20,
+  "forward_return": 0.054708199960179504,
+  "forward_sharpe": 2.6867551933643874,
   "slug": "factor-earnings-yield-6-1-momentum-monthly-top-500-l-s-28f2ab",
   "spec": {
     "costs_bps": 10,

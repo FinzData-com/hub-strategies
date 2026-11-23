@@ -2,9 +2,9 @@
   "description": "High sales yield small caps should earn premium from neglected profitability and limited analyst coverage; falsified if forward Sharpe is <=0.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 3,
-  "forward_return": -0.022578037869199652,
-  "forward_sharpe": -7.371393988546668,
+  "forward_days": 4,
+  "forward_return": -0.054511639369598575,
+  "forward_sharpe": -13.820660836984038,
   "slug": "size-adjusted-sales-yield-factor-207fff",
   "spec": {
     "costs_bps": 30,

@@ -2,7 +2,7 @@
   "description": "Earnings yield contains information about mispricing beyond size, and controlling for log market cap isolates fundamental value; falsified if the signal has no incremental predictive power after size adjustment.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "us-size-adjusted-earnings-yield-bb27a5",

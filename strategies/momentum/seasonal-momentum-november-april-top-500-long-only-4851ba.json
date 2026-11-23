@@ -2,9 +2,9 @@
   "description": "Equity risk premium concentrates in Nov-Apr (Halloween effect); if momentum restricted to these months fails to beat annual momentum, the seasonal concentration hypothesis is falsified.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 18,
-  "forward_return": -0.21223601422578264,
-  "forward_sharpe": -6.5343941620734185,
+  "forward_days": 19,
+  "forward_return": -0.25988731346508276,
+  "forward_sharpe": -7.594262246307214,
   "slug": "seasonal-momentum-november-april-top-500-long-only-4851ba",
   "spec": {
     "costs_bps": 10,

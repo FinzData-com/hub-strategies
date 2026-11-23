@@ -2,9 +2,9 @@
   "description": "Stocks that combine high value (low book-to-market) with strong momentum (high 252\u2011day return minus 21\u2011day return) should outperform because value investors capture undervaluation while momentum investors capture trend persistence; if the strategy yields negative risk\u2011adjusted returns, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.07915834159612156,
-  "forward_sharpe": -4.4545428463662065,
+  "forward_days": 19,
+  "forward_return": -0.11155910094220711,
+  "forward_sharpe": -5.711846711267459,
   "slug": "value-adjusted-momentum-ceb25c",
   "spec": {
     "costs_bps": 5,

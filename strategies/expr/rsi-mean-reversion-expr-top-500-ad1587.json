@@ -2,9 +2,9 @@
   "description": "Extreme overbought RSI levels revert in large caps due to short-term overreaction; falsified if the contrarian long-short signal has non-positive forward Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 14,
-  "forward_return": 0.011631910672917911,
-  "forward_sharpe": 1.1898443403557053,
+  "forward_days": 15,
+  "forward_return": -0.02304225123553949,
+  "forward_sharpe": -1.5821015487247327,
   "slug": "rsi-mean-reversion-expr-top-500-ad1587",
   "spec": {
     "costs_bps": 10,

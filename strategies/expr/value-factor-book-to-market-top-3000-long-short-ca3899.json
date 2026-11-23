@@ -1,0 +1,24 @@
+{
+  "description": "High book-to-market stocks earn a risk premium for distress exposure; a broad long-short portfolio should produce positive forward Sharpe; falsified if forward Sharpe is not positive.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-factor-book-to-market-top-3000-long-short-ca3899",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "Q",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(book_to_market)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top3000"
+  },
+  "title": "Value Factor \u00b7 Book-to-Market \u00b7 Top 3000 \u00b7 long_short",
+  "universe": "top3000"
+}

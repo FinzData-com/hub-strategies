@@ -2,9 +2,9 @@
   "description": "Value effect is stronger after controlling for size, so ranking on book_to_market minus log_mcap should isolate mispricing; falsified if forward Sharpe is indistinguishable from zero.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 6,
-  "forward_return": -0.004940332287691418,
-  "forward_sharpe": -7.417439188220135,
+  "forward_days": 7,
+  "forward_return": 5.2098413903856056e-05,
+  "forward_sharpe": 0.0649742169091996,
   "slug": "size-adjusted-value-using-log-market-cap-and-book-to-market-3ffcbd",
   "spec": {
     "costs_bps": 20,

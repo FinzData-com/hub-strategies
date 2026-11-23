@@ -1,0 +1,24 @@
+{
+  "description": "Risk-adjusted momentum (momentum scaled by trailing volatility) isolates smoother trends and reduces crash risk; falsified if forward Sharpe is not higher than raw momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-momentum-12m-momentum-1yr-vol-top-500-long-on-bf1610",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "(ret(252) - ret(21)) / vol(252)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 25,
+    "universe": "top500"
+  },
+  "title": "Low-Volatility Momentum \u00b7 12m momentum / 1yr vol \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

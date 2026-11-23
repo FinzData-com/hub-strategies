@@ -2,9 +2,9 @@
   "description": "Extreme overbought and oversold conditions measured by RSI should mean revert over weeks due to behavioral overreaction, falsified if forward Sharpe is negative after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 6,
-  "forward_return": -0.01880163185104866,
-  "forward_sharpe": -11.128865970522941,
+  "forward_days": 7,
+  "forward_return": -0.047322082906500196,
+  "forward_sharpe": -11.135195294999097,
   "slug": "rsi-mean-reversion-expression-long-short-7c551b",
   "spec": {
     "costs_bps": 20,

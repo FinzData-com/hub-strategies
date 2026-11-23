@@ -2,9 +2,9 @@
   "description": "High sales yield (revenue/price) with 12-month momentum (skip 1 month) identifies undervalued growth; falsified if forward Sharpe < 0.25.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.05386195213847744,
-  "forward_sharpe": -3.4893054252959135,
+  "forward_days": 20,
+  "forward_return": -0.08029722315222432,
+  "forward_sharpe": -4.7436044541245925,
   "slug": "sales-yield-momentum-12m-skip-1m-top-40-top-500-long-only-ec27d4",
   "spec": {
     "costs_bps": 10,

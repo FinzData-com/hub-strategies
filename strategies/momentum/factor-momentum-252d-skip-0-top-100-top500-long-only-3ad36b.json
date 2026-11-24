@@ -1,0 +1,25 @@
+{
+  "description": "Longer horizon factor momentum captures slower fundamental diffusion; falsified if 252 day no skip momentum does not beat 1 month buy-and-hold in forward tracking.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-momentum-252d-skip-0-top-100-top500-long-only-3ad36b",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "lookback": 252,
+      "skip": 0,
+      "type": "momentum"
+    },
+    "start": "2015-01-01",
+    "top_n": 100,
+    "universe": "top500"
+  },
+  "title": "Factor momentum 252d skip 0 top 100 top500 long only",
+  "universe": "top500"
+}

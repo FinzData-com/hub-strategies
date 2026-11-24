@@ -2,9 +2,9 @@
   "description": "Momentum signals are more reliable when adjusted for volatility (Risk-Adjusted Momentum); falsified if raw momentum outperforms volatility-adjusted momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 26,
+  "forward_days": 28,
   "forward_return": 0.026961856582722765,
-  "forward_sharpe": 1.2882786431143576,
+  "forward_sharpe": 1.2412429187067056,
   "slug": "volatility-adjusted-momentum-top-1000-35cefa",
   "spec": {
     "costs_bps": 5,

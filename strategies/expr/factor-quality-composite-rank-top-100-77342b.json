@@ -2,9 +2,9 @@
   "description": "High profitability and low leverage stocks earn higher risk-adjusted returns due to quality premium and distress avoidance, so a composite quality rank should outperform random selection; falsified if forward Sharpe is not positive after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 21,
-  "forward_return": -0.0860414642177374,
-  "forward_sharpe": -6.27032499827726,
+  "forward_days": 23,
+  "forward_return": -0.08656147353373445,
+  "forward_sharpe": -5.990965550891093,
   "slug": "factor-quality-composite-rank-top-100-77342b",
   "spec": {
     "costs_bps": 10,

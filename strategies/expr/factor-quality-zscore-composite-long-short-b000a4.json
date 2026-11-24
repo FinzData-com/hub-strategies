@@ -1,0 +1,24 @@
+{
+  "description": "Combined quality metrics capture distress risk premium; falsified if zscored quality composite long short has zero forward Sharpe.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-quality-zscore-composite-long-short-b000a4",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "Q",
+    "side": "long_short",
+    "signal": {
+      "expr": "zscore(roe) + zscore(earnings_yield) - zscore(leverage)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Factor quality zscore composite long short",
+  "universe": "top1000"
+}

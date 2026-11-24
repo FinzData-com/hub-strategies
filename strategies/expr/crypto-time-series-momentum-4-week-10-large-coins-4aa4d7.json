@@ -2,7 +2,7 @@
   "description": "Each week, holds every one of the ten large coins whose 4-week return is positive, equally weighted, and cash for the rest. Falsified if the filter fails to step aside in crypto bear markets. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
   "dsr": 0.5371,
   "family": "expr",
-  "forward_days": 10,
+  "forward_days": 11,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "crypto-time-series-momentum-4-week-10-large-coins-4aa4d7",

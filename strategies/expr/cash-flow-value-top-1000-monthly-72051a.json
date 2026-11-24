@@ -2,9 +2,9 @@
   "description": "EBITDA-to-enterprise-value identifies firms generating strong cash flows relative to price, which should outperform as cash flow realization is priced slowly; falsified if high-EBITDA/EV quintile does not beat low quintile net of transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 26,
-  "forward_return": 0.012605009051912752,
-  "forward_sharpe": 1.6298090787376343,
+  "forward_days": 28,
+  "forward_return": 0.013618077934712591,
+  "forward_sharpe": 1.6925196651516743,
   "slug": "cash-flow-value-top-1000-monthly-72051a",
   "spec": {
     "costs_bps": 10,

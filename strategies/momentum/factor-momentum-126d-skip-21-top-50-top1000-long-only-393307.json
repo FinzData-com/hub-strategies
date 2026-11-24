@@ -1,0 +1,25 @@
+{
+  "description": "Factor exposures exhibit momentum because institutional rebalancing is slow; falsified if 126 day skip 21 factor momentum shows non-positive forward Sharpe.",
+  "dsr": 0.0,
+  "family": "momentum",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "factor-momentum-126d-skip-21-top-50-top1000-long-only-393307",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "lookback": 126,
+      "skip": 21,
+      "type": "momentum"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Factor momentum 126d skip 21 top 50 top1000 long only",
+  "universe": "top1000"
+}

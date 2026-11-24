@@ -2,9 +2,9 @@
   "description": "High EBITDA over enterprise value adjusted for size captures mispriced growth assets and should earn premium; falsified if forward Sharpe is not significantly positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.09212560348946053,
-  "forward_sharpe": -4.658431579844274,
+  "forward_days": 22,
+  "forward_return": -0.09248682324701607,
+  "forward_sharpe": -4.442998806559396,
   "slug": "size-adjusted-ebitda-ev-value-7d0ae9",
   "spec": {
     "costs_bps": 12,

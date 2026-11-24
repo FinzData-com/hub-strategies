@@ -2,9 +2,9 @@
   "description": "High ROE stocks with strong momentum outperform due to persistent profitability and investor underreaction; falsified if forward Sharpe < 0.25 or max drawdown > 35%.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
-  "forward_return": -0.05109311995648025,
-  "forward_sharpe": -4.325119003868469,
+  "forward_days": 27,
+  "forward_return": -0.05014315451451801,
+  "forward_sharpe": -4.062666869560939,
   "slug": "quality-momentum-top-1000-long-only-7d1e3c",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Enterprise multiples strip capital-structure noise and isolate operating cheapness that slow-moving institutional mandates underreact to; falsified if top ebitda_ev ranks do not separate from bottom ranks after costs over the full sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 26,
-  "forward_return": -0.06728685132883916,
-  "forward_sharpe": -4.510190382304191,
+  "forward_days": 28,
+  "forward_return": -0.0675814191401406,
+  "forward_sharpe": -4.353230845658283,
   "slug": "ebitda-over-ev-rank-top-50-top-1000-long-only-a30299",
   "spec": {
     "costs_bps": 10,

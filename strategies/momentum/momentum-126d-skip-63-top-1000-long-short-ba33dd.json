@@ -2,9 +2,9 @@
   "description": "Longer skip reduces short term reversal contamination and long short momentum should capture trend continuation; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 20,
-  "forward_return": -0.008004486984276249,
-  "forward_sharpe": -3.907282599875122,
+  "forward_days": 22,
+  "forward_return": -0.007011876631061287,
+  "forward_sharpe": -3.199605532973788,
   "slug": "momentum-126d-skip-63-top-1000-long-short-ba33dd",
   "spec": {
     "costs_bps": 10,

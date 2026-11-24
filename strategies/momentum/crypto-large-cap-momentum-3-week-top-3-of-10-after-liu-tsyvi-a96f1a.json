@@ -2,9 +2,9 @@
   "description": "Each week, holds the 3 of ten large coins (BTC, ETH, SOL, XRP, DOGE, ADA, AVAX, LINK, LTC, DOT) with the strongest 3-week return. Crypto momentum is strongest at 1-4 week horizons. Falsified if winners revert within a week. Backtested on FinzData crypto daily closes (7-day weeks, weekends included), costs as stated, re-run free on full history.",
   "dsr": 0.4627,
   "family": "momentum",
-  "forward_days": 10,
-  "forward_return": -0.17030042510961185,
-  "forward_sharpe": -8.320363871777829,
+  "forward_days": 11,
+  "forward_return": -0.15341698381282975,
+  "forward_sharpe": -6.631619792467972,
   "slug": "crypto-large-cap-momentum-3-week-top-3-of-10-after-liu-tsyvi-a96f1a",
   "spec": {
     "costs_bps": 10,

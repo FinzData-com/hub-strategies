@@ -1,0 +1,24 @@
+{
+  "description": "Momentum after controlling for size avoids microcap bias and should persist due to underreaction; falsified if size-demeaned momentum shows non-positive forward Sharpe.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "log-market-cap-demeaned-momentum-63d-skip-21-1c8649",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(63) - ret(21)) - rank(log_mcap)",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Log market cap demeaned momentum 63d skip 21",
+  "universe": "top1000"
+}

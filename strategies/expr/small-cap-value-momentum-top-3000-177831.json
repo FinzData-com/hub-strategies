@@ -2,9 +2,9 @@
   "description": "The intersection of small market cap, high book-to-market, and positive momentum creates an alpha pocket; falsified if log_mcap rank is positively correlated with returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 26,
-  "forward_return": 0.00970867891534799,
-  "forward_sharpe": 1.200659923495432,
+  "forward_days": 28,
+  "forward_return": 0.010719620153250231,
+  "forward_sharpe": 1.272483284037128,
   "slug": "small-cap-value-momentum-top-3000-177831",
   "spec": {
     "costs_bps": 10,

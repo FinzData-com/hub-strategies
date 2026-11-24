@@ -2,9 +2,9 @@
   "description": "A 50-day vs 200-day moving average crossover captures medium-term trend persistence driven by institutional herding; falsified if forward Sharpe is not positive after costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
-  "forward_return": -0.0023132584125764577,
-  "forward_sharpe": -6.151964657567143,
+  "forward_days": 21,
+  "forward_return": -0.0019560640988698363,
+  "forward_sharpe": -4.73630096829968,
   "slug": "ma-cross-50-200-top-3000-long-only-908123",
   "spec": {
     "costs_bps": 5,

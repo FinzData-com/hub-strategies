@@ -1,0 +1,24 @@
+{
+  "description": "Cheap enterprise value firms with low leverage should outperform because they have more financial slack to invest; falsified if long high ebitda_ev low leverage minus short opposite shows zero or negative forward Sharpe.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ebitda-ev-low-leverage-factor-ad580e",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(ebitda_ev) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2012-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "EBITDA/EV low leverage factor",
+  "universe": "top1000"
+}

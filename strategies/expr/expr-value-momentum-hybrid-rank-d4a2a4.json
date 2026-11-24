@@ -2,9 +2,9 @@
   "description": "Combining value and recent momentum should capture stocks with improving fundamentals and price trend, generating persistence beyond single factor exposure. Falsified if forward Sharpe is not positive and statistically indistinguishable from zero.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
-  "forward_return": 0.01586840746128204,
-  "forward_sharpe": 4.249314513606282,
+  "forward_days": 27,
+  "forward_return": 0.016885549765415675,
+  "forward_sharpe": 4.339764367794909,
   "slug": "expr-value-momentum-hybrid-rank-d4a2a4",
   "spec": {
     "costs_bps": 10,

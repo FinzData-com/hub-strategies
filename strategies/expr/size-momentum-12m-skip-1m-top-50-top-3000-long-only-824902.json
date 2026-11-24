@@ -2,9 +2,9 @@
   "description": "Smaller firms with strong momentum are more likely to be neglected by analysts, leading to slower information diffusion and stronger trends; falsified if the strategy does not outperform large-cap momentum after liquidity-adjusted costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
-  "forward_return": -0.0060307729862316695,
-  "forward_sharpe": -0.49375814968528586,
+  "forward_days": 27,
+  "forward_return": -0.004537598084956462,
+  "forward_sharpe": -0.3434231360173609,
   "slug": "size-momentum-12m-skip-1m-top-50-top-3000-long-only-824902",
   "spec": {
     "costs_bps": 15,

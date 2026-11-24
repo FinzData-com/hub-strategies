@@ -2,9 +2,9 @@
   "description": "Extreme dividend yield deviations revert as payout policy normalizes, generating short-term contrarian returns, falsified if the strategy underperforms the median forward tracked strategy in the library.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 17,
-  "forward_return": -0.0014999999999999458,
-  "forward_sharpe": -1.4513194263188332,
+  "forward_days": 19,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.007719412663046905,
   "slug": "expr-dividend-yield-mean-reversion-top-3000-b664bb",
   "spec": {
     "costs_bps": 15,

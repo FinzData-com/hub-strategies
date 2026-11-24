@@ -2,9 +2,9 @@
   "description": "High-quality firms with strong momentum exhibit persistent outperformance due to sustainable competitive advantages and investor underreaction to quality improvements. Falsified if quality-momentum portfolios show no excess return over momentum-only portfolios after controlling for factor exposures.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 26,
-  "forward_return": -0.02435850315405108,
-  "forward_sharpe": -3.019515350463572,
+  "forward_days": 28,
+  "forward_return": -0.023381726078949172,
+  "forward_sharpe": -2.7802796510231853,
   "slug": "quality-momentum-top-1000-long-only-528e4c",
   "spec": {
     "costs_bps": 10,

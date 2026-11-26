@@ -2,9 +2,9 @@
   "description": "Industry momentum drives a large portion of stock momentum; removing industry component isolates firm-specific momentum which is more likely to reflect fundamental improvement rather than sector rotation, so going long top 50 and short bottom 50 by 126-day momentum (skip 21) after demeaning by industry (using 48 Fama-French industries approximated by rank within quantiles) should yield positive forward Sharpe; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.02947437887735771,
+  "forward_sharpe": 7.155757069022286,
   "slug": "industry-neutral-momentum-126d-skip-21-top-1000-long-short-8f4700",
   "spec": {
     "costs_bps": 30,

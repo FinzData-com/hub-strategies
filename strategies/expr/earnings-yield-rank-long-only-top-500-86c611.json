@@ -2,9 +2,9 @@
   "description": "Higher earnings yield should command higher expected returns due to value and distress risk compensation, and the effect would be falsified if forward Sharpe is not statistically distinguishable from zero after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 10,
-  "forward_return": -0.08954561651325532,
-  "forward_sharpe": -16.30893135221892,
+  "forward_days": 14,
+  "forward_return": -0.06212888514127024,
+  "forward_sharpe": -2.512995868547704,
   "slug": "earnings-yield-rank-long-only-top-500-86c611",
   "spec": {
     "costs_bps": 10,

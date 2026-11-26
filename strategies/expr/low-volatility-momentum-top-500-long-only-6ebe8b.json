@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with positive momentum exploit the low-vol anomaly and trend following; if vol-adjusted momentum underperforms raw momentum, the risk-adjusted trend hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.03640710064332364,
-  "forward_sharpe": -3.629984690292962,
+  "forward_days": 23,
+  "forward_return": -0.020173858920750742,
+  "forward_sharpe": -1.3162054850013951,
   "slug": "low-volatility-momentum-top-500-long-only-6ebe8b",
   "spec": {
     "costs_bps": 10,

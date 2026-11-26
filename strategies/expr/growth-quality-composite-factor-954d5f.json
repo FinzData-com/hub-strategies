@@ -2,9 +2,9 @@
   "description": "Stocks with high sales yield and high ROE should outperform due to profitable growth, and the hypothesis is falsified if the composite rank shows negative forward excess return.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.033268596619289714,
-  "forward_sharpe": -3.556010456942362,
+  "forward_days": 13,
+  "forward_return": -0.00239051492817699,
+  "forward_sharpe": 0.0520797685339621,
   "slug": "growth-quality-composite-factor-954d5f",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Low leverage firms with strong momentum have more sustainable trends; long low-leverage winners / short high-leverage losers; if long-short Sharpe < 0.3 after costs, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.08276556145874325,
-  "forward_sharpe": -4.899758824062117,
+  "forward_days": 24,
+  "forward_return": -0.09530061163583892,
+  "forward_sharpe": -3.699295916414159,
   "slug": "leverage-adjusted-momentum-top500-long-short-128712",
   "spec": {
     "costs_bps": 15,

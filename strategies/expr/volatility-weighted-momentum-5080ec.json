@@ -2,9 +2,9 @@
   "description": "Low\u2011volatility stocks with high 21\u2011day momentum should deliver superior risk\u2011adjusted performance because volatility reduces drawdowns while momentum captures trend; a negative Sharpe would falsify this claim.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.005789416192490626,
-  "forward_sharpe": -1.2914293620457826,
+  "forward_days": 23,
+  "forward_return": -0.005061518753537664,
+  "forward_sharpe": -1.011202957672631,
   "slug": "volatility-weighted-momentum-5080ec",
   "spec": {
     "costs_bps": 5,

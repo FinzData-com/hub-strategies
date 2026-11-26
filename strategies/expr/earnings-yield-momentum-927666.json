@@ -2,9 +2,9 @@
   "description": "Combining high earnings yield with strong momentum should outperform because earnings yield signals undervaluation and momentum signals trend; if the strategy underperforms, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.1322721894081993,
-  "forward_sharpe": -7.369489493406659,
+  "forward_days": 23,
+  "forward_return": -0.11545032877820327,
+  "forward_sharpe": -1.6556088644858882,
   "slug": "earnings-yield-momentum-927666",
   "spec": {
     "costs_bps": 5,

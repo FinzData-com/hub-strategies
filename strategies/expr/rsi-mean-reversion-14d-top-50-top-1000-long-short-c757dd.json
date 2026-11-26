@@ -2,9 +2,9 @@
   "description": "14-day RSI extremes identify overextended prices that revert due to short-term liquidity imbalances; falsified if the strategy cannot overcome bid-ask spreads and commissions at daily rebalancing.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 34,
-  "forward_return": -0.06092724302413988,
-  "forward_sharpe": -2.652446556570298,
+  "forward_days": 36,
+  "forward_return": -0.07643621234166975,
+  "forward_sharpe": -3.2094862998391798,
   "slug": "rsi-mean-reversion-14d-top-50-top-1000-long-short-c757dd",
   "spec": {
     "costs_bps": 15,

@@ -2,7 +2,7 @@
   "description": "Value entry timed by oversold RSI improves risk adjusted returns because mean reversion tempers value traps; falsified if RSI filtered earnings yield underperforms unfiltered value in forward period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "us-small-cap-earnings-yield-with-rsi-filter-55a44b",

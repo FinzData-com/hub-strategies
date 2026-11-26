@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks after volatility contraction should revert as yield is partially mispriced and risk is controlled; falsified if forward Sharpe is negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.05206475665185639,
-  "forward_sharpe": -26.458340852663206,
+  "forward_days": 8,
+  "forward_return": -0.02266584954803119,
+  "forward_sharpe": -1.0862572651378941,
   "slug": "dividend-yield-mean-reversion-with-volatility-filter-7c61a4",
   "spec": {
     "costs_bps": 20,

@@ -2,9 +2,9 @@
   "description": "Low volatility stocks with positive momentum capture the low-vol anomaly while avoiding momentum crashes; falsified if forward Sharpe < 0.3 or volatility > 15% annualized.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.08005529398231714,
-  "forward_sharpe": -4.925638723188402,
+  "forward_days": 23,
+  "forward_return": -0.05793274284331662,
+  "forward_sharpe": -1.5861503478670504,
   "slug": "low-volatility-momentum-top-500-long-only-828adf",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "High return-on-equity firms with strong intermediate momentum benefit from persistent profitability and investor underreaction; if the strategy does not produce a higher deflated Sharpe than a 6-month momentum-only baseline over the same period, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": 0.01024777695144996,
+  "forward_sharpe": 8.07825162652548,
   "slug": "us-quality-momentum-6m-momentum-roe-top-1000-long-only-733a08",
   "spec": {
     "costs_bps": 10,

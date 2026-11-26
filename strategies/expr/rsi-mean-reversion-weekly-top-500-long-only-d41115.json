@@ -2,9 +2,9 @@
   "description": "Weekly RSI mean reversion captures institutional rebalancing flows; oversold large-caps outperform over 1-week horizon. Falsified if forward Sharpe < 0.15 or win rate < 52%.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.048416705836310636,
-  "forward_sharpe": -1.1646180946578584,
+  "forward_days": 24,
+  "forward_return": 0.002285624370848005,
+  "forward_sharpe": 0.2947515536616798,
   "slug": "rsi-mean-reversion-weekly-top-500-long-only-d41115",
   "spec": {
     "costs_bps": 15,

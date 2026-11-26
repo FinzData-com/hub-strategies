@@ -2,9 +2,9 @@
   "description": "Overbought RSI levels revert as short-term sentiment corrects, providing contrarian alpha, falsified if the portfolio exhibits positive autocorrelation in monthly returns.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 15,
-  "forward_return": -0.02814899999999998,
-  "forward_sharpe": -3.2317758136818675,
+  "forward_days": 19,
+  "forward_return": -0.012055000000000038,
+  "forward_sharpe": -0.8426942757986737,
   "slug": "expr-rsi-mean-reversion-top-1000-8de7be",
   "spec": {
     "costs_bps": 12,

@@ -2,9 +2,9 @@
   "description": "Oversold names (low 14-day RSI) mean-revert as short-term selling pressure is exhausted. Falsified if the low-RSI basket does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.2013,
   "family": "expr",
-  "forward_days": 28,
-  "forward_return": -0.11229889671398818,
-  "forward_sharpe": -2.9777697511656367,
+  "forward_days": 32,
+  "forward_return": -0.07545049520690594,
+  "forward_sharpe": -0.9810416203367808,
   "slug": "rsi-oversold-top-50-top-500-long-only-6e3ab0",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Stocks with high earnings yield (cheap valuation) that also show strong intermediate momentum represent 'cheap improvers' where the market underreacts to fundamental improvement, so combining earnings yield rank with 126-day momentum (skip 21) should outperform momentum alone; falsified if forward Sharpe is not higher than the best existing 126d-skip-21 momentum strategy (currently -3.26).",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.009440168374902802,
+  "forward_sharpe": 5.6631101902253835,
   "slug": "earnings-yield-momentum-126d-skip-21-top-500-long-only-352657",
   "spec": {
     "costs_bps": 20,

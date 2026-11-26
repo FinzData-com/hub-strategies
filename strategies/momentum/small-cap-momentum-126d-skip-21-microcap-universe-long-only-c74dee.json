@@ -2,9 +2,9 @@
   "description": "Microcaps exhibit stronger momentum due to limited analyst coverage and slower information diffusion; falsified if forward Sharpe < 0 after 30 bps costs or capacity < $10M ADV.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 10,
-  "forward_return": -0.11988499892419768,
-  "forward_sharpe": -12.724778378456758,
+  "forward_days": 12,
+  "forward_return": -0.11472883194210859,
+  "forward_sharpe": -10.151258481562852,
   "slug": "small-cap-momentum-126d-skip-21-microcap-universe-long-only-c74dee",
   "spec": {
     "costs_bps": 30,

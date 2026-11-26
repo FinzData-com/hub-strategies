@@ -2,9 +2,9 @@
   "description": "9-month momentum skipping 1-month avoids earnings announcement drift contamination; falsified if forward Sharpe < 0.3 vs 12m/6m variants.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 20,
-  "forward_return": -0.2917989615109581,
-  "forward_sharpe": -5.394598288064099,
+  "forward_days": 24,
+  "forward_return": -0.26129042661681445,
+  "forward_sharpe": -1.7904087422816475,
   "slug": "momentum-189d-skip-21-top-500-long-only-c45842",
   "spec": {
     "costs_bps": 10,

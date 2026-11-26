@@ -2,9 +2,9 @@
   "description": "Enterprise value multiples reflect growth expectations and overreaction to sentiment, creating mean reversion; falsified if high ebitda_ev and sales_yield stocks do not outperform low ones net of costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.00818126293579624,
+  "forward_sharpe": -3.528592493620079,
   "slug": "us-ebitda-ev-value-with-sales-yield-9a22d5",
   "spec": {
     "costs_bps": 20,

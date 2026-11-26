@@ -2,9 +2,9 @@
   "description": "High earnings yield stocks with high ROE should earn premium due to mispricing of quality value and limited arbitrage; falsified if forward Sharpe is not positive after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.060867901891093146,
-  "forward_sharpe": -24.110123232978506,
+  "forward_days": 8,
+  "forward_return": -0.03499969454884877,
+  "forward_sharpe": -3.550948311472602,
   "slug": "value-quality-composite-earnings-yield-roe-screen-914fad",
   "spec": {
     "costs_bps": 20,

@@ -1,0 +1,24 @@
+{
+  "description": "Multiplicative interaction captures stocks with both price trend and fundamental support; falsified if the product signal adds no value over additive combination.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "earnings-momentum-12m-price-momentum-earnings-yield-top-1000-637690",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "(ret(252) - ret(21)) * earnings_yield",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 25,
+    "universe": "top1000"
+  },
+  "title": "Earnings Momentum \u00b7 12m price momentum \u00d7 earnings yield \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

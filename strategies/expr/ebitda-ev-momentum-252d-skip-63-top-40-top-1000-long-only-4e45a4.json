@@ -2,9 +2,9 @@
   "description": "EBITDA/EV (operating cash yield) combined with 1-year momentum skipping 1 quarter captures cash-generative firms with sustained improvement; EV denominator accounts for leverage differences. Falsified if strategy underperforms simple earnings yield momentum or shows negative alpha vs Fama-French 5-factor model.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 25,
-  "forward_return": -0.018993271274847623,
-  "forward_sharpe": -2.8988648753315274,
+  "forward_days": 27,
+  "forward_return": -0.019974278003572765,
+  "forward_sharpe": -2.9347746641997645,
   "slug": "ebitda-ev-momentum-252d-skip-63-top-40-top-1000-long-only-4e45a4",
   "spec": {
     "costs_bps": 10,

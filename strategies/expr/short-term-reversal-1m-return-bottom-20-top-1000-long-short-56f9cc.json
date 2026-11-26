@@ -2,7 +2,7 @@
   "description": "Liquidity provision earns a premium by buying recent losers and selling recent winners; falsified if forward Sharpe is not positive after 20 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "short-term-reversal-1m-return-bottom-20-top-1000-long-short-56f9cc",

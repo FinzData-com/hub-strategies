@@ -2,9 +2,9 @@
   "description": "Oversold large caps (RSI < 30) rebound from panic selling; if buying bottom decile RSI(14) stocks monthly fails to beat momentum after costs, the mean reversion hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.14656544742568245,
-  "forward_sharpe": -4.921853195097481,
+  "forward_days": 24,
+  "forward_return": -0.11114006501446894,
+  "forward_sharpe": -0.9578474675407206,
   "slug": "rsi-mean-reversion-top-500-long-only-ecbae7",
   "spec": {
     "costs_bps": 10,

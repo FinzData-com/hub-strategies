@@ -2,9 +2,9 @@
   "description": "Low leverage firms with momentum have more sustainable trends (less distress risk); financial flexibility allows reinvestment, falsified if high-leverage momentum outperforms during credit expansion cycles.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.20303188951121276,
-  "forward_sharpe": -5.159307414872353,
+  "forward_days": 24,
+  "forward_return": -0.17565302762325008,
+  "forward_sharpe": -1.9776652874762584,
   "slug": "leverage-adjusted-momentum-12m-skip-1m-low-leverage-top-50-t-59044f",
   "spec": {
     "costs_bps": 15,

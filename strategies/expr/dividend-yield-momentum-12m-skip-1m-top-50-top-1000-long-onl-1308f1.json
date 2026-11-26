@@ -2,9 +2,9 @@
   "description": "High dividend yield stocks with 12-month momentum (skipping 1 month) should provide income and capital appreciation; falsified if forward Sharpe < 0.25 after 12 months.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 28,
-  "forward_return": -0.0017034432410545364,
-  "forward_sharpe": -0.3384535689452415,
+  "forward_days": 30,
+  "forward_return": -0.0027024550666354674,
+  "forward_sharpe": -0.51941765498894,
   "slug": "dividend-yield-momentum-12m-skip-1m-top-50-top-1000-long-onl-1308f1",
   "spec": {
     "costs_bps": 10,

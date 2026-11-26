@@ -2,9 +2,9 @@
   "description": "The 'Sell in May' anomaly combined with momentum suggests stronger trend persistence during the November-April period; if the strategy restricted to May-October rebalancing matches or exceeds the Nov-Apr restricted version, the seasonal hypothesis is falsified.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": 0.022846066755037864,
+  "forward_sharpe": 9.621275638737758,
   "slug": "us-seasonal-momentum-nov-apr-6m-momentum-top-500-long-only-f22bad",
   "spec": {
     "costs_bps": 10,

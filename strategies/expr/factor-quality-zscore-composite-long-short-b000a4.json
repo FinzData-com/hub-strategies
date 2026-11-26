@@ -2,7 +2,7 @@
   "description": "Combined quality metrics capture distress risk premium; falsified if zscored quality composite long short has zero forward Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "factor-quality-zscore-composite-long-short-b000a4",

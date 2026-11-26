@@ -2,9 +2,9 @@
   "description": "Combining book-to-market and earnings yield captures both balance sheet strength and profitability; if this factor underperforms, hypothesis falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 19,
-  "forward_return": -0.04144877009490611,
-  "forward_sharpe": -2.9626052868569337,
+  "forward_days": 23,
+  "forward_return": -0.011399509994788448,
+  "forward_sharpe": -0.28085885491469376,
   "slug": "book-to-market-earnings-yield-factor-16bb9d",
   "spec": {
     "costs_bps": 5,

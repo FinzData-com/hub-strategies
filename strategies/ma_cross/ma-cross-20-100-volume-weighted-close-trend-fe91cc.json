@@ -2,9 +2,9 @@
   "description": "Volume weighted moving average cross should capture persistent supply demand imbalance in liquid stocks; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 4,
-  "forward_return": 0.006842906864371168,
-  "forward_sharpe": 1.7231649801784843,
+  "forward_days": 8,
+  "forward_return": 0.031349201866266,
+  "forward_sharpe": 4.852826022915972,
   "slug": "ma-cross-20-100-volume-weighted-close-trend-fe91cc",
   "spec": {
     "costs_bps": 10,

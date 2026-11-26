@@ -2,9 +2,9 @@
   "description": "Low leverage firms with value characteristics should outperform because financial distress risk is priced, and the effect would be falsified if long-short returns are indistinguishable from zero after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": -0.009763791698997326,
-  "forward_sharpe": -11.309576663381806,
+  "forward_days": 9,
+  "forward_return": -0.01368212202044683,
+  "forward_sharpe": -5.90587393870006,
   "slug": "low-leverage-quality-book-to-market-minus-leverage-7b63fe",
   "spec": {
     "costs_bps": 30,

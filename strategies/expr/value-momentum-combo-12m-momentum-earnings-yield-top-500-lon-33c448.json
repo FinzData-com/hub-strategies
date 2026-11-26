@@ -1,0 +1,24 @@
+{
+  "description": "Combining 12-month price momentum with high earnings yield captures both trend-following and fundamental undervaluation effects; the strategy would be falsified if the combined signal underperforms either standalone signal on a risk-adjusted basis over the full sample.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-momentum-combo-12m-momentum-earnings-yield-top-500-lon-33c448",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(252) - ret(21)) + rank(earnings_yield)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Value-Momentum Combo \u00b7 12m momentum + earnings yield \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

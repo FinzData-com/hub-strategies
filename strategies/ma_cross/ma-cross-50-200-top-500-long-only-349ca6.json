@@ -2,9 +2,9 @@
   "description": "Golden cross (50-day > 200-day SMA) signals sustained institutional accumulation; falsified if forward Sharpe <= buy-and-hold after 10 bps costs.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
-  "forward_return": -0.01543355479881725,
-  "forward_sharpe": -3.259876450433414,
+  "forward_days": 23,
+  "forward_return": -0.00998766568241316,
+  "forward_sharpe": -0.8321945894377007,
   "slug": "ma-cross-50-200-top-500-long-only-349ca6",
   "spec": {
     "costs_bps": 10,

@@ -2,9 +2,9 @@
   "description": "Trend following in large caps should work because of positive serial correlation in returns and slow information diffusion, falsified by persistent negative forward Sharpe in live tracking.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 7,
-  "forward_return": -0.006488814572724211,
-  "forward_sharpe": -1.0471741303011266,
+  "forward_days": 11,
+  "forward_return": 0.01769298978997247,
+  "forward_sharpe": 2.235728892308574,
   "slug": "us-large-cap-20-100-ma-cross-trend-filter-06d027",
   "spec": {
     "costs_bps": 10,

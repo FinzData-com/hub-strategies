@@ -2,9 +2,9 @@
   "description": "Enterprise-value multiples strip out capital-structure noise and give a cleaner cheapness signal that is less crowded than book-to-market, so mispricing decays more slowly; falsified if high EBITDA/EV stocks do not separate from the universe after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 28,
-  "forward_return": -0.06638520170225581,
-  "forward_sharpe": -4.186918051457826,
+  "forward_days": 30,
+  "forward_return": -0.05439257629555405,
+  "forward_sharpe": -3.0859219854155144,
   "slug": "ev-value-ebitda-ev-top-50-top-1000-long-only-a01eff",
   "spec": {
     "costs_bps": 20,

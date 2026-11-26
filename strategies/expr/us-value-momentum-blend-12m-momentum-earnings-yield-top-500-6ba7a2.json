@@ -2,9 +2,9 @@
   "description": "Combining 12-month price momentum with high earnings yield captures both trend persistence and fundamental undervaluation; if the composite rank portfolio fails to outperform a pure momentum portfolio on a risk-adjusted basis over the full sample, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": -0.028776305634441668,
+  "forward_sharpe": -12.918663640746757,
   "slug": "us-value-momentum-blend-12m-momentum-earnings-yield-top-500-6ba7a2",
   "spec": {
     "costs_bps": 10,

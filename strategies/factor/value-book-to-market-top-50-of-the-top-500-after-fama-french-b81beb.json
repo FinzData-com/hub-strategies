@@ -2,9 +2,9 @@
   "description": "High book equity relative to market value predicts higher returns: the classic value premium. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
   "dsr": 0.0,
   "family": "factor",
-  "forward_days": 28,
-  "forward_return": -0.071764563253925,
-  "forward_sharpe": -3.3441418243987506,
+  "forward_days": 32,
+  "forward_return": -0.04633367683013079,
+  "forward_sharpe": -0.9093885295480089,
   "slug": "value-book-to-market-top-50-of-the-top-500-after-fama-french-b81beb",
   "spec": {
     "costs_bps": 10,

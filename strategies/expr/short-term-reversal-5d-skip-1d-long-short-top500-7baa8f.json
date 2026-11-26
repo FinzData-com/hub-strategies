@@ -2,9 +2,9 @@
   "description": "Liquidity provision earns premium: stocks with extreme negative 5-day returns (skipping most recent day) rebound as liquidity providers absorb selling pressure, falsified if returns disappear after realistic market impact costs for bottom decile.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": 0.05010353376210719,
-  "forward_sharpe": 1.4423685581908154,
+  "forward_days": 24,
+  "forward_return": 0.046045625122143496,
+  "forward_sharpe": 1.0032419652246312,
   "slug": "short-term-reversal-5d-skip-1d-long-short-top500-7baa8f",
   "spec": {
     "costs_bps": 25,

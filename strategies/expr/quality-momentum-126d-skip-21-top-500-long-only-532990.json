@@ -2,9 +2,9 @@
   "description": "High-quality firms with strong profitability and low leverage exhibit more persistent momentum because their earnings streams are more predictable and less prone to reversal, so combining quality screens with intermediate-term momentum should outperform generic momentum; falsified if forward Sharpe is not higher than the best existing 126d-skip-21 momentum strategy (currently -3.26).",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.020228566100618073,
+  "forward_sharpe": 7.078532128416105,
   "slug": "quality-momentum-126d-skip-21-top-500-long-only-532990",
   "spec": {
     "costs_bps": 20,

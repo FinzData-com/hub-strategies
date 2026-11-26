@@ -2,9 +2,9 @@
   "description": "Low leverage reduces financial distress and downside risk, which should be rewarded in risk-adjusted terms; falsified if low leverage stocks do not outperform high leverage stocks after controlling for value exposure.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.0035116023299983645,
+  "forward_sharpe": -4.201419837739111,
   "slug": "us-low-leverage-quality-book-to-market-minus-leverage-ad26f9",
   "spec": {
     "costs_bps": 20,

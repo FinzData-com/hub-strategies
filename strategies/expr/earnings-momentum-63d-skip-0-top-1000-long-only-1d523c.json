@@ -2,8 +2,8 @@
   "description": "Stocks with accelerating earnings momentum (recent earnings surprise + price momentum) exhibit stronger post-earnings announcement drift and price momentum persistence; combining 63d price momentum with high earnings yield (proxy for earnings quality) should capture this; falsified if forward Sharpe is not higher than pure 63d momentum in top1000.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.012277243203725696,
   "forward_sharpe": 0.0,
   "slug": "earnings-momentum-63d-skip-0-top-1000-long-only-1d523c",
   "spec": {

@@ -1,0 +1,24 @@
+{
+  "description": "Intermediate-horizon 6-1 price momentum skipping the 21-day microstructure reversal window (lag(ret(105), 21); Jegadeesh-Titman / Novy-Marx), anchored by point-in-time cash-flow and profitability quality (earnings_yield, roe) while penalizing realized 63-day volatility and balance-sheet leverage (-vol(63), -leverage; Frazzini-Pedersen BAB14), compounds defensive alpha on liquid Top-500 US equities with compressed drawdown and low monthly turnover under 10 bps transaction friction. Falsification test: this hypothesis is falsified if the live forward-tracked out-of-sample net Sharpe ratio from submission through 31 January 2027 (and across >= 63 forward sessions) trails the equal-weight Top-500 benchmark after 10 bps transaction costs, or if realized maximum drawdown exceeds 15%.",
+  "dsr": 0.5,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "round-2-hle-core-v2-vol-scaled-quality-momentum-low-beta-dafd61",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-11-23",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "0.40 * rank(lag(ret(105), 21)) + 0.30 * rank(earnings_yield) + 0.30 * rank(roe) - 0.35 * rank(vol(63)) - 0.15 * rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2025-11-25",
+    "top_n": 35,
+    "universe": "top500"
+  },
+  "title": "Round 2: HLE-Core-v2 Vol-Scaled Quality Momentum & Low-Beta",
+  "universe": "top500"
+}

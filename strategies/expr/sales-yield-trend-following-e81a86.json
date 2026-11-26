@@ -2,9 +2,9 @@
   "description": "Stocks with rising sales yield and positive short term returns reflect improving business efficiency and trend persistence; falsified if forward Sharpe does not exceed zero.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 22,
-  "forward_return": 0.003930262215116276,
-  "forward_sharpe": 2.487972372771191,
+  "forward_days": 24,
+  "forward_return": 0.002926342002152582,
+  "forward_sharpe": 1.5397236647778532,
   "slug": "sales-yield-trend-following-e81a86",
   "spec": {
     "costs_bps": 10,

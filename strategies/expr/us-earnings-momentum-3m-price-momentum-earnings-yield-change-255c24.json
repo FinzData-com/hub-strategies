@@ -2,9 +2,9 @@
   "description": "Stocks with rising earnings yields and positive price momentum reflect improving fundamentals not yet fully priced; if the composite signal fails to generate positive alpha relative to a Fama-French 5-factor model over the sample, the hypothesis is falsified.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 3,
+  "forward_return": 0.011842687284002729,
+  "forward_sharpe": 8.460455486570215,
   "slug": "us-earnings-momentum-3m-price-momentum-earnings-yield-change-255c24",
   "spec": {
     "costs_bps": 10,

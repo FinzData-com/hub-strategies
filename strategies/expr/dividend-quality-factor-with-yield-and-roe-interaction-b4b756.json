@@ -2,9 +2,9 @@
   "description": "Sustainable dividend payers with strong profitability should outperform due to lower agency costs and investor preference for income; falsified if the long-short spread has negative forward Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.024486995885890206,
-  "forward_sharpe": 9.8163920199492,
+  "forward_days": 9,
+  "forward_return": 0.014079635059270013,
+  "forward_sharpe": 3.2821816034633313,
   "slug": "dividend-quality-factor-with-yield-and-roe-interaction-b4b756",
   "spec": {
     "costs_bps": 20,

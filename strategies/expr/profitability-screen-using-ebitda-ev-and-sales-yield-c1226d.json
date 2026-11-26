@@ -2,9 +2,9 @@
   "description": "Firms with high profitability relative to enterprise value should be undervalued and earn higher returns as markets gradually recognize cash flow quality; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 5,
-  "forward_return": 0.018727475958295603,
-  "forward_sharpe": 6.328056417811653,
+  "forward_days": 9,
+  "forward_return": 0.011064965599645538,
+  "forward_sharpe": 2.600686208910316,
   "slug": "profitability-screen-using-ebitda-ev-and-sales-yield-c1226d",
   "spec": {
     "costs_bps": 20,

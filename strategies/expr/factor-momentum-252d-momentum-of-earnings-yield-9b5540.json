@@ -2,9 +2,9 @@
   "description": "Momentum in fundamental earnings yield should persist due to slow diffusion of accounting information; falsified if forward Sharpe is negative.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 4,
-  "forward_return": -0.07442162308463585,
-  "forward_sharpe": -28.39107858898316,
+  "forward_days": 8,
+  "forward_return": -0.04519162355623629,
+  "forward_sharpe": -4.307616482252328,
   "slug": "factor-momentum-252d-momentum-of-earnings-yield-9b5540",
   "spec": {
     "costs_bps": 20,

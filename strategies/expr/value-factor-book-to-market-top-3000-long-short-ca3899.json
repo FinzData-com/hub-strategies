@@ -2,7 +2,7 @@
   "description": "High book-to-market stocks earn a risk premium for distress exposure; a broad long-short portfolio should produce positive forward Sharpe; falsified if forward Sharpe is not positive.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "value-factor-book-to-market-top-3000-long-short-ca3899",

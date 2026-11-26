@@ -2,9 +2,9 @@
   "description": "High ROE stocks with positive momentum exhibit stronger trend persistence than low ROE stocks; falsified if ROE rank does not improve the forward Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 28,
-  "forward_return": -0.13108037684577034,
-  "forward_sharpe": -4.758077480668574,
+  "forward_days": 30,
+  "forward_return": -0.13719404257007894,
+  "forward_sharpe": -4.832168157498996,
   "slug": "quality-momentum-factor-top-1000-948ee1",
   "spec": {
     "costs_bps": 5,

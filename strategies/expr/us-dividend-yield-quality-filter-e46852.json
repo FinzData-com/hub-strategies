@@ -2,9 +2,9 @@
   "description": "Sustainable dividend payers signal cash flow stability and management discipline, leading to lower downside risk; falsified if high dividend yield stocks underperform after adjusting for size and value and transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": 0.0376478477555211,
+  "forward_sharpe": 2.3852402127204724,
   "slug": "us-dividend-yield-quality-filter-e46852",
   "spec": {
     "costs_bps": 15,

@@ -2,9 +2,9 @@
   "description": "Stocks with high 252-day momentum excluding the most recent 63 days that also exhibit high return-on-equity (ROE) outperform because profitable firms sustain trends better; falsified if adding the ROE filter reduces forward Sharpe versus the plain momentum baseline.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 18,
-  "forward_return": -0.20017662235944123,
-  "forward_sharpe": -7.023120519329337,
+  "forward_days": 22,
+  "forward_return": -0.1734281252812261,
+  "forward_sharpe": -1.5499630631116352,
   "slug": "quality-momentum-252d-skip-63-top-30-top500-long-only-d387a0",
   "spec": {
     "costs_bps": 10,

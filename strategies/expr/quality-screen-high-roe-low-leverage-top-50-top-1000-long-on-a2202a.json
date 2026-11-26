@@ -2,9 +2,9 @@
   "description": "Markets underreact to the persistence of profitability, so high-ROE firms with conservative balance sheets remain mispriced relative to junk; falsified if the quality spread versus low-ROE high-leverage peers vanishes once size and value are controlled for.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 27,
-  "forward_return": -0.15343863767481636,
-  "forward_sharpe": -5.9494978395394025,
+  "forward_days": 29,
+  "forward_return": -0.1642598523882467,
+  "forward_sharpe": -6.1753631520324115,
   "slug": "quality-screen-high-roe-low-leverage-top-50-top-1000-long-on-a2202a",
   "spec": {
     "costs_bps": 20,

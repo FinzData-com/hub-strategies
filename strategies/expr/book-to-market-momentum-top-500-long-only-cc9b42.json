@@ -2,9 +2,9 @@
   "description": "Value stocks (high book-to-market) with positive momentum benefit from both mean reversion in valuation and continuation of price trends. Falsified if the interaction effect is negative or zero in Fama-MacBeth regressions controlling for size and momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.09000657018485847,
-  "forward_sharpe": -6.159244329874274,
+  "forward_days": 24,
+  "forward_return": -0.07018882830380047,
+  "forward_sharpe": -2.741637041140643,
   "slug": "book-to-market-momentum-top-500-long-only-cc9b42",
   "spec": {
     "costs_bps": 10,

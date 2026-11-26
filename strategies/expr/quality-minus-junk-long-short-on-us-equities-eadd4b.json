@@ -2,7 +2,7 @@
   "description": "Higher profitability and lower leverage should earn a risk premium because quality firms are less sensitive to macro shocks and have lower distress costs; the hypothesis is falsified if long quality minus short junk shows non-positive forward Sharpe after transaction costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "quality-minus-junk-long-short-on-us-equities-eadd4b",

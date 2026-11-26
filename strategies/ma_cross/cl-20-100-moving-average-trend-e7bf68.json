@@ -2,9 +2,9 @@
   "description": "Holds WTI crude oil futures while the 20-day average is above the 100-day average, cash otherwise. Backtested on FinzData futures: each market is its front-month contract rolled on the FinzData roll calendar, as an excess-return index (no interest on collateral), 5 bps costs per trade, re-run free on full history.",
   "dsr": 0.0367,
   "family": "ma_cross",
-  "forward_days": 10,
-  "forward_return": -0.028108971911003477,
-  "forward_sharpe": -2.621872624621766,
+  "forward_days": 12,
+  "forward_return": -0.04395537251261683,
+  "forward_sharpe": -2.848552511140166,
   "slug": "cl-20-100-moving-average-trend-e7bf68",
   "spec": {
     "costs_bps": 5,

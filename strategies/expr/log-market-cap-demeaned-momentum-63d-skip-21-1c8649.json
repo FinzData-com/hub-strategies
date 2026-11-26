@@ -2,7 +2,7 @@
   "description": "Momentum after controlling for size avoids microcap bias and should persist due to underreaction; falsified if size-demeaned momentum shows non-positive forward Sharpe.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "log-market-cap-demeaned-momentum-63d-skip-21-1c8649",

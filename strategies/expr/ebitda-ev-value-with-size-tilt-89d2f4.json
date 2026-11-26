@@ -2,9 +2,9 @@
   "description": "Low EBITDA EV stocks with larger market cap are less prone to illiquidity and earn value premium, falsified if forward Sharpe does not exceed zero.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 28,
-  "forward_return": -0.1786265591762748,
-  "forward_sharpe": -5.434929410501663,
+  "forward_days": 30,
+  "forward_return": -0.19901172848191895,
+  "forward_sharpe": -5.721331401102846,
   "slug": "ebitda-ev-value-with-size-tilt-89d2f4",
   "spec": {
     "costs_bps": 10,

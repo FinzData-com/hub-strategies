@@ -2,8 +2,8 @@
   "description": "Combining 12-month absolute momentum (trend) with 1-month relative momentum (strength) captures both time-series and cross-sectional momentum premia; selecting stocks with positive 12m return and highest 1m momentum should outperform pure cross-sectional momentum; falsified if forward Sharpe is not higher than the best 126d skip 21 strategy (currently -3.36).",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": 0.07826670280222281,
   "forward_sharpe": 0.0,
   "slug": "dual-momentum-12m-1m-top-500-long-only-308173",
   "spec": {

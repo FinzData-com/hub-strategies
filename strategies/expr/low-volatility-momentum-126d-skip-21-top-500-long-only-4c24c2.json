@@ -2,8 +2,8 @@
   "description": "Low-volatility stocks with strong momentum represent 'quiet compounders' with persistent trends and lower crash risk; ranking by momentum divided by volatility should select these and improve risk-adjusted returns; falsified if forward Sharpe is not higher than the standard 126d skip 21 momentum strategy (currently -3.36).",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
+  "forward_days": 2,
+  "forward_return": -0.030047999999999964,
   "forward_sharpe": 0.0,
   "slug": "low-volatility-momentum-126d-skip-21-top-500-long-only-4c24c2",
   "spec": {

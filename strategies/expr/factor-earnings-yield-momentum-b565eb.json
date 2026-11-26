@@ -2,9 +2,9 @@
   "description": "Companies with high earnings yield and strong recent momentum should exhibit higher risk\u2011adjusted returns because earnings yield signals undervaluation while momentum captures trend persistence; the hypothesis is falsified if the combined ranking fails to outperform the benchmark over the back\u2011test period.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.1530444908737182,
-  "forward_sharpe": -8.482771122484516,
+  "forward_days": 24,
+  "forward_return": -0.13671845350569878,
+  "forward_sharpe": -1.8909558969002946,
   "slug": "factor-earnings-yield-momentum-b565eb",
   "spec": {
     "costs_bps": 10,

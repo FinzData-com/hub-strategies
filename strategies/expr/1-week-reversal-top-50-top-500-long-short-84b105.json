@@ -2,9 +2,9 @@
   "description": "Short-term reversal: last week's losers tend to bounce as liquidity providers are paid for absorbing order-flow imbalances. Falsified if returns vanish after realistic trading costs or in the forward record.",
   "dsr": 0.0423,
   "family": "expr",
-  "forward_days": 28,
-  "forward_return": 0.0003448205918745728,
-  "forward_sharpe": 0.10001124319045787,
+  "forward_days": 32,
+  "forward_return": -0.0009716793149175951,
+  "forward_sharpe": 0.06555107486905273,
   "slug": "1-week-reversal-top-50-top-500-long-short-84b105",
   "spec": {
     "costs_bps": 10,

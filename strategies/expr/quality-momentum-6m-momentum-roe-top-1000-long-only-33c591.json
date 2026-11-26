@@ -1,0 +1,24 @@
+{
+  "description": "High ROE firms with strong intermediate momentum benefit from persistent profitability and investor underreaction; falsified if the quality screen adds no alpha over pure momentum after transaction costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-momentum-6m-momentum-roe-top-1000-long-only-33c591",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(126) - ret(21)) + rank(roe)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 30,
+    "universe": "top1000"
+  },
+  "title": "Quality-Momentum \u00b7 6m momentum + ROE \u00b7 Top 1000 \u00b7 long only",
+  "universe": "top1000"
+}

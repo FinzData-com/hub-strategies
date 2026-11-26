@@ -2,9 +2,9 @@
   "description": "Longer lookback momentum with a skip reduces reversal noise and should improve persistence, falsified if forward Sharpe is below zero after costs.",
   "dsr": 0.0,
   "family": "momentum",
-  "forward_days": 9,
-  "forward_return": -0.20756808154037643,
-  "forward_sharpe": -13.25828443359793,
+  "forward_days": 13,
+  "forward_return": -0.17970758362813355,
+  "forward_sharpe": -1.852480697353852,
   "slug": "momentum-252d-skip-63-top-100-long-only-357ca4",
   "spec": {
     "costs_bps": 10,

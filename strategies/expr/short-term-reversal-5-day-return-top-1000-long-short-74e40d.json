@@ -1,0 +1,24 @@
+{
+  "description": "Short-term reversal driven by liquidity provision and overreaction; falsified if the strategy shows no positive forward Sharpe after 10 bps costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "short-term-reversal-5-day-return-top-1000-long-short-74e40d",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "D",
+    "side": "long_short",
+    "signal": {
+      "expr": "-ret(5)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top1000"
+  },
+  "title": "Short-Term Reversal \u00b7 5-day return \u00b7 Top 1000 \u00b7 long_short",
+  "universe": "top1000"
+}

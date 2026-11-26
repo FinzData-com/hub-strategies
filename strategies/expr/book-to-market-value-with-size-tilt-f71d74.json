@@ -2,9 +2,9 @@
   "description": "Value premium is stronger among smaller large caps after controlling for size, falsified if forward Sharpe does not exceed plain book-to-market.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.1210868974316025,
-  "forward_sharpe": -12.554380150423025,
+  "forward_days": 13,
+  "forward_return": -0.09496260292095404,
+  "forward_sharpe": -2.034848073688079,
   "slug": "book-to-market-value-with-size-tilt-f71d74",
   "spec": {
     "costs_bps": 10,

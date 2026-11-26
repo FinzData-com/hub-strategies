@@ -2,9 +2,9 @@
   "description": "Time-series trend following: holding EEM only while its 50-day average is above its 200-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 28,
+  "forward_days": 30,
   "forward_return": -0.16468216232618682,
-  "forward_sharpe": -4.868588936648586,
+  "forward_sharpe": -4.6881697613320785,
   "slug": "eem-50-200-moving-average-trend-94bd5e",
   "spec": {
     "costs_bps": 10,

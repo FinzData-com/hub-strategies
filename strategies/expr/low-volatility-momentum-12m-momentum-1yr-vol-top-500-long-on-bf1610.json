@@ -2,7 +2,7 @@
   "description": "Risk-adjusted momentum (momentum scaled by trailing volatility) isolates smoother trends and reduces crash risk; falsified if forward Sharpe is not higher than raw momentum.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "low-volatility-momentum-12m-momentum-1yr-vol-top-500-long-on-bf1610",

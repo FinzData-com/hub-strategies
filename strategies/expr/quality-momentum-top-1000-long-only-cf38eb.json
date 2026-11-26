@@ -2,9 +2,9 @@
   "description": "High ROE stocks with strong 12-month momentum outperform due to persistent profitability trends; falsified if forward Sharpe < 0.15 net of 15 bps costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 27,
-  "forward_return": -0.034180137184021686,
-  "forward_sharpe": -2.1849930430697793,
+  "forward_days": 29,
+  "forward_return": -0.03562849040640792,
+  "forward_sharpe": -2.1991442376411454,
   "slug": "quality-momentum-top-1000-long-only-cf38eb",
   "spec": {
     "costs_bps": 15,

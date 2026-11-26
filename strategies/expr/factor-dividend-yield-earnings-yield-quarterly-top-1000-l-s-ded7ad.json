@@ -2,9 +2,9 @@
   "description": "Dividend commitments can reveal cash-flow confidence and disciplined allocation, while earnings yield captures undervaluation; falsified if the forward spread is non-positive or payout strength adds no benefit.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 28,
-  "forward_return": 0.05831025674462831,
-  "forward_sharpe": 2.40673897569822,
+  "forward_days": 30,
+  "forward_return": 0.07317356151668797,
+  "forward_sharpe": 2.8275479685991685,
   "slug": "factor-dividend-yield-earnings-yield-quarterly-top-1000-l-s-ded7ad",
   "spec": {
     "costs_bps": 15,

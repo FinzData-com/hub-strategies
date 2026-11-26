@@ -2,9 +2,9 @@
   "description": "Low leverage reduces financial distress risk and should deliver higher risk-adjusted returns, falsified if long low leverage underperforms market after costs.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 9,
-  "forward_return": -0.11777597459586375,
-  "forward_sharpe": -15.005697211300385,
+  "forward_days": 13,
+  "forward_return": -0.0863397602615037,
+  "forward_sharpe": -1.964839054532855,
   "slug": "low-leverage-quality-negative-leverage-rank-with-size-contro-84964c",
   "spec": {
     "costs_bps": 10,

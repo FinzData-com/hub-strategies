@@ -2,9 +2,9 @@
   "description": "Firms with high earnings yield and low leverage should outperform because distress risk and financial constraints are priced, while quality firms earn a compensation for lower distress; falsified if the long-short portfolio does not generate positive risk-adjusted returns after transaction costs over the full sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 1,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 5,
+  "forward_return": -0.0074381574304260845,
+  "forward_sharpe": -14.37510836597863,
   "slug": "us-quality-value-composite-earnings-yield-minus-leverage-6f6e7c",
   "spec": {
     "costs_bps": 20,

@@ -2,9 +2,9 @@
   "description": "Value and momentum are negatively correlated anomalies; blending them reduces drawdowns and improves risk-adjusted returns because when one factor crashes the other typically hedges it, so a 50/50 rank combination of 12-month momentum (skip 1 month) and book-to-market should yield higher forward Sharpe than either standalone; falsified if forward Sharpe is below the best existing 252d-skip-21 momentum strategy (currently 1.68).",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
-  "forward_return": 0.0,
-  "forward_sharpe": 0.0,
+  "forward_days": 4,
+  "forward_return": 0.005975837254897698,
+  "forward_sharpe": 4.4519419723769,
   "slug": "value-momentum-blend-252d-skip-21-top-1000-long-only-40e366",
   "spec": {
     "costs_bps": 20,

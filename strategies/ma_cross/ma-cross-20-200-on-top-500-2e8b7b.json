@@ -2,9 +2,9 @@
   "description": "A 20-day moving average crossing above 200-day indicates bullish trend; applied to top 500 stocks, it should generate positive returns; if it fails, hypothesis falsified.",
   "dsr": 0.0,
   "family": "ma_cross",
-  "forward_days": 19,
-  "forward_return": -0.16012635805384967,
-  "forward_sharpe": -5.270825445276726,
+  "forward_days": 23,
+  "forward_return": -0.1257931821760353,
+  "forward_sharpe": -1.4889094596925432,
   "slug": "ma-cross-20-200-on-top-500-2e8b7b",
   "spec": {
     "costs_bps": 5,

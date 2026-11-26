@@ -2,9 +2,9 @@
   "description": "Betting against beta: leverage-constrained investors bid up high-volatility names, leaving low-volatility stocks relatively cheap for their risk; falsified if the low-vol long leg does not beat the cap-weighted universe after costs over the sample.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 20,
-  "forward_return": -0.029617860060113244,
-  "forward_sharpe": -2.8419975822048973,
+  "forward_days": 24,
+  "forward_return": -0.01347225110262329,
+  "forward_sharpe": -0.8861734217824668,
   "slug": "low-vol-126d-top-50-top-500-long-only-cb1182",
   "spec": {
     "costs_bps": 10,

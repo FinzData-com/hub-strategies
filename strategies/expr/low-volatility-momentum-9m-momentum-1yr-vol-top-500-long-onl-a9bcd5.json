@@ -1,0 +1,24 @@
+{
+  "description": "Risk-adjusted momentum (momentum scaled by trailing volatility) exploits the low-vol anomaly within trend followers; falsified if vol-scaling reduces Sharpe versus raw momentum net of costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "low-volatility-momentum-9m-momentum-1yr-vol-top-500-long-onl-a9bcd5",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "(ret(189) - ret(21)) / vol(252)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 25,
+    "universe": "top500"
+  },
+  "title": "Low-Volatility Momentum \u00b7 9m momentum / 1yr vol \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}

@@ -2,7 +2,7 @@
   "description": "High sales yield in small caps reflects pricing power and should persist due to limited analyst coverage; falsified if the size-adjusted sales yield portfolio fails to generate positive forward excess return.",
   "dsr": 0.0,
   "family": "expr",
-  "forward_days": 0,
+  "forward_days": 1,
   "forward_return": 0.0,
   "forward_sharpe": 0.0,
   "slug": "sales-yield-size-adjusted-factor-20e99d",

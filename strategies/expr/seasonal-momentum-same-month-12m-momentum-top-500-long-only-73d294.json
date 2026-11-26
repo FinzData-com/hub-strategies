@@ -1,0 +1,24 @@
+{
+  "description": "Seasonal patterns in returns (Heston & Sadka) imply same-month momentum captures recurring institutional flows; falsified if same-month momentum does not outperform standard 12m momentum.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "seasonal-momentum-same-month-12m-momentum-top-500-long-only-73d294",
+  "spec": {
+    "costs_bps": 20,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "ret(252) - ret(21)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 20,
+    "universe": "top500"
+  },
+  "title": "Seasonal Momentum \u00b7 Same-month 12m momentum \u00b7 Top 500 \u00b7 long only",
+  "universe": "top500"
+}
